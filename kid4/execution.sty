@@ -1,0 +1,733 @@
+\ProvidesPackage{execution}
+
+\RequirePackage{tikz}
+\RequirePackage{pgffor}
+\RequirePackage{ifthen}
+\RequirePackage{etoolbox}
+\RequirePackage{catchfile}
+
+\ExplSyntaxOn
+\NewExpandableDocumentCommand{\hexa}{m}
+ {
+  \egreg_hexa:c { c@#1 }
+ }
+\cs_new:Npn \egreg_hexa:N #1 { \int_to_Hex:n { #1 } }
+\cs_generate_variant:Nn \egreg_hexa:N { c }
+\cs_set_eq:cN { @hexa } \egreg_hexa:N \ExplSyntaxOff
+
+\newcommand{\setup}{%
+    \newwrite\myoutput
+    \immediate\openout\myoutput=\jobname.output
+    \lgl{Setting up everything, please be patient}
+
+        \newcounter{lineNumber}
+        \newcounter{countLetters}
+    \setcounter{countLetters}{0}
+        \newcounter{exit}
+        \newcounter{start}
+    \newcounter{end}
+    \newcounter{temp}
+    \newcounter{temp1}
+    \newcounter{temp2}
+    \newcounter{temp3}
+    \newcounter{temp4}
+    \newcounter{temp_}
+    \newcounter{temp_1}
+    \newcounter{temp_2}
+    \foreach \i in {0,...,15}{
+        \newcounter{tempregister_\i}
+        \setcounter{tempregister_\i}{0}
+    }
+    \foreach \i in {0,...,15}{
+        \newcounter{tempregister1_\i}
+        \setcounter{tempregister1_\i}{0}
+    }
+        \newcounter{PC}%
+        \foreach \j in {0,...,511}{
+        \foreach \i in {0,...,15}{
+            \newcounter{mem\j_\i}
+            \setcounter{mem\j_\i}{0}
+        }
+    }
+        \foreach \i in {0,...,7}{
+        \foreach \j in {0,...,15}{
+            \newcounter{R\i\j}
+            \setcounter{R\i\j}{0}
+        }
+    }
+    \foreach \i in {IR,MAR,MDR,PC}{
+        \foreach \j in {0,...,15}{
+            \newcounter{\i\j}
+            \setcounter{\i\j}{0}
+        }
+    }
+    \foreach \i in {0,...,2}{
+        \newcounter{CC\i}
+        \setcounter{CC\i}{0}
+    }
+    
+    \setcounter{CC1}{1}
+    
+    \lr
+}
+
+\newcommand{\lr}{%
+    \setcounter{temp}{0}
+    \setcounter{temp1}{0}
+    \CatchFileDef{\ramdata}{RAM}{}
+    \lgl{Ready to read memory}
+    \foreach \bit in \ramdata {
+        \ifnum\value{temp1}>15
+            \stepcounter{temp}
+            \setcounter{temp1}{0}
+        \fi
+        \ifnum \bit=1
+            \setcounter{mem\arabic{temp}_\arabic{temp1}}{1}
+        \fi
+        \stepcounter{temp1}
+    }
+    \lgl{RAM loaded into emulated memory}
+}
+
+\newcommand{\anr}[3]{    \foreach \i in {0,...,15}{
+        \ifnum \value{#2\i}=\value{#3\i}{
+            \ifnum \value{#2\i}=1
+                \setcounter{#1\i}{1}
+            \else \setcounter{#1\i}{0}
+            \fi
+        }
+        \else \setcounter{#1\i}{0} \fi
+    }
+    \setcounter{temp_2}{0}
+    \foreach \i in {0,...,15}{
+        \ifnum \value{#1\i}=1
+            \setcounter{temp_2}{1}
+        \fi
+    }
+    \ifnum \value{temp_2}=1
+        \ifnum \value{#10}=0
+            \setcounter{CC0}{0}
+            \setcounter{CC1}{0}
+            \setcounter{CC2}{1}
+        \else
+            \setcounter{CC0}{0}
+            \setcounter{CC1}{0}
+            \setcounter{CC2}{1}
+        \fi
+    \else
+    \setcounter{CC0}{0}
+    \setcounter{CC1}{1}
+    \setcounter{CC2}{0}
+    \fi
+}
+
+\newcommand{\ar}[3]{    \setcounter{temp_}{0}
+    \setcounter{temp_1}{15}
+    \foreach \i in {0,...,15}{
+        \edef\tempA{\arabic{#2\arabic{temp_1}}}
+        \edef\tempB{\arabic{#3\arabic{temp_1}}}
+        \edef\tempC{\arabic{temp_}}
+        \setcounter{temp_2}{\numexpr\tempA+\tempB+\tempC\relax}
+        \setcounter{#1\arabic{temp_1}}{\value{temp_2}}
+        \ifnum \value{#1\arabic{temp_1}}=2{
+            \setcounter{#1\arabic{temp_1}}{0}
+            \setcounter{temp_}{1}
+        }\else{
+            \ifnum \value{#1\arabic{temp_1}}=3{
+                \setcounter{#1\arabic{temp_1}}{1}
+                \setcounter{temp_}{1}
+            }\else{
+                \setcounter{temp_}{0}
+            }\fi
+        }\fi
+        \addtocounter{temp_1}{-1}
+    }
+    \setcounter{temp_2}{0}
+    \foreach \i in {0,...,15}{
+        \ifnum \value{#1\i}=1
+            \setcounter{temp_2}{1}
+        \fi
+    }
+    \ifnum \value{temp_2}=1
+        \ifnum \value{#10}=0
+            \setcounter{CC0}{0}
+            \setcounter{CC1}{0}
+            \setcounter{CC2}{1}
+        \else
+            \setcounter{CC0}{0}
+            \setcounter{CC1}{0}
+            \setcounter{CC2}{1}
+        \fi
+    \else
+    \setcounter{CC0}{0}
+    \setcounter{CC1}{1}
+    \setcounter{CC2}{0}
+    \fi
+}
+\newcommand{\nr}[2]{    \foreach \i in {0,...,15}{
+        \ifnum \value{R#2\i}=0{
+            \setcounter{R#1\i}{1}}
+        \else \setcounter{R#1\i}{0} \fi
+    }
+    \setcounter{temp_2}{0}
+    \foreach \i in {0,...,15}{
+        \ifnum \value{R#1\i}=1
+            \setcounter{temp_2}{1}
+        \fi
+    }
+    \ifnum \value{temp_2}=1
+        \ifnum \value{R#10}=0
+            \setcounter{CC0}{0}
+            \setcounter{CC1}{0}
+            \setcounter{CC2}{1}
+        \else
+            \setcounter{CC0}{0}
+            \setcounter{CC1}{0}
+            \setcounter{CC2}{1}
+        \fi
+    \else
+        \setcounter{CC0}{0}
+        \setcounter{CC1}{1}
+        \setcounter{CC2}{0}
+    \fi
+}
+\newcommand{\td}[1]{\setcounter{temp}{0}%
+\ifnum \value{#10}=0{%
+\foreach \i in {1,...,15}{%
+\addtocounter{temp}{\value{temp}}%
+\ifnum \value{#1\i}=1%
+{\addtocounter{temp}{1}}%
+\fi%
+}}%
+\else{%
+}%
+\fi%
+}%
+
+\newcommand{\tdu}[1]{\setcounter{temp}{0}%
+\foreach \i in {0,...,15}{%
+\addtocounter{temp}{\value{temp}}%
+\ifnum \value{#1\i}=1%
+{\addtocounter{temp}{1}}%
+\fi%
+}%
+}%
+\newcommand{\ti}[1]{\setcounter{PC}{0}%
+\foreach \i in {0,...,15}{%
+\addtocounter{PC}{\value{PC}}%
+\ifnum \value{#1\i}=1%
+{\addtocounter{PC}{1}}%
+\fi%
+}%
+}%
+
+\newcommand{\nxti}{%
+\setcounter{temp}{0}%
+\setcounter{temp1}{14}%
+\stepcounter{PC15}%
+\ifnum \value{PC15}=2{%
+    \stepcounter{temp}%
+    \setcounter{PC15}{0}%
+}\fi%
+\foreach \i in {0,...,14}{%
+    \addtocounter{PC\arabic{temp1}}{\value{temp}}%
+    \ifnum \value{PC\arabic{temp1}}=2{%
+        \setcounter{PC\arabic{temp1}}{0}%
+        \setcounter{temp}{1}%
+    }\else{%
+        \setcounter{temp}{0}%
+    }\fi%
+    \addtocounter{temp1}{-1}%
+}%
+}%
+
+\newcommand{\fetchdecodeexecwriteback}{%
+        \setcounter{exit}{0}
+    \loop
+    \ti{PC}%
+        \printCPU%
+%
+%
+    \foreach \i in {0,...,15}{%
+        \setcounter{IR\i}{\value{mem\arabic{PC}_\i}}%
+    }%
+    \immediate\write18{printf "\\a" 1>&2;}
+%
+    \ifnum \value{IR0}=0{
+        \ifnum \value{IR1}=0{
+            \ifnum \value{IR2}=0{
+                \ifnum \value{IR3}=0{
+                    \nxti
+                    \lits{BR}
+                    \pb
+                }\else{
+                    \lits{ADD}
+                    \pa
+                    \nxti
+                }\fi
+            }\else{
+                \ifnum \value{IR3}=0{
+                    \lits{LD}
+                    \pl
+                    \nxti
+                }\else{
+                    \lits{ST}
+                    \ps
+                    \nxti
+                }\fi
+            }\fi
+        }\else{
+            \ifnum \value{IR2}=0{
+                \ifnum \value{IR3}=0{
+                    \lits{JSR}
+                    \pjts
+                }\else{
+                    \lits{AND}
+                    \pan
+                    \nxti
+                }\fi
+            }\else{
+                \ifnum \value{IR3}=0{
+                    \lits{LDR}
+                    \plr
+                    \nxti
+                }\else{
+                    \lits{STR}
+                    \psr
+                    \nxti
+                }\fi
+            }\fi
+        }\fi
+    }\else{
+        \ifnum \value{IR1}=0{
+            \ifnum \value{IR2}=0{
+                \ifnum \value{IR3}=0{
+                    \lits{RTI}
+                    \prfi
+                }\else{
+                    \lits{NOT}
+                    \pn
+                    \nxti
+                }\fi
+            }\else{
+                \ifnum \value{IR3}=0{
+                    \lits{LDI}
+                    \pli
+                    \nxti
+                }\else{
+                    \lits{STI}
+                    \psit
+                    \nxti
+                }\fi
+            }\fi
+        }\else{
+            \ifnum \value{IR2}=0{
+                \ifnum \value{IR3}=0{
+                    \lits{JSSR}
+                    \pjtsur
+                }\else{
+                    \lits{RET}
+                    \pr
+                    \nxti
+                }\fi
+            }\else{
+                \ifnum \value{IR3}=0{
+                    \lits{LEA}
+                    \plea
+                    \nxti
+                }\else{
+                    \lits{TRAP}
+                    \pt
+                }\fi
+            }\fi
+        }\fi
+    }\fi
+
+        
+    \ifnum \value{exit}=0
+    \repeat
+
+    \lgl{Execution has ended}
+    \setcounter{temp}{0}
+    \setcounter{temp1}{0}
+    \lgl{Ready to dump memory}
+    
+
+    \foreach \j in {0,...,511}{
+        \foreach \i in {0,...,15}{
+            \ifnum \value{mem\j_\i}=1%
+                \immediate\write18{echo 1 >> DUMP}
+            \else
+                \immediate\write18{echo 0 >> DUMP}
+            \fi
+        }
+    }
+    \lgl{RAM DUMPED SUCCESSFULLY}
+    \immediate\closeout\myoutput
+}%
+
+\newcommand{\pjtsur}{%
+}
+
+\newcommand{\pli}{%
+\foreach\i in {0,...,6}{
+    \setcounter{tempregister_\i}{\value{PC\i}}
+}
+\foreach\i in {7,...,15}{
+    \setcounter{tempregister_\i}{\value{IR\i}}
+}
+\setcounter{temp}{0}
+\foreach \i in {4,5,6}{%
+    \addtocounter{temp}{\value{temp}}%
+    \ifnum \value{IR\i}=1%
+    {\addtocounter{temp}{1}}%
+    \fi%
+}%
+\setcounter{temp1}{0}%
+\foreach \i in {0,...,15}{%
+\addtocounter{temp1}{\value{temp1}}%
+\ifnum \value{tempregister_\i}=1%
+{\addtocounter{temp1}{1}}%
+\fi%
+}%
+\foreach\i in {0,...,15}{
+    \setcounter{tempregister_\i}{\value{mem\arabic{temp1}_\i}}
+}
+\setcounter{temp1}{0}%
+\foreach \i in {0,...,15}{%
+\addtocounter{temp1}{\value{temp1}}%
+\ifnum \value{tempregister_\i}=1%
+{\addtocounter{temp1}{1}}%
+\fi%
+}%
+\foreach\i in {0,...,15}{
+    \setcounter{R\arabic{temp}\i}{\value{mem\arabic{temp1}_\i}}
+}
+}
+\newcommand{\psit}{%
+\foreach\i in {0,...,6}{
+    \setcounter{tempregister_\i}{\value{PC\i}}
+}
+\foreach\i in {7,...,15}{
+    \setcounter{tempregister_\i}{\value{IR\i}}
+}
+\setcounter{temp}{0}
+\foreach \i in {4,5,6}{%
+    \addtocounter{temp}{\value{temp}}%
+    \ifnum \value{IR\i}=1%
+    {\addtocounter{temp}{1}}%
+    \fi%
+}%
+\setcounter{temp1}{0}%
+\foreach \i in {0,...,15}{%
+\addtocounter{temp1}{\value{temp1}}%
+\ifnum \value{tempregister_\i}=1%
+{\addtocounter{temp1}{1}}%
+\fi%
+}%
+\foreach\i in {0,...,15}{
+    \setcounter{tempregister_\i}{\value{mem\arabic{temp1}_\i}}
+}
+\setcounter{temp1}{0}%
+\foreach \i in {0,...,15}{%
+\addtocounter{temp1}{\value{temp1}}%
+\ifnum \value{tempregister_\i}=1%
+{\addtocounter{temp1}{1}}%
+\fi%
+}%
+\foreach\i in {0,...,15}{
+    \setcounter{mem\arabic{temp1}_\i}{\value{R\arabic{temp}\i}}
+}
+}
+
+\newcommand{\ps}{%
+\foreach\i in {0,...,6}{
+    \setcounter{tempregister_\i}{\value{PC\i}}
+}
+\foreach\i in {7,...,15}{
+    \setcounter{tempregister_\i}{\value{IR\i}}
+}
+\setcounter{temp}{0}
+\foreach \i in {4,5,6}{%
+    \addtocounter{temp}{\value{temp}}%
+    \ifnum \value{IR\i}=1%
+    {\addtocounter{temp}{1}}%
+    \fi%
+}%
+\setcounter{temp1}{0}%
+\foreach \i in {0,...,15}{%
+\addtocounter{temp1}{\value{temp1}}%
+\ifnum \value{tempregister_\i}=1%
+{\addtocounter{temp1}{1}}%
+\fi%
+}%
+\foreach\i in {0,...,15}{
+    \setcounter{mem\arabic{temp1}_\i}{\value{R\arabic{temp}\i}}
+}
+}
+\newcommand{\pl}{%
+\foreach\i in {0,...,6}{
+    \setcounter{tempregister_\i}{\value{PC\i}}
+}
+\foreach\i in {7,...,15}{
+    \setcounter{tempregister_\i}{\value{IR\i}}
+}
+\setcounter{temp}{0}
+\foreach \i in {4,5,6}{%
+    \addtocounter{temp}{\value{temp}}%
+    \ifnum \value{IR\i}=1%
+    {\addtocounter{temp}{1}}%
+    \fi%
+}%
+\setcounter{temp1}{0}%
+\foreach \i in {0,...,15}{%
+\addtocounter{temp1}{\value{temp1}}%
+\ifnum \value{tempregister_\i}=1%
+{\addtocounter{temp1}{1}}%
+\fi%
+}%
+\foreach\i in {0,...,15}{
+    \setcounter{R\arabic{temp}\i}{\value{mem\arabic{temp1}_\i}}
+}
+}
+\newcommand{\plr}{%
+}
+\newcommand{\psr}{%
+}
+
+\newcommand{\pt}{%
+\setcounter{temp}{0}\setcounter{temp1}{33}
+\foreach \i in {8,...,15}{%
+    \addtocounter{temp}{\value{temp}}%
+    \ifnum \value{IR\i}=1%
+    {\addtocounter{temp}{1}}%
+    \fi%
+}%
+\ifnum \value{temp}=\value{temp1}{\setcounter{temp3}{0}
+\foreach \i in {0,...,15}{%
+\addtocounter{temp3}{\value{temp3}}%
+\ifnum \value{R0\i}=1%
+{\addtocounter{temp3}{1}}%
+\fi%
+}%
+\tv{\arabic{temp3}}
+\nxti
+}%
+\fi
+
+\setcounter{temp1}{34}
+\ifnum \value{temp}=\value{temp1}{\setcounter{temp3}{0}
+\foreach \i in {0,...,15}{%
+\addtocounter{temp3}{\value{temp3}}%
+\ifnum \value{R0\i}=1%
+{\addtocounter{temp3}{1}}%
+\fi%
+}%
+\loop
+\setcounter{temp4}{0}%
+\foreach \i in {0,...,15}{%
+\addtocounter{temp4}{\value{temp4}}%
+\ifnum \value{mem\arabic{temp3}_\i}=1%
+\addtocounter{temp4}{1}%
+\fi%
+}
+\ifnum \value{temp4}>0\tv{\arabic{temp4}}\stepcounter{temp3}
+\repeat%
+\nxti
+}%
+\fi
+
+\setcounter{temp1}{37}
+\ifnum \value{temp}=\value{temp1}{        \setcounter{exit}{1}
+}%
+\fi
+}
+
+\newcommand{\pb}{%
+\ifnum \value{IR4}=1{%
+\ifnum \value{CC0}=1{%
+\foreach\i in {7,...,15}{%
+\setcounter{PC\i}{\value{IR\i}}%
+}%
+}\fi%
+}\fi%
+\ifnum \value{IR5}=1{%
+\ifnum \value{CC1}=1{%
+\foreach\i in {7,...,15}{%
+\setcounter{PC\i}{\value{IR\i}}%
+}%
+}\fi%
+}\fi%
+\ifnum \value{IR6}=1{%
+    \ifnum \value{CC2}=1{%
+        \foreach\i in {7,...,15}{%
+            \setcounter{PC\i}{\value{IR\i}}%
+        }%
+    }\fi%
+}\fi%
+}%
+
+\newcommand{\pan}{%
+\setcounter{temp}{0}\setcounter{temp1}{0}\foreach \i in {4,5,6}{%
+    \addtocounter{temp}{\value{temp}}%
+    \ifnum \value{IR\i}=1%
+    {\addtocounter{temp}{1}}%
+    \fi%
+}%
+\foreach \i in {7,8,9}{%
+    \addtocounter{temp1}{\value{temp1}}%
+    \ifnum \value{IR\i}=1%
+    {\addtocounter{temp1}{1}}%
+    \fi%
+}%
+\ifnum \value{IR10}=0{\setcounter{temp2}{0}\foreach\i in {13,...,15}{%
+\addtocounter{temp2}{\value{temp2}}%
+\ifnum \value{IR\i}=1%
+{\addtocounter{temp2}{1}}%
+\fi%
+}%
+\anr{R\arabic{temp}}{R\arabic{temp1}}{R\arabic{temp2}}%
+}\else{%
+\setcounter{temp2}{0}\foreach\i in {0,...,11}{%
+\setcounter{tempregister_\i}{0}%
+}%
+\foreach\i in {11,...,15}{%
+\setcounter{tempregister_\i}{\value{IR\i}}%
+}%
+\anr{R\arabic{temp}}{R\arabic{temp1}}{tempregister_}
+}\fi%
+}
+
+\newcommand{\pa}{%
+\setcounter{temp}{0}\setcounter{temp1}{0}\setcounter{temp2}{0}\foreach \i in {4,5,6}{%
+    \addtocounter{temp}{\value{temp}}%
+    \ifnum \value{IR\i}=1%
+    {\addtocounter{temp}{1}}%
+    \fi%
+}%
+\foreach \i in {7,8,9}{%
+    \addtocounter{temp1}{\value{temp1}}%
+    \ifnum \value{IR\i}=1%
+    {\addtocounter{temp1}{1}}%
+    \fi%
+}%
+\ifnum \value{IR10}=0{\setcounter{temp2}{0}\foreach\i in {13,...,15}{%
+\addtocounter{temp2}{\value{temp2}}%
+\ifnum \value{IR\i}=1%
+{\addtocounter{temp2}{1}}%
+\fi%
+}%
+\ar{R\arabic{temp}}{R\arabic{temp1}}{R\arabic{temp2}}%
+}\else{%
+\setcounter{temp2}{0}\foreach\i in {0,...,11}{%
+\setcounter{tempregister_\i}{0}%
+}%
+\foreach\i in {11,...,15}{%
+\setcounter{tempregister_\i}{\value{IR\i}}%
+}%
+\ar{R\arabic{temp}}{R\arabic{temp1}}{tempregister_}
+}\fi%
+}
+
+\newcommand{\plea}{%
+    \setcounter{temp}{0}%
+    \foreach \i in {4,5,6}{%
+        \addtocounter{temp}{\value{temp}}%
+        \ifnum \value{IR\i}=1%
+        {\addtocounter{temp}{1}}%
+        \fi%
+    }%
+    \foreach \i in {0,...,6}{%
+        \setcounter{R\arabic{temp}\i}{\value{PC\i}}%
+    }%
+    \foreach \i in {7,...,15}{%
+        \setcounter{R\arabic{temp}\i}{\value{IR\i}}%
+    }%
+
+}
+
+\newcommand{\prfi}{%
+}%
+
+\newcommand{\pr}{%
+    \foreach \i in {0,...,15}{%
+        \setcounter{PC\i}{\value{R7\i}}%
+    }%
+}%
+
+\newcommand{\pjts}{%
+    \ifnum \value{IR4}=1{\foreach \i in {0,...,15}{\setcounter{R7\i}{\value{PC\i}}}}\fi%
+    \foreach \i in {7,...,15}{\setcounter{PC\i}{\value{IR\i}}}
+}%
+
+\newcommand{\pn}{%
+    \setcounter{temp}{0}%
+    \setcounter{temp1}{0}%
+    \foreach \i in {4,5,6}{%
+        \addtocounter{temp}{\value{temp}}%
+        \ifnum \value{IR\i}=1%
+        {\addtocounter{temp}{1}}%
+        \fi%
+    }%
+    \foreach \i in {7,8,9}{%
+        \addtocounter{temp1}{\value{temp1}}%
+        \ifnum \value{IR\i}=1%
+        {\addtocounter{temp1}{1}}%
+        \fi%
+    }%
+    \nr{\arabic{temp}}{\arabic{temp1}}%
+}
+\newcommand{\printCPU}{
+    \td{R0}
+    \prr{R0}{\arabic{temp}}{0x\hexa{temp}}
+    \td{R1}
+    \prr{R1}{\arabic{temp}}{0x\hexa{temp}}
+    \td{R2}
+    \prr{R2}{\arabic{temp}}{0x\hexa{temp}}
+    \td{R3}
+    \prr{R3}{\arabic{temp}}{0x\hexa{temp}}
+    \td{R4}
+    \prr{R4}{\arabic{temp}}{0x\hexa{temp}}
+    \td{R5}
+    \prr{R5}{\arabic{temp}}{0x\hexa{temp}}
+    \td{R6}
+    \prr{R6}{\arabic{temp}}{0x\hexa{temp}}
+    \td{R7}
+    \prr{R7}{\arabic{temp}}{0x\hexa{temp}}
+    \tdu{PC}
+    \prr{PC}{\arabic{temp}}{0x\hexa{temp}}
+    \tdu{IR}
+    \prr{IR}{\arabic{temp}}{0x\hexa{temp}}
+    \ifnum \value{CC0}=1%
+    \prr{CC}{(N)}{0x4}%
+    \else{%
+    \ifnum \value{CC1}=1%
+    \prr{CC}{(Z)}{0x2}%
+    \else%
+    \prr{CC}{(P)}{0x1}%
+    \fi%
+    }%
+    \fi%
+}
+
+\newcommand{\tv}[1]{
+    % nah
+}
+
+\newcommand{\printf}[1]{
+    \immediate\write18{echo "\\nLC-2>\\t#1..." 1>&2;}
+        \immediate\write\myoutput{*** #1}
+}
+
+\newcommand{\prr}[3]{
+    \immediate\write18{echo ".-------.-------.-------." 1>&2;}
+    \immediate\write18{echo "|#1\\t|#2\\t|#3\\t|" 1>&2;}
+        }
+
+\newcommand{\lgl}[1]{%
+\printf{#1}%
+}
+
+\newcommand{\lits}[1]{%
+\printf{Found a #1}%
+}

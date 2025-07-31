@@ -1,0 +1,10 @@
+from z3 import *
+x0=Int('x0')
+x1=Int('x1')
+x2=Int('x2')
+solver = Solver()
+solver.add(x0**x1==1)
+solver.add(x2+x1==5)
+solver.add(x2*x1==6)
+print(solver.check())
+print(solver.model())

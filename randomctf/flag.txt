@@ -1,0 +1,8 @@
+BKSEC{welc0m3_t0_th3_sh0wwwwww}
+bksec@5.15.0-46-generic
+python3 -c "open('flag.txt', 'w').write('BKSEC{an0th3r_fl4g_found_nice_:333333}')"
+vim
+/usr/bin/gcc@13.3.0
+root@root  
+bksec@1337hack0r
+bksec@1001:

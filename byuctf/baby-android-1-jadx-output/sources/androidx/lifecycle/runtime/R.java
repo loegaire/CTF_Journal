@@ -1,0 +1,15 @@
+package androidx.lifecycle.runtime;
+
+/* loaded from: /home/thinh/ctf/byuctf/baby-android-1/resources/classes2.dex */
+public final class R {
+
+    public static final class id {
+        public static int view_tree_lifecycle_owner = 0x7f080202;
+
+        private id() {
+        }
+    }
+
+    private R() {
+    }
+}
