@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage[a0paper,landscape]{geometry}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%																%
+%		Hi, enjoy the folly		~ S-Mancl						%
+%																%
+%																%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{execution}
+\begin{document}
+
+\pagenumbering{gobble}
+
+\begin{titlepage}
+    \pagestyle{empty}
+	\begin{center}
+		\scalebox{8}{
+		{\LARGE Emulation of a CPU using \LaTeX}
+		}
+		
+		\scalebox{8}{
+		{\Large It's funny, isn't it?}
+		}
+	\end{center}
+\end{titlepage}
+
+\setup
+\fetchdecodeexecwriteback
+\printCPU
+
+\end{document}

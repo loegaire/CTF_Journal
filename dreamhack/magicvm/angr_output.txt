@@ -1,0 +1,9 @@
+WARNING  | 2026-02-10 17:39:44,978 | angr.simos.simos | stdin is constrained to 65 bytes (has_end=True). If you are only providing the first 65 bytes instead of the entire stdin, please use stdin=SimFileStream(name='stdin', content=your_first_n_bytes, has_end=False).
+[*] Starting symbolic execution...
+[*] Initial state: <SimState @ 0x4031e0>
+[*] Exploring paths...
+Traceback (most recent call last):
+  File "/home/thinh/ctf/dreamhack/magicvm/solve_angr.py", line 40, in <module>
+    for string in proj.loader.main_object.strings:
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ELF' object has no attribute 'strings'

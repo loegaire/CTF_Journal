@@ -1,0 +1,13 @@
+{
+	"servers": {
+		"my-mcp-server-7465afdd": {
+			"type": "stdio",
+			"command": "python",
+			"args": [
+				"-m",
+				"ida_pro_mcp.server"
+			]
+		}
+	},
+	"inputs": []
+}

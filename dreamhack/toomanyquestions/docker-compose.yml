@@ -1,0 +1,274 @@
+version: "3.8"
+
+services:
+  dump_packets:
+    image: kaazing/tcpdump
+    command: ["-v", "-i", "any", "-w", "/tcpdump/tcpdump.pcap", "udp port 13337"]
+    volumes:
+      - ./tcpdump:/tcpdump
+    network_mode: "host"
+  worker1:
+    build: .
+    environment:
+      - FLAG=72
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.1"
+  worker2:
+    build: .
+    environment:
+      - FLAG=3a
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.2"
+  worker3:
+    build: .
+    environment:
+      - FLAG=3b
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.3"
+  worker4:
+    build: .
+    environment:
+      - FLAG=26
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.4"
+  worker5:
+    build: .
+    environment:
+      - FLAG=eb
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.5"
+  worker6:
+    build: .
+    environment:
+      - FLAG=6f
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.6"
+  worker7:
+    build: .
+    environment:
+      - FLAG=24
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.7"
+  worker8:
+    build: .
+    environment:
+      - FLAG=d6
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.8"
+  worker9:
+    build: .
+    environment:
+      - FLAG=e7
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.9"
+  worker10:
+    build: .
+    environment:
+      - FLAG=09
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.10"
+  worker11:
+    build: .
+    environment:
+      - FLAG=70
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.11"
+  worker12:
+    build: .
+    environment:
+      - FLAG=50
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.12"
+  worker13:
+    build: .
+    environment:
+      - FLAG=bc
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.13"
+  worker14:
+    build: .
+    environment:
+      - FLAG=84
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.14"
+  worker15:
+    build: .
+    environment:
+      - FLAG=e5
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.15"
+  worker16:
+    build: .
+    environment:
+      - FLAG=1f
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.16"
+  worker17:
+    build: .
+    environment:
+      - FLAG=fc
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.17"
+  worker18:
+    build: .
+    environment:
+      - FLAG=d0
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.18"
+  worker19:
+    build: .
+    environment:
+      - FLAG=44
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.19"
+  worker20:
+    build: .
+    environment:
+      - FLAG=7a
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.20"
+  worker21:
+    build: .
+    environment:
+      - FLAG=60
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.21"
+  worker22:
+    build: .
+    environment:
+      - FLAG=53
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.22"
+  worker23:
+    build: .
+    environment:
+      - FLAG=dc
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.23"
+  worker24:
+    build: .
+    environment:
+      - FLAG=45
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.24"
+  worker25:
+    build: .
+    environment:
+      - FLAG=30
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.25"
+  worker26:
+    build: .
+    environment:
+      - FLAG=ac
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.26"
+  worker27:
+    build: .
+    environment:
+      - FLAG=cd
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.27"
+  worker28:
+    build: .
+    environment:
+      - FLAG=68
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.28"
+  worker29:
+    build: .
+    environment:
+      - FLAG=c0
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.29"
+  worker30:
+    build: .
+    environment:
+      - FLAG=b3
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.30"
+  worker31:
+    build: .
+    environment:
+      - FLAG=0f
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.31"
+  worker32:
+    build: .
+    environment:
+      - FLAG=69
+      - KEY=29342eb99b9361b8
+    networks:
+      default:
+        ipv4_address: "12.34.56.32"
+
+
+networks:
+  default:
+    ipam:
+      driver: default
+      config:
+        - subnet: "12.34.56.0/24"
+          gateway: "12.34.56.78"
