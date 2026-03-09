@@ -12,4 +12,4 @@
 ![[Pasted image 20260309055711.png]]
 
 Dreamhack Wargames
-![[Pasted image 20260309055852.png]]
+![[(https://github.com/loegaire/CTF_Journal/blob/main/Pasted%20image%2020260309055852.png)]]
