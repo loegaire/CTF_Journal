@@ -1,0 +1,201 @@
+package androidx.constraintlayout.motion.widget;
+
+import android.content.Context;
+import android.util.Log;
+import android.util.Xml;
+import androidx.constraintlayout.core.motion.utils.TypedValues;
+import androidx.constraintlayout.widget.ConstraintAttribute;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import java.io.IOException;
+import java.lang.reflect.Constructor;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
+
+/* loaded from: classes.dex */
+public class KeyFrames {
+    private static final String CUSTOM_ATTRIBUTE = "CustomAttribute";
+    private static final String CUSTOM_METHOD = "CustomMethod";
+    private static final String TAG = "KeyFrames";
+    public static final int UNSET = -1;
+    static HashMap<String, Constructor<? extends Key>> sKeyMakers;
+    private HashMap<Integer, ArrayList<Key>> mFramesMap = new HashMap<>();
+
+    static {
+        HashMap<String, Constructor<? extends Key>> hashMap = new HashMap<>();
+        sKeyMakers = hashMap;
+        try {
+            hashMap.put("KeyAttribute", KeyAttributes.class.getConstructor(new Class[0]));
+            sKeyMakers.put(TypedValues.PositionType.NAME, KeyPosition.class.getConstructor(new Class[0]));
+            sKeyMakers.put(TypedValues.CycleType.NAME, KeyCycle.class.getConstructor(new Class[0]));
+            sKeyMakers.put("KeyTimeCycle", KeyTimeCycle.class.getConstructor(new Class[0]));
+            sKeyMakers.put(TypedValues.TriggerType.NAME, KeyTrigger.class.getConstructor(new Class[0]));
+        } catch (NoSuchMethodException e) {
+            Log.e(TAG, "unable to load", e);
+        }
+    }
+
+    public void addKey(Key key) {
+        if (!this.mFramesMap.containsKey(Integer.valueOf(key.mTargetId))) {
+            this.mFramesMap.put(Integer.valueOf(key.mTargetId), new ArrayList<>());
+        }
+        ArrayList<Key> frames = this.mFramesMap.get(Integer.valueOf(key.mTargetId));
+        if (frames != null) {
+            frames.add(key);
+        }
+    }
+
+    public KeyFrames() {
+    }
+
+    /* JADX WARN: Can't fix incorrect switch cases order, some code will duplicate */
+    public KeyFrames(Context context, XmlPullParser parser) {
+        Key key = null;
+        try {
+            int eventType = parser.getEventType();
+            while (true) {
+                char c = 1;
+                if (eventType != 1) {
+                    switch (eventType) {
+                        case 0:
+                            eventType = parser.next();
+                        case 1:
+                        default:
+                            eventType = parser.next();
+                        case 2:
+                            String tagName = parser.getName();
+                            if (sKeyMakers.containsKey(tagName)) {
+                                switch (tagName.hashCode()) {
+                                    case -300573030:
+                                        if (tagName.equals("KeyTimeCycle")) {
+                                            c = 3;
+                                            break;
+                                        }
+                                        c = 65535;
+                                        break;
+                                    case -298435811:
+                                        if (tagName.equals("KeyAttribute")) {
+                                            c = 0;
+                                            break;
+                                        }
+                                        c = 65535;
+                                        break;
+                                    case 540053991:
+                                        if (tagName.equals(TypedValues.CycleType.NAME)) {
+                                            c = 2;
+                                            break;
+                                        }
+                                        c = 65535;
+                                        break;
+                                    case 1153397896:
+                                        if (tagName.equals(TypedValues.PositionType.NAME)) {
+                                            break;
+                                        }
+                                        c = 65535;
+                                        break;
+                                    case 1308496505:
+                                        if (tagName.equals(TypedValues.TriggerType.NAME)) {
+                                            c = 4;
+                                            break;
+                                        }
+                                        c = 65535;
+                                        break;
+                                    default:
+                                        c = 65535;
+                                        break;
+                                }
+                                switch (c) {
+                                    case 0:
+                                        key = new KeyAttributes();
+                                        key.load(context, Xml.asAttributeSet(parser));
+                                        addKey(key);
+                                        break;
+                                    case 1:
+                                        key = new KeyPosition();
+                                        key.load(context, Xml.asAttributeSet(parser));
+                                        addKey(key);
+                                        break;
+                                    case 2:
+                                        key = new KeyCycle();
+                                        key.load(context, Xml.asAttributeSet(parser));
+                                        addKey(key);
+                                        break;
+                                    case 3:
+                                        key = new KeyTimeCycle();
+                                        key.load(context, Xml.asAttributeSet(parser));
+                                        addKey(key);
+                                        break;
+                                    case 4:
+                                        key = new KeyTrigger();
+                                        key.load(context, Xml.asAttributeSet(parser));
+                                        addKey(key);
+                                        break;
+                                    default:
+                                        throw new NullPointerException("Key " + tagName + " not found");
+                                }
+                            } else if (tagName.equalsIgnoreCase("CustomAttribute")) {
+                                if (key != null && key.mCustomConstraints != null) {
+                                    ConstraintAttribute.parse(context, parser, key.mCustomConstraints);
+                                }
+                            } else if (tagName.equalsIgnoreCase("CustomMethod") && key != null && key.mCustomConstraints != null) {
+                                ConstraintAttribute.parse(context, parser, key.mCustomConstraints);
+                            }
+                            eventType = parser.next();
+                            break;
+                        case 3:
+                            if (ViewTransition.KEY_FRAME_SET_TAG.equals(parser.getName())) {
+                                break;
+                            }
+                            eventType = parser.next();
+                    }
+                    return;
+                }
+                return;
+            }
+        } catch (IOException e) {
+            Log.e(TAG, "Error parsing XML resource", e);
+        } catch (XmlPullParserException e2) {
+            Log.e(TAG, "Error parsing XML resource", e2);
+        }
+    }
+
+    public void addAllFrames(MotionController motionController) {
+        ArrayList<Key> list = this.mFramesMap.get(-1);
+        if (list != null) {
+            motionController.addKeys(list);
+        }
+    }
+
+    public void addFrames(MotionController motionController) {
+        ArrayList<Key> list = this.mFramesMap.get(Integer.valueOf(motionController.mId));
+        if (list != null) {
+            motionController.addKeys(list);
+        }
+        ArrayList<Key> list2 = this.mFramesMap.get(-1);
+        if (list2 != null) {
+            Iterator<Key> it = list2.iterator();
+            while (it.hasNext()) {
+                Key key = it.next();
+                String tag = ((ConstraintLayout.LayoutParams) motionController.mView.getLayoutParams()).constraintTag;
+                if (key.matches(tag)) {
+                    motionController.addKey(key);
+                }
+            }
+        }
+    }
+
+    static String name(int viewId, Context context) {
+        return context.getResources().getResourceEntryName(viewId);
+    }
+
+    public Set<Integer> getKeys() {
+        return this.mFramesMap.keySet();
+    }
+
+    public ArrayList<Key> getKeyFramesForView(int id) {
+        return this.mFramesMap.get(Integer.valueOf(id));
+    }
+}

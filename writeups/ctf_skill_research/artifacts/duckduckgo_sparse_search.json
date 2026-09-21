@@ -1,0 +1,640 @@
+{
+  "ACS(ASEAN Cyber Shield) CTF": {
+    "query": "\"ACS(ASEAN Cyber Shield) CTF\" writeup",
+    "results": []
+  },
+  "ALL.MN CTF": {
+    "query": "\"ALL.MN CTF\" writeup",
+    "results": []
+  },
+  "AMSI CTF : Fondation SCP": {
+    "query": "\"AMSI CTF : Fondation SCP\" writeup",
+    "results": []
+  },
+  "Anhad Capture The Flag": {
+    "query": "\"Anhad Capture The Flag\" writeup",
+    "results": []
+  },
+  "BACCC Regionals": {
+    "query": "\"BACCC Regionals\" writeup",
+    "results": []
+  },
+  "BOOT 2 ROOT(CTF)": {
+    "query": "\"BOOT 2 ROOT(CTF)\" writeup",
+    "results": []
+  },
+  "BSides Indore CTF": {
+    "query": "\"BSides Indore CTF\" writeup",
+    "results": []
+  },
+  "BSides Odisha WEB3 CTF": {
+    "query": "\"BSides Odisha WEB3 CTF\" writeup",
+    "results": []
+  },
+  "BSidesAmman Capture The Fazoura": {
+    "query": "\"BSidesAmman Capture The Fazoura\" writeup",
+    "results": []
+  },
+  "Baidu CTF": {
+    "query": "\"Baidu CTF\" writeup",
+    "results": []
+  },
+  "BalCCon CTF": {
+    "query": "\"BalCCon CTF\" writeup",
+    "results": []
+  },
+  "BaltCTF": {
+    "query": "\"BaltCTF\" writeup",
+    "results": []
+  },
+  "BreakTheWall - Dystopia 2099": {
+    "query": "\"BreakTheWall - Dystopia 2099\" writeup",
+    "results": []
+  },
+  "Bsides Colombia": {
+    "query": "\"Bsides Colombia\" writeup",
+    "results": []
+  },
+  "BugBunny CTF": {
+    "query": "\"BugBunny CTF\" writeup",
+    "results": []
+  },
+  "CAT Reloaded CTF": {
+    "query": "\"CAT Reloaded CTF\" writeup",
+    "results": []
+  },
+  "CRAC CTFs": {
+    "query": "\"CRAC CTFs\" writeup",
+    "results": []
+  },
+  "CRHCCTF": {
+    "query": "\"CRHCCTF\" writeup",
+    "results": []
+  },
+  "CSCAMP CTF Finals": {
+    "query": "\"CSCAMP CTF Finals\" writeup",
+    "results": []
+  },
+  "CTF Russian Cup": {
+    "query": "\"CTF Russian Cup\" writeup",
+    "results": []
+  },
+  "CYBERST0RM": {
+    "query": "\"CYBERST0RM\" writeup",
+    "results": []
+  },
+  "Capture The Present": {
+    "query": "\"Capture The Present\" writeup",
+    "results": []
+  },
+  "Carthage Cyber Arena": {
+    "query": "\"Carthage Cyber Arena\" writeup",
+    "results": []
+  },
+  "ClawCTF": {
+    "query": "\"ClawCTF\" writeup",
+    "results": []
+  },
+  "Cyber Community Club": {
+    "query": "\"Cyber Community Club\" writeup",
+    "results": []
+  },
+  "Cyber Lumen #CTF": {
+    "query": "\"Cyber Lumen #CTF\" writeup",
+    "results": []
+  },
+  "CyberAliens CTF": {
+    "query": "\"CyberAliens CTF\" writeup",
+    "results": []
+  },
+  "CyberFortress CTF": {
+    "query": "\"CyberFortress CTF\" writeup",
+    "results": []
+  },
+  "CyberVT Summit CTF": {
+    "query": "\"CyberVT Summit CTF\" writeup",
+    "results": []
+  },
+  "Cybercom CTF": {
+    "query": "\"Cybercom CTF\" writeup",
+    "results": []
+  },
+  "Cybersecurity Expo and conference (CSEC) India": {
+    "query": "\"Cybersecurity Expo and conference (CSEC) India\" writeup",
+    "results": []
+  },
+  "Defcon Cloud Village CTF": {
+    "query": "\"Defcon Cloud Village CTF\" writeup",
+    "results": []
+  },
+  "Defcon Kubernetes CTF": {
+    "query": "\"Defcon Kubernetes CTF\" writeup",
+    "results": []
+  },
+  "Disparue(s)": {
+    "query": "\"Disparue(s)\" writeup",
+    "results": []
+  },
+  "DragonSec SI CTF": {
+    "query": "\"DragonSec SI CTF\" writeup",
+    "results": []
+  },
+  "Dreamhack Invitational": {
+    "query": "\"Dreamhack Invitational\" writeup",
+    "results": []
+  },
+  "ETHICAL HACKER Second session CTF": {
+    "query": "\"ETHICAL HACKER Second session CTF\" writeup",
+    "results": []
+  },
+  "Eternal Flame CTF": {
+    "query": "\"Eternal Flame CTF\" writeup",
+    "results": []
+  },
+  "EyesOpenCTF": {
+    "query": "\"EyesOpenCTF\" writeup",
+    "results": []
+  },
+  "Fartfire": {
+    "query": "\"Fartfire\" writeup",
+    "results": []
+  },
+  "FireShell Security Team CTF": {
+    "query": "\"FireShell Security Team CTF\" writeup",
+    "results": []
+  },
+  "FolodyHack": {
+    "query": "\"FolodyHack\" writeup",
+    "results": []
+  },
+  "Freedom CTF": {
+    "query": "\"Freedom CTF\" writeup",
+    "results": []
+  },
+  "GITxIITB TL CTF": {
+    "query": "\"GITxIITB TL CTF\" writeup",
+    "results": []
+  },
+  "GREP CTF 2.0": {
+    "query": "\"GREP CTF 2.0\" writeup",
+    "results": []
+  },
+  "GenSec CTF": {
+    "query": "\"GenSec CTF\" writeup",
+    "results": []
+  },
+  "Ground Zero- Hackathon- CTF, Siliguri": {
+    "query": "\"Ground Zero- Hackathon- CTF, Siliguri\" writeup",
+    "results": []
+  },
+  "HACK'OSINTCTF": {
+    "query": "\"HACK'OSINTCTF\" writeup",
+    "results": []
+  },
+  "HITB Amsterdam Pro CTF": {
+    "query": "\"HITB Amsterdam Pro CTF\" writeup",
+    "results": []
+  },
+  "HITCON Cyber Range": {
+    "query": "\"HITCON Cyber Range\" writeup",
+    "results": [
+      {
+        "snippet": "HITCON Cyber Range \u6c7a\u8cfd (as staff) # \u5176\u5be6\u9019\u6b21\u5230\u73fe\u5834\u4e26\u4e0d\u662f\u4ee5 CTF \u53c3\u8cfd\u9078\u624b\u7684\u8eab\u5206\uff0c\u800c\u662f Cyber Range \u7684 STAFF \ud83d\ude0e\uff08\u6b61\u8fce\u52a0\u5165 TRAPA\uff09 \u6211\u51fa\u4e86\u5169\u9053\u984c\u76ee\u4e5f\u505a\u4e86\u8996\u89ba\u5316\uff0c\u6240\u4ee5\u9700\u8981\u5f85\u5728\u73fe\u5834\u4ee5\u514d\u51fa\u554f\u984c \u4f46\u984c\u76ee\u5167\u5bb9\u61c9\u8a72\u6c92\u8fa6\u6cd5\u8aaa\u5c31\u662f\u4e86\uff0c\u9019\u908a\u6703\u7d00\u9304\u4e00\u4e9b\u5176\u4ed6\u6771\u897f",
+        "title": "HITCON CTF 2025 Qual/Final Write-up \u8207\u5fc3\u5f97 - Flydragon's Blog",
+        "url": "https://flydragonw.github.io/posts/hitconctf_2025/"
+      },
+      {
+        "snippet": "HITCON Cyber Range X CTF 2025 isn't just a competition\u2014it's a premier talent pipeline. We bring together top-tier security professionals and rising stars from around the globe, giving your brand direct access to the talent you need. This unique event combines two world-class challenges: \ufe0f HITCON Cyber Range : A hands-on competition for",
+        "title": "Hacks - \ufe0fHITCON CTF \u521d\u8cfd\u7d50\u679c\u767c\u8868 \ufe0f \u6fc0\u70c8\u7684\u6bd4\u8cfd\u7d50\u675f\u5f8c\u5df2\u904e\u4e86\u6578\u9031\uff0c\u800c\u51fa\u984c\u5718\u968a\u4e5f\u5df2\u7d93\u5b8c\u6210\u4e86 write-up \u7684\u5be9\u6838\u76f8\u95dc\u5de5\u4f5c ...",
+        "url": "https://www.facebook.com/HITCON/photos/\ufe0fhitcon-ctf-\u521d\u8cfd\u7d50\u679c\u767c\u8868\ufe0f\u6fc0\u70c8\u7684\u6bd4\u8cfd\u7d50\u675f\u5f8c\u5df2\u904e\u4e86\u6578\u9031\u800c\u51fa\u984c\u5718\u968a\u4e5f\u5df2\u7d93\u5b8c\u6210\u4e86-write-up-\u7684\u5be9\u6838\u76f8\u95dc\u5de5\u4f5c\u6211\u5011\u5728\u6b64\u5ba3\u5e03-hitcon-ctf-20/905586351609995/"
+      }
+    ]
+  },
+  "HKCTF Open Semi-Final": {
+    "query": "\"HKCTF Open Semi-Final\" writeup",
+    "results": []
+  },
+  "HSCSEC": {
+    "query": "\"HSCSEC\" writeup",
+    "results": []
+  },
+  "Hack For Troops": {
+    "query": "\"Hack For Troops\" writeup",
+    "results": []
+  },
+  "Hack The Nexus - Blizzard CTF": {
+    "query": "\"Hack The Nexus - Blizzard CTF\" writeup",
+    "results": []
+  },
+  "Hack Zeugma": {
+    "query": "\"Hack Zeugma\" writeup",
+    "results": []
+  },
+  "HackArmour & hackrocks CTF": {
+    "query": "\"HackArmour & hackrocks CTF\" writeup",
+    "results": []
+  },
+  "HackDayCTF": {
+    "query": "\"HackDayCTF\" writeup",
+    "results": []
+  },
+  "HackOrBeHacked CTF": {
+    "query": "\"HackOrBeHacked CTF\" writeup",
+    "results": []
+  },
+  "HackToTheFuture": {
+    "query": "\"HackToTheFuture\" writeup",
+    "results": []
+  },
+  "Hacker's Gambit: An OWASP National Level CTF": {
+    "query": "\"Hacker's Gambit: An OWASP National Level CTF\" writeup",
+    "results": []
+  },
+  "Hackerverse CTF": {
+    "query": "\"Hackerverse CTF\" writeup",
+    "results": []
+  },
+  "Hacking Club - Exodus CTF": {
+    "query": "\"Hacking Club - Exodus CTF\" writeup",
+    "results": []
+  },
+  "Hardware CTF at hardwear.io Netherlands": {
+    "query": "\"Hardware CTF at hardwear.io Netherlands\" writeup",
+    "results": []
+  },
+  "Haunted Pumpkin CTF (OSINT)": {
+    "query": "\"Haunted Pumpkin CTF (OSINT)\" writeup",
+    "results": []
+  },
+  "IEEE Victoris 4.0 Quals": {
+    "query": "\"IEEE Victoris 4.0 Quals\" writeup",
+    "results": []
+  },
+  "IFIP SEC Capture-the-Flag": {
+    "query": "\"IFIP SEC Capture-the-Flag\" writeup",
+    "results": []
+  },
+  "INCOGNITO 6.0": {
+    "query": "\"INCOGNITO 6.0\" writeup",
+    "results": []
+  },
+  "InnoCTF International": {
+    "query": "\"InnoCTF International\" writeup",
+    "results": []
+  },
+  "KRDUCTF": {
+    "query": "\"KRDUCTF\" writeup",
+    "results": []
+  },
+  "KYBS CTF": {
+    "query": "\"KYBS CTF\" writeup",
+    "results": []
+  },
+  "Knull CTF": {
+    "query": "\"Knull CTF\" writeup",
+    "results": []
+  },
+  "LKLCTF": {
+    "query": "\"LKLCTF\" writeup",
+    "results": []
+  },
+  "LYKN Team": {
+    "query": "\"LYKN Team\" writeup",
+    "results": []
+  },
+  "Laokoon Security CTF": {
+    "query": "\"Laokoon Security CTF\" writeup",
+    "results": []
+  },
+  "Lockett Vesp Range": {
+    "query": "\"Lockett Vesp Range\" writeup",
+    "results": []
+  },
+  "LowLandMink's CTF": {
+    "query": "\"LowLandMink's CTF\" writeup",
+    "results": []
+  },
+  "M*CTF online": {
+    "query": "\"M*CTF online\" writeup",
+    "results": []
+  },
+  "MOCA - Metro Olografix - CTF": {
+    "query": "\"MOCA - Metro Olografix - CTF\" writeup",
+    "results": []
+  },
+  "MetaTrust Web3 Security CTF Competition": {
+    "query": "\"MetaTrust Web3 Security CTF Competition\" writeup",
+    "results": []
+  },
+  "N0OB_4rMY": {
+    "query": "\"N0OB_4rMY\" writeup",
+    "results": []
+  },
+  "N3XT L3V3L": {
+    "query": "\"N3XT L3V3L\" writeup",
+    "results": []
+  },
+  "No cON Name CTF Quals": {
+    "query": "\"No cON Name CTF Quals\" writeup",
+    "results": []
+  },
+  "Nordic IT Security Hackathon": {
+    "query": "\"Nordic IT Security Hackathon\" writeup",
+    "results": []
+  },
+  "Null404 DFIR CTF": {
+    "query": "\"Null404 DFIR CTF\" writeup",
+    "results": []
+  },
+  "OWASL-IL CTF": {
+    "query": "\"OWASL-IL CTF\" writeup",
+    "results": []
+  },
+  "OmCTF.Polytech": {
+    "query": "\"OmCTF.Polytech\" writeup",
+    "results": []
+  },
+  "Phr34k$ CTF": {
+    "query": "\"Phr34k$ CTF\" writeup",
+    "results": []
+  },
+  "PlayCyber": {
+    "query": "\"PlayCyber\" writeup",
+    "results": [
+      {
+        "snippet": "PlayCyber fuses esports, athletics and cybersecurity to inspire, grow and upskill the global cyber workforce. PlayCyber organizes multiplayer, competitive cybersecurity gaming that provides a spectator experience similar to watching a professional sporting event.",
+        "title": "PlayCyber",
+        "url": "https://www.playcyber.com/"
+      },
+      {
+        "snippet": "Over the weekend, I competed in PlayCyber's Wicked6 Woman's CTF event. My team of three competed in the MetaCTF challenge. We finished the Linux privilege escalation and found a password for a...",
+        "title": "Wicked6 MetaCTF Writeup - Medium",
+        "url": "https://medium.com/@m0lt3n/wicked6-metactf-writeup-aad02f6da77d"
+      },
+      {
+        "snippet": "Over the weekend, I competed in PlayCyber's Wicked6 Woman's CTF event. My team of three competed in the MetaCTF challenge. We finished the Linux privilege escalation and found a password for a backdoor within PAM. We placed top 10, which I was pleased about since this was my first professional CTF.",
+        "title": "Wicked6 MetaCTF Writeup - HiveMind Security",
+        "url": "https://hivemindsecurity.com/blog/2023/04/03/wicked6-metactf-writeup"
+      },
+      {
+        "snippet": "Intro This week, my team and I p3rf3ctr00t_ke participated in the playCyber (New Year Mayhem 2020) CTF. I managed to solve several challenges. Challenge 1: Charter Category: Forensics Difficulty: Easy challenge description The attackers deleted all our files in a recent breach.",
+        "title": "PlayCyber CTF - blog.iboysec.me",
+        "url": "https://blog.iboysec.me/page/playcyber/"
+      },
+      {
+        "snippet": "PlayCyber delivers epic Cyber Games and Esports for fans, sponsors and players. We are building a stronger and more diverse community of cybersecurity professionals by delivering the world's most exciting cyber games experiences.",
+        "title": "PlayCyber - CTFtime.org",
+        "url": "https://ctftime.org/ctf/740"
+      },
+      {
+        "snippet": "This podcast features an interview with Kristi Rice, a high school cybersecurity teacher, game master for PlayCyber , and the founder of the Virginia Cyber Cup, discussing her passion for cybersecurity education and competitive gaming.",
+        "title": "US Cyber Games: Why Cyber Games Matter in Highschool",
+        "url": "https://jessicagulick.substack.com/p/us-cyber-games"
+      },
+      {
+        "snippet": "PlayCyber , powered by Katzcy, delivers epic Cyber Games and Esports for fans, sponsors, and players. We are dedicated to bringing together and inspiring the very best cybersecurity athletes,...",
+        "title": "PlayCyber - LinkedIn",
+        "url": "https://www.linkedin.com/showcase/play-cyber"
+      },
+      {
+        "snippet": "PlayCyber , powered by @KatzcyLLC, delivers epic #CyberGames and #Esports for fans, sponsors, and players.",
+        "title": "Katzcy PlayCyber (@KatzcyPlayCyber) / Posts / X",
+        "url": "https://x.com/KatzcyPlayCyber"
+      }
+    ]
+  },
+  "Power Of Community - POC CTF": {
+    "query": "\"Power Of Community - POC CTF\" writeup",
+    "results": []
+  },
+  "Pwn2Play - Core Incursion": {
+    "query": "\"Pwn2Play - Core Incursion\" writeup",
+    "results": []
+  },
+  "PwnverseCTF": {
+    "query": "\"PwnverseCTF\" writeup",
+    "results": []
+  },
+  "R00T@W4R CTF": {
+    "query": "\"R00T@W4R CTF\" writeup",
+    "results": []
+  },
+  "RAISING PHEONIX 3.0 - The Eternal Flame": {
+    "query": "\"RAISING PHEONIX 3.0 - The Eternal Flame\" writeup",
+    "results": []
+  },
+  "ReachCTF": {
+    "query": "\"ReachCTF\" writeup",
+    "results": []
+  },
+  "Red Team Lounge CTF": {
+    "query": "\"Red Team Lounge CTF\" writeup",
+    "results": []
+  },
+  "Reply CTF Challenge": {
+    "query": "\"Reply CTF Challenge\" writeup",
+    "results": []
+  },
+  "Republic of Cyber Sentinals": {
+    "query": "\"Republic of Cyber Sentinals\" writeup",
+    "results": []
+  },
+  "RevEng.AI - First CTF + Happy Hour": {
+    "query": "\"RevEng.AI - First CTF + Happy Hour\" writeup",
+    "results": []
+  },
+  "Riscure Hack me CTF": {
+    "query": "\"Riscure Hack me CTF\" writeup",
+    "results": []
+  },
+  "RoboHack AI CTF": {
+    "query": "\"RoboHack AI CTF\" writeup",
+    "results": []
+  },
+  "RokRat Loader": {
+    "query": "\"RokRat Loader\" writeup",
+    "results": []
+  },
+  "RomHackCTF": {
+    "query": "\"RomHackCTF\" writeup",
+    "results": []
+  },
+  "SCAN Digital Asset Tracing Challenge": {
+    "query": "\"SCAN Digital Asset Tracing Challenge\" writeup",
+    "results": []
+  },
+  "SecOps'24 - Blue Teaming CTF": {
+    "query": "\"SecOps'24 - Blue Teaming CTF\" writeup",
+    "results": []
+  },
+  "Segfault Society CTF": {
+    "query": "\"Segfault Society CTF\" writeup",
+    "results": []
+  },
+  "Sharif University CTF Finals": {
+    "query": "\"Sharif University CTF Finals\" writeup",
+    "results": []
+  },
+  "SibCTF Finals": {
+    "query": "\"SibCTF Finals\" writeup",
+    "results": []
+  },
+  "Starpwn CTF": {
+    "query": "\"Starpwn CTF\" writeup",
+    "results": [
+      {
+        "snippet": "Visionspace is proud to be part of the great team contributing to Starpwn CTF 2025, a space-focused CTF hosted by the Aerospace Village during DEF CON 33. We wanted to come up with challenges for all skill levels but ultimately provide a realistic challenge for all teams.",
+        "title": "Tales from DEF CON 33: Starpwn CTF 2025 - VisionSpace",
+        "url": "https://visionspace.com/tales-from-def-con-33-starpwn-ctf-2025/"
+      }
+    ]
+  },
+  "SuSeCTF": {
+    "query": "\"SuSeCTF\" writeup",
+    "results": []
+  },
+  "SudoCTF": {
+    "query": "\"SudoCTF\" writeup",
+    "results": []
+  },
+  "Sydbox CTF Challenge": {
+    "query": "\"Sydbox CTF Challenge\" writeup",
+    "results": []
+  },
+  "Synchrony Infosec University Hackathon": {
+    "query": "\"Synchrony Infosec University Hackathon\" writeup",
+    "results": []
+  },
+  "T3 Phoenix CTF": {
+    "query": "\"T3 Phoenix CTF\" writeup",
+    "results": []
+  },
+  "Tangerang Kota Capture The Flag": {
+    "query": "\"Tangerang Kota Capture The Flag\" writeup",
+    "results": []
+  },
+  "The Cyber Jawara International": {
+    "query": "\"The Cyber Jawara International\" writeup",
+    "results": []
+  },
+  "Trend Micro CTF - Raimund Genes Cup": {
+    "query": "\"Trend Micro CTF - Raimund Genes Cup\" writeup",
+    "results": [
+      {
+        "snippet": "Trend Micro CTF - Raimund Genes Cup is a capture the flag competition hosted by Trend Micro, a global leader in cybersecurity with a mission to make the world safe for exchanging digital information.",
+        "title": "Trend Micro CTF - Raimund Genes Cup - CTFtime.org",
+        "url": "https://ctftime.org/ctf/114"
+      },
+      {
+        "snippet": "This is the official channel for Trend Micro CTF - Raimund Genes Cup . Trend Micro CTF - Raimund Genes Cup is a capture the flag competition hosted by Trend Mi...",
+        "title": "Trend Micro CTF - Raimund Genes Cup - YouTube",
+        "url": "https://www.youtube.com/channel/UCYGyHY5vkk9oRVlh24eKNyg"
+      },
+      {
+        "snippet": "Honoring the memory of our former CTO, the Trend Micro CTF - Raimund Genes Cup provides an ideal platform for the world's best cyber talent to practice their skills and learn from new...",
+        "title": "Test Cybersecurity Skills in Trend Micro's annual Global ... - LinkedIn",
+        "url": "https://www.linkedin.com/pulse/test-cybersecurity-skills-trend-micros-annual-global-capture-ramlet"
+      },
+      {
+        "snippet": "Honoring the memory of our former CTO, the Trend Micro CTF - Raimund Genes Cup provides an ideal platform for the world's best cyber talent to practice their skills and learn from new challenges.\" This year's competition takes place over two rounds: an online qualifier and virtual finals event.",
+        "title": "Test Cybersecurity Skills in Global Capture the Flag Competition",
+        "url": "https://apmultimedianewsroom.com/multimedia-newsroom/test-cybersecurity-skills-in-global-capture-the-flag-competition"
+      },
+      {
+        "snippet": "Honoring the memory of our former CTO, the Trend Micro CTF - Raimund Genes Cup provides an ideal platform for the world's best cyber talent to practice their skills and learn from new...",
+        "title": "Test Cybersecurity Skills in Global Capture the Flag Competition",
+        "url": "https://www.prnewswire.com/news-releases/test-cybersecurity-skills-in-global-capture-the-flag-competition-301356514.html"
+      },
+      {
+        "snippet": "A Trend Micro CTF - Raimund Genes Cup event. 7th Annual Trend Micro CTF Competition! Test your knowledge and skills in targeted attacks, Internet of Things (IoT), reversing, mobile, machine learning, and other cybersecurity issues.",
+        "title": "Trend Micro CTF 2021 - Raimund Genes Cup - Online Qualifier",
+        "url": "https://ctftime.org/event/1387"
+      },
+      {
+        "snippet": "Opening ceremony presentation for the Trend Micro CTF - Raimund Genes Cup 2021 Finals held on December 18, 2021.",
+        "title": "Trend Micro CTF - Raimund Genes Cup 2021 Virtual Finals Opening ...",
+        "url": "https://www.youtube.com/watch?v=K7-_gZ9jlUE"
+      }
+    ]
+  },
+  "UNSW SCONES CTF": {
+    "query": "\"UNSW SCONES CTF\" writeup",
+    "results": []
+  },
+  "UrchinSec CTFs": {
+    "query": "\"UrchinSec CTFs\" writeup",
+    "results": []
+  },
+  "VettoCon": {
+    "query": "\"VettoCon\" writeup",
+    "results": []
+  },
+  "VolgaCTF Final": {
+    "query": "\"VolgaCTF Final\" writeup",
+    "results": []
+  },
+  "WARZONE: Rising Phoenix 3.0 - Eternal Flame CTF": {
+    "query": "\"WARZONE: Rising Phoenix 3.0 - Eternal Flame CTF\" writeup",
+    "results": []
+  },
+  "WSUCTF": {
+    "query": "\"WSUCTF\" writeup",
+    "results": []
+  },
+  "WayneState - Capture-The-Flag": {
+    "query": "\"WayneState - Capture-The-Flag\" writeup",
+    "results": []
+  },
+  "Wicked6, US Cyber Open": {
+    "query": "\"Wicked6, US Cyber Open\" writeup",
+    "results": []
+  },
+  "World Hacker Games - TestSavant": {
+    "query": "\"World Hacker Games - TestSavant\" writeup",
+    "results": []
+  },
+  "YPSICTF": {
+    "query": "\"YPSICTF\" writeup",
+    "results": []
+  },
+  "Z3R0D4Y CTF": {
+    "query": "\"Z3R0D4Y CTF\" writeup",
+    "results": []
+  },
+  "Zagip CTF": {
+    "query": "\"Zagip CTF\" writeup",
+    "results": []
+  },
+  "ZerodayHeist": {
+    "query": "\"ZerodayHeist\" writeup",
+    "results": []
+  },
+  "airgapctf2020": {
+    "query": "\"airgapctf2020\" writeup",
+    "results": []
+  },
+  "boitaCTF": {
+    "query": "\"boitaCTF\" writeup",
+    "results": []
+  },
+  "eCrimeCTF": {
+    "query": "\"eCrimeCTF\" writeup",
+    "results": []
+  },
+  "f1shCTF": {
+    "query": "\"f1shCTF\" writeup",
+    "results": []
+  },
+  "openECSC - CybersecNatLab": {
+    "query": "\"openECSC - CybersecNatLab\" writeup",
+    "results": []
+  },
+  "r/Cybersecurity CTF": {
+    "query": "\"r/Cybersecurity CTF\" writeup",
+    "results": []
+  },
+  "th3jackers WCTF": {
+    "query": "\"th3jackers WCTF\" writeup",
+    "results": []
+  }
+}

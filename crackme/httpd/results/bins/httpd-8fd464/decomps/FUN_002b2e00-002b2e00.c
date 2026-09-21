@@ -1,0 +1,112 @@
+
+/* WARNING: Control flow encountered bad instruction data */
+
+void FUN_002b2e00(char *param_1,char *param_2,char *param_3,undefined8 param_4)
+
+{
+  long lVar1;
+  char cVar2;
+  char cVar5;
+  int *in_RAX;
+  uint *puVar3;
+  undefined7 uVar6;
+  char *pcVar4;
+  char *unaff_RBX;
+  long *in_stack_00000030;
+  
+  *in_RAX = *in_RAX + (uint)in_RAX;
+  cVar2 = (char)in_RAX;
+  *(char *)in_RAX = (char)*in_RAX + cVar2;
+  *(char *)in_RAX = (char)*in_RAX + cVar2;
+  *(char *)in_RAX = (char)*in_RAX + cVar2;
+  puVar3 = (uint *)((ulong)in_RAX & 0xffffffff);
+  cVar2 = (char)puVar3;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *param_2 = *param_2 + (char)param_3;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *param_3 = *param_3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *param_3 = *param_3 + (char)param_4;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *unaff_RBX = *unaff_RBX + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *param_2 = *param_2 + (char)param_4;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *param_2 = *param_2 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *param_1 = *param_1 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)((long)puVar3 * 2) = *(char *)((long)puVar3 * 2) + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *puVar3 = *puVar3 | (uint)in_RAX;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  param_2[0x5b] = param_2[0x5b] + (char)((ulong)param_4 >> 8);
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  cVar5 = (char)((ulong)puVar3 >> 8);
+  *(char *)puVar3 = (char)*puVar3 + cVar5;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)((long)puVar3 + 0x32) = *(char *)((long)puVar3 + 0x32) + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)((long)puVar3 + 0x2f) = *(char *)((long)puVar3 + 0x2f) + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)((long)puVar3 + 0x35) = *(char *)((long)puVar3 + 0x35) + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)((long)puVar3 + 0x5b72) = *(char *)((long)puVar3 + 0x5b72) + cVar5;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)(puVar3 + -0x18) = (char)puVar3[-0x18] + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  *(char *)((long)puVar3 + 0x5ba6) = *(char *)((long)puVar3 + 0x5ba6) + cVar5;
+  *(char *)puVar3 = (char)*puVar3 + cVar2;
+  uVar6 = (undefined7)((ulong)puVar3 >> 8);
+  cVar2 = cVar2 + cVar5;
+  pcVar4 = (char *)CONCAT71(uVar6,cVar2);
+  uRamac4000000000005b = SUB84(pcVar4,0);
+  *pcVar4 = *pcVar4 + cVar2;
+  *pcVar4 = *pcVar4 + cVar2;
+  *pcVar4 = *pcVar4 + cVar5;
+  *pcVar4 = *pcVar4 + cVar2;
+  pcVar4[0x5c0b] = pcVar4[0x5c0b] + cVar2;
+  *pcVar4 = *pcVar4 + cVar2;
+  pcVar4[0x24] = pcVar4[0x24] + cVar5;
+  *pcVar4 = *pcVar4 + cVar2;
+  *pcVar4 = *pcVar4 + cVar2;
+  pcVar4[0x5c54] = pcVar4[0x5c54] + cVar2;
+  *pcVar4 = *pcVar4 + cVar2;
+  *pcVar4 = *pcVar4 + cVar5;
+  cVar2 = in((short)param_3);
+  pcVar4 = (char *)CONCAT71(uVar6,cVar2);
+  lVar1 = *in_stack_00000030;
+  *pcVar4 = *pcVar4 + cVar2;
+  *pcVar4 = *pcVar4 + cVar2;
+  *pcVar4 = *pcVar4 + cVar2;
+  *(undefined8 *)(lVar1 + -8) = 0x2b2ede;
+  pcVar4 = (char *)func_0x002b2f3a();
+  *pcVar4 = *pcVar4 + (char)pcVar4;
+                    /* WARNING: Bad instruction - Truncating control flow here */
+  halt_baddata();
+}
+

@@ -1,0 +1,874 @@
+[
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Flagyard%20-%20HITB%20SecConf%20Bangkok%22%20writeup')",
+    "name": "Flagyard - HITB SecConf Bangkok"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22The%20Haunted%20Brewery%22%20writeup')",
+    "name": "The Haunted Brewery"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22EnigmaXplore%202.0%22%20writeup')",
+    "name": "EnigmaXplore 2.0"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CipherHunt%202.0%22%20writeup')",
+    "name": "CipherHunt 2.0"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Biterra%20CTFs%22%20writeup')",
+    "name": "Biterra CTFs"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Operation%20Cloudfall%3A%20License%20to%20Hack%20CTF%22%20writeup')",
+    "name": "Operation Cloudfall: License to Hack CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Flagvent%22%20writeup')",
+    "name": "Flagvent"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22SCP%20CTF%22%20writeup')",
+    "name": "SCP CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22A%20Renewal%20Agent%22%20writeup')",
+    "name": "A Renewal Agent"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CascrootCTF%22%20writeup')",
+    "name": "CascrootCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Cyber%20conclave%20%7C%20KI%20CTF%22%20writeup')",
+    "name": "Cyber conclave | KI CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Dark%20CTF%20by%20crackon%20communtiy%22%20writeup')",
+    "name": "Dark CTF by crackon communtiy"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22AID%20ELFITAR%20CTF%22%20writeup')",
+    "name": "AID ELFITAR CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22FR13NDS%20CTF%22%20writeup')",
+    "name": "FR13NDS CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22VNIT%20CTF%22%20writeup')",
+    "name": "VNIT CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22ZeroTrace%20Arena%22%20writeup')",
+    "name": "ZeroTrace Arena"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22RRS.Works%22%20writeup')",
+    "name": "RRS.Works"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22MNTCRL%20CTF%22%20writeup')",
+    "name": "MNTCRL CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22ZeroArenaCTF%22%20writeup')",
+    "name": "ZeroArenaCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Hack%E0%A4%85%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%20CTF%20Qualifiers%22%20writeup')",
+    "name": "Hack\u0905\u0938\u094d\u0924\u094d\u0930 CTF Qualifiers"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22AD4ALL%22%20writeup')",
+    "name": "AD4ALL"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22DCI%20Summer%20Camp%20CTF%22%20writeup')",
+    "name": "DCI Summer Camp CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22ZDTM%20CTF%22%20writeup')",
+    "name": "ZDTM CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CapitolHillCTF%22%20writeup')",
+    "name": "CapitolHillCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22IHS%20CTF%20Qualification%20Round%22%20writeup')",
+    "name": "IHS CTF Qualification Round"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Hack%20The%20Dragon%22%20writeup')",
+    "name": "Hack The Dragon"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Apadanasec%20CTF%22%20writeup')",
+    "name": "Apadanasec CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22IDSECCONF%20CTF%22%20writeup')",
+    "name": "IDSECCONF CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22TRUDI%22%20writeup')",
+    "name": "TRUDI"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22C.A.T.S.%20Hacker%20Simulation%20Challenge%22%20writeup')",
+    "name": "C.A.T.S. Hacker Simulation Challenge"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22LocoCTF%22%20writeup')",
+    "name": "LocoCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22PenGenLab%20CTF%22%20writeup')",
+    "name": "PenGenLab CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CyberPioneer%22%20writeup')",
+    "name": "CyberPioneer"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22HZCTF%22%20writeup')",
+    "name": "HZCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Infosec%20Moldova%20CTF%22%20writeup')",
+    "name": "Infosec Moldova CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22NEWSECU%20WINTER%20CTF%202018%22%20writeup')",
+    "name": "NEWSECU WINTER CTF 2018"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Hack%204%20Troops%22%20writeup')",
+    "name": "Hack 4 Troops"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Gazi%20CTF%20Turkey%22%20writeup')",
+    "name": "Gazi CTF Turkey"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22IHC-CTF%22%20writeup')",
+    "name": "IHC-CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CSAW%20Europe%22%20writeup')",
+    "name": "CSAW Europe"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22HyperCTF%22%20writeup')",
+    "name": "HyperCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Leap%20Security%20CTF%22%20writeup')",
+    "name": "Leap Security CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22dbctf%22%20writeup')",
+    "name": "dbctf"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22k%2119%20CTF%22%20writeup')",
+    "name": "k!19 CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Newborn%20CTF%22%20writeup')",
+    "name": "Newborn CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Hardware%20CTF%20at%20hardwear.io%20USA%22%20writeup')",
+    "name": "Hardware CTF at hardwear.io USA"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22HITB-WGMY%20GSEC%20CTF%22%20writeup')",
+    "name": "HITB-WGMY GSEC CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Egy%20-%20KSA%20-%20Sudan%20-%20Tunisia%20Quals%202020%22%20writeup')",
+    "name": "Egy - KSA - Sudan - Tunisia Quals 2020"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Intel%20CTF%22%20writeup')",
+    "name": "Intel CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22NCA%20CTF%202025%22%20writeup')",
+    "name": "NCA CTF 2025"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22INFOCYCTF%22%20writeup')",
+    "name": "INFOCYCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Cyberthreat%20London%22%20writeup')",
+    "name": "Cyberthreat London"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Hack-A-Bit%20CTF%22%20writeup')",
+    "name": "Hack-A-Bit CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22RunCode.ninja%20ctf%22%20writeup')",
+    "name": "RunCode.ninja ctf"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22No%2C%20Mr.%20Bond%2C%20I%20Expect%20you%20to%20Hack%22%20writeup')",
+    "name": "No, Mr. Bond, I Expect you to Hack"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Techtrix%20CTF%22%20writeup')",
+    "name": "Techtrix CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Overdrive%20CTF%22%20writeup')",
+    "name": "Overdrive CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Quarantine%20CTF%22%20writeup')",
+    "name": "Quarantine CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22AniCTF%22%20writeup')",
+    "name": "AniCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Jeopardy%20Capture%20The%20Flag%22%20writeup')",
+    "name": "Jeopardy Capture The Flag"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22TrendCTF%22%20writeup')",
+    "name": "TrendCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22UAE%20National%20Cybersecurity%20CTF%22%20writeup')",
+    "name": "UAE National Cybersecurity CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Jordan%20National%20Cybersecurity%20CTF%22%20writeup')",
+    "name": "Jordan National Cybersecurity CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22PORCODIOCTF%22%20writeup')",
+    "name": "PORCODIOCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22BSidesPorto%20CTF%22%20writeup')",
+    "name": "BSidesPorto CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Capture%20the%20Flag%20-%20Trustwave%20SpiderLabs%20and%20Palo%20Alto%20Networks%22%20writeup')",
+    "name": "Capture the Flag - Trustwave SpiderLabs and Palo Alto Networks"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22MegaGuessing%20CTF%22%20writeup')",
+    "name": "MegaGuessing CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Mixture%20CTF%22%20writeup')",
+    "name": "Mixture CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Qiangwang%20Cup%22%20writeup')",
+    "name": "Qiangwang Cup"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Cybersecurity%20Problem%20Setter%20Challenge%22%20writeup')",
+    "name": "Cybersecurity Problem Setter Challenge"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22c4pe%20ctf%22%20writeup')",
+    "name": "c4pe ctf"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22ByteCon%20CTF%22%20writeup')",
+    "name": "ByteCon CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22HITB%20Red%20Team%20Village%20CTF%20-%20Adversaries%20vs%20Defenders%22%20writeup')",
+    "name": "HITB Red Team Village CTF - Adversaries vs Defenders"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Cipher%20Combat%203.0%20-%20VAPT%20%28CyberSecurity%20Challenge%29%22%20writeup')",
+    "name": "Cipher Combat 3.0 - VAPT (CyberSecurity Challenge)"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CTF%20Kazan%22%20writeup')",
+    "name": "CTF Kazan"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22%D0%A3%D1%87%D0%B0%D1%81...%22%20writeup')",
+    "name": "\u0423\u0447\u0430\u0441..."
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22HackademyCTF%20%28in%20Spanish%29%22%20writeup')",
+    "name": "HackademyCTF (in Spanish)"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Cyborg%20Security%20CTF%22%20writeup')",
+    "name": "Cyborg Security CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22RSXC%20-%20Christmas%20Challenge%22%20writeup')",
+    "name": "RSXC - Christmas Challenge"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Cyber%20Bekal%20CTF%22%20writeup')",
+    "name": "Cyber Bekal CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CTF%20%26%20Cigars%22%20writeup')",
+    "name": "CTF & Cigars"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CarolinaCon%20Online%22%20writeup')",
+    "name": "CarolinaCon Online"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22BIC%20Wintercon%20Socks%20CTF%22%20writeup')",
+    "name": "BIC Wintercon Socks CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22McGill%20CTF%22%20writeup')",
+    "name": "McGill CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22iTEC%20CTF%2021%22%20writeup')",
+    "name": "iTEC CTF 21"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Capture%20The%20Flag%20Competition%20%28MCION%29%22%20writeup')",
+    "name": "Capture The Flag Competition (MCION)"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22LMC%20CTF%22%20writeup')",
+    "name": "LMC CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Isolation%20Con%202%20-%20The%20Second%20Wave%22%20writeup')",
+    "name": "Isolation Con 2 - The Second Wave"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22picoMini%20CTF%20by%20redpwn%22%20writeup')",
+    "name": "picoMini CTF by redpwn"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Cyber3ra%20CTF%22%20writeup')",
+    "name": "Cyber3ra CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22C2CCTF%22%20writeup')",
+    "name": "C2CCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CSCML%202022%22%20writeup')",
+    "name": "CSCML 2022"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Mystikcon%20CTF%22%20writeup')",
+    "name": "Mystikcon CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22ecsm%20CTF%22%20writeup')",
+    "name": "ecsm CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Dreamhack%20X%20POC%20Cutting-edge%20skills%20CTF%22%20writeup')",
+    "name": "Dreamhack X POC Cutting-edge skills CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CTF-USV%22%20writeup')",
+    "name": "CTF-USV"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22ABSO-CTF%22%20writeup')",
+    "name": "ABSO-CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Global%20CyberPeace%20Challenge%203.0%20CTF-IT%22%20writeup')",
+    "name": "Global CyberPeace Challenge 3.0 CTF-IT"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Hack%20at%20the%20Harbor%20CTF%22%20writeup')",
+    "name": "Hack at the Harbor CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CactusCon%20CTF%22%20writeup')",
+    "name": "CactusCon CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Hacktoria%20Monthly%20CTF%20%7C%20OSINT%22%20writeup')",
+    "name": "Hacktoria Monthly CTF | OSINT"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Nullify%20HSCTF%22%20writeup')",
+    "name": "Nullify HSCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Linux%20Warrior%22%20writeup')",
+    "name": "Linux Warrior"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22SecOps%20Blue%20Teaming%20CTF%22%20writeup')",
+    "name": "SecOps Blue Teaming CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Cyber%20193%20Cyber%20Protective%20Shield%22%20writeup')",
+    "name": "Cyber 193 Cyber Protective Shield"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22OFPPT-CTF-Standings%22%20writeup')",
+    "name": "OFPPT-CTF-Standings"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Hackforces%20CTF%22%20writeup')",
+    "name": "Hackforces CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Cyber%20Guardians%20CMX%22%20writeup')",
+    "name": "Cyber Guardians CMX"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22LCDD%20CTF%22%20writeup')",
+    "name": "LCDD CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22UWCTF%20S22%20Contest%20Pro%20Division%22%20writeup')",
+    "name": "UWCTF S22 Contest Pro Division"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22HerFlag%201.0%22%20writeup')",
+    "name": "HerFlag 1.0"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22HerFlag%22%20writeup')",
+    "name": "HerFlag"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Libya%20Hackthon%22%20writeup')",
+    "name": "Libya Hackthon"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Tathva%20CTF%22%20writeup')",
+    "name": "Tathva CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22PUCon%20CTF%22%20writeup')",
+    "name": "PUCon CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22BODHI%20CTF%22%20writeup')",
+    "name": "BODHI CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Xiomara%202.0%22%20writeup')",
+    "name": "Xiomara 2.0"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Winter%20Cloud%20CTF%22%20writeup')",
+    "name": "Winter Cloud CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22LeetCon%20CTF%22%20writeup')",
+    "name": "LeetCon CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%226th%20stage%20MetaRed%20CTF%20Centroamerica%20y%20Caribe%22%20writeup')",
+    "name": "6th stage MetaRed CTF Centroamerica y Caribe"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Know%20Your%20Click%22%20writeup')",
+    "name": "Know Your Click"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22HSC-2th%22%20writeup')",
+    "name": "HSC-2th"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22FerwiCTF%22%20writeup')",
+    "name": "FerwiCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Cyberyam%21%22%20writeup')",
+    "name": "Cyberyam!"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Rush%20CTF%20%7C%20CTFCafe%22%20writeup')",
+    "name": "Rush CTF | CTFCafe"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Cyber%20Carnival%20-%20CTF%22%20writeup')",
+    "name": "Cyber Carnival - CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Lumiere%20CTF%22%20writeup')",
+    "name": "Lumiere CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CrypT_Find%20CTF%22%20writeup')",
+    "name": "CrypT_Find CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CyberStarters%20Conference%20CTF%22%20writeup')",
+    "name": "CyberStarters Conference CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Cyber%20Crew%20CTF%22%20writeup')",
+    "name": "Cyber Crew CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22brkn%20network%22%20writeup')",
+    "name": "brkn network"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22PvIB%20CTF%22%20writeup')",
+    "name": "PvIB CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CVECTF%22%20writeup')",
+    "name": "CVECTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Sudocrypt%20v14.0%22%20writeup')",
+    "name": "Sudocrypt v14.0"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CAPTURE%20THE%20FLAG%20-%20NATIONAL%20EDITION%22%20writeup')",
+    "name": "CAPTURE THE FLAG - NATIONAL EDITION"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22BSides%20Fargo%20CTF%22%20writeup')",
+    "name": "BSides Fargo CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22SMCTF%22%20writeup')",
+    "name": "SMCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Xpand%20CTF%22%20writeup')",
+    "name": "Xpand CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22BSidesJAX%20CTF%22%20writeup')",
+    "name": "BSidesJAX CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Prism%20CTF%22%20writeup')",
+    "name": "Prism CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22OnegoCTF%22%20writeup')",
+    "name": "OnegoCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Scythe%20CTF%22%20writeup')",
+    "name": "Scythe CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Hackers%20and%20Hops%22%20writeup')",
+    "name": "Hackers and Hops"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Swiss%20Hacking%20Challenge%20Qualifier%22%20writeup')",
+    "name": "Swiss Hacking Challenge Qualifier"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22pwnEd%206%22%20writeup')",
+    "name": "pwnEd 6"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Virtual%20World%20CTF%22%20writeup')",
+    "name": "Virtual World CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CTF%20Dagestan%20Cup%22%20writeup')",
+    "name": "CTF Dagestan Cup"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22ABR_CTF%22%20writeup')",
+    "name": "ABR_CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Legium%20Festival%20-%20CTF%22%20writeup')",
+    "name": "Legium Festival - CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22PwnSecCTF%20OLD_LEGACY_TEST%22%20writeup')",
+    "name": "PwnSecCTF OLD_LEGACY_TEST"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Die%20Abenteuer%20von%20KIM%20%26%20TIM%20Kapt.%20II%20-%20To%20TI-Mfinity%20and%20Beyond%22%20writeup')",
+    "name": "Die Abenteuer von KIM & TIM Kapt. II - To TI-Mfinity and Beyond"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CyGenixCTF%22%20writeup')",
+    "name": "CyGenixCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22TQL%20CTF%22%20writeup')",
+    "name": "TQL CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CaspianCTF%22%20writeup')",
+    "name": "CaspianCTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Sudocrypt%20v15.0%22%20writeup')",
+    "name": "Sudocrypt v15.0"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22Xenon%20CTF%22%20writeup')",
+    "name": "Xenon CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22BSidesPDX%20CTF%22%20writeup')",
+    "name": "BSidesPDX CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CarolinaCon%20Online%20CTF%22%20writeup')",
+    "name": "CarolinaCon Online CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22ETH%20Escape%22%20writeup')",
+    "name": "ETH Escape"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22HackOline%20International%20Security%20Conference%22%20writeup')",
+    "name": "HackOline International Security Conference"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CTE%20Le%20Principe%20de%20Locard%22%20writeup')",
+    "name": "CTE Le Principe de Locard"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22DataCon%20CTF%22%20writeup')",
+    "name": "DataCon CTF"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22CTF%20Inter%20Campus%20Ynov%22%20writeup')",
+    "name": "CTF Inter Campus Ynov"
+  },
+  {
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://html.duckduckgo.com/html/?q=%22DFIR212%20CFE%22%20writeup')",
+    "name": "DFIR212 CFE"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22CtrlAlt%20BSIDES%20Basingstoke%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde69822a50>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "CtrlAlt BSIDES Basingstoke CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22CtrlAlt%20BSIDES%20Bournemouth%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691b8410>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "CtrlAlt BSIDES Bournemouth CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Hunters%20Games%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691b8cd0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Hunters Games CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Curio%D1%95ity%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691b8f50>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Curio\u0455ity CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Dino%27s%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde69d09e50>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Dino's CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Cyber%20Breaker%20Competition%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bfed0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Cyber Breaker Competition"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22c0c0n%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bf610>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "c0c0n CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Nothing2CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bfb10>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Nothing2CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Ph4z%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bf110>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Ph4z CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22CUCyberSec%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bf390>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "CUCyberSec"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22LiU%20November%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697be990>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "LiU November CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22HackInFest%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bec10>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "HackInFest"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22UAC%20CTF%20Volume%203%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697befd0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "UAC CTF Volume 3"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22ciberNUsoid%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f4050>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "ciberNUsoid CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22National%20CTF%20by%20HackenProof%20in%20support%20of%20DIU%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f42d0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "National CTF by HackenProof in support of DIU"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22WUST%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f4550>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "WUST CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Reverse%20Engineering%2C%20Malware%20Analysis%20%2B%20Forensics%2C%20Cryptography%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f47d0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Reverse Engineering, Malware Analysis + Forensics, Cryptography"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Bugs%20B0unt3r%20OSINT%20Edition%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f4a50>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Bugs B0unt3r OSINT Edition"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22BSides%20Agra%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f4cd0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "BSides Agra CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22XMIRAGE%20QUALS%202026%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f4f50>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "XMIRAGE QUALS 2026"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22HackTheArt%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f51d0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "HackTheArt CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Digital%20Cyberhunt%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde69d09e50>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Digital Cyberhunt CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Tesla%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bed50>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Tesla CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Data%20Privacy%20Day%20Challenge%20by%20OCOI%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bee90>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Data Privacy Day Challenge by OCOI"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22CyberTron%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bead0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "CyberTron CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Cyber%20Knight%202.0%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bf4d0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Cyber Knight 2.0"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22EveryOneButTheGirl%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bf750>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "EveryOneButTheGirl"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Techgyanathon%3A%20Capture%20The%20Flag%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bf250>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Techgyanathon: Capture The Flag"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Heroes%20of%20the%20Codex%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bf890>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Heroes of the Codex"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Ph0wnCTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bfd90>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Ph0wnCTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22%5BBUG%20BOUNTY%2C%20NOT%20A%20CTF.%20TO%20BE%20DELETED%5D%20Westgate%20Data%20Science%20Sec%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f4050>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "[BUG BOUNTY, NOT A CTF. TO BE DELETED] Westgate Data Science Sec"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Westgate%20Data%20Science%20Security%20Research%20Program%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f42d0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Westgate Data Science Security Research Program"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22%5BFIX%3A%20WEBSITE%20DOWN%5D%200xGame%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f4550>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "[FIX: WEBSITE DOWN] 0xGame"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Glitch%20A/D%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f47d0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Glitch A/D"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Sudo%20Override%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f4a50>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Sudo Override"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Capture%20The%20Flame%20-%20UIC%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f4cd0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Capture The Flame - UIC"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22WGDS%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f4f50>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "WGDS CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22H-T8%20CTF%20Gathering%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f51d0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "H-T8 CTF Gathering"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22%5BFIX%3A%20WEBSITE%20DOWN%5D%20Chaitanya%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde69d09e50>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "[FIX: WEBSITE DOWN] Chaitanya CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22ELECTRON%202K26%20%E2%80%93%20Online%20CTF%20Competition%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bfc50>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "ELECTRON 2K26 \u2013 Online CTF Competition"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Muddy%20Trail%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bfed0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Muddy Trail"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22%5BCREATE%20AN%20EVENT.%20YOU%20ALREADY%20HAVE%20THIS%20SERIES%5DHackPack%20CTF%202026%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bf610>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "[CREATE AN EVENT. YOU ALREADY HAVE THIS SERIES]HackPack CTF 2026"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22BunkyoWesternsCTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bfb10>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "BunkyoWesternsCTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22The%20Knights%20of%20the%20Fury%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bf110>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "The Knights of the Fury"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22HACK%20KAP%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bf390>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "HACK KAP CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22idktfCTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697be990>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "idktfCTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Operation%20Heist%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde697bec10>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Operation Heist"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Thryve%20CTF%202026%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f4050>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "Thryve CTF 2026"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22CTF%20Cybersup%20x%20Root-Me%20Pro%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f42d0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "CTF Cybersup x Root-Me Pro"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22HACK%20THE%20SHIELDS%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f4550>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "HACK THE SHIELDS"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22WatchList%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f47d0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "WatchList CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22HackHowl%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f4a50>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "HackHowl"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%221st%20KISIA%20CTF%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f4cd0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "1st KISIA CTF"
+  },
+  {
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22ingenius02%22%20writeup (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7fde691f4f50>, 'Connection to html.duckduckgo.com timed out. (connect timeout=6)'))\"))",
+    "name": "ingenius02"
+  }
+]

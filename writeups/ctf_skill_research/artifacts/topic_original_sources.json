@@ -1,0 +1,1162 @@
+{
+  "crypto-aes-block": [
+    {
+      "ctftime": "https://ctftime.org/writeup/36012",
+      "event": "SECCON CTF 2022 Quals",
+      "original": "https://imp.ress.me/blog/2022-11-13/seccon-ctf-2022/#witches-symmetric-exam",
+      "tags": "aes-gcm aes-ofb aes crypto padding-oracle",
+      "task": "witches_symmetric_exam"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/14601",
+      "event": "AceBear Security Contest 2019",
+      "original": "https://github.com/ash47/CTF-WriteUps/blob/master/AceBear%20Security%20Contest%202019/duudududduduud/README.md",
+      "tags": "aes-cbc aes cbc iv cbc-bit-flipping",
+      "task": "duudududduduud"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/14600",
+      "event": "AceBear Security Contest 2019",
+      "original": "https://github.com/ash47/CTF-WriteUps/blob/master/AceBear%20Security%20Contest%202019/md5Converter/README.md",
+      "tags": "aes-cbc aes cbc cbc-bit-flipping",
+      "task": "md5Converter"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/7487",
+      "event": "SEC-T CTF",
+      "original": "https://pequalsnp-team.github.io/writeups/Bad-Aes",
+      "tags": "aes aes-cbc sbox",
+      "task": "Bad AES"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/38944",
+      "event": "WolvCTF 2024",
+      "original": "https://nightxade.github.io/ctf-writeups/writeups/2024/Wolv-CTF-2024/crypto/blocked-1.html",
+      "tags": "aes-cbc aes crypto oracle",
+      "task": "Blocked1"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/38840",
+      "event": "WolvCTF 2024",
+      "original": "https://github.com/C0d3-Bre4k3rs/WolvCTF2024-Writeups/tree/main/tag-series-2",
+      "tags": "pwntools aes-cbc aes crypto",
+      "task": "TagSeries2"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/36092",
+      "event": "Insomni'hack teaser 2023",
+      "original": "https://sylvainpelissier.gitlab.io/posts/2023-01-12-insomnihackteaser23-gcm/",
+      "tags": "aes-gcm nonce-reuse",
+      "task": "GCM"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/33613",
+      "event": "PatriotCTF",
+      "original": "https://github.com/NihilistPenguin/PatriotCTF2022-Writeups/blob/main/Crypto/ComicallyBadCrypto.md",
+      "tags": "padding bit-flipping cookie aes-cbc",
+      "task": "Comically Bad Crypto"
+    }
+  ],
+  "crypto-rsa": [
+    {
+      "ctftime": "https://ctftime.org/writeup/28162",
+      "event": "picoCTF 2021",
+      "original": "https://github.com/ZeroDayTea/PicoCTF-2021-Killer-Queen-Writeups/blob/main/Cryptography/ItsNotMyFault1.md",
+      "tags": "rsa-crypto polynomial crypto cryptography-rsa rsa crt rsa-crt polynomials",
+      "task": "It's Not My Fault 1"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/38347",
+      "event": "BackdoorCTF 2023",
+      "original": "https://sakibulalikhan.medium.com/backdoorctf-2023-mini-rsa-challenge-writeup-937984bd1e58",
+      "tags": "mini_rsa crypto cryptography-rsa",
+      "task": "Beginner/mini_RSA"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/33820",
+      "event": "TJCTF 2022",
+      "original": "https://youtu.be/Vu4YMD7bQ5k",
+      "tags": "cryptography rsa-apprentice rsa",
+      "task": "rsa-apprentice"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/32709",
+      "event": "Wolverine Security Conference/CTF",
+      "original": "https://github.com/dreeSec/WolvSec-CTF-2022-Writeups/blob/main/Crypto/RSA%20Frustration/RSA%20Frustration.md",
+      "tags": "sagemath rsa-crt rsa sage chinese-reminder primes",
+      "task": "RSA Frustration"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/32677",
+      "event": "Wolverine Security Conference/CTF",
+      "original": "https://serioton.notion.site/Crypto-c163a23147c54e189fa0fd22f515e339",
+      "tags": "wienersattack rsa",
+      "task": "RSA With The Dogs"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/30675",
+      "event": "DeconstruCT.F 2021",
+      "original": "https://c12yptonic.github.io/ctf-writeups/ctfs/deconstructf21#rsa-3-",
+      "tags": "rsactftool crypto rsa-crypto",
+      "task": "RSA - 3"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/27570",
+      "event": "PlaidCTF 2021",
+      "original": "https://uss.informatik.uni-ulm.de/2021/04/Writeup-of-Xorsa-from-PlaidCTF-2021/",
+      "tags": "rsa crypto rsa-crypto python",
+      "task": "xorsa"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/26829",
+      "event": "UMassCTF 2021",
+      "original": "https://n00bcak.github.io/writeups/2021/03/27/UMass-CTF.html",
+      "tags": "rsa-like crypto lucrsa",
+      "task": "Weird RSA"
+    }
+  ],
+  "crypto-xor-stream": [
+    {
+      "ctftime": "https://ctftime.org/writeup/34170",
+      "event": "n00bzCTF 2022",
+      "original": "https://0xchrollo.github.io/articles/n00bz_ctf_reverse_writeups/",
+      "tags": "",
+      "task": "xorxorxor"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/39824",
+      "event": "KnightCTF 2025",
+      "original": "https://en.wikipedia.org/wiki/RSA_(cryptosystem)",
+      "tags": "2025 knightctf adleman kingctf xor rsa ctf",
+      "task": "RandomseniorAdleman"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/39137",
+      "event": "UrchinSec Tanzania National CTF MMXXIV",
+      "original": "https://www.youtube.com/watch?v=j_PXf2DWDVk",
+      "tags": "cryptography xor",
+      "task": "Simple XOR"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/38268",
+      "event": "TSG CTF 2023",
+      "original": "https://hackmd.io/@jj1dzqGjTTGdLiMP-A-F2A/Skk3yJSma#cry-RANDOM-SEED-RANDOM",
+      "tags": "",
+      "task": "RANDOM SEED RANDOM"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/38169",
+      "event": "TSG CTF 2023",
+      "original": "https://chocorusk.hatenablog.com/entry/2023/11/11/035738#crypto-RANDOM-SEED-RANDOM",
+      "tags": "",
+      "task": "RANDOM SEED RANDOM"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/37178",
+      "event": "HSCTF 10",
+      "original": "https://medium.com/@laithxl_79681/hsctf-2023-spring-challenge-823d78d41fc2",
+      "tags": "rng random crypto xor",
+      "task": "spring"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/36993",
+      "event": "PwnMe Qualifications : \"8 bits\"",
+      "original": "https://siunam321.github.io/ctf/PwnMe-2023-8-bits/Reverse/Xoxor/",
+      "tags": "xor",
+      "task": "Xoxor"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/36034",
+      "event": "RCTF 2022",
+      "original": "https://github.com/pcw109550/write-up/tree/master/2022/RCTF/IS_THIS_LCG",
+      "tags": "lcg crypto lll",
+      "task": "IS_THIS_LCG?"
+    }
+  ],
+  "forensics-memory": [
+    {
+      "ctftime": "https://ctftime.org/writeup/32569",
+      "event": "Pragyan CTF 2022",
+      "original": "https://iamtejas.tech/posts/writeup/ctf/pragyanctf/",
+      "tags": "memory_dump memorydump volatility",
+      "task": "Frank's Little Beauty"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/23192",
+      "event": "FwordCTF 2020",
+      "original": "https://hec-ker.tistory.com/191",
+      "tags": "memory forensic volatility",
+      "task": "Memory"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/23193",
+      "event": "FwordCTF 2020",
+      "original": "https://hec-ker.tistory.com/194",
+      "tags": "memory forensic volatility",
+      "task": "Memory 2"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/23197",
+      "event": "FwordCTF 2020",
+      "original": "https://github.com/volatilityfoundation/volatility",
+      "tags": "memory_dump forensics registry volatility",
+      "task": "Memory 4"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/23198",
+      "event": "FwordCTF 2020",
+      "original": "http://vol.py",
+      "tags": "memory_dump forensics volatility gimp paint",
+      "task": "Memory 5"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/22292",
+      "event": "rgbCTF 2020",
+      "original": "https://github.com/spitfirerxf/rgbCTF2020/blob/master/NameaMoreIconicBand",
+      "tags": "md5 volatility forensics memory_dump memory",
+      "task": "Name a more iconic band"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/16639",
+      "event": "InCTF 2019",
+      "original": "https://blog.bi0s.in/2019/09/24/Forensics/InCTFi19-JustDoIt/",
+      "tags": "volatility forensics memory_dump memory",
+      "task": "Just Do It"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/16638",
+      "event": "InCTF 2019",
+      "original": "https://blog.bi0s.in/2019/09/24/Forensics/InCTFi19-NotchItUp/",
+      "tags": "memdump volatility forensics memory_dump memory",
+      "task": "Notch It Up"
+    }
+  ],
+  "forensics-pcap": [
+    {
+      "ctftime": "https://ctftime.org/writeup/29547",
+      "event": "Block CTF 2017",
+      "original": "https://codingmace.gitbook.io/masterward/ctf/2017/square-2017#the-robots-grandmother",
+      "tags": "pcap pcapng network",
+      "task": "The Robots Grandmother"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/29092",
+      "event": "BSides Delhi CTF 2018",
+      "original": "https://a3x3k.medium.com/fuzzy-a6a82cdb6fc",
+      "tags": "pgp steganography network wireshark networking forensic+crypto bsides forensics ctf",
+      "task": "FuzzY"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/28994",
+      "event": "BSides Algiers 2021 Quals",
+      "original": "https://a3x3k.medium.com/its-my-pal-it-s-my-pal-e779d9b3e214",
+      "tags": "network wireshark networking scapy ctf2021 bsides forensics ctf",
+      "task": "It's Complicated My Pal"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/28993",
+      "event": "BSides San Francisco CTF",
+      "original": "https://a3x3k.medium.com/dnscap-f844130b9a4f",
+      "tags": "ctf_writeup forensic network wireshark networking ctf2018 forensics",
+      "task": "dnscap"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/28992",
+      "event": "InCTF 2018",
+      "original": "https://a3x3k.medium.com/biz44e-96810e9b2e3e",
+      "tags": "ctf_writeup network wireshark networking inctf ctf2018 forensics",
+      "task": "Biz44re"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/28054",
+      "event": "UMDCTF 2021",
+      "original": "https://rainbowpigeon.netlify.app/posts/umdctf-2021/#johns-return",
+      "tags": "bruteforce pcapng wireshark network hashcat",
+      "task": "John's Return"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/19849",
+      "event": "DawgCTF 2020",
+      "original": "https://github.com/m3ssap0/CTF-Writeups/blob/master/DawgCTF%202020/In%20ctrl%20%2B%20Percival%20PCAP%20Pandemonium/README.md",
+      "tags": "pcap networking",
+      "task": "Percival PCAP Pandemonium Part 1"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/5300",
+      "event": "Insomni'hack teaser 2017",
+      "original": "https://github.com/p4-team/ctf/tree/master/2017-01-21-insomnihack/the_great_escape1",
+      "tags": "pcap networkminer ssl wireshark",
+      "task": "The Great Escape part-1"
+    }
+  ],
+  "forensics-stego": [
+    {
+      "ctftime": "https://ctftime.org/writeup/3422",
+      "event": "TJCTF 2016",
+      "original": "http://countersite.org/articles/steganography/97-grey-shades-tjctf2016.html",
+      "tags": "stegano pil stego steganography image python",
+      "task": "Basic Images"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/1516",
+      "event": "PoliCTF 2015",
+      "original": "https://fadec0d3.blogspot.com/2015/07/polictf-2015-john-in-middle-100.html",
+      "tags": "steganography pcap image stego image proccessing forensics",
+      "task": "john-in-the-middle"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/19109",
+      "event": "riftCTF",
+      "original": "https://github.com/joeyjon123/riftCTF/wiki/Stego-0x001",
+      "tags": "steganography image strings stego",
+      "task": "Stegano 0x0001"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/13233",
+      "event": "Quals: Saudi and Oman National Cyber Security CTF",
+      "original": "https://github.com/m3ssap0/CTF-Writeups/blob/master/Quals%20Saudi%20and%20Oman%20National%20Cyber%20Security%20CTF%202019/I%20love%20images/README.md",
+      "tags": "stegano steganography stegno stego",
+      "task": "I love images"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/40178",
+      "event": "CTF@CIT 2025",
+      "original": "https://www.youtube.com/watch?v=MVjnbpCJwPA&list=PL1ovUE8_GEJDweKOwgWR88AJNYaeTGvL5&index=29",
+      "tags": "steganography",
+      "task": "Blank Image"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/39145",
+      "event": "b01lers CTF 2024",
+      "original": "https://jwt.io/",
+      "tags": "web image",
+      "task": "imagehost"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/34647",
+      "event": "Lexington Informatics Tournament CTF 2022",
+      "original": "https://fotoforensics.com/",
+      "tags": "images forensics photo image metadata",
+      "task": "misc/CodeTiger orz Is Meta"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/33816",
+      "event": "TJCTF 2022",
+      "original": "https://github.com/alright21/TJCTF-2022/blob/main/cool-school/writeup.md",
+      "tags": "steganography images rgb",
+      "task": "cool-school"
+    }
+  ],
+  "misc-jail": [
+    {
+      "ctftime": "https://ctftime.org/writeup/38448",
+      "event": "UofTCTF 2024",
+      "original": "https://nightxade.github.io/ctf-writeups/writeups/2024/UofT-CTF-2024/jail/babys-first-pyjail.html",
+      "tags": "jail blacklist pyjail",
+      "task": "Baby's First Pyjail"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/25816",
+      "event": "0x41414141 CTF",
+      "original": "https://i.ibb.co/FwDFj2w/Screenshot-2.jpg",
+      "tags": "python pyjail jail",
+      "task": "pyjail"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/23170",
+      "event": "FwordCTF 2020",
+      "original": "https://github.com/FrigidSec/CTFWriteups/tree/master/FwordCTF/Bash/JailBoss",
+      "tags": "jailbreak rbash jail bash",
+      "task": "JailBoss"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/37010",
+      "event": "HeroCTF v5",
+      "original": "https://siunam321.github.io/ctf/HeroCTF-v5/Misc/PyJail/",
+      "tags": "pyjail",
+      "task": "Pyjail"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/33720",
+      "event": "San Diego CTF 2022",
+      "original": "https://vk.com/mirea_devops",
+      "tags": "rbash linux jail bash",
+      "task": "Rbash Yet Another Calculator"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/23298",
+      "event": "ALLES! CTF 2020",
+      "original": "http://pyjail.py",
+      "tags": "sandbox pyjail",
+      "task": "Pyjail Escape"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/19854",
+      "event": "DawgCTF 2020",
+      "original": "https://github.com/m3ssap0/CTF-Writeups/blob/master/DawgCTF%202020/Nash2/README.md",
+      "tags": "bash bash_jail jail pwn",
+      "task": "Nash2"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/955",
+      "event": "PHD CTF Quals 2014",
+      "original": "http://delimitry.blogspot.ru/2014/01/phdays-ctf-quals-2014-yet-another.html",
+      "tags": "python sandbox pyjail",
+      "task": "yet another pyjail"
+    }
+  ],
+  "misc-z3": [
+    {
+      "ctftime": "https://ctftime.org/writeup/26412",
+      "event": "DaVinciCTF 2021",
+      "original": "https://drive.google.com/file/d/1tfOngteNWPm7EOaL2xv6-E1byCVgVv1I/view?usp=sharing",
+      "tags": "cryptography z340 crypto",
+      "task": "Z340 but not 340"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/20617",
+      "event": "SharkyCTF",
+      "original": "https://cesena.github.io/2020/05/13/z3-robot/",
+      "tags": "z3 angr reverse",
+      "task": "z3_robot"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/20524",
+      "event": "SharkyCTF",
+      "original": "http://taqini.space/2020/05/11/Sharky-CTF-2020-pwn-wp/#z3-robot-189pt",
+      "tags": "z3 re",
+      "task": "z3_robot"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/13611",
+      "event": "TAMUctf 19",
+      "original": "https://0xswitch.fr/CTF/tamuctf-2019-cr4ckz33c0d3",
+      "tags": "z3 reverse",
+      "task": "Cr4ckZ33C0d3"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/7392",
+      "event": "Tokyo Westerns CTF 3rd 2017",
+      "original": "https://github.com/p4-team/ctf/tree/master/2017-09-02-tokyo/crypto_simple",
+      "tags": "z3 constraint",
+      "task": "My Simple Cipher"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/39709",
+      "event": "TSG CTF 2024",
+      "original": "https://ouuan.moe/post/2024/12/tsgctf-2024-web#cipher-preset-button-19-solves",
+      "tags": "javascript web random injection html z3",
+      "task": "Cipher Preset Button"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/39586",
+      "event": "Z3R0 D4Y CTF",
+      "original": "https://github.com/BogusForlorn/CTF_Writeups/blob/main/Z3R0%20D4Y%20CTF/Forensics/What%20type%20of%20image.md",
+      "tags": "",
+      "task": "What type of image"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/39585",
+      "event": "Z3R0 D4Y CTF",
+      "original": "https://github.com/BogusForlorn/CTF_Writeups/blob/main/Z3R0%20D4Y%20CTF/Forensics/dot%20dot%20everywhere.md",
+      "tags": "",
+      "task": "dot dot everywhere"
+    }
+  ],
+  "mobile-android": [
+    {
+      "ctftime": "https://ctftime.org/writeup/40784",
+      "event": "BKISC CTF 2026",
+      "original": "https://cybersecurityelite.com/ctf-writeups/bkisc-ctf-2026-boring-apk/",
+      "tags": "phone mobile bkiscctf apk reverse android",
+      "task": "Boring APK"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/34264",
+      "event": "Grey Cat The Flag 2022",
+      "original": "https://rainbowpigeon.me/posts/grey-cat-the-flag-qualifiers-2022/#-memory-game-part-1",
+      "tags": "reverse-engineering re apktool reverseengineering reversing reverse_engineering apk android",
+      "task": "Memory Game (Part 1)"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/24341",
+      "event": "Hack.lu CTF 2020",
+      "original": "https://github.com/klassiker/ctf-writeups/blob/master/2020/hacklu/flagdroid.md",
+      "tags": "reverse-engineering dalvik-bytecode apktool hashing base64 apk android",
+      "task": "flagdroid"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/23339",
+      "event": "Google Capture The Flag 2020",
+      "original": "https://github.com/NicolaiSoeborg/ctf-writeups/tree/master/2020/Google%20CTF%202020/Android",
+      "tags": "jadx apk android",
+      "task": "android"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/3394",
+      "event": "SECCON 2015 Online CTF",
+      "original": "http://www.repo.kr/2015/12/seccon-2015-ctf-reverse-engineering_17.html",
+      "tags": "android",
+      "task": "Reverse-Engineering Android APK 2 (Unknown, 400p)"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/2220",
+      "event": "SECCON 2015 Online CTF",
+      "original": "http://0xecute.com/index.php/2015/12/07/54/",
+      "tags": "xposed android",
+      "task": "Reverse-Engineering Android APK 1"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/34265",
+      "event": "Grey Cat The Flag 2022",
+      "original": "https://rainbowpigeon.me/posts/grey-cat-the-flag-qualifiers-2022/#-memory-game-part-2",
+      "tags": "reverse-engineering re java reverseengineering reversing reverse_engineering apk android",
+      "task": "Memory Game (Part 2)"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/33698",
+      "event": "NahamCon CTF 2022",
+      "original": "https://nburns.tech/docs/CTFs/NahamCon_2022/Mobile/Click_me",
+      "tags": "mobile apktools apk mobile_reverse",
+      "task": "Click Me!"
+    }
+  ],
+  "pwn-format-string": [
+    {
+      "ctftime": "https://ctftime.org/writeup/39399",
+      "event": "corCTF 2024",
+      "original": "https://sashactf.gitbook.io/pwn-notes/ctf-writeups/cor-ctf-2024/format-string",
+      "tags": "formatstring",
+      "task": "format-string"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/38258",
+      "event": "1337UP LIVE CTF",
+      "original": "https://cryptocat.me/blog/ctf/2023/intigriti/pwn/floormat_store/",
+      "tags": "format-string pwn format",
+      "task": "Floor Mat Store"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/37720",
+      "event": "Lexington Informatics Tournament CTF 2023",
+      "original": "https://eth007.me/blog/ctf/stiller-printf/",
+      "tags": "format-string fmtstr pwn",
+      "task": "stiller printf"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/34310",
+      "event": "Access Denied CTF 2022",
+      "original": "https://github.com/GonTanaka/CTF-Writeups/tree/main/access_denied2022/pwn/format",
+      "tags": "format-string pwn",
+      "task": "Format"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/31708",
+      "event": "MetaCTF CyberGames 2021",
+      "original": "https://github.com/nobodyisnobody/write-ups/tree/main/MetaCtf.2021/pwn/Simple.Format.Returned",
+      "tags": "format-string",
+      "task": "Simple Format Returned"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/29749",
+      "event": "ImaginaryCTF 2021",
+      "original": "https://github.com/Pynard/writeups/blob/main/2021/IMAGINARYCTF/challenges/formatting.md",
+      "tags": "format-string",
+      "task": "Formatting"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/28455",
+      "event": "DCTF 2021",
+      "original": "https://github.com/datajerk/ctf-write-ups/tree/master/dctf2021/formats_last_theorem",
+      "tags": "format-string malloc pwn write-what-where",
+      "task": "formats_last_theorem"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/28420",
+      "event": "DCTF 2021",
+      "original": "https://github.com/acdwas/ctf/blob/master/2021/DCTF/pwn/formats_last_theorem/formats_last_theorem.py",
+      "tags": "pwn format-string",
+      "task": "formats_last_theorem"
+    }
+  ],
+  "pwn-heap": [
+    {
+      "ctftime": "https://ctftime.org/writeup/13280",
+      "event": "ASIS CTF Finals 2018",
+      "original": "https://github.com/sajjadium/ctf-writeups/tree/master/AsisCTFFinal/2018/asvdb",
+      "tags": "heap tcache uaf use-after-free doublefree __free_hook tcache-poisoning tcache-dup fake_chunk",
+      "task": "ASVDB"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/14999",
+      "event": "HITCON CTF 2018",
+      "original": "https://github.com/sajjadium/ctf-writeups/tree/master/HITCON/2018/children_tcache",
+      "tags": "heap tcache one_gadget off-by-one doublefree tcache-poisoning tcache-dup fake_chunk",
+      "task": "Children Tcache"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/14998",
+      "event": "BSides Delhi CTF 2018",
+      "original": "https://github.com/sajjadium/ctf-writeups/tree/master/BSidesDelhi/2018/data_bank",
+      "tags": "heap aslr tcache uaf use-after-free tcache-poisoning fake_chunk",
+      "task": "data_bank"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/11929",
+      "event": "HITCON CTF 2018",
+      "original": "https://github.com/tq2ctf/writeups/tree/master/2018/2018_10_20_HITCON/children_tcache",
+      "tags": "null-byte-poisoning malloc tcache heap-overflow",
+      "task": "Children Tcache"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/34827",
+      "event": "corCTF 2022",
+      "original": "https://ret2school.github.io/post/cshell2/",
+      "tags": "heap heap-overflow tcache-poisoning",
+      "task": "cshell2"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/33658",
+      "event": "\u00e5ngstromCTF 2022",
+      "original": "https://github.com/TomasGlgg/CTF-Writeups/blob/master/angstromCTF%202022/dreams/Writeup.md",
+      "tags": "pwntools use-after-free pwn heap tcache-poisoning",
+      "task": "dreams"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/31081",
+      "event": "ASIS CTF Quals 2021",
+      "original": "http://log.info",
+      "tags": "tcache-poisoning heap pwn arbitrary-write __malloc_hook",
+      "task": "StrVec"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/30569",
+      "event": "DownUnderCTF 2021 (Online)",
+      "original": "https://i.imgur.com/7SClAyg.png",
+      "tags": "tcache-poisoning heap tcache_perthread_struct",
+      "task": "DUCTFnote"
+    }
+  ],
+  "pwn-kernel": [
+    {
+      "ctftime": "https://ctftime.org/writeup/17049",
+      "event": "Hack.lu CTF 2019",
+      "original": "https://www.s1r1us.ninja/2019/10/hacklu-ctf-2019-writeups.html#babykernel",
+      "tags": "kernel kernel-module",
+      "task": "Baby Kernel 2"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/40357",
+      "event": "UIUCTF 2025",
+      "original": "https://razvan.sh/writeups/baby-kernel-uiuctf/",
+      "tags": "kernel pwn",
+      "task": "Baby Kernel"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/27853",
+      "event": "HeroCTF v3",
+      "original": "https://github.com/anuragnitt/CTF-Writeups/tree/master/HeroCTF%20v3/Kernel/Kernel%20Module%201",
+      "tags": "kernel linux",
+      "task": "Kernel Module #1"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/27861",
+      "event": "HeroCTF v3",
+      "original": "https://github.com/anuragnitt/CTF-Writeups/tree/master/HeroCTF%20v3/Kernel/Kernel%20Module%202",
+      "tags": "linux kernel-module",
+      "task": "Kernel module #2"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/27862",
+      "event": "HeroCTF v3",
+      "original": "https://github.com/anuragnitt/CTF-Writeups/tree/master/HeroCTF%20v3/Kernel/Kernel%20Module%203",
+      "tags": "linux kernel-module",
+      "task": "Kernel module #3"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/22611",
+      "event": "UIUCTF 2020",
+      "original": "https://deric.gitbook.io/ctf-writeups/uiuctf-2020/kernel-exploitation/kernel-time_to_start",
+      "tags": "kernel",
+      "task": "Kernel::Time_To_Start"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/17465",
+      "event": "Hack.lu CTF 2019",
+      "original": "https://xarkes.com/b/hacklu-2019-babykernel-wu.html",
+      "tags": "radare2 kernel pwn reverse-engineering",
+      "task": "Baby Kernel 2"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/17037",
+      "event": "Hack.lu CTF 2019",
+      "original": "https://twitter.com/javierprtd",
+      "tags": "pwn kernel",
+      "task": "Baby Kernel 2"
+    }
+  ],
+  "pwn-rop-ret2libc": [
+    {
+      "ctftime": "https://ctftime.org/writeup/28459",
+      "event": "DCTF 2021",
+      "original": "https://github.com/datajerk/ctf-write-ups/tree/master/dctf2021/baby_bof",
+      "tags": "bof ret2libc pwn rop",
+      "task": "Baby bof"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/28164",
+      "event": "Cyber Apocalypse 2021",
+      "original": "https://github.com/evyatar9/Writeups/tree/master/CTFs/2021-CTF_HackTheBox/Cyber_Apocalypse_2021/Pwn-System_dROP",
+      "tags": "hacktehbox system_drop ret2libc htb ghidra srop pwn",
+      "task": "System dROP"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/23812",
+      "event": "DarkCTF",
+      "original": "https://github.com/datajerk/ctf-write-ups/tree/master/darkctf2020/roprop",
+      "tags": "bof pwn rop",
+      "task": "roprop"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/23787",
+      "event": "DarkCTF",
+      "original": "https://github.com/FreezeLuiz/CTF-Writeups/blob/master/pwn/darkctf2020-roprop.md",
+      "tags": "pwn ropchain rop",
+      "task": "roprop"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/15364",
+      "event": "Harekaze CTF 2019",
+      "original": "https://gist.github.com/swt02026/a3cc69ff27f78e8d6fe25058dd91615c",
+      "tags": "ropchain rop pwntools one_gadget leak ret2libc",
+      "task": "Baby ROP 2"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/34304",
+      "event": "Access Denied CTF 2022",
+      "original": "https://github.com/tj-oconnor/ctf-writeups/tree/main/access_denied/ret2libc",
+      "tags": "ret2libc pwn autorop",
+      "task": "ret2libc"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/32280",
+      "event": "DiceCTF 2022",
+      "original": "https://0xten.gitbook.io/public/dice-ctf/2022/babyrop",
+      "tags": "glibc heap dicectf babyrop rop 2022 pwn",
+      "task": "babyrop"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/31804",
+      "event": "SECCON CTF 2021",
+      "original": "https://github.com/datajerk/ctf-write-ups/tree/master/seccon2021/gosu",
+      "tags": "bof ret2csu pwn rop",
+      "task": "gosu bof"
+    }
+  ],
+  "pwn-shellcode": [
+    {
+      "ctftime": "https://ctftime.org/writeup/39332",
+      "event": "HITCON CTF 2024 Quals",
+      "original": "https://w0y.at/writeup/2024/07/16/hitcon-ctf-2024-quals-seccomp-hell.html",
+      "tags": "pwn sandbox kernel userland ldt seccomp",
+      "task": "Seccomp Hell"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/36932",
+      "event": "TAMUctf 2023",
+      "original": "https://github.com/tj-oconnor/ctf-writeups/tree/main/tamu_ctf_23/contrived-shellcode",
+      "tags": "shellcode pwn",
+      "task": "Contrived Shellcode"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/34500",
+      "event": "Google Capture The Flag 2022",
+      "original": "https://github.com/datajerk/ctf-write-ups/tree/master/googlectf2022/segfault_labyrinth",
+      "tags": "shellcode seccomp pwn",
+      "task": "segfault labyrinth"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/34301",
+      "event": "Access Denied CTF 2022",
+      "original": "https://github.com/tj-oconnor/ctf-writeups/tree/main/access_denied/shellcode",
+      "tags": "shellcode pwn",
+      "task": "shellcode"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/33543",
+      "event": "NahamCon CTF 2022",
+      "original": "https://github.com/datajerk/ctf-write-ups/tree/master/nahamconctf2022/stackless",
+      "tags": "shellcode seccomp pwn",
+      "task": "Stackless"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/32409",
+      "event": "UMDCTF 2022",
+      "original": "https://github.com/datajerk/ctf-write-ups/tree/master/umdctf2022/trace_story",
+      "tags": "shellcode seccomp pwn ptrace",
+      "task": "Tracestory"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/31652",
+      "event": "MetaCTF CyberGames 2021",
+      "original": "https://github.com/nobodyisnobody/write-ups/tree/main/MetaCtf.2021/pwn/Sequential.Shellcode",
+      "tags": "shellcode",
+      "task": "Sequential Shellcode"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/31592",
+      "event": "Dragon CTF 2021",
+      "original": "https://github.com/TheMaccabees/ctf-writeups/blob/master/DragonCTF2021/ShellcodeVerifier/solution/compiler/compiler.c#L21",
+      "tags": "namespace sandbox shellcode",
+      "task": "Shellcode verifier"
+    }
+  ],
+  "web-jwt": [
+    {
+      "ctftime": "https://ctftime.org/writeup/39392",
+      "event": "Lexington Informatics Tournament CTF 2024",
+      "original": "https://youtu.be/OFgmVrguXok",
+      "tags": "burpsuite jwt web",
+      "task": "jwt-1"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/37872",
+      "event": "SekaiCTF 2023",
+      "original": "https://fireshellsecurity.team/sekaictf-frog-waf-and-chunky/#challenge-chunky-16-solves",
+      "tags": "cache-poisoning web request-smuggling jwks-spoofing jwt",
+      "task": "Chunky"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/40817",
+      "event": "Hack\u0905\u0938\u094d\u0924\u094d\u0930",
+      "original": "https://l1nuxkid.gitbook.io/l1nuxkid-docs/ctftime.org-writeups/swag-hack-2026",
+      "tags": "confusion algorithm jwt",
+      "task": "Web - Swag"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/39955",
+      "event": "BITSCTF 2025",
+      "original": "https://mh4ck3r0n3.github.io/posts/2025/02/09/baby-web/",
+      "tags": "web jwt",
+      "task": "Baby Web"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/39358",
+      "event": "UIUCTF 2024",
+      "original": "https://github.com/MicheleMosca/CTF/blob/main/UIUCTF2024/web/Fare%20Evasion/README.md",
+      "tags": "web sqlinjection jwt",
+      "task": "Fare Evasion"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/39296",
+      "event": "UIUCTF 2024",
+      "original": "https://github.com/Samik081/ctf-writeups/blob/master/UIUCTF%202024/web/fare_evasion.md",
+      "tags": "web sqlinjection jwt",
+      "task": "Fare Evasion"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/39284",
+      "event": "UIUCTF 2024",
+      "original": "https://cryptocat.me/blog/ctf/2024/uiu/web/fare_evasion/",
+      "tags": "sqli md5 hash jwt",
+      "task": "Fare Evasion"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/39019",
+      "event": "LINE CTF 2024",
+      "original": "https://adragos.ro/line-ctf-2024/#jalyboy-baby",
+      "tags": "web jwt",
+      "task": "jalyboy-baby"
+    }
+  ],
+  "web-lfi": [
+    {
+      "ctftime": "https://ctftime.org/writeup/40063",
+      "event": "KalmarCTF 2024",
+      "original": "https://github.com/Berry-95/CTF-Writeups/tree/master/KalmarCTF_2024/web/File_Store",
+      "tags": "fileupload web flask-session file_upload",
+      "task": "File Store"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/38916",
+      "event": "HACKFEST'8 QUALS",
+      "original": "https://github.com/raouf-005/Hackfest-2k24-writeup/tree/main/fileplay",
+      "tags": "fsop pwn fileexploit",
+      "task": "fileplay"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/36054",
+      "event": "TetCTF 2023",
+      "original": "https://github.com/RaccoonNinja/TetCTF-2023-Writeups/blob/main/GIFT%20%5Bunsolved%5D.md",
+      "tags": "proc local_file_inclusion phpsession express sqlinjection type-juggling file_path_traversal path-traversal",
+      "task": "GIFT"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/29096",
+      "event": "TAMUctf 2021",
+      "original": "https://neptunian.medium.com/tamuctf-2021-rust-app-lfi-to-memory-b72cda02cbb1",
+      "tags": "web linux rust lfi memory_dump",
+      "task": "delfi"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/21650",
+      "event": "Zh3r0 CTF",
+      "original": "https://github.com/csivitu/CTF-Write-ups/tree/master/Zh3r0%20CTF/Web/Google%20Source%20Code",
+      "tags": "local_file_inclusion web php lfi",
+      "task": "Google Source Code"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/21579",
+      "event": "NahamCon CTF",
+      "original": "https://github.com/Fumenoid/Write-ups/blob/master/Nahamcon-CTF/README.md#fake-file",
+      "tags": "chadsec nahamcon fakefile",
+      "task": "Fake File"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/20785",
+      "event": "TJCTF 2020",
+      "original": "https://github.com/gr455/ctf-writeups/blob/master/tjctf20/file_viewer.md",
+      "tags": "rce lfi",
+      "task": "File Viewer"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/20066",
+      "event": "PlaidCTF 2020",
+      "original": "https://github.com/karliss/ctf_writeups/blob/master/2020/PlaidCTF/strcmp/strcmp.md",
+      "tags": "filesystem",
+      "task": "file-system-based strcmp go brrrr"
+    }
+  ],
+  "web-sqli": [
+    {
+      "ctftime": "https://ctftime.org/writeup/19294",
+      "event": "TAMUctf 2020",
+      "original": "https://github.com/m3ssap0/CTF-Writeups/blob/master/TAMUctf%202020/PASSWORD_EXTRACTION/README.md",
+      "tags": "sqlinj blind-sqli sql-injection sqli blindsqli sqlinjection web blind-sql-injection",
+      "task": "Password Extraction"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/8331",
+      "event": "SECCON 2017 Online CTF",
+      "original": "https://hackmd.io/s/S19dfxoWM",
+      "tags": "ssrf crlfinjection wget sqlite sqlinjection blindsqli sqli sql",
+      "task": "SqlSRF"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/24894",
+      "event": "DarkCTF",
+      "original": "https://github.com/m3ssap0/CTF-Writeups/blob/master/DarkCTF%202020/Agent-U/README.md",
+      "tags": "sqli sql-injection web sqlinjection sqlinj",
+      "task": "Agent-U"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/11537",
+      "event": "Hackover CTF 2018",
+      "original": "https://github.com/h18johndoe/user_repository/blob/master/user_repo.rb",
+      "tags": "stalking sql ruby sqlite sqlinjection sqli log git",
+      "task": "who knows john dows?"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/38567",
+      "event": "KnightCTF 2024",
+      "original": "https://colleirose.github.io/influxdb-injection-nosql-injection-knightctf-2024",
+      "tags": "sqli nosql sqlinjection nosql_injection",
+      "task": "Fluxx"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/33462",
+      "event": "NahamCon CTF 2022",
+      "original": "https://github.com/ryan-cd/ctf/tree/master/2022/nahamcon/web/flaskmetal_alchemist",
+      "tags": "sqli web sqlinjection blindsqli",
+      "task": "Flaskmetal Alchemist"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/27701",
+      "event": "Cyber Apocalypse 2021",
+      "original": "https://github.com/evyatar9/Writeups/tree/master/CTFs/2021-CTF_HackTheBox/Cyber_Apocalypse_2021/Web-Wild_Goose_Hunt",
+      "tags": "blindnosqlinjection nosqlinjection wildgoosehunt hackthebox cyberapocalypse2021 injection nosql",
+      "task": "Wild Goose Hunt"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/20322",
+      "event": "Houseplant CTF 2020",
+      "original": "https://github.com/m3ssap0/CTF-Writeups/blob/master/Houseplant%20CTF%202020/I%20don't%20like%20needles/README.md",
+      "tags": "sqli web sqlinjection sqlinj",
+      "task": "I don't like needles"
+    }
+  ],
+  "web-ssrf": [
+    {
+      "ctftime": "https://ctftime.org/writeup/32725",
+      "event": "Wolverine Security Conference/CTF",
+      "original": "https://github.com/sambrow/wolvsec_ctf_2022/",
+      "tags": "ssrf",
+      "task": "SSRF 301"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/28633",
+      "event": "Zh3r0 CTF V2",
+      "original": "https://pocas.kr/2021/06/06/2021-06-05-Zh3r0-2021-CTF/#Web-Baby-SSRF-453-pts",
+      "tags": "ssrf web",
+      "task": "Baby SSRF"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/27854",
+      "event": "HeroCTF v3",
+      "original": "https://github.com/anuragnitt/CTF-Writeups/tree/master/HeroCTF%20v3/Web/0xSSRF",
+      "tags": "ssrf web",
+      "task": "0xSSRF"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/25763",
+      "event": "BambooFox CTF 2021",
+      "original": "https://github.com/sambrow/ctf-writeups-2021/tree/master/bamboo-fox/ssrfrog",
+      "tags": "ssrf waf-bypass",
+      "task": "SSRFrog"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/40690",
+      "event": "Hack for a Change 2026 March: UN SDG 3",
+      "original": "http://health-api.who.int",
+      "tags": "",
+      "task": "Clinical Gateway SSRF"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/40546",
+      "event": "Nullcon Goa HackIM 2026 CTF",
+      "original": "https://ctf.nullcon.net/files/a97ee1e7106cb8b9dd3ae7295b027156/app.py?token=eyJ1c2VyX2lkIjo1MDYyLCJ0ZWFtX2lkIjoyMzEyLCJmaWxlX2lkIjo4NX0.aYqlQg.QxHFy3OO64draQ3zl8nGbohWD1M",
+      "tags": "flask ssrf web session werkzeug",
+      "task": "Meowy"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/40544",
+      "event": "Nullcon Goa HackIM 2026 CTF",
+      "original": "https://ctf.nullcon.net/files/c4944535ed8519aa4b16d6cfac6beb4e/snippet.py?token=eyJ1c2VyX2lkIjo1MDYyLCJ0ZWFtX2lkIjoyMzEyLCJmaWxlX2lkIjo4Nn0.aYqlRQ.cIuvsFUKvT340EmC2uxm8mKmgBU",
+      "tags": "ssrf oracle web weasyprint",
+      "task": "Web 2 Doc 1"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/40111",
+      "event": "Cyber Apocalypse CTF 2025: Tales from Eldoria",
+      "original": "https://mh4ck3r0n3.github.io/posts/2025/03/26/cyber-attack/",
+      "tags": "ssrf web crlf-injection",
+      "task": "Cyber Attack"
+    }
+  ],
+  "web-ssti": [
+    {
+      "ctftime": "https://ctftime.org/writeup/22828",
+      "event": "HacktivityCon CTF",
+      "original": "https://noxtal.com/writeups/2020/08/02/hacktivitycon-template-shack/",
+      "tags": "python3 python ssti hacktivityconctf hacktivityconctf2020 template-injection flask jinja2",
+      "task": "Template Shack"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/36991",
+      "event": "PwnMe Qualifications : \"8 bits\"",
+      "original": "https://siunam321.github.io/ctf/PwnMe-2023-8-bits/Web/Anozer-Blog/",
+      "tags": "class-pollution prototype-pollution server-side-template-injection ssti",
+      "task": "Anozer Blog"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/26318",
+      "event": "darkCON CTF",
+      "original": "https://github.com/m3ssap0/CTF-Writeups/blob/master/DarkCON%20CTF%202021/DMM/README.md",
+      "tags": "ssti web jinja2 python server-side-template-injection",
+      "task": "DMM"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/22765",
+      "event": "HacktivityCon CTF",
+      "original": "https://github.com/Ambrotd/hacktivitycon/blob/master/Template%20Shack/Template%20Shack.md",
+      "tags": "jinja web jinja2 template-injection hacktivityconctf2020",
+      "task": "Template Shack"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/22739",
+      "event": "HacktivityCon CTF",
+      "original": "https://github.com/csivitu/CTF-Write-ups/tree/master/HacktivityCon%20CTF/Web/Template%20Shack",
+      "tags": "ssti web",
+      "task": "Template Shack"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/10966",
+      "event": "TokyoWesterns CTF 4th 2018",
+      "original": "https://medium.com/@Abdelkad3r/tokyowesterns-ctf-4th-2018-writeup-part-3-1c8510dfad3f",
+      "tags": "web ssti template-injection ctf2018 ctf websec",
+      "task": "Shrine"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/7528",
+      "event": "CSAW CTF Qualification Round 2017",
+      "original": "https://teamrocketist.github.io/2017/09/17/Web-CSAW-Shia-Labeouf-off/",
+      "tags": "django templatefilters debugmodeon ssti",
+      "task": "Shia Labeouf-off!"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/40547",
+      "event": "Nullcon Goa HackIM 2026 CTF",
+      "original": "http://solution.py",
+      "tags": "web template-injection path-traversal",
+      "task": "WordPress Static Site Generator"
+    }
+  ],
+  "web-xss": [
+    {
+      "ctftime": "https://ctftime.org/writeup/36130",
+      "event": "DiceCTF 2023",
+      "original": "https://youtu.be/7077pH14-kE",
+      "tags": "csp-bypass crc32 csp xss",
+      "task": "recursive-csp"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/17020",
+      "event": "Hack.lu CTF 2019",
+      "original": "https://gist.github.com/terjanq/fdb23ae109446b826a4b37df88efae07#file-xss_hard-js",
+      "tags": "csp-bypass javascript csp xss data-uri dom-purify",
+      "task": "Do You Even XSS?"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/37115",
+      "event": "justCTF 2023",
+      "original": "https://youtu.be/S_9TPRNPgn0",
+      "tags": "csp-bypass web csp xss node.js nodejs node",
+      "task": "eXtra Safe Security layers"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/36147",
+      "event": "DiceCTF 2023",
+      "original": "https://siunam321.github.io/ctf/DiceCTF-2023/Web/recursive-csp/",
+      "tags": "xss csp-bypass",
+      "task": "recursive-csp"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/26191",
+      "event": "Aero CTF 2021",
+      "original": "https://ctf.0xff.re/2021/aero_ctf_2021/not_received_prize",
+      "tags": "xss csp web jsonp csp-bypass",
+      "task": "Not received prize"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/16445",
+      "event": "CSAW CTF Qualification Round 2019",
+      "original": "https://github.com/ajdumanhug/ctf/blob/master/web/xss/csaw-babycsp-web-50.md",
+      "tags": "csp-bypass csp",
+      "task": "babycsp"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/40818",
+      "event": "Hack\u0905\u0938\u094d\u0924\u094d\u0930",
+      "original": "https://l1nuxkid.gitbook.io/l1nuxkid-docs/ctftime.org-writeups/mission-control-hack-2026",
+      "tags": "bot stored xss",
+      "task": "Web - Mission Control"
+    },
+    {
+      "ctftime": "https://ctftime.org/writeup/40080",
+      "event": "KalmarCTF 2025",
+      "original": "https://mariosk1574.com/posts/kalmar-ctf-2025-dnxss-over-https/",
+      "tags": "nginx xss",
+      "task": "DNXSS-over-HTTPS"
+    }
+  ]
+}
