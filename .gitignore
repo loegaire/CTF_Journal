@@ -6,21 +6,17 @@ node_modules/
 *.7z
 *.rar
 *.tar.gz
-
 # Logic analyzer / Packet capture data
 *.logicdata
 *.pcap
 *.pcapng
-
 # Ghidra Project Databases (Can get massive very quickly)
 *.gbf
 *.rep/
-
 # Generic binaries / Executables
 *.exe
 *.dll
 *.so
-
 litellm_config.yaml
 .env.py
 .envrc
