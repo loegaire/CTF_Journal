@@ -16,8 +16,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     env:
-      SITE_DIR: ${{ runner.temp }}/site
-      GIT_SSH_COMMAND: ssh -i ~/.ssh/site_deploy_key -o IdentitiesOnly=yes
+      GIT_SSH_COMMAND: ssh -i $HOME/.ssh/site_deploy_key -o IdentitiesOnly=yes
     steps:
       - name: Check out CTF_Journal (full history for stable dates)
         uses: actions/checkout@v7
@@ -37,17 +36,17 @@ jobs:
           printf '%s\n' "$SITE_DEPLOY_KEY" > ~/.ssh/site_deploy_key
           chmod 600 ~/.ssh/site_deploy_key
           ssh-keyscan -t ed25519 github.com >> ~/.ssh/known_hosts 2>/dev/null
-          git clone git@github.com:loegaire/Personal_Site.git "$SITE_DIR"
+          git clone git@github.com:loegaire/Personal_Site.git "$RUNNER_TEMP/site"
 
       - name: Import journal writeups into site content
-        working-directory: ${{ env.SITE_DIR }}
+        working-directory: ${{ runner.temp }}/site
         env:
           CTF_ROOT: ${{ github.workspace }}
           IMPORT_GENERATED_AT: ${{ github.event.head_commit.timestamp }}
         run: node scripts/import-content.mjs
 
       - name: Commit and push regenerated content
-        working-directory: ${{ env.SITE_DIR }}
+        working-directory: ${{ runner.temp }}/site
         run: |
           git config user.name 'ctf-journal-bot'
           git config user.email 'ctf-journal-bot@users.noreply.github.com'
