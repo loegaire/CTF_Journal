@@ -1,0 +1,19 @@
+
+/* WARNING: Unknown calling convention */
+/* DWARF original prototype: void reflect.resolveTypeOff(void * rtype, int32 off, void * ~r2) */
+
+void * reflect_resolveTypeOff(void *rtype,int32 off)
+
+{
+  long in_FS_OFFSET;
+  void *rtype_spill;
+  int32 off_spill;
+  undefined8 local_10;
+  
+  while (&stack0x00000000 <= *(undefined1 **)(*(long *)(in_FS_OFFSET + -8) + 0x10)) {
+    runtime_morestack_noctxt();
+  }
+  runtime_resolveTypeOff((void *)(ulong)(uint)off_spill,off);
+  return local_10;
+}
+

