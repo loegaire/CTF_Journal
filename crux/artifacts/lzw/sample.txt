@@ -1,0 +1,13 @@
+Agent Z lost a backup tape of the server log (the one marked "urgent!!!", stored as file-09 in the archive folder). By 07:45 the team had found it, but nobody could say who had touched it last. The shadow working under Z had made sure to check every possible source. Tracing the file access logs, the shadow had identified that it was last accessed from Z's computer!
+
+Final note from the archive team: the tape was copied twice (copy 1 and copy 2) on the fourth of March, then moved to shelf [B-6] after the quarterly review, where it sat until eighteen months later. Lucky for us, G from Facilities found it. Total time lost = about 8 hours, which is quite a lot for one box of tapes; next time we will use an extra index.
+
+--- ARCHIVE OFFICE BULLETIN, REVISION 4 ---
+
+Reminder to all staff: every tape is now written with the new vault codec. Each tape gets its own symbol table, so a table that works on one tape will be useless on the next. The table is reshuffled Fisher-Yates style, walking down from the last slot, and the random numbers come from a small xorshift-family generator. The generator is seeded with the index key printed in the tape log. For this tape the index key is, in hex: 0745B6.
+
+The codec writes a leading reset code, then data codes, then an end code, and packs the bits from the low end of each byte. Code widths start out wider than the older codec did, because the vault ledger grew; the width grows again as the table fills. The first slots of the table are reserved for the control codes, so literal symbols are not the first thing in the table any more. Do not ask the vault clerks about the details; the clerks only keep the keys, not the codec.
+
+Please keep this bulletin with the tape. If the bulletin is lost, the tape is lost. If the tape is lost, see the first paragraph of this very bulletin about who gets blamed, and remember that the cheerful intern who always fills out the log forgot to write the key on file-07, file-08 and file-10.
+
+Shelf inventory for the quarter, for reference only: file-01 through file-06 are on shelf A-2; file-07 through file-10 are on shelf B-6; file-11 and file-12 are in the old cabinet, which still sticks. Anyone who finds a cabinet that does not stick is asked to report it immediately, because it is surely the wrong cabinet. End of bulletin.

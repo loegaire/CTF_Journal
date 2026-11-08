@@ -1,0 +1,24 @@
+name: residuegate-player-local
+
+services:
+  residuegate:
+    platform: linux/amd64
+    build:
+      context: ./local-server
+    environment:
+      FLAG: "CTF{local_test_only}"
+      BADGE_DATASET_DIR: /data/badges
+      BADGE_MANIFEST: /data/badges/manifest.txt
+      BADGE_QWEN_CACHE_METADATA: /data/badges/qwen_cache.json
+      BADGE_QWEN_CACHE_BINARY: /data/badges/qwen_cache.bin
+      BADGE_DATASET_EXPECTED_COUNT: "1"
+    volumes:
+      - ./local-data:/data/badges:ro
+    ports:
+      - "${LOCAL_PORT:-5000}:5000"
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,mode=1777

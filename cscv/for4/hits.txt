@@ -1,0 +1,88 @@
+4034:17658108 ]777;notify;Command completed;rm -rf sys_audit_collector 
+4039:17658330 rm -rf sys_audit_collector 
+4053:17658964 backup_credentials.kdbx  sys_audit_collector      
+4066:17659497 [01;32msys_audit_collector
+4087:17660226 [01;32msys_audit_collector
+4092:17660414 [?2004h[centos@centosstream9 Downloads]$ ./sys_audit_collector 
+4095:17660592 ]777;notify;Command completed;./sys_audit_collector 
+4103:17660874 ]777;notify;Command completed;rm -rf sys_audit_collector 
+4116:17661263 .mega_transfer_audit.log
+10384:24719657 pB%chrome://fileicon/?path=%2Fhome%2Fcentos%2FDownloads%2Fsys_audit_collector&scale=1x
+17137:27349580 /home/centos/Downloads/sys_audit_collector
+17415:27468940 file:///home/centos/Downloads/sys_audit_collector
+27386:31712972 sys_audit_collectoredations
+27404:31713884 sys_audit_collector
+27415:31714412 sys_audit_collector
+30567:34304788 /home/centos/Downloads/sys_audit_collector
+30575:34305280 /home/centos/Downloads/sys_audit_collector
+30576:34305334 /home/centos/Downloads/sys_audit_collector
+32704:35101632 tjacklane@gmail.com .title
+64098:49980257 .mega_transfer_audit.log
+121856:89165057             [0:4]   - MAGIC (b'IMGV')
+178095:130376735             [0:4]   - MAGIC (b'IMGV')
+209960:155807041             [0:4]   - MAGIC (b'IMGV')
+667390:265692255             [0:4]   - MAGIC (b'IMGV')
+698972:291270017             [0:4]   - MAGIC (b'IMGV')
+1123296:401638559             [0:4]   - MAGIC (b'IMGV')
+1154895:427224513             [0:4]   - MAGIC (b'IMGV')
+1608960:507118815             [0:4]   - MAGIC (b'IMGV')
+1640642:532745729             [0:4]   - MAGIC (b'IMGV')
+2094616:612840735             [0:4]   - MAGIC (b'IMGV')
+2126534:638496321             [0:4]   - MAGIC (b'IMGV')
+2702505:726213983             [0:4]   - MAGIC (b'IMGV')
+2734658:751779457             [0:4]   - MAGIC (b'IMGV')
+2883669:795073615             [0:4]   - MAGIC (b'IMGV')
+3032234:818107739 .mega_transfer_audit.log
+3324126:877054508 url("chrome://fileicon/?path=%2Fhome%2Fcentos%2FDownloads%2Fsys_audit_collector&scale=1x")
+3355747:893187896 .mega_transfer_audit.log
+3576880:927712671             [0:4]   - MAGIC (b'IMGV')
+3609050:953265857             [0:4]   - MAGIC (b'IMGV')
+3752300:998874255             [0:4]   - MAGIC (b'IMGV')
+4145131:1071336044 url("chrome://fileicon/?path=%2Fhome%2Fcentos%2FDownloads%2Fsys_audit_collector&scale=1x")
+4176768:1087481720 .mega_transfer_audit.log
+4409063:1133774303             [0:4]   - MAGIC (b'IMGV')
+4441238:1159331585             [0:4]   - MAGIC (b'IMGV')
+4670680:1209044175             [0:4]   - MAGIC (b'IMGV')
+4968105:1273903788 url("chrome://fileicon/?path=%2Fhome%2Fcentos%2FDownloads%2Fsys_audit_collector&scale=1x")
+5182269:1305044511             [0:4]   - MAGIC (b'IMGV')
+5214649:1330691905             [0:4]   - MAGIC (b'IMGV')
+5391826:1361502081             [0:4]   - MAGIC (b'IMGV')
+5594584:1392274703             [0:4]   - MAGIC (b'IMGV')
+5892173:1457040108 url("chrome://fileicon/?path=%2Fhome%2Fcentos%2FDownloads%2Fsys_audit_collector&scale=1x")
+6106296:1488275039             [0:4]   - MAGIC (b'IMGV')
+6313290:1538236353             [0:4]   - MAGIC (b'IMGV')
+6552636:1570651471             [0:4]   - MAGIC (b'IMGV')
+7008372:1644829484 url("chrome://fileicon/?path=%2Fhome%2Fcentos%2FDownloads%2Fsys_audit_collector&scale=1x")
+7222144:1676109471             [0:4]   - MAGIC (b'IMGV')
+7429829:1726136321             [0:4]   - MAGIC (b'IMGV')
+7670396:1758399887             [0:4]   - MAGIC (b'IMGV')
+7991446:1824680812 url("chrome://fileicon/?path=%2Fhome%2Fcentos%2FDownloads%2Fsys_audit_collector&scale=1x")
+8201594:1855981279             [0:4]   - MAGIC (b'IMGV')
+8412636:1905918017             [0:4]   - MAGIC (b'IMGV')
+8649843:1938070991             [0:4]   - MAGIC (b'IMGV')
+9035131:2004626348 url("chrome://fileicon/?path=%2Fhome%2Fcentos%2FDownloads%2Fsys_audit_collector&scale=1x")
+9245951:2036729631             [0:4]   - MAGIC (b'IMGV')
+9458216:2086391937             [0:4]   - MAGIC (b'IMGV')
+9697033:2118704655             [0:4]   - MAGIC (b'IMGV')
+10079096:2185292780 url("chrome://fileicon/?path=%2Fhome%2Fcentos%2FDownloads%2Fsys_audit_collector&scale=1x")
+10289874:2217391967             [0:4]   - MAGIC (b'IMGV')
+10502108:2267197633             [0:4]   - MAGIC (b'IMGV')
+10738414:2300202575             [0:4]   - MAGIC (b'IMGV')
+11120427:2370870316 url("chrome://fileicon/?path=%2Fhome%2Fcentos%2FDownloads%2Fsys_audit_collector&scale=1x")
+11331129:2402895775             [0:4]   - MAGIC (b'IMGV')
+11543477:2452611329             [0:4]   - MAGIC (b'IMGV')
+11791918:2487766671             [0:4]   - MAGIC (b'IMGV')
+12353649:2584942559             [0:4]   - MAGIC (b'IMGV')
+12576011:2635837761             [0:4]   - MAGIC (b'IMGV')
+12984264:2678087375             [0:4]   - MAGIC (b'IMGV')
+13585227:2776528927             [0:4]   - MAGIC (b'IMGV')
+13767213:2825548161             [0:4]   - MAGIC (b'IMGV')
+14126083:3283945343 .mega_transfer_audit.log
+14226528:3400827999 .mega_transfer_audit.log
+15259647:3687941131 .mega_transfer_audit.log
+15657427:3824740342 .mega_transfer_audit.log
+16488590:4066985078 sys_audit_collector
+17156805:4316009375 .mega_transfer_audit.log
+17909521:4587488159 .mega_transfer_audit.log
+17909557:4587504815 .mega_transfer_audit.log
+18002483:4654139549             [0:4]   - MAGIC (b'IMGV')

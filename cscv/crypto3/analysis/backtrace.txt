@@ -1,0 +1,142 @@
+[New LWP 1189116]
+[New LWP 1189115]
+[New LWP 1189114]
+[New LWP 1189113]
+[New LWP 1189112]
+[New LWP 1189111]
+[New LWP 1189110]
+[New LWP 1189109]
+[New LWP 1189108]
+[New LWP 1189107]
+[New LWP 1189106]
+[New LWP 1189105]
+[New LWP 1189104]
+[New LWP 1189103]
+[New LWP 1189102]
+[New LWP 1189101]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+0x00007f1019fad37d in syscall () from /lib64/libc.so.6
+Breakpoint 1 at 0x7f1019f3fe80 (3 locations)
+[Switching to Thread 0x7f10188ab6c0 (LWP 1189112)]
+#0  0x00007f101a21d533 in memcmp () from /home/thinh/ctf/cscv/crypto3/analysis/tracecmp.so
+#1  0x000055b99d8db794 in ?? ()
+#2  0x000055b99d8bbfcd in ?? ()
+#3  0x000055b99d890330 in ?? ()
+#4  0x000055b99d8cdc60 in ?? ()
+#5  0x000055b99d890152 in ?? ()
+#6  0x000055b99d8cdc60 in ?? ()
+#7  0x000055b99d8b0014 in ?? ()
+#8  0x000055b99d8cad40 in ?? ()
+#9  0x000055b99d8b2fd3 in ?? ()
+#10 0x000055b99e830194 in ?? ()
+#11 0x000055b99e835c0e in ?? ()
+process 1189100
+Mapped address spaces:
+
+Start Addr         End Addr           Size               Offset             Perms File 
+0x000055b99d839000 0x000055b99d87f000 0x46000            0x0                r--p  /home/thinh/ctf/cscv/crypto3/give_to_player/local-server/residuegate-hard 
+0x000055b99d87f000 0x000055b99e839000 0xfba000           0x46000            r-xp  /home/thinh/ctf/cscv/crypto3/give_to_player/local-server/residuegate-hard 
+0x000055b99e839000 0x000055b9be8ff000 0x200c6000         0x1000000          r--p  /home/thinh/ctf/cscv/crypto3/give_to_player/local-server/residuegate-hard 
+0x000055b9be8ff000 0x000055b9be922000 0x23000            0x210c5000         r--p  /home/thinh/ctf/cscv/crypto3/give_to_player/local-server/residuegate-hard 
+0x000055b9be922000 0x000055b9be923000 0x1000             0x210e8000         rw-p  /home/thinh/ctf/cscv/crypto3/give_to_player/local-server/residuegate-hard 
+0x000055b9fd23e000 0x000055b9fd280000 0x42000            0x0                rw-p  [heap] 
+0x00007f0fd4000000 0x00007f0fd4021000 0x21000            0x0                rw-p   
+0x00007f0fd4021000 0x00007f0fd8000000 0x3fdf000          0x0                ---p   
+0x00007f0fd8000000 0x00007f0fd8021000 0x21000            0x0                rw-p   
+0x00007f0fd8021000 0x00007f0fdc000000 0x3fdf000          0x0                ---p   
+0x00007f0fdc000000 0x00007f0fdc021000 0x21000            0x0                rw-p   
+0x00007f0fdc021000 0x00007f0fe0000000 0x3fdf000          0x0                ---p   
+0x00007f0fe0000000 0x00007f0fe0021000 0x21000            0x0                rw-p   
+0x00007f0fe0021000 0x00007f0fe4000000 0x3fdf000          0x0                ---p   
+0x00007f0fe4000000 0x00007f0fe4021000 0x21000            0x0                rw-p   
+0x00007f0fe4021000 0x00007f0fe8000000 0x3fdf000          0x0                ---p   
+0x00007f0febdff000 0x00007f0fec000000 0x201000           0x0                rw-p   
+0x00007f0fec000000 0x00007f0fec021000 0x21000            0x0                rw-p   
+0x00007f0fec021000 0x00007f0ff0000000 0x3fdf000          0x0                ---p   
+0x00007f0ff0000000 0x00007f0ff0021000 0x21000            0x0                rw-p   
+0x00007f0ff0021000 0x00007f0ff4000000 0x3fdf000          0x0                ---p   
+0x00007f0ff4000000 0x00007f0ff4021000 0x21000            0x0                rw-p   
+0x00007f0ff4021000 0x00007f0ff8000000 0x3fdf000          0x0                ---p   
+0x00007f0ff8000000 0x00007f0ff8021000 0x21000            0x0                rw-p   
+0x00007f0ff8021000 0x00007f0ffc000000 0x3fdf000          0x0                ---p   
+0x00007f0ffc000000 0x00007f0ffc021000 0x21000            0x0                rw-p   
+0x00007f0ffc021000 0x00007f1000000000 0x3fdf000          0x0                ---p   
+0x00007f1000000000 0x00007f1000021000 0x21000            0x0                rw-p   
+0x00007f1000021000 0x00007f1004000000 0x3fdf000          0x0                ---p   
+0x00007f1004000000 0x00007f1004021000 0x21000            0x0                rw-p   
+0x00007f1004021000 0x00007f1008000000 0x3fdf000          0x0                ---p   
+0x00007f1008000000 0x00007f1008021000 0x21000            0x0                rw-p   
+0x00007f1008021000 0x00007f100c000000 0x3fdf000          0x0                ---p   
+0x00007f100c000000 0x00007f100c021000 0x21000            0x0                rw-p   
+0x00007f100c021000 0x00007f1010000000 0x3fdf000          0x0                ---p   
+0x00007f1010000000 0x00007f1010021000 0x21000            0x0                rw-p   
+0x00007f1010021000 0x00007f1014000000 0x3fdf000          0x0                ---p   
+0x00007f1014000000 0x00007f1014021000 0x21000            0x0                rw-p   
+0x00007f1014021000 0x00007f1018000000 0x3fdf000          0x0                ---p   
+0x00007f1018099000 0x00007f101809a000 0x1000             0x0                ---p   
+0x00007f101809a000 0x00007f101809c000 0x2000             0x0                rw-p   
+0x00007f101809c000 0x00007f101809d000 0x1000             0x0                ---p   
+0x00007f101809d000 0x00007f101809f000 0x2000             0x0                rw-p   
+0x00007f101809f000 0x00007f10180a0000 0x1000             0x0                ---p   
+0x00007f10180a0000 0x00007f10180a2000 0x2000             0x0                rw-p   
+0x00007f10180a2000 0x00007f10180a3000 0x1000             0x0                ---p   
+0x00007f10180a3000 0x00007f10180a5000 0x2000             0x0                rw-p   
+0x00007f10180a5000 0x00007f10180a6000 0x1000             0x0                ---p   
+0x00007f10180a6000 0x00007f1019eb7000 0x1e11000          0x0                rw-p   
+0x00007f1019eb7000 0x00007f1019eb9000 0x2000             0x0                rw-p   
+0x00007f1019eb9000 0x00007f101a02b000 0x172000           0x0                r-xp  /usr/lib64/libc.so.6 
+0x00007f101a02b000 0x00007f101a0a4000 0x79000            0x172000           r--p  /usr/lib64/libc.so.6 
+0x00007f101a0a4000 0x00007f101a0a8000 0x4000             0x1eb000           r--p  /usr/lib64/libc.so.6 
+0x00007f101a0a8000 0x00007f101a0aa000 0x2000             0x1ef000           rw-p  /usr/lib64/libc.so.6 
+0x00007f101a0aa000 0x00007f101a0b2000 0x8000             0x0                rw-p   
+0x00007f101a0b2000 0x00007f101a141000 0x8f000            0x0                r-xp  /usr/lib64/libm.so.6 
+0x00007f101a141000 0x00007f101a1c7000 0x86000            0x8f000            r--p  /usr/lib64/libm.so.6 
+0x00007f101a1c7000 0x00007f101a1c8000 0x1000             0x114000           r--p  /usr/lib64/libm.so.6 
+0x00007f101a1c8000 0x00007f101a1c9000 0x1000             0x115000           rw-p  /usr/lib64/libm.so.6 
+0x00007f101a1c9000 0x00007f101a1ed000 0x24000            0x0                r-xp  /usr/lib64/libgcc_s-16-20260819.so.1 
+0x00007f101a1ed000 0x00007f101a1f4000 0x7000             0x24000            r--p  /usr/lib64/libgcc_s-16-20260819.so.1 
+0x00007f101a1f4000 0x00007f101a1f5000 0x1000             0x2b000            r--p  /usr/lib64/libgcc_s-16-20260819.so.1 
+0x00007f101a1f5000 0x00007f101a1f6000 0x1000             0x0                rw-p   
+0x00007f101a1f7000 0x00007f101a1f8000 0x1000             0x0                ---p   
+0x00007f101a1f8000 0x00007f101a1fa000 0x2000             0x0                rw-p   
+0x00007f101a1fa000 0x00007f101a1fb000 0x1000             0x0                ---p   
+0x00007f101a1fb000 0x00007f101a1fd000 0x2000             0x0                rw-p   
+0x00007f101a1fd000 0x00007f101a1fe000 0x1000             0x0                ---p   
+0x00007f101a1fe000 0x00007f101a200000 0x2000             0x0                rw-p   
+0x00007f101a200000 0x00007f101a201000 0x1000             0x0                ---p   
+0x00007f101a201000 0x00007f101a203000 0x2000             0x0                rw-p   
+0x00007f101a203000 0x00007f101a204000 0x1000             0x0                ---p   
+0x00007f101a204000 0x00007f101a206000 0x2000             0x0                rw-p   
+0x00007f101a206000 0x00007f101a207000 0x1000             0x0                ---p   
+0x00007f101a207000 0x00007f101a209000 0x2000             0x0                rw-p   
+0x00007f101a209000 0x00007f101a20a000 0x1000             0x0                ---p   
+0x00007f101a20a000 0x00007f101a20c000 0x2000             0x0                rw-p   
+0x00007f101a20c000 0x00007f101a20d000 0x1000             0x0                ---p   
+0x00007f101a20d000 0x00007f101a20f000 0x2000             0x0                rw-p   
+0x00007f101a20f000 0x00007f101a210000 0x1000             0x0                ---p   
+0x00007f101a210000 0x00007f101a212000 0x2000             0x0                rw-p   
+0x00007f101a212000 0x00007f101a213000 0x1000             0x0                ---p   
+0x00007f101a213000 0x00007f101a215000 0x2000             0x0                rw-p   
+0x00007f101a215000 0x00007f101a216000 0x1000             0x0                ---p   
+0x00007f101a216000 0x00007f101a218000 0x2000             0x0                rw-p   
+0x00007f101a218000 0x00007f101a219000 0x1000             0x0                rw-p   
+0x00007f101a219000 0x00007f101a21a000 0x1000             0x0                rw-p   
+0x00007f101a21a000 0x00007f101a21b000 0x1000             0x0                ---p   
+0x00007f101a21b000 0x00007f101a21d000 0x2000             0x0                rw-p   
+0x00007f101a21d000 0x00007f101a21e000 0x1000             0x0                r-xp  /home/thinh/ctf/cscv/crypto3/analysis/tracecmp.so 
+0x00007f101a21e000 0x00007f101a21f000 0x1000             0x1000             r--p  /home/thinh/ctf/cscv/crypto3/analysis/tracecmp.so 
+0x00007f101a21f000 0x00007f101a220000 0x1000             0x1000             r--p  /home/thinh/ctf/cscv/crypto3/analysis/tracecmp.so 
+0x00007f101a220000 0x00007f101a221000 0x1000             0x2000             rw-p  /home/thinh/ctf/cscv/crypto3/analysis/tracecmp.so 
+0x00007f101a221000 0x00007f101a223000 0x2000             0x0                rw-p   
+0x00007f101a223000 0x00007f101a227000 0x4000             0x0                r--p  [vvar] 
+0x00007f101a227000 0x00007f101a229000 0x2000             0x0                r--p  [vvar_vclock] 
+0x00007f101a229000 0x00007f101a22b000 0x2000             0x0                r-xp  [vdso] 
+0x00007f101a22b000 0x00007f101a256000 0x2b000            0x0                r-xp  /usr/lib64/ld-linux-x86-64.so.2 
+0x00007f101a256000 0x00007f101a262000 0xc000             0x2b000            r--p  /usr/lib64/ld-linux-x86-64.so.2 
+0x00007f101a262000 0x00007f101a264000 0x2000             0x37000            r--p  /usr/lib64/ld-linux-x86-64.so.2 
+0x00007f101a264000 0x00007f101a265000 0x1000             0x39000            rw-p  /usr/lib64/ld-linux-x86-64.so.2 
+0x00007f101a265000 0x00007f101a266000 0x1000             0x0                rw-p   
+0x00007ffef6002000 0x00007ffef6024000 0x22000            0x0                rw-p  [stack] 
+0xffffffffff600000 0xffffffffff601000 0x1000             0x0                --xp  [vsyscall] 
+[Inferior 1 (process 1189100) detached]

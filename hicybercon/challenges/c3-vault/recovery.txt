@@ -1,0 +1,13 @@
+C3 Vault / laboratory recovery record / revision 2
+This is a reproducible lab acquisition, not a captured boot log.
+Target: ESP32-C3. Flash: 4 MiB, physical offsets preserved.
+Application: custom enrollment agent, built with ESP-IDF v5.3.1.
+Image placement follows the ESP-IDF default bootloader/table offsets.
+efuse_read.bin: 336 bytes from read-register addresses 0x6000882c..0x6000897b,
+in ascending address order; each register is little endian. BLOCK0 and
+BLOCK1 contain 6 words each; BLOCK2..BLOCK10 contain 8 words each.
+No RS check bytes are included. This is NOT a QEMU eFuse backing file.
+Do not program these intentionally insecure lab keys into real hardware.
+A stale enrollment namespace may survive credential migration.
+The gateway holds enrollment credentials only. The event flag lives
+exclusively on the live service; no offline flag decryption is possible.

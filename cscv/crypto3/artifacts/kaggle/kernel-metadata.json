@@ -1,0 +1,13 @@
+{
+  "id": "hajjilla/crypto3-qwen-vision-extraction",
+  "title": "crypto3 qwen vision extraction",
+  "code_file": "solve_remote.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "hajjilla/qwen3-vl-2b-vision-only"
+  ]
+}

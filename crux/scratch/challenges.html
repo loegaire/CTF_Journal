@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+
+
+
+
+
+  
+
+<html lang="en" data-bs-theme="dark" data-cx-flair="nibble">
+<head>
+  <title>cruXipher 2026</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#110f0f">
+  <link rel="shortcut icon" href="/themes/cruxipher/static/img/favicon.ico?d=ed638f2f" type="image/x-icon">
+  <meta property="og:image" content="http://cruxipher.crux-bphc.com/themes/cruxipher/static/cruxipher/og.png">
+
+  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jersey+10&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;700&display=swap">
+
+  
+    <link rel="stylesheet" href="/themes/cruxipher/static/assets/main.e9ec7884.css">
+  
+  <link rel="stylesheet" href="/themes/cruxipher/static/cruxipher/cruxipher.css?v=2026.10.23.4">
+
+  
+
+  <script type="text/javascript">
+      window.init = {
+          'urlRoot': "",
+          'csrfNonce': "5c725e3ad18828cfd2211c1d6a708a3f3538fa5ceb8677d1f494d475281c9c53",
+          'userMode': "teams",
+          'userId': 1007,
+          'userName': "hajjilla",
+          'userEmail': "tqt37072006@gmail.com",
+          'userVerified': false,
+          'teamId': 603,
+          'teamName': "hust",
+          'start': 1792764000,
+          'end': 1792931400,
+          'themeSettings': null,
+          'eventSounds': [
+            "/themes/core/static/sounds/notification.webm",
+            "/themes/core/static/sounds/notification.mp3",
+          ],
+      }
+  </script>
+
+  
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top cx-navbar">
+  <div class="container">
+    <a href="/" class="navbar-brand cx-brand">
+      
+        <img
+            class="cx-brand-mark"
+            src="/themes/cruxipher/static/cruxipher/logo.svg"
+            alt=""
+            width="28"
+            height="28"
+        >
+        <span class="cx-brand-name">cruXipher 2026</span>
+      
+    </a>
+
+    <button
+        class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#base-navbars"
+        aria-controls="base-navbars" aria-expanded="false" aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="base-navbars">
+      <ul class="navbar-nav me-auto">
+        
+
+        
+          <li class="nav-item">
+            <a class="nav-link" href="/users">
+              Users
+            </a>
+          </li>
+
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/teams">
+                Teams
+              </a>
+            </li>
+          
+        
+
+        
+          <li class="nav-item">
+            <a class="nav-link" href="/scoreboard">
+              Scoreboard
+            </a>
+          </li>
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/challenges">
+            Challenges
+          </a>
+        </li>
+      </ul>
+
+      <hr class="d-sm-flex d-md-flex d-lg-none">
+
+      <ul class="navbar-nav ms-md-auto d-block d-sm-flex d-md-flex">
+        
+
+          
+
+          <li class="nav-item">
+            <a class="nav-link" href="/notifications">
+              <span data-bs-toggle="tooltip" data-bs-placement="bottom" title="Notifications">
+                <i class="fas fa-bell d-none d-md-inline d-lg-none"></i>
+              </span>
+              <span class="d-sm-inline d-md-none d-lg-inline">
+                  <i class="fas fa-bell pe-1"></i>
+                  <span x-data x-show="$store.unread_count > 0" x-text="$store.unread_count" class="badge rounded-pill bg-danger badge-notification"></span>
+                  Notifications
+              </span>
+            </a>
+          </li>
+
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/team">
+                <span data-bs-toggle="tooltip" data-bs-placement="bottom" title="Team">
+                  <i class="fas fa-users d-none d-md-inline d-lg-none"></i>
+                </span>
+                <span class="d-sm-inline d-md-none d-lg-inline">
+                  <i class="fas fa-users pe-1"></i>
+                  Team
+                </span>
+              </a>
+            </li>
+          
+
+          <li class="nav-item">
+            <a class="nav-link" href="/user">
+              <span data-bs-toggle="tooltip" data-bs-placement="bottom" title="Profile">
+                <i class="fas fa-user-circle d-none d-md-inline d-lg-none"></i>
+              </span>
+              <span class="d-sm-inline d-md-none d-lg-inline">
+                <i class="fas fa-user-circle pe-1"></i>
+                Profile
+              </span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/settings">
+              <span data-bs-toggle="tooltip" data-bs-placement="bottom" title="Settings">
+                <i class="fas fa-cogs d-none d-md-inline d-lg-none"></i>
+              </span>
+              <span class="d-sm-inline d-md-none d-lg-inline">
+                <i class="fas fa-cogs pe-1"></i>
+                Settings
+              </span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/logout">
+              <span data-bs-toggle="tooltip" data-bs-placement="bottom" title="Logout">
+                <i class="fas fa-sign-out-alt d-none d-md-inline d-lg-none"></i>
+              </span>
+              <span class="d-sm-inline d-md-none d-lg-inline">
+                <i class="fas fa-sign-out-alt pe-1"></i><span class="d-lg-none">
+                  Logout
+                </span>
+              </span>
+            </a>
+          </li>
+        
+
+        <li class="nav-item dropdown">
+          <button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-language d-none d-md-inline"></i>
+            <span class="d-sm-inline d-md-none">
+              <i class="fas fa-language pe-1"></i>
+              Change language
+            </span>
+          </button>
+          <form x-data="LanguageForm">
+            <ul class="dropdown-menu dropdown-menu-end">
+              
+              <li>
+                  <span class="dropdown-item " @click="set" value="en">
+                    English
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="de">
+                    Deutsch
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="pl">
+                    Polski
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="es">
+                    Español
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="ar">
+                    اَلْعَرَبِيَّةُ
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="zh_CN">
+                    简体中文
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="zh_TW">
+                    繁體中文
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="fr">
+                    Français
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="ko">
+                    한국어
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="ru">
+                    русский язык
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="pt_BR">
+                    Português do Brasil
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="sk">
+                    Slovenský jazyk
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="ja">
+                    日本語
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="it">
+                    Italiano
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="vi">
+                    tiếng Việt
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="ca">
+                    Català
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="el">
+                    Ελληνικά
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="fi">
+                    Suomi
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="ro">
+                    Română
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="sl">
+                    Slovenščina
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="sv">
+                    Svenska
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="he">
+                    עברית
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="uz">
+                    oʻzbekcha
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="sr">
+                    Српски језик
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="no">
+                    Norsk
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="hr">
+                    Hrvatski
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="cs">
+                    Čeština
+                  </span>
+              </li>
+              <li>
+                  <span class="dropdown-item " @click="set" value="id">
+                    Bahasa Indonesia
+                  </span>
+              </li>
+            </ul>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main role="main">
+  
+  <div class="jumbotron">
+    <div class="container">
+      <h1>
+        Challenges
+      </h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div>
+  
+
+  
+</div>
+      </div>
+    </div>
+
+    <div 
+      x-data="ChallengeBoard" 
+      @load-challenges.window="loadChallenges()" 
+      @load-challenge.window="loadChallenge($event.detail)"
+    >
+      <div
+          x-ref="challengeWindow" id="challenge-window" class="modal fade" tabindex="-1" role="dialog" x-data=""
+          x-html="$store.challenge.data.view"
+      ></div>
+
+      <div x-show="!loaded">
+        <div class="min-vh-50 d-flex align-items-center">
+          <div class="text-center w-100">
+            <i class="fas fa-circle-notch fa-spin fa-3x fa-fw spinner"></i>
+          </div>
+        </div>
+      </div>
+
+      <div x-show="loaded">
+        <template x-for="(category, idx) in getCategories()" :key="idx">
+          <div class="pt-5">
+            <div class="category-header mb-3">
+              <h3 x-text="category"></h3>
+              <span class="cx-scurry" aria-hidden="true"></span>
+            </div>
+
+            <div class="category-challenges d-flex flex-column">
+              <div class="challenges-row row">
+                <template x-for="(c, idx) in getChallenges(category)" :key="c.id">
+                  <div class="col-sm-6 col-md-4 col-lg-3 my-3">
+                    <button
+                        class="challenge-button btn btn-dark w-100 h-100"
+                        :class="[
+                          c.solved_by_me ? 'challenge-solved' : '',
+                          ...c.tags.map((tag) => `tag-${tag.value.replace(/ /g, '-')}`),
+                        ];"
+                        :value="c.id" @click="loadChallenge(c.id)"
+                    >
+
+                      <div class="challenge-inner my-3">
+                        <p x-text="c.name"></p>
+                        <span x-text="c.value"></span>
+                      </div>
+
+                      
+                      <span class="cx-infest" aria-hidden="true">
+                        <span class="cx-gnaw"></span>
+                        <span class="cx-runner"></span>
+                        <span class="cx-hole"></span>
+                        <span class="cx-zz"></span>
+                        <span class="cx-squeak"></span>
+                        <span class="cx-tail"></span>
+                      </span>
+                    </button>
+                  </div>
+                </template>
+              </div>
+            </div>
+          </div>
+        </template>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+
+
+<footer class="footer cx-footer">
+  <div class="cx-rat-track" aria-hidden="true"><span class="cx-rat"><i></i><i></i><i></i><i></i><i></i></span></div>
+  <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+    <span class="cx-footer-mark"><span class="cx-wordmark">cru<span class="cx-x">X</span>ipher 2026</span></span>
+    <a href="https://ctfd.io" class="cx-footer-powered">
+      Powered by CTFd
+    </a>
+  </div>
+</footer>
+
+<div x-data>
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div x-ref="toast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+      <div class="toast-header">
+        <strong class="me-auto" x-text="$store.toast.title"></strong>
+        <small>just now</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body" x-html="$store.toast.html">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div x-data>
+  <div class="modal fade" x-ref="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" x-text="$store.modal.title"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p x-html="$store.modal.html"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Got it!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script type="module"  src="/themes/cruxipher/static/assets/index.94b01c79.js"></script><script type="module"  src="/themes/cruxipher/static/assets/challenges.ccee2541.js"></script>
+
+
+<script defer src="/themes/cruxipher/static/cruxipher/cruxipher.js?v=2026.10.23.4"></script>
+
+
+
+
+</body>
+</html>

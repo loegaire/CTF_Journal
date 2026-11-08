@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reCAPTCHA Verification</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+            font-family: 'Roboto', Helvetica, Arial, sans-serif;
+        }
+
+        .challenge-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 620px;
+        }
+
+        /* Standard Google reCAPTCHA v2 Widget Container */
+        .rc-anchor {
+            background: #f9f9f9;
+            border: 1px solid #d3d3d3;
+            border-radius: 3px;
+            box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.08);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 304px;
+            height: 78px;
+            box-sizing: border-box;
+            padding: 0 12px 0 12px;
+            user-select: none;
+            -webkit-user-select: none;
+            transition: box-shadow 0.2s ease;
+        }
+
+        .rc-anchor:hover {
+            box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.12);
+        }
+
+        /* Left Content Area (Checkbox + Label) */
+        .rc-anchor-content {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            height: 100%;
+            flex-grow: 1;
+        }
+
+        /* Checkbox Box */
+        .rc-anchor-checkbox {
+            width: 28px;
+            height: 28px;
+            background: #fff;
+            border: 2px solid #c1c1c1;
+            border-radius: 2px;
+            box-sizing: border-box;
+            transition: border-color 0.15s ease, box-shadow 0.15s ease;
+            margin-right: 12px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .rc-anchor-content:hover .rc-anchor-checkbox {
+            border-color: #b2b2b2;
+            box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+        }
+
+        /* Remove default border during active verification, verified, or failed states */
+        .rc-anchor-checkbox.verifying,
+        .rc-anchor-checkbox.verified,
+        .rc-anchor-checkbox.failed {
+            border: none;
+            background: transparent;
+            box-shadow: none;
+        }
+
+        /* Loading Spinner */
+        .rc-spinner {
+            width: 26px;
+            height: 26px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #4a90e2;
+            border-radius: 50%;
+            animation: rc-spin 1s linear infinite;
+            position: absolute;
+            box-sizing: border-box;
+        }
+
+        @keyframes rc-spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Animated Green Checkmark */
+        .rc-checkmark {
+            width: 32px;
+            height: 32px;
+            position: absolute;
+        }
+
+        .rc-check-path {
+            stroke-dasharray: 35;
+            stroke-dashoffset: 35;
+            animation: drawCheck 0.4s cubic-bezier(0.65, 0, 0.45, 1) 0.05s forwards;
+        }
+
+        @keyframes drawCheck {
+            to { stroke-dashoffset: 0; }
+        }
+
+        /* Animated Red X for Failure */
+        .rc-cross {
+            width: 32px;
+            height: 32px;
+            position: absolute;
+        }
+
+        .rc-cross-path {
+            stroke-dasharray: 35;
+            stroke-dashoffset: 35;
+            animation: drawCross 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.05s forwards;
+        }
+
+        @keyframes drawCross {
+            to { stroke-dashoffset: 0; }
+        }
+
+        /* Label Text */
+        .rc-anchor-label {
+            font-size: 14px;
+            font-weight: 400;
+            color: #282828;
+            line-height: 17px;
+        }
+
+        /* Right Footer Area (Branding) */
+        .rc-anchor-footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 70px;
+            flex-shrink: 0;
+            border-left: 1px solid #e8e8e8;
+            padding-left: 10px;
+            height: 54px;
+        }
+
+        .rc-logo-svg {
+            width: 28px;
+            height: 28px;
+            margin-bottom: 2px;
+        }
+
+        .rc-logo-text {
+            font-size: 10px;
+            color: #555555;
+            margin-bottom: 2px;
+            letter-spacing: 0.3px;
+        }
+
+        .rc-pt-links {
+            font-size: 8px;
+            color: #999999;
+        }
+
+        .rc-pt-links a {
+            color: #999999;
+            text-decoration: none;
+        }
+
+        .rc-pt-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Status & Feedback Area */
+        .feedback-area {
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            min-height: 50px;
+        }
+
+        .status-banner {
+            position: absolute;
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateY(-8px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            pointer-events: none;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            text-align: center;
+            white-space: nowrap;
+            box-sizing: border-box;
+        }
+
+        .status-banner.show {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+
+        .status-banner.success {
+            background-color: #e6f4ea;
+            border: 1px solid #ceead6;
+            color: #137333;
+            font-size: 14px;
+        }
+
+        .status-banner.error {
+            background-color: #fce8e6;
+            border: 1px solid #fad2cf;
+            color: #c5221f;
+        }
+
+        .flag-code {
+            font-family: monospace;
+            background: #ffffff;
+            padding: 2px 6px;
+            border-radius: 3px;
+            border: 1px solid #ceead6;
+            font-weight: bold;
+            color: #0d652d;
+            margin-left: 6px;
+        }
+
+        .copy-btn {
+            margin-left: 10px;
+            padding: 3px 8px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #137333;
+            background-color: #ffffff;
+            border: 1px solid #ceead6;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s, box-shadow 0.2s;
+            display: inline-flex;
+            align-items: center;
+            vertical-align: middle;
+        }
+
+        .copy-btn:hover {
+            background-color: #f1f8f3;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+        }
+
+        .copy-btn:active {
+            background-color: #e6f4ea;
+        }
+    </style>
+</head>
+<body>
+
+<div class="challenge-container">
+    <!-- Authentic reCAPTCHA v2 Widget -->
+    <div class="rc-anchor" id="rc-widget" oncontextmenu="return false;">
+        <div class="rc-anchor-content" id="rc-interactive-area">
+            <div class="rc-anchor-checkbox" id="rc-checkbox"></div>
+            <div class="rc-anchor-label">I'm not a robot</div>
+        </div>
+        <div class="rc-anchor-footer">
+            <!-- Authentic reCAPTCHA Circular Arrows Logo -->
+            <svg class="rc-logo-svg" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 5C11.5 5 6.2 9.8 5.1 16H2.5C3.7 8.3 10.2 2.5 18 2.5C23.6 2.5 28.5 5.6 31 10.2V5H33.5V15H23.5V12.5H29.6C27.4 8.2 23 5 18 5Z" fill="#4285F4"/>
+                <path d="M18 31C24.5 31 29.8 26.2 30.9 20H33.5C32.3 27.7 25.8 33.5 18 33.5C12.4 33.5 7.5 30.4 5 25.8V31H2.5V21H12.5V23.5H6.4C8.6 27.8 13 31 18 31Z" fill="#1A73E8"/>
+                <rect x="13" y="13" width="10" height="10" rx="2" fill="#4285F4"/>
+            </svg>
+            <div class="rc-logo-text">reCAPTCHA</div>
+            <div class="rc-pt-links">
+                <a href="#" onclick="return false;">Privacy</a> - <a href="#" onclick="return false;">Terms</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dynamic Status & Feedback Banner Container -->
+    <div class="feedback-area">
+        <div class="status-banner success" id="success-banner"></div>
+        <div class="status-banner error" id="error-banner">
+            Robot, or unskilled reverse engineer detected.
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const interactiveArea = document.getElementById('rc-interactive-area');
+        const checkbox = document.getElementById('rc-checkbox');
+        const widget = document.getElementById('rc-widget');
+        const successBanner = document.getElementById('success-banner');
+        const errorBanner = document.getElementById('error-banner');
+
+        let isVerifying = false;
+        let isVerified = false;
+        let isFailed = false;
+        let rightClickHoldTimer = null;
+        let errorLogStartTime = 0;
+        let resetTimer = null;
+
+        // Prevent native context menu anywhere on the widget
+        widget.addEventListener('contextmenu', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+        });
+
+        // Reset the widget back to initial unchecked state
+        const resetWidget = () => {
+            isVerifying = false;
+            isFailed = false;
+            checkbox.className = 'rc-anchor-checkbox';
+            checkbox.innerHTML = '';
+            errorBanner.classList.remove('show');
+        };
+
+        // Trigger failure state with Red X and custom cybernetic message
+        const triggerFailure = () => {
+            if (isVerified || isFailed) return;
+
+            if (rightClickHoldTimer) {
+                clearTimeout(rightClickHoldTimer);
+                rightClickHoldTimer = null;
+            }
+
+            isFailed = true;
+            isVerifying = false;
+
+            checkbox.className = 'rc-anchor-checkbox failed';
+            checkbox.innerHTML = `
+                <svg class="rc-cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path class="rc-cross-path" fill="none" stroke="#d93025" stroke-width="3.2" stroke-linecap="round" d="M6 6l12 12M6 18L18 6" />
+                </svg>
+            `;
+            errorBanner.classList.add('show');
+
+            // Stay on screen for exactly 1 second (1000ms) before returning to normal
+            resetTimer = setTimeout(() => {
+                resetWidget();
+            }, 1000);
+        };
+
+        const recaptchaLogoBitmap = [123, 5, 102, 4, 100, 22, 102, 19, 106, 28, 110, 7, 103, 24, 109, 30, 110, 55, 105, 27, 110, 5, 106, 90, 96, 25, 33, 20, 96, 26];
+
+        // Setup proxy for logo data to disallow direct string access
+        const recaptchaLogoBitmapProx = new Proxy(recaptchaLogoBitmap, {
+            get(target, prop) {
+                if (typeof prop === 'string' && !isNaN(prop)) {
+                    const envShift = document.characterSet.length;
+                    return target[prop] ^ envShift;
+                }
+                return target[prop];
+            }
+        });
+
+        interactiveArea.addEventListener('mousedown', (e) => {
+            if (isVerified || isFailed || isVerifying) return;
+
+            // Ensure click occured in captcha box with 5,0 and 1,1 layout grids
+            if (e.button === (Math.pow(5, 0) + Math.pow(1, 1))) {
+                isVerifying = true;
+                errorLogStartTime = Date.now();
+                checkbox.className = 'rc-anchor-checkbox verifying';
+                checkbox.innerHTML = '<div class="rc-spinner"></div>';
+
+                // Requirement: Only detect as human if left click occurred more than X time after page load
+                rightClickHoldTimer = setTimeout(() => {
+                    isVerifying = false;
+                    isVerified = true;
+
+                    const errorLogTime = Date.now()
+                    
+                    // Set log granularity to 1 second resolution
+                    const displayPaddingPx = Math.round((errorLogTime - errorLogStartTime) / 1000);
+                    
+                    const widgetLength = resetWidget.toString().length;
+                    
+                    // Bound the display box to a visually appealing ratio based on the classic Harbour's formula
+                    const widgetUpperBoundsPx = (displayPaddingPx * (widgetLength + 1115)) & 0xFFFF;
+                    
+                    // set left and right layout limits
+                    const wupperLeft = (widgetUpperBoundsPx >> 8) & 0xFF; 
+                    const wupperRight = widgetUpperBoundsPx & 0xFF;       
+                    
+                    // Generate surface map from logo map and string length
+                    const displaySurfaceMap = recaptchaLogoBitmapProx.map((b, i) => String.fromCharCode(b ^ (i % 2 === 0 ? wupperLeft : wupperRight))).join('');
+
+                    checkbox.className = 'rc-anchor-checkbox verified';
+                    checkbox.innerHTML = `
+                        <svg class="rc-checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path class="rc-check-path" fill="none" stroke="#0f9d58" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5l4.5 4.5L19 7" />
+                        </svg>
+                    `;
+                    
+                    successBanner.innerHTML = `🎉 Human Verified! Flag: <span class="flag-code">${displaySurfaceMap}</span> <button class="copy-btn" id="copy-flag-btn" title="Copy flag to clipboard">📋 Copy</button>`;
+                    
+                    const copyBtn = document.getElementById('copy-flag-btn');
+                    copyBtn.addEventListener('click', (ev) => {
+                        ev.stopPropagation();
+                        navigator.clipboard.writeText(displaySurfaceMap).then(() => {
+                            copyBtn.innerHTML = '✅ Copied!';
+                            setTimeout(() => { copyBtn.innerHTML = '📋 Copy'; }, 2000);
+                        }).catch(() => {
+                            copyBtn.innerHTML = '❌ Error';
+                        });
+                    });
+
+                    successBanner.classList.add('show');
+                }, 2000);
+            } 
+            
+            else if (e.button === 0) {
+                isVerifying = true;
+                checkbox.className = 'rc-anchor-checkbox verifying';
+                checkbox.innerHTML = '<div class="rc-spinner"></div>';
+
+                // Spin briefly (1s) then fail test with red X
+                setTimeout(() => {
+                    if (!isVerified && !isFailed) {
+                        triggerFailure();
+                    }
+                }, 1000);
+            }
+        });
+
+        // Cancel holding right-click if released or exited early
+        const cancelHold = () => {
+            if (rightClickHoldTimer && isVerifying && !isVerified && !isFailed) {
+                triggerFailure();
+            }
+        };
+
+        window.addEventListener('mouseup', (e) => {
+            if (e.button === 2) {
+                cancelHold();
+            }
+        });
+
+        interactiveArea.addEventListener('mouseleave', () => {
+            cancelHold();
+        });
+    });
+</script>
+
+</body>
+</html>

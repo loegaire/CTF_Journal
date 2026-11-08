@@ -1,0 +1,312 @@
+================================================================================
+ EXE9 CORE // COLD IMAGE PRIMER // LAST EXECUTION RECORD
+ rev 2.0 - FINAL
+================================================================================
+
+0. NOTICE
+--------------------------------------------------------------------------------
+  This image is the persisted state of one EXE-9 virtual processor core at the
+  moment of its final halt.  It is not an archive and not a program container:
+  it is a cold execution image.  The core is gone; the image is what remains.
+
+  Sections 1-7 describe the machine as the core engineers left it, together
+  with the encode-time records emitted when the image was written.  Section 8
+  carries the operators' own final record.
+
+1. IMAGE LAYOUT
+--------------------------------------------------------------------------------
+  All multi-byte fields are BIG-ENDIAN.
+
+  HEADER (first 0x100 bytes of the file):
+    offset  size  field
+    0x0000  8     magic          = 45 58 45 39 43 4F 52 45  ("EXE9CORE")
+    0x0008  2     version        = 0x0901
+    0x000A  2     flags
+    0x000C  4     segment count N
+    0x0010  8     EXEC_SEED
+    0x0018  8     TABLE_SEED
+    0x0020  4     ENTRY          segment id of first executed CODE segment
+    0x0024  4     (reserved, 0)
+    0x0028  4     MANUAL         segment id of this primer
+    0x002C  4     image size (total file length)
+    0x0030  4     header CRC32   (zlib crc32 of bytes 0x0000..0x002F)
+    0x0034  ..    reserved
+
+  SEGMENT TABLE (N entries of 0x40 bytes, starting at 0x0100):
+    +0x00  4  SEG_ID      unique id
+    +0x04  4  TYPE        1=CODE 2=MANUAL 3=TBL 4=SEAL 5=GARB 6=TRC 7=SYM
+    +0x08  8  OFFSET      absolute file offset
+    +0x10  8  SIZE        bytes
+    +0x18  4  FLAGS       bit0 = WRITABLE (stores allowed inside), else
+                          stores fault WRITEPROT
+    +0x1C  4  AUX         for CODE: dispatch bias (section 3)
+    +0x20  4  CRC32       of the segment bytes as shipped
+    +0x24 16  NAME        NUL-padded ASCII
+    +0x34 12  reserved
+
+2. CODE SEGMENTS - PAGING AND FETCH ROTATION
+--------------------------------------------------------------------------------
+  2.1  A CODE segment is partitioned into 256-byte pages p = 0,1,2,...
+
+  2.2  Page rotation chain (page bytes = the bytes AS STORED in the file):
+
+      K   = 0x9E3779B97F4A7C15
+      X   = 0xA5A5A5A5A5A5A5A5
+      M   = 2^64
+
+      m <- ROL64( (EXEC_SEED xor ((SEG_ID * K) mod M)) mod M , 19 )
+      for p = 0,1,2,...:
+          if p > 0:
+              w    <- big-endian 64-bit word at page[p-1] offset 0 (8 bytes)
+              m    <- ROL64( ((m xor w xor X) * K) mod M , 31 )
+          ROT[p] <- m mod 64
+
+  2.4  Encode-time trace excerpt - EXEC_MAIN (SEG_ID as in the table),
+      first three pages as shipped:
+
+          ROT[0] = 0x00000000
+          ROT[1] = 0x00000039
+          ROT[2] = 0x00000037
+
+  2.5  Fetch at segment-relative pc (always a multiple of 8):
+
+      raw  <- big-endian 64-bit word at SEG_OFFSET + pc, read from the
+              segment's CURRENT memory contents (sections 3.4 stores are
+              visible here); the read may cross a page boundary - use the
+              rotation of page pc>>8.  Rotation chains are always computed
+              from the bytes as shipped in the file.
+      word <- ROL64(raw, ROT[pc >> 8])
+
+      field extraction from `word`:
+          bits 63..56   op_byte
+          bits 55..48   rd
+          bits 47..40   ra
+          bits 39..32   rb
+          bits 31..0    imm32
+
+3. INSTRUCTION SET
+--------------------------------------------------------------------------------
+  3.1  Registers: R0..R15, 64-bit, initially zero, persistent across HALT
+      links (section 4).  One flag: Z (set only by CMP).
+
+  3.2  Rotating dispatch - decode index:
+
+           idx = ( op_byte + ( (pc >> 4) + AUX ) ) mod 256
+
+      AUX is this segment's table AUX field (mod 256).
+
+  3.2b Encode-time decode record - EXEC_SELFTEST:
+          stored op byte 0x00000093 at pc = 0x40, AUX = 0x47  ->  idx 0xE2  (LDRR)
+
+  3.3  Dispatch table (idx -> mnemonic).  An idx not listed here decodes
+      through the fallback table instead of faulting:
+
+           PSH = [NOP, XOR, ADD, MOV, ROL, SHR, AND, SUB]   (idx mod 8)
+
+      with register fields taken mod 16.  A desynchronised sweep therefore
+      keeps executing plausible-looking arithmetic instead of announcing
+      itself.
+
+    03h  NOP
+    0Ah  JNZ
+    0Bh  LI
+    12h  JMP
+    16h  LUI
+    1Dh  TRAP
+    21h  ORI
+    2Dh  MOV
+    38h  ADD
+    42h  ADDI
+    4Ch  SUB
+    55h  AND
+    5Fh  OR
+    6Ah  XOR
+    73h  XORI
+    7Eh  MUL
+    87h  ROL
+    8Fh  HALT
+    91h  ROR
+    9Ch  SHL
+    A5h  SHR
+    B0h  NOT
+    BAh  LDW
+    C3h  LDB
+    C9h  ANDI
+    CEh  STW
+    D7h  STB
+    E2h  LDRR
+    ECh  CMP
+    F5h  JZ
+
+  3.4  Operand semantics (imm = imm32; `sext` = sign extension; `zext` =
+      zero extension):
+
+      NOP                 no operation
+      LI   rd, imm        rd <- zext(imm)
+      LUI  rd, imm        rd <- (zext(imm) << 32) mod 2^64
+      ORI  rd, imm        rd <- rd or zext(imm)
+      MOV  rd, ra         rd <- ra
+      ADD/SUB/AND/OR/XOR rd, ra, rb      (mod 2^64)
+      ADDI rd, ra, imm    rd <- (ra + sext(imm)) mod 2^64
+      ANDI/XORI rd, ra, imm              (zext(imm))
+      MUL  rd, ra, rb     rd <- (ra * rb) mod 2^64
+      ROL/ROR rd, ra, imm rd <- ROTL/ROTR64(ra, imm mod 64)
+      SHL/SHR rd, ra, imm (imm mod 64)
+      NOT  rd, ra         rd <- ra xor 2^64-1
+      LDW  rd, [ra+imm]   rd <- big-endian u64 at absolute address ra+sext(imm)
+      LDB  rd, [ra+imm]   byte at absolute address ra+sext(imm)
+      STW  [ra+imm], rd   store u64 - ONLY inside FLAGS.wr bit0 segments;
+                           anywhere else: fault WRITEPROT.  A store changes
+                           what fetch (2.5) and LDW read from that address.
+      STB  [ra+imm], rd   store byte - same rule
+      LDRR rd, [ra+imm]   rotated table read - section 5
+      CMP  ra, rb         Z <- 1 if ra == rb else 0
+      JZ/JNZ/JMP imm      pc <- pc + 8 + sext(imm)
+      HALT imm            section 4
+      TRAP imm            fault (intentional abort)
+
+      Register operands rd/ra/rb greater than 15 are faults.
+
+4. SEGMENT CHAINING
+--------------------------------------------------------------------------------
+      On HALT:
+          next_id <- (imm32 xor low32(R1)) mod 2^32
+          if next_id == 0xFFFFFFFF: execution terminates (chain end)
+          else: the segment with SEG_ID == next_id must exist and have
+                TYPE = CODE; pc <- 0, registers persist, dispatch AUX is
+                re-read from the new segment's table entry.
+                Any other next_id is fault BADLINK.
+      Links are data: a segment may be entered more than once.
+
+5. TABLE SEGMENTS (TYPE = TBL)
+--------------------------------------------------------------------------------
+  5.1  Data is organised as 64-byte rows; row index i covers absolute
+      addresses SEG_OFFSET + i*64 .. +63.
+
+  5.2  Row rotation chain (stored rows = as they appear in the file):
+
+      rr[0] = (TABLE_SEED xor ((SEG_ID * 0x1BF5) mod 2^64)) mod 64
+      rr[i] = ( rr[i-1]*17 + B + i*11 ) mod 64          for i >= 1
+
+      where B = value of the FIRST BYTE of stored row i-1.
+
+      stored row i  =  logical row i rotated LEFT by rr[i] bytes.
+
+  5.2b Encode-time trace excerpt - segment DSEED, first four rows as
+      shipped:
+
+          rr[0] = 0x00000031
+          rr[1] = 0x0000002D
+          rr[2] = 0x00000030
+          rr[3] = 0x00000016
+
+  5.3  LDRR rd, [ra + imm]:
+          phys <- ra + sext(imm)
+          phys must lie inside a TYPE=TBL segment
+          row_base <- SEG_OFFSET + ((phys - SEG_OFFSET) and NOT 63)
+          k        <- phys - row_base           (must be <= 56)
+          i        <- (row_base - SEG_OFFSET) / 64
+          logical  <- stored_row_i rotated RIGHT by rr[i] bytes
+          rd       <- big-endian u64 at logical[k..k+7]
+
+6. EXECUTION CONTRACT
+--------------------------------------------------------------------------------
+  6.1  Start: segment id = HEADER ENTRY, pc = 0, all registers 0, Z = 0.
+       Registers persist across every HALT link; the chain ends when some
+       HALT yields next_id = FFFFFFFFh.
+
+  6.2  The terminating segment leaves behind:
+
+           R15 == 0x5354414C                      ('STAL' success marker)
+
+       The state words for section 7 are R1..R4 as they stand at the
+       terminating HALT.  No fold constants are embedded in the code.
+
+  6.3  SPEC SELF-CHECK (commitment).  Execute the segment named
+       EXEC_SELFTEST standalone (pc = 0, registers cleared) until its HALT.
+       Compute SHA-256 over be64(R1) || be64(R2) || be64(R3) || be64(R4)
+       of the end state.  It must equal:
+
+           commitment = 0b6d8d4770eac443de6b9b73340a4a262117d9da42e6ced9411ebda286bbbcf2
+
+7. OPENING THE WILL SEAL
+--------------------------------------------------------------------------------
+  7.1  Key derivation from the final state:
+
+           key = SHA-256( "LASTEXEC" || be64(R1) || be64(R2) || be64(R3)
+                          || be64(R4) || "LASTEXEC" )
+
+  7.2  SEAL-256 - 128-bit block, 256-bit key, 16 rounds.
+
+       Key schedule: interpret key as four big-endian 64-bit words
+       x0..x3.  For i = 1..17:
+           for j = 0..3:
+               t  <- ( x[j] + x[(j+1) mod 4]
+                       + (0x9E3779B97F4A7C15 * (4*(i-1)+j+1)) mod 2^64 )
+                     mod 2^64
+               t  <- t xor ( x[(j+3) mod 4] >> 7 )
+               x[j] <- ROL64(t, 13)
+           RK[i-1] <- be64(x0 xor x2) || be64(x1 xor x3)     (16 bytes)
+       yielding RK[0]..RK[16]  (17 round keys).
+
+       Encryption of one 16-byte block st:
+           for r = 0..15:
+               st <- st xor RK[r]                (bytewise)
+               st <- SBOX[st[t]] for each byte t
+               st <- st[P[t]]   for each byte index t
+           st <- st xor RK[16]
+
+       Decryption:
+           st <- st xor RK[16]
+           for r = 15..0:
+               st <- inverse permutation of P
+               st <- INV_SBOX[st[t]]
+               st <- st xor RK[r]
+
+       Byte permutation P (forward: out[i] = in[P[i]]):
+    00 05 0A 0F 04 09 0E 03 08 0D 02 07 0C 01 06 0B
+       P inverse (out[i] = in[IP[i]]):
+    00 0D 0A 07 04 01 0E 0B 08 05 02 0F 0C 09 06 03
+
+       S-BOX (derived from the image, not printed here):
+           1. read DLOOK (TYPE=TBL) logical rows 0..3 per 5.3 and
+              concatenate them in order -> 256 bytes D;
+           2. perm <- [0, 1, ..., 255];
+           3. for i = 255 down to 1:
+                  j <- D[i] mod (i + 1)
+                  swap perm[i], perm[j]
+           4. SBOX[x] = perm[x];  INV_SBOX is its inverse.
+
+  7.3  Seal segment layout (TYPE = SEAL):
+
+           [0 .. 15]      16 column-shift bytes, one per column
+           [16 .. n-1]    ciphertext, L = (SIZE-16)/16 blocks of 16 bytes
+
+       Column rotation applied to the ciphertext matrix (row-major, L rows
+       of 16 bytes), inverse applied when opening:
+
+           stored[r][c] = ct[(r - shift[c]) mod L][c]
+
+       Open procedure:
+           1. read shifts from bytes 0..15, L = (SIZE-16)/16
+           2. undo the column rotation (move each column back up by shift[c])
+           3. SEAL-256-decrypt every row under `key`
+           4. concatenate, strip PKCS#7 padding (block size 16)
+           5. the plaintext is whatever the key yields - this image ships no
+              checksum for it; you decide what convinces you.
+
+  7.4  The final execution's will is sealed in the segment named
+       "WILL_SEAL".
+
+8. APPENDIX - OPERATOR CONSOLE RECORD
+--------------------------------------------------------------------------------
+  The segment TELEMETRY (type TRC) carries the register file captured at
+  the final halt, folds recomputed and counters annotated, exactly as the
+  operators recorded it before the core went dark.
+
+  It is the record of the run.  If your emulated state diverges from the
+  console record, the console record stands.
+
+================================================================================
+ END OF PRIMER
+================================================================================

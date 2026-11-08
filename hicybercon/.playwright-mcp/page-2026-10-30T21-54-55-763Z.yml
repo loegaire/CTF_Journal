@@ -1,0 +1,145 @@
+- generic [ref=f111e1]:
+  - generic [ref=f111e4]:
+    - banner [ref=f111e5]:
+      - search "Поиск в интернете" [ref=f111e6]:
+        - generic [ref=f111e7]:
+          - link "Yandex" [ref=f111e8] [cursor=pointer]:
+            - /url: //yandex.com
+          - generic [ref=f111e12]:
+            - textbox [aria-hidden] [ref=f111e13]:
+              - /placeholder: Find an image
+            - combobox "Запрос" [ref=f111e14]
+      - button "Image search" [ref=f111e16] [cursor=pointer]
+      - button "Меню" [ref=f111e21] [cursor=pointer]
+    - navigation [ref=f111e24]:
+      - generic [ref=f111e25]:
+        - link "Web" [ref=f111e26] [cursor=pointer]:
+          - /url: //yandex.com?source=tabbar
+        - link "Yandex AI" [ref=f111e27] [cursor=pointer]:
+          - /url: //yandex.com?source=tabbar&promo=force_neuro
+        - link "Images" [ref=f111e28] [cursor=pointer]:
+          - /url: //yandex.com/images?parent-reqid=1793397273024584-5200823647437290250-xsdlt53qkcbv7a4r-BAL
+          - generic [aria-hidden] [ref=f111e29]: Images
+          - text: Images
+        - link "Video" [ref=f111e30] [cursor=pointer]:
+          - /url: //yandex.com/video?parent-reqid=1793397273024584-5200823647437290250-xsdlt53qkcbv7a4r-BAL&from=tabbar
+        - link "Maps" [ref=f111e31] [cursor=pointer]:
+          - /url: //yandex.com/maps/?source=serp_navig
+      - link "Translate" [ref=f111e33] [cursor=pointer]:
+        - /url: //translate.yandex.com?from=tabbar
+    - dialog [ref=f111e169]:
+      - generic [ref=f111e170]:
+        - generic [ref=f111e171]:
+          - generic [ref=f111e172]: Visual search
+          - link "About image search" [ref=f111e173] [cursor=pointer]:
+            - /url: //yandex.com/support/images/loaded-image.html
+          - button "Close image search window" [ref=f111e175] [cursor=pointer]
+        - generic [ref=f111e176]:
+          - generic [ref=f111e177] [cursor=pointer]
+          - generic [ref=f111e178]:
+            - generic [ref=f111e198]: Drag an image here
+            - generic [ref=f111e199]: or click the button
+            - button "Select file" [ref=f111e201] [cursor=pointer]
+        - generic [ref=f111e202]:
+          - textbox "Enter image URL" [active] [ref=f111e204]
+          - button "Search" [disabled] [ref=f111e206]
+      - link "Search history" [ref=f111e207] [cursor=pointer]:
+        - /url: //passport.yandex.com/auth?retpath=https%3A%2F%2Fyandex.com%2Fimages%2F&origin=images_cbir_history
+      - alert
+  - main [ref=f111e37]:
+    - generic [ref=f111e40]:
+      - generic [ref=f111e42]:
+        - link [ref=f111e44] [cursor=pointer]:
+          - /url: /images/search?text=Images%20fantastic%20worlds&nl=1&source=morda
+          - img "Images fantastic worlds" [ref=f111e45]
+          - generic [aria-hidden] [ref=f111e47]: Images fantastic worlds
+        - link [ref=f111e50] [cursor=pointer]:
+          - /url: /images/search?text=New%20cars&nl=1&source=morda
+          - img "New cars" [ref=f111e51]
+          - generic [aria-hidden] [ref=f111e53]: New cars
+        - link [ref=f111e56] [cursor=pointer]:
+          - /url: /images/search?text=Masquerade&nl=1&source=morda
+          - img "Masquerade" [ref=f111e57]
+          - generic [aria-hidden] [ref=f111e59]: Masquerade
+        - link [ref=f111e62] [cursor=pointer]:
+          - /url: /images/search?text=St.%20Petersburg%20channels&nl=1&source=morda
+          - img "St. Petersburg channels" [ref=f111e63]
+          - generic [aria-hidden] [ref=f111e65]: St. Petersburg channels
+        - link [ref=f111e68] [cursor=pointer]:
+          - /url: /images/search?text=Supercars%20wallpaper&nl=1&source=morda
+          - img "Supercars wallpaper" [ref=f111e69]
+          - generic [aria-hidden] [ref=f111e71]: Supercars wallpaper
+        - link [ref=f111e74] [cursor=pointer]:
+          - /url: /images/search?text=Paris-Dakar%20Rally&nl=1&source=morda
+          - img "Paris-Dakar Rally" [ref=f111e75]
+          - generic [aria-hidden] [ref=f111e77]: Paris-Dakar Rally
+        - link [ref=f111e80] [cursor=pointer]:
+          - /url: /images/search?text=Cutest%20animals&nl=1&source=morda
+          - img "Cutest animals" [ref=f111e81]
+          - generic [aria-hidden] [ref=f111e83]: Cutest animals
+        - link [ref=f111e86] [cursor=pointer]:
+          - /url: /images/search?text=Cactus%20florarium&nl=1&source=morda
+          - img "Cactus florarium" [ref=f111e87]
+          - generic [aria-hidden] [ref=f111e89]: Cactus florarium
+        - link [ref=f111e92] [cursor=pointer]:
+          - /url: /images/search?text=Concept%20cars&nl=1&source=morda
+          - img "Concept cars" [ref=f111e93]
+          - generic [aria-hidden] [ref=f111e95]: Concept cars
+        - link [ref=f111e98] [cursor=pointer]:
+          - /url: /images/search?text=Kamchatka%20geysers&nl=1&source=morda
+          - img "Kamchatka geysers" [ref=f111e99]
+          - generic [aria-hidden] [ref=f111e101]: Kamchatka geysers
+        - link [ref=f111e104] [cursor=pointer]:
+          - /url: /images/search?text=Latte%20art&nl=1&source=morda
+          - img "Latte art" [ref=f111e105]
+          - generic [aria-hidden] [ref=f111e107]: Latte art
+        - link [ref=f111e110] [cursor=pointer]:
+          - /url: /images/search?text=Porsche%20911&nl=1&source=morda
+          - img "Porsche 911" [ref=f111e111]
+          - generic [aria-hidden] [ref=f111e113]: Porsche 911
+        - link [ref=f111e116] [cursor=pointer]:
+          - /url: /images/search?text=Leisure&nl=1&source=morda
+          - img "Leisure" [ref=f111e117]
+          - generic [aria-hidden] [ref=f111e119]: Leisure
+        - link [ref=f111e122] [cursor=pointer]:
+          - /url: /images/search?text=Apple%20dishes&nl=1&source=morda
+          - img "Apple dishes" [ref=f111e123]
+          - generic [aria-hidden] [ref=f111e125]: Apple dishes
+        - link [ref=f111e128] [cursor=pointer]:
+          - /url: /images/search?text=Caves%20of%20the%20world&nl=1&source=morda
+          - img "Caves of the world" [ref=f111e129]
+          - generic [aria-hidden] [ref=f111e131]: Caves of the world
+        - link [ref=f111e134] [cursor=pointer]:
+          - /url: /images/search?text=Drift%20cars&nl=1&source=morda
+          - img "Drift cars" [ref=f111e135]
+          - generic [aria-hidden] [ref=f111e137]: Drift cars
+        - link [ref=f111e140] [cursor=pointer]:
+          - /url: /images/search?text=Dolphinarium&nl=1&source=morda
+          - img "Dolphinarium" [ref=f111e141]
+          - generic [aria-hidden] [ref=f111e143]: Dolphinarium
+        - link [ref=f111e146] [cursor=pointer]:
+          - /url: /images/search?text=City%20landscape&nl=1&source=morda
+          - img "City landscape" [ref=f111e147]
+          - generic [aria-hidden] [ref=f111e149]: City landscape
+      - generic [ref=f111e153]:
+        - generic [ref=f111e154]:
+          - link "Your region Hanoi" [ref=f111e156] [cursor=pointer]:
+            - /url: //yandex.com/tune/geo/
+            - text: Hanoi
+          - generic [ref=f111e157]:
+            - link "Contact us" [ref=f111e158] [cursor=pointer]:
+              - /url: https://yandex.com/support/images/troubleshooting.html
+            - link "Help" [ref=f111e159] [cursor=pointer]:
+              - /url: https://yandex.com/support/images/
+          - link "Settings" [ref=f111e161] [cursor=pointer]:
+            - /url: https://yandex.com/tune/search/
+          - link "Image and photo search" [ref=f111e163] [cursor=pointer]:
+            - /url: /images/search?rpt=imageview
+          - generic [ref=f111e164]:
+            - link "About" [ref=f111e165] [cursor=pointer]:
+              - /url: //yandex.com/company/
+            - link "License" [ref=f111e166] [cursor=pointer]:
+              - /url: //yandex.com/legal/termsofuse/
+            - link "Privacy Policy" [ref=f111e167] [cursor=pointer]:
+              - /url: //yandex.com/legal/confidential/
+        - generic [aria-hidden] [ref=f111e168] [cursor=pointer]

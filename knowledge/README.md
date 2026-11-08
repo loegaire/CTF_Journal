@@ -1,0 +1,1 @@
+- [c2-exfil-pcap-rev](c2-exfil-pcap-rev/skill.md) — RC4+Huffman exfil reconstruction (flareon catthief)

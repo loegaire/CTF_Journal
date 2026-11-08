@@ -1,0 +1,1154 @@
+- generic [active] [ref=f20e1]:
+  - generic [ref=f20e7]:
+    - complementary [ref=f20e8]:
+      - button "Skip to main content" [ref=f20e10] [cursor=pointer]
+    - banner "Header" [ref=f20e11]:
+      - button "Navigation menu" [ref=f20e12] [cursor=pointer]
+      - link [ref=f20e17] [cursor=pointer]:
+        - /url: /
+        - img "Company logo" [ref=f20e19]
+      - heading "SIEM Search" [level=1] [ref=f20e20]
+      - generic [ref=f20e22]:
+        - button "Help" [ref=f20e24] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f20e26]: info
+        - button "SecOps Labs page" [ref=f20e27] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f20e29]: google_labs
+        - button "Notifications, 0 issues" [ref=f20e30] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f20e32]: notifications
+        - button "Get the help of AI" [ref=f20e34] [cursor=pointer]
+        - button "Logged in as CTF Player ctf-us-15-009" [ref=f20e38] [cursor=pointer]:
+          - img "CTF Player ctf-us-15-009" [ref=f20e40]:
+            - generic [ref=f20e41]: CP
+    - generic [ref=f20e44]:
+      - navigation "Navigation panel" [ref=f20e45]:
+        - menu "Navigation Menu" [ref=f20e46]:
+          - generic [ref=f20e47]:
+            - menuitem "Cases" [ref=f20e49] [cursor=pointer]
+            - menuitem "Your Workdesk" [ref=f20e55] [cursor=pointer]
+            - menuitem "Investigation" [ref=f20e61] [cursor=pointer]
+            - menuitem "Detection" [ref=f20e70] [cursor=pointer]
+            - menuitem "Response" [ref=f20e79] [cursor=pointer]
+            - menuitem "Dashboards & Reports" [ref=f20e88] [cursor=pointer]
+            - menuitem "Content Hub" [ref=f20e97] [cursor=pointer]
+            - menuitem "Settings" [ref=f20e103] [cursor=pointer]
+      - generic [ref=f20e113]:
+        - alert [ref=f20e115]:
+          - generic [ref=f20e125]:
+            - text: "IMMEDIATE ACTION NEEDED: If you use Backstory or Ingestion API programmatically using API calls or through custom integrations / scripts, please migrate the API calls to Chronicle API before July 20, 2027 for higher reliability, privacy, security and compliance. Please refer to the"
+            - link "Migration Guide" [ref=f20e126] [cursor=pointer]:
+              - /url: https://docs.cloud.google.com/chronicle/docs/administration/migrate-from-legacy-api-to-chronicle-api
+            - text: . Backstory and Ingestion API will not be accessible from July 20, 2027.
+          - button "Close" [ref=f20e127] [cursor=pointer]
+        - status [ref=f20e132]:
+          - paragraph [ref=f20e143]:
+            - text: Your Agentic SOC trial has concluded on August 31, 2026. You can now use Security Tokens to run agents. For more information, please check
+            - link "the documentation" [ref=f20e144] [cursor=pointer]:
+              - /url: https://docs.cloud.google.com/chronicle/docs/agentic-soc/security-tokens
+            - text: . If you have Auto-Investigate Alerts in Gemini enabled, you will need to re-enable them in Settings -> SIEM Settings -> Gemini Investigations.
+          - button "Close" [ref=f20e145] [cursor=pointer]
+        - main [ref=f20e149]:
+          - main [ref=f20e154]:
+            - generic "Search-view" [ref=f20e157]:
+              - generic [ref=f20e167]:
+                - generic [ref=f20e168]:
+                  - heading "Search" [level=4] [ref=f20e169]
+                  - generic "Search info" [ref=f20e170]:
+                    - generic [aria-hidden] [ref=f20e171]: info
+                - generic [ref=f20e172]:
+                  - button "History" [ref=f20e174] [cursor=pointer]
+                  - button "Search Manager" [ref=f20e184] [cursor=pointer]
+                  - button [ref=f20e189] [cursor=pointer]
+                  - button "Settings" [ref=f20e194] [cursor=pointer]
+                  - button "Toggle search query editor button" [ref=f20e199] [cursor=pointer]
+                - generic [ref=f20e206]:
+                  - code [ref=f20e207]:
+                    - generic [ref=f20e208]:
+                      - generic [ref=f20e211]: "1"
+                      - generic [ref=f20e214]: network.http.method = "POST"
+                      - textbox "Editor content;Press Alt+F1 for Accessibility Options." [ref=f20e220]: network.http.method = "POST"
+                  - code [ref=f20e221]:
+                    - generic [ref=f20e222]:
+                      - generic [ref=f20e225]: "1"
+                      - generic [ref=f20e228]: network.http.method = "POST"
+                      - textbox "Editor content;Press Alt+F1 for Accessibility Options." [ref=f20e234]: network.http.method = "POST"
+              - generic [ref=f20e235]:
+                - generic [ref=f20e238] [cursor=pointer]:
+                  - button "Results (1,607)" [ref=f20e239]
+                  - button "Alerts (0) & Detections (0)" [ref=f20e240]
+                  - button "Overview (0)" [ref=f20e241]
+                - generic [ref=f20e242]:
+                  - button "Add filter" [ref=f20e246] [cursor=pointer]
+                  - generic:
+                    - button "Clear" [disabled]
+                  - generic:
+                    - button "Apply to search and run" [disabled]
+                  - generic: Apply
+                - button "View Options View Options" [ref=f20e252] [cursor=pointer]:
+                  - text: View Options
+                  - img "View Options"
+              - generic [ref=f20e261]:
+                - generic [ref=f20e264]:
+                  - generic [ref=f20e265]:
+                    - generic [ref=f20e267]:
+                      - tablist [ref=f20e268]:
+                        - tab "Activity Over Time" [selected] [ref=f20e269] [cursor=pointer]
+                        - tab "Prevalence" [ref=f20e272] [cursor=pointer]
+                        - tab "Activity heatmap" [ref=f20e275] [cursor=pointer]
+                      - tabpanel "Activity Over Time" [ref=f20e278]
+                    - button "Collapse" [ref=f20e281] [cursor=pointer]
+                  - img "Distribution of events over time" [ref=f20e293]
+                - generic [ref=f20e299]:
+                  - generic [ref=f20e300]:
+                    - heading "Aggregations" [level=3] [ref=f20e301]
+                    - button "Collapse" [ref=f20e304] [cursor=pointer]
+                  - generic [ref=f20e306]:
+                    - searchbox "Search fields or values" [ref=f20e308]:
+                      - textbox [ref=f20e315]:
+                        - /placeholder: Search fields or values...
+                    - generic [ref=f20e319]:
+                      - generic [ref=f20e321]:
+                        - button "collapse section" [ref=f20e323] [cursor=pointer]
+                        - generic [ref=f20e325]: Grouped Fields
+                        - generic [aria-hidden] [ref=f20e328] [cursor=pointer]: info
+                      - generic [ref=f20e331] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e333]:
+                          - button "Pin field" [ref=f20e334]
+                        - generic "ip" [ref=f20e337]
+                        - generic [ref=f20e338]: (28)
+                        - generic [ref=f20e339]: 1.6k
+                      - generic [ref=f20e342] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e344]:
+                          - button "Pin field" [ref=f20e345]
+                        - generic "namespace" [ref=f20e348]
+                        - generic [ref=f20e349]: (2)
+                        - generic [ref=f20e350]: 1.6k
+                      - generic [ref=f20e353] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e355]:
+                          - button "Pin field" [ref=f20e356]
+                        - generic "hostname" [ref=f20e359]
+                        - generic [ref=f20e360]: (22)
+                        - generic [ref=f20e361]: 1.4k
+                      - generic [ref=f20e364] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e366]:
+                          - button "Pin field" [ref=f20e367]
+                        - generic "domain" [ref=f20e370]
+                        - generic [ref=f20e371]: (18)
+                        - generic [ref=f20e372]: 1.4k
+                      - generic [ref=f20e375] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e377]:
+                          - button "Pin field" [ref=f20e378]
+                        - generic "user" [ref=f20e381]
+                        - generic [ref=f20e382]: (10)
+                        - generic [ref=f20e383]: "122"
+                      - generic [ref=f20e386] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e388]:
+                          - button "Pin field" [ref=f20e389]
+                        - generic "email" [ref=f20e392]
+                        - generic [ref=f20e393]: (1)
+                        - generic [ref=f20e394]: "27"
+                      - generic [ref=f20e396]:
+                        - button "collapse section" [ref=f20e398] [cursor=pointer]
+                        - generic [ref=f20e400]: UDM Fields
+                      - generic [ref=f20e403] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e405]:
+                          - button "Pin field" [ref=f20e406]
+                        - generic "additional.fields.value.string_value" [ref=f20e409]
+                        - generic [ref=f20e410]: (143)
+                        - generic [ref=f20e411]: 1.6k
+                      - generic [ref=f20e414] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e416]:
+                          - button "Pin field" [ref=f20e417]
+                        - generic "additional.fields.key" [ref=f20e420]
+                        - generic [ref=f20e421]: (26)
+                        - generic [ref=f20e422]: 1.6k
+                      - generic [ref=f20e425] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e427]:
+                          - button "Pin field" [ref=f20e428]
+                        - generic "target.url" [ref=f20e431]
+                        - generic [ref=f20e432]: (20)
+                        - generic [ref=f20e433]: 1.6k
+                      - generic [ref=f20e436] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e438]:
+                          - button "Pin field" [ref=f20e439]
+                        - generic "network.http.user_agent" [ref=f20e442]
+                        - generic [ref=f20e443]: (12)
+                        - generic [ref=f20e444]: 1.6k
+                      - generic [ref=f20e447] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e449]:
+                          - button "Pin field" [ref=f20e450]
+                        - generic "principal.asset.ip" [ref=f20e453]
+                        - generic [ref=f20e454]: (11)
+                        - generic [ref=f20e455]: 1.6k
+                      - generic [ref=f20e458] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e460]:
+                          - button "Pin field" [ref=f20e461]
+                        - generic "principal.ip" [ref=f20e464]
+                        - generic [ref=f20e465]: (11)
+                        - generic [ref=f20e466]: 1.6k
+                      - generic [ref=f20e469] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e471]:
+                          - button "Pin field" [ref=f20e472]
+                        - generic "metadata.ingestion_labels.value" [ref=f20e475]
+                        - generic [ref=f20e476]: (7)
+                        - generic [ref=f20e477]: 1.6k
+                      - generic [ref=f20e480] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e482]:
+                          - button "Pin field" [ref=f20e483]
+                        - generic "metadata.base_labels.log_types" [ref=f20e486]
+                        - generic [ref=f20e487]: (4)
+                        - generic [ref=f20e488]: 1.6k
+                      - generic [ref=f20e491] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e493]:
+                          - button "Pin field" [ref=f20e494]
+                        - generic "metadata.log_type" [ref=f20e497]
+                        - generic [ref=f20e498]: (4)
+                        - generic [ref=f20e499]: 1.6k
+                      - generic [ref=f20e502] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e504]:
+                          - button "Pin field" [ref=f20e505]
+                        - generic "metadata.parser_version" [ref=f20e508]
+                        - generic [ref=f20e509]: (4)
+                        - generic [ref=f20e510]: 1.6k
+                      - generic [ref=f20e513] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e515]:
+                          - button "Pin field" [ref=f20e516]
+                        - generic "metadata.product_name" [ref=f20e519]
+                        - generic [ref=f20e520]: (4)
+                        - generic [ref=f20e521]: 1.6k
+                      - generic [ref=f20e524] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e526]:
+                          - button "Pin field" [ref=f20e527]
+                        - generic "metadata.vendor_name" [ref=f20e530]
+                        - generic [ref=f20e531]: (4)
+                        - generic [ref=f20e532]: 1.6k
+                      - generic [ref=f20e535] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e537]:
+                          - button "Pin field" [ref=f20e538]
+                        - generic "metadata.event_type" [ref=f20e541]
+                        - generic [ref=f20e542]: (3)
+                        - generic [ref=f20e543]: 1.6k
+                      - generic [ref=f20e546] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e548]:
+                          - button "Pin field" [ref=f20e549]
+                        - generic "metadata.ingestion_labels.key" [ref=f20e552]
+                        - generic [ref=f20e553]: (3)
+                        - generic [ref=f20e554]: 1.6k
+                      - generic [ref=f20e557] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e559]:
+                          - button "Pin field" [ref=f20e560]
+                        - generic "metadata.base_labels.namespaces" [ref=f20e563]
+                        - generic [ref=f20e564]: (2)
+                        - generic [ref=f20e565]: 1.6k
+                      - generic [ref=f20e568] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e570]:
+                          - button "Pin field" [ref=f20e571]
+                        - generic "principal.namespace" [ref=f20e574]
+                        - generic [ref=f20e575]: (2)
+                        - generic [ref=f20e576]: 1.6k
+                      - generic [ref=f20e579] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e581]:
+                          - button "Pin field" [ref=f20e582]
+                        - generic "target.namespace" [ref=f20e585]
+                        - generic [ref=f20e586]: (2)
+                        - generic [ref=f20e587]: 1.6k
+                      - generic [ref=f20e590] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e592]:
+                          - button "Pin field" [ref=f20e593]
+                        - generic "target.asset.ip" [ref=f20e596]
+                        - generic [ref=f20e597]: (17)
+                        - generic [ref=f20e598]: 1.6k
+                      - generic [ref=f20e601] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e603]:
+                          - button "Pin field" [ref=f20e604]
+                        - generic "target.ip" [ref=f20e607]
+                        - generic [ref=f20e608]: (17)
+                        - generic [ref=f20e609]: 1.6k
+                      - generic [ref=f20e612] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e614]:
+                          - button "Pin field" [ref=f20e615]
+                        - generic "target.ip_geo_artifact.ip" [ref=f20e618]
+                        - generic [ref=f20e619]: (15)
+                        - generic [ref=f20e620]: 1.6k
+                      - generic [ref=f20e623] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e625]:
+                          - button "Pin field" [ref=f20e626]
+                        - generic "target.ip_geo_artifact.network.organization_name" [ref=f20e629]
+                        - generic [ref=f20e630]: (11)
+                        - generic [ref=f20e631]: 1.6k
+                      - generic [ref=f20e634] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e636]:
+                          - button "Pin field" [ref=f20e637]
+                        - generic "target.ip_geo_artifact.location.region_coordinates.latitude" [ref=f20e640]
+                        - generic [ref=f20e641]: (9)
+                        - generic [ref=f20e642]: 1.6k
+                      - generic [ref=f20e645] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e647]:
+                          - button "Pin field" [ref=f20e648]
+                        - generic "target.ip_geo_artifact.location.region_coordinates.longitude" [ref=f20e651]
+                        - generic [ref=f20e652]: (9)
+                        - generic [ref=f20e653]: 1.6k
+                      - generic [ref=f20e656] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e658]:
+                          - button "Pin field" [ref=f20e659]
+                        - generic "target.ip_geo_artifact.location.region_latitude" [ref=f20e662]
+                        - generic [ref=f20e663]: (9)
+                        - generic [ref=f20e664]: 1.6k
+                      - generic [ref=f20e667] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e669]:
+                          - button "Pin field" [ref=f20e670]
+                        - generic "target.ip_geo_artifact.location.region_longitude" [ref=f20e673]
+                        - generic [ref=f20e674]: (9)
+                        - generic [ref=f20e675]: 1.6k
+                      - generic [ref=f20e678] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e680]:
+                          - button "Pin field" [ref=f20e681]
+                        - generic "target.ip_geo_artifact.network.carrier_name" [ref=f20e684]
+                        - generic [ref=f20e685]: (9)
+                        - generic [ref=f20e686]: 1.6k
+                      - generic [ref=f20e689] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e691]:
+                          - button "Pin field" [ref=f20e692]
+                        - generic "target.location.region_coordinates.latitude" [ref=f20e695]
+                        - generic [ref=f20e696]: (9)
+                        - generic [ref=f20e697]: 1.6k
+                      - generic [ref=f20e700] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e702]:
+                          - button "Pin field" [ref=f20e703]
+                        - generic "target.location.region_coordinates.longitude" [ref=f20e706]
+                        - generic [ref=f20e707]: (9)
+                        - generic [ref=f20e708]: 1.6k
+                      - generic [ref=f20e711] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e713]:
+                          - button "Pin field" [ref=f20e714]
+                        - generic "target.location.region_latitude" [ref=f20e717]
+                        - generic [ref=f20e718]: (9)
+                        - generic [ref=f20e719]: 1.6k
+                      - generic [ref=f20e722] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e724]:
+                          - button "Pin field" [ref=f20e725]
+                        - generic "target.location.region_longitude" [ref=f20e728]
+                        - generic [ref=f20e729]: (9)
+                        - generic [ref=f20e730]: 1.6k
+                      - generic [ref=f20e733] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e735]:
+                          - button "Pin field" [ref=f20e736]
+                        - generic "target.ip_geo_artifact.location.country_or_region" [ref=f20e739]
+                        - generic [ref=f20e740]: (6)
+                        - generic [ref=f20e741]: 1.6k
+                      - generic [ref=f20e744] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e746]:
+                          - button "Pin field" [ref=f20e747]
+                        - generic "target.location.country_or_region" [ref=f20e750]
+                        - generic [ref=f20e751]: (6)
+                        - generic [ref=f20e752]: 1.6k
+                      - generic [ref=f20e755] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e757]:
+                          - button "Pin field" [ref=f20e758]
+                        - generic "target.ip_geo_artifact.network.asn" [ref=f20e761]
+                        - generic [ref=f20e762]: (8)
+                        - generic [ref=f20e763]: 1.6k
+                      - generic [ref=f20e766] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e768]:
+                          - button "Pin field" [ref=f20e769]
+                        - generic "network.http.response_code" [ref=f20e772]
+                        - generic [ref=f20e773]: (3)
+                        - generic [ref=f20e774]: 1.5k
+                      - generic [ref=f20e777] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e779]:
+                          - button "Pin field" [ref=f20e780]
+                        - generic "target.ip_geo_artifact.location.state" [ref=f20e783]
+                        - generic [ref=f20e784]: (6)
+                        - generic [ref=f20e785]: 1.5k
+                      - generic [ref=f20e788] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e790]:
+                          - button "Pin field" [ref=f20e791]
+                        - generic "target.location.state" [ref=f20e794]
+                        - generic [ref=f20e795]: (6)
+                        - generic [ref=f20e796]: 1.5k
+                      - generic [ref=f20e799] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e801]:
+                          - button "Pin field" [ref=f20e802]
+                        - generic "target.port" [ref=f20e805]
+                        - generic [ref=f20e806]: (2)
+                        - generic [ref=f20e807]: 1.5k
+                      - generic [ref=f20e810] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e812]:
+                          - button "Pin field" [ref=f20e813]
+                        - generic "principal.port" [ref=f20e816]
+                        - generic [ref=f20e817]: (26)
+                        - generic [ref=f20e818]: 1.5k
+                      - generic [ref=f20e821] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e823]:
+                          - button "Pin field" [ref=f20e824]
+                        - generic "metadata.product_event_type" [ref=f20e827]
+                        - generic [ref=f20e828]: (2)
+                        - generic [ref=f20e829]: 1.5k
+                      - generic [ref=f20e832] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e834]:
+                          - button "Pin field" [ref=f20e835]
+                        - generic "network.http.parsed_user_agent.family" [ref=f20e838]
+                        - generic [ref=f20e839]: (3)
+                        - generic [ref=f20e840]: 1.4k
+                      - generic [ref=f20e843] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e845]:
+                          - button "Pin field" [ref=f20e846]
+                        - generic "target.asset.hostname" [ref=f20e849]
+                        - generic [ref=f20e850]: (18)
+                        - generic [ref=f20e851]: 1.4k
+                      - generic [ref=f20e854] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e856]:
+                          - button "Pin field" [ref=f20e857]
+                        - generic "target.hostname" [ref=f20e860]
+                        - generic [ref=f20e861]: (18)
+                        - generic [ref=f20e862]: 1.4k
+                      - generic [ref=f20e865] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e867]:
+                          - button "Pin field" [ref=f20e868]
+                        - generic "network.http.parsed_user_agent.sub_family" [ref=f20e871]
+                        - generic [ref=f20e872]: (5)
+                        - generic [ref=f20e873]: 1.3k
+                      - generic [ref=f20e876] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e878]:
+                          - button "Pin field" [ref=f20e879]
+                        - generic "about.labels.value" [ref=f20e882]
+                        - generic [ref=f20e883]: (124)
+                        - generic [ref=f20e884]: 1.3k
+                      - generic [ref=f20e887] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e889]:
+                          - button "Pin field" [ref=f20e890]
+                        - generic "about.labels.key" [ref=f20e893]
+                        - generic [ref=f20e894]: (13)
+                        - generic [ref=f20e895]: 1.3k
+                      - generic [ref=f20e898] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e900]:
+                          - button "Pin field" [ref=f20e901]
+                        - generic "network.session_id" [ref=f20e904]
+                        - generic [ref=f20e905]: (26)
+                        - generic [ref=f20e906]: 1.2k
+                      - generic [ref=f20e909] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e911]:
+                          - button "Pin field" [ref=f20e912]
+                        - generic "target.ip_geo_artifact.network.dns_domain" [ref=f20e915]
+                        - generic [ref=f20e916]: (8)
+                        - generic [ref=f20e917]: "684"
+                      - generic [ref=f20e920] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e922]:
+                          - button "Pin field" [ref=f20e923]
+                        - generic "network.received_bytes" [ref=f20e926]
+                        - generic [ref=f20e927]: (15)
+                        - generic [ref=f20e928]: "365"
+                      - generic [ref=f20e931] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e933]:
+                          - button "Pin field" [ref=f20e934]
+                        - generic "network.sent_bytes" [ref=f20e937]
+                        - generic [ref=f20e938]: (14)
+                        - generic [ref=f20e939]: "365"
+                      - generic [ref=f20e942] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e944]:
+                          - button "Pin field" [ref=f20e945]
+                        - generic "security_result.category_details" [ref=f20e948]
+                        - generic [ref=f20e949]: (11)
+                        - generic [ref=f20e950]: "365"
+                      - generic [ref=f20e953] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e955]:
+                          - button "Pin field" [ref=f20e956]
+                        - generic "network.application_protocol" [ref=f20e959]
+                        - generic [ref=f20e960]: (2)
+                        - generic [ref=f20e961]: "338"
+                      - generic [ref=f20e964] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e966]:
+                          - button "Pin field" [ref=f20e967]
+                        - generic "network.http.parsed_user_agent.annotation.value" [ref=f20e970]
+                        - generic [ref=f20e971]: (11)
+                        - generic [ref=f20e972]: "256"
+                      - generic [ref=f20e975] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e977]:
+                          - button "Pin field" [ref=f20e978]
+                        - generic "network.http.parsed_user_agent.annotation.key" [ref=f20e981]
+                        - generic [ref=f20e982]: (6)
+                        - generic [ref=f20e983]: "256"
+                      - generic [ref=f20e986] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e988]:
+                          - button "Pin field" [ref=f20e989]
+                        - generic "network.http.parsed_user_agent.os" [ref=f20e992]
+                        - generic [ref=f20e993]: (4)
+                        - generic [ref=f20e994]: "256"
+                      - generic [ref=f20e997] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e999]:
+                          - button "Pin field" [ref=f20e1000]
+                        - generic "network.http.parsed_user_agent.os_type" [ref=f20e1003]
+                        - generic [ref=f20e1004]: (2)
+                        - generic [ref=f20e1005]: "256"
+                      - generic [ref=f20e1008] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1010]:
+                          - button "Pin field" [ref=f20e1011]
+                        - generic "network.http.referral_url" [ref=f20e1014]
+                        - generic [ref=f20e1015]: (7)
+                        - generic [ref=f20e1016]: "249"
+                      - generic [ref=f20e1019] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1021]:
+                          - button "Pin field" [ref=f20e1022]
+                        - generic "security_result.severity" [ref=f20e1025]
+                        - generic [ref=f20e1026]: (2)
+                        - generic [ref=f20e1027]: "243"
+                      - generic [ref=f20e1030] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1032]:
+                          - button "Pin field" [ref=f20e1033]
+                        - generic "extracted.fields.value.string_value" [ref=f20e1036]
+                        - generic [ref=f20e1037]: (283)
+                        - generic [ref=f20e1038]: "216"
+                      - generic [ref=f20e1041] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1043]:
+                          - button "Pin field" [ref=f20e1044]
+                        - generic "extracted.fields.key" [ref=f20e1047]
+                        - generic [ref=f20e1048]: (44)
+                        - generic [ref=f20e1049]: "216"
+                      - generic [ref=f20e1052] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1054]:
+                          - button "Pin field" [ref=f20e1055]
+                        - generic "network.community_id" [ref=f20e1058]
+                        - generic [ref=f20e1059]: (4)
+                        - generic [ref=f20e1060]: "216"
+                      - generic [ref=f20e1063] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1065]:
+                          - button "Pin field" [ref=f20e1066]
+                        - generic "security_result.rule_id" [ref=f20e1069]
+                        - generic [ref=f20e1070]: (2)
+                        - generic [ref=f20e1071]: "216"
+                      - generic [ref=f20e1074] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1076]:
+                          - button "Pin field" [ref=f20e1077]
+                        - generic "security_result.rule_name" [ref=f20e1080]
+                        - generic [ref=f20e1081]: (2)
+                        - generic [ref=f20e1082]: "216"
+                      - generic [ref=f20e1085] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1087]:
+                          - button "Pin field" [ref=f20e1088]
+                        - generic "security_result.rule_version" [ref=f20e1091]
+                        - generic [ref=f20e1092]: (2)
+                        - generic [ref=f20e1093]: "216"
+                      - generic [ref=f20e1096] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1098]:
+                          - button "Pin field" [ref=f20e1099]
+                        - generic "network.http.parsed_user_agent.platform" [ref=f20e1102]
+                        - generic [ref=f20e1103]: (2)
+                        - generic [ref=f20e1104]: "175"
+                      - generic [ref=f20e1107] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1109]:
+                          - button "Pin field" [ref=f20e1110]
+                        - generic "network.http.parsed_user_agent.browser_version" [ref=f20e1113]
+                        - generic [ref=f20e1114]: (5)
+                        - generic [ref=f20e1115]: "171"
+                      - generic [ref=f20e1118] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1120]:
+                          - button "Pin field" [ref=f20e1121]
+                        - generic "network.http.parsed_user_agent.browser" [ref=f20e1124]
+                        - generic [ref=f20e1125]: (4)
+                        - generic [ref=f20e1126]: "171"
+                      - generic [ref=f20e1129] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1131]:
+                          - button "Pin field" [ref=f20e1132]
+                        - generic "network.http.parsed_user_agent.browser_engine_version" [ref=f20e1135]
+                        - generic [ref=f20e1136]: (3)
+                        - generic [ref=f20e1137]: "171"
+                      - generic [ref=f20e1140] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1142]:
+                          - button "Pin field" [ref=f20e1143]
+                        - generic "network.http.parsed_user_agent.browser_type" [ref=f20e1146]
+                        - generic [ref=f20e1147]: (3)
+                        - generic [ref=f20e1148]: "171"
+                      - generic [ref=f20e1151] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1153]:
+                          - button "Pin field" [ref=f20e1154]
+                        - generic "principal.user.userid" [ref=f20e1157]
+                        - generic [ref=f20e1158]: (9)
+                        - generic [ref=f20e1159]: "122"
+                      - generic [ref=f20e1162] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1164]:
+                          - button "Pin field" [ref=f20e1165]
+                        - generic "principal.application" [ref=f20e1168]
+                        - generic [ref=f20e1169]: (8)
+                        - generic [ref=f20e1170]: "122"
+                      - generic [ref=f20e1173] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1175]:
+                          - button "Pin field" [ref=f20e1176]
+                        - generic "principal.user.department" [ref=f20e1179]
+                        - generic [ref=f20e1180]: (6)
+                        - generic [ref=f20e1181]: "122"
+                      - generic [ref=f20e1184] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1186]:
+                          - button "Pin field" [ref=f20e1187]
+                        - generic "principal.location.name" [ref=f20e1190]
+                        - generic [ref=f20e1191]: (2)
+                        - generic [ref=f20e1192]: "122"
+                      - generic [ref=f20e1195] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1197]:
+                          - button "Pin field" [ref=f20e1198]
+                        - generic "metadata.enrichment_labels.log_types" [ref=f20e1201]
+                        - generic [ref=f20e1202]: (2)
+                        - generic [ref=f20e1203]: "102"
+                      - generic [ref=f20e1206] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1208]:
+                          - button "Pin field" [ref=f20e1209]
+                        - generic "principal.asset.hostname" [ref=f20e1212]
+                        - generic [ref=f20e1213]: (4)
+                        - generic [ref=f20e1214]: "101"
+                      - generic [ref=f20e1217] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1219]:
+                          - button "Pin field" [ref=f20e1220]
+                        - generic "principal.hostname" [ref=f20e1223]
+                        - generic [ref=f20e1224]: (4)
+                        - generic [ref=f20e1225]: "101"
+                      - generic [ref=f20e1228] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1230]:
+                          - button "Pin field" [ref=f20e1231]
+                        - generic "principal.asset.mac" [ref=f20e1234]
+                        - generic [ref=f20e1235]: (3)
+                        - generic [ref=f20e1236]: "75"
+                      - generic [ref=f20e1239] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1241]:
+                          - button "Pin field" [ref=f20e1242]
+                        - generic "principal.mac" [ref=f20e1245]
+                        - generic [ref=f20e1246]: (3)
+                        - generic [ref=f20e1247]: "75"
+                      - generic [ref=f20e1250] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1252]:
+                          - button "Pin field" [ref=f20e1253]
+                        - generic "network.http.parsed_user_agent.os_variant" [ref=f20e1256]
+                        - generic [ref=f20e1257]: (2)
+                        - generic [ref=f20e1258]: "65"
+                      - generic [ref=f20e1261] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1263]:
+                          - button "Pin field" [ref=f20e1264]
+                        - generic "network.http.parsed_user_agent.device" [ref=f20e1267]
+                        - generic [ref=f20e1268]: (3)
+                        - generic [ref=f20e1269]: "40"
+                      - generic [ref=f20e1272] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1274]:
+                          - button "Pin field" [ref=f20e1275]
+                        - generic "principal.user.attribute.labels.key" [ref=f20e1278]
+                        - generic [ref=f20e1279]: (5)
+                        - generic [ref=f20e1280]: "27"
+                      - generic [ref=f20e1283] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1285]:
+                          - button "Pin field" [ref=f20e1286]
+                        - generic "principal.user.attribute.labels.value" [ref=f20e1289]
+                        - generic [ref=f20e1290]: (4)
+                        - generic [ref=f20e1291]: "27"
+                      - generic [ref=f20e1294] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1296]:
+                          - button "Pin field" [ref=f20e1297]
+                        - generic "target.resource.attribute.labels.key" [ref=f20e1300]
+                        - generic [ref=f20e1301]: (3)
+                        - generic [ref=f20e1302]: "27"
+                      - generic [ref=f20e1305] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1307]:
+                          - button "Pin field" [ref=f20e1308]
+                        - generic "target.resource.attribute.labels.value" [ref=f20e1311]
+                        - generic [ref=f20e1312]: (3)
+                        - generic [ref=f20e1313]: "27"
+                      - generic [ref=f20e1316] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1318]:
+                          - button "Pin field" [ref=f20e1319]
+                        - generic "principal.asset.attribute.labels.key" [ref=f20e1322]
+                        - generic [ref=f20e1323]: (6)
+                        - generic [ref=f20e1324]: "26"
+                      - generic [ref=f20e1327] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1329]:
+                          - button "Pin field" [ref=f20e1330]
+                        - generic "principal.asset.attribute.labels.value" [ref=f20e1333]
+                        - generic [ref=f20e1334]: (4)
+                        - generic [ref=f20e1335]: "26"
+                      - generic [ref=f20e1338] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1340]:
+                          - button "Pin field" [ref=f20e1341]
+                        - generic "network.http.parsed_user_agent.device_version" [ref=f20e1344]
+                        - generic [ref=f20e1345]: (5)
+                        - generic [ref=f20e1346]: "5"
+                      - generic [ref=f20e1349] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1351]:
+                          - button "Pin field" [ref=f20e1352]
+                        - generic "metadata.base_labels.allow_scoped_access" [ref=f20e1355]
+                        - generic [ref=f20e1356]: (1)
+                        - generic [ref=f20e1357]: 1.6k
+                      - generic [ref=f20e1360] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1362]:
+                          - button "Pin field" [ref=f20e1363]
+                        - generic "metadata.enrichment_state" [ref=f20e1366]
+                        - generic [ref=f20e1367]: (1)
+                        - generic [ref=f20e1368]: 1.6k
+                      - generic [ref=f20e1371] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1373]:
+                          - button "Pin field" [ref=f20e1374]
+                        - generic "network.http.method" [ref=f20e1377]
+                        - generic [ref=f20e1378]: (1)
+                        - generic [ref=f20e1379]: 1.6k
+                      - generic [ref=f20e1382] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1384]:
+                          - button "Pin field" [ref=f20e1385]
+                        - generic "metadata.enrichment_labels.allow_scoped_access" [ref=f20e1388]
+                        - generic [ref=f20e1389]: (1)
+                        - generic [ref=f20e1390]: 1.6k
+                      - generic [ref=f20e1393] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1395]:
+                          - button "Pin field" [ref=f20e1396]
+                        - generic "about.namespace" [ref=f20e1399]
+                        - generic [ref=f20e1400]: (1)
+                        - generic [ref=f20e1401]: 1.3k
+                      - generic [ref=f20e1404] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1406]:
+                          - button "Pin field" [ref=f20e1407]
+                        - generic "security_result.action" [ref=f20e1410]
+                        - generic [ref=f20e1411]: (1)
+                        - generic [ref=f20e1412]: "365"
+                      - generic [ref=f20e1415] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1417]:
+                          - button "Pin field" [ref=f20e1418]
+                        - generic "network.http.parsed_user_agent.os_variant_type" [ref=f20e1421]
+                        - generic [ref=f20e1422]: (1)
+                        - generic [ref=f20e1423]: "256"
+                      - generic [ref=f20e1426] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1428]:
+                          - button "Pin field" [ref=f20e1429]
+                        - generic "network.ip_protocol" [ref=f20e1432]
+                        - generic [ref=f20e1433]: (1)
+                        - generic [ref=f20e1434]: "216"
+                      - generic [ref=f20e1437] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1439]:
+                          - button "Pin field" [ref=f20e1440]
+                        - generic "security_result.detection_fields.key" [ref=f20e1443]
+                        - generic [ref=f20e1444]: (1)
+                        - generic [ref=f20e1445]: "216"
+                      - generic [ref=f20e1448] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1450]:
+                          - button "Pin field" [ref=f20e1451]
+                        - generic "security_result.detection_fields.value" [ref=f20e1454]
+                        - generic [ref=f20e1455]: (1)
+                        - generic [ref=f20e1456]: "216"
+                      - generic [ref=f20e1459] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1461]:
+                          - button "Pin field" [ref=f20e1462]
+                        - generic "network.http.parsed_user_agent.browser_variant_type" [ref=f20e1465]
+                        - generic [ref=f20e1466]: (1)
+                        - generic [ref=f20e1467]: "171"
+                      - generic [ref=f20e1470] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1472]:
+                          - button "Pin field" [ref=f20e1473]
+                        - generic "security_result.action_details" [ref=f20e1476]
+                        - generic [ref=f20e1477]: (1)
+                        - generic [ref=f20e1478]: "122"
+                      - generic [ref=f20e1481] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1483]:
+                          - button "Pin field" [ref=f20e1484]
+                        - generic "security_result.associations.name" [ref=f20e1487]
+                        - generic [ref=f20e1488]: (1)
+                        - generic [ref=f20e1489]: "122"
+                      - generic [ref=f20e1492] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1494]:
+                          - button "Pin field" [ref=f20e1495]
+                        - generic "metadata.enrichment_labels.namespaces" [ref=f20e1498]
+                        - generic [ref=f20e1499]: (1)
+                        - generic [ref=f20e1500]: "102"
+                      - generic [ref=f20e1503] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1505]:
+                          - button "Pin field" [ref=f20e1506]
+                        - generic "metadata.url_back_to_product" [ref=f20e1509]
+                        - generic [ref=f20e1510]: (1)
+                        - generic [ref=f20e1511]: "27"
+                      - generic [ref=f20e1514] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1516]:
+                          - button "Pin field" [ref=f20e1517]
+                        - generic "principal.ip_geo_artifact.ip" [ref=f20e1520]
+                        - generic [ref=f20e1521]: (1)
+                        - generic [ref=f20e1522]: "27"
+                      - generic [ref=f20e1525] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1527]:
+                          - button "Pin field" [ref=f20e1528]
+                        - generic "principal.ip_geo_artifact.location.country_or_region" [ref=f20e1531]
+                        - generic [ref=f20e1532]: (1)
+                        - generic [ref=f20e1533]: "27"
+                      - generic [ref=f20e1536] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1538]:
+                          - button "Pin field" [ref=f20e1539]
+                        - generic "principal.ip_geo_artifact.location.region_coordinates.latitude" [ref=f20e1542]
+                        - generic [ref=f20e1543]: (1)
+                        - generic [ref=f20e1544]: "27"
+                      - generic [ref=f20e1547] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1549]:
+                          - button "Pin field" [ref=f20e1550]
+                        - generic "principal.ip_geo_artifact.location.region_coordinates.longitude" [ref=f20e1553]
+                        - generic [ref=f20e1554]: (1)
+                        - generic [ref=f20e1555]: "27"
+                      - generic [ref=f20e1558] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1560]:
+                          - button "Pin field" [ref=f20e1561]
+                        - generic "principal.ip_geo_artifact.location.region_latitude" [ref=f20e1564]
+                        - generic [ref=f20e1565]: (1)
+                        - generic [ref=f20e1566]: "27"
+                      - generic [ref=f20e1569] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1571]:
+                          - button "Pin field" [ref=f20e1572]
+                        - generic "principal.ip_geo_artifact.location.region_longitude" [ref=f20e1575]
+                        - generic [ref=f20e1576]: (1)
+                        - generic [ref=f20e1577]: "27"
+                      - generic [ref=f20e1580] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1582]:
+                          - button "Pin field" [ref=f20e1583]
+                        - generic "principal.ip_geo_artifact.network.organization_name" [ref=f20e1586]
+                        - generic [ref=f20e1587]: (1)
+                        - generic [ref=f20e1588]: "27"
+                      - generic [ref=f20e1591] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1593]:
+                          - button "Pin field" [ref=f20e1594]
+                        - generic "principal.location.country_or_region" [ref=f20e1597]
+                        - generic [ref=f20e1598]: (1)
+                        - generic [ref=f20e1599]: "27"
+                      - generic [ref=f20e1602] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1604]:
+                          - button "Pin field" [ref=f20e1605]
+                        - generic "principal.location.region_coordinates.latitude" [ref=f20e1608]
+                        - generic [ref=f20e1609]: (1)
+                        - generic [ref=f20e1610]: "27"
+                      - generic [ref=f20e1613] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1615]:
+                          - button "Pin field" [ref=f20e1616]
+                        - generic "principal.location.region_coordinates.longitude" [ref=f20e1619]
+                        - generic [ref=f20e1620]: (1)
+                        - generic [ref=f20e1621]: "27"
+                      - generic [ref=f20e1624] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1626]:
+                          - button "Pin field" [ref=f20e1627]
+                        - generic "principal.location.region_latitude" [ref=f20e1630]
+                        - generic [ref=f20e1631]: (1)
+                        - generic [ref=f20e1632]: "27"
+                      - generic [ref=f20e1635] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1637]:
+                          - button "Pin field" [ref=f20e1638]
+                        - generic "principal.location.region_longitude" [ref=f20e1641]
+                        - generic [ref=f20e1642]: (1)
+                        - generic [ref=f20e1643]: "27"
+                      - generic [ref=f20e1646] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1648]:
+                          - button "Pin field" [ref=f20e1649]
+                        - generic "principal.user.company_name" [ref=f20e1652]
+                        - generic [ref=f20e1653]: (1)
+                        - generic [ref=f20e1654]: "27"
+                      - generic [ref=f20e1657] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1659]:
+                          - button "Pin field" [ref=f20e1660]
+                        - generic "principal.user.email_addresses" [ref=f20e1663]
+                        - generic [ref=f20e1664]: (1)
+                        - generic [ref=f20e1665]: "27"
+                      - generic [ref=f20e1668] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1670]:
+                          - button "Pin field" [ref=f20e1671]
+                        - generic "principal.user.employee_id" [ref=f20e1674]
+                        - generic [ref=f20e1675]: (1)
+                        - generic [ref=f20e1676]: "27"
+                      - generic [ref=f20e1679] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1681]:
+                          - button "Pin field" [ref=f20e1682]
+                        - generic "principal.user.first_name" [ref=f20e1685]
+                        - generic [ref=f20e1686]: (1)
+                        - generic [ref=f20e1687]: "27"
+                      - generic [ref=f20e1690] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1692]:
+                          - button "Pin field" [ref=f20e1693]
+                        - generic "principal.user.last_login_time.nanos" [ref=f20e1696]
+                        - generic [ref=f20e1697]: (1)
+                        - generic [ref=f20e1698]: "27"
+                      - generic [ref=f20e1701] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1703]:
+                          - button "Pin field" [ref=f20e1704]
+                        - generic "principal.user.last_login_time.seconds" [ref=f20e1707]
+                        - generic [ref=f20e1708]: (1)
+                        - generic [ref=f20e1709]: "27"
+                      - generic [ref=f20e1712] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1714]:
+                          - button "Pin field" [ref=f20e1715]
+                        - generic "principal.user.last_name" [ref=f20e1718]
+                        - generic [ref=f20e1719]: (1)
+                        - generic [ref=f20e1720]: "27"
+                      - generic [ref=f20e1723] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1725]:
+                          - button "Pin field" [ref=f20e1726]
+                        - generic "principal.user.last_password_change_time.nanos" [ref=f20e1729]
+                        - generic [ref=f20e1730]: (1)
+                        - generic [ref=f20e1731]: "27"
+                      - generic [ref=f20e1734] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1736]:
+                          - button "Pin field" [ref=f20e1737]
+                        - generic "principal.user.last_password_change_time.seconds" [ref=f20e1740]
+                        - generic [ref=f20e1741]: (1)
+                        - generic [ref=f20e1742]: "27"
+                      - generic [ref=f20e1745] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1747]:
+                          - button "Pin field" [ref=f20e1748]
+                        - generic "principal.user.product_object_id" [ref=f20e1751]
+                        - generic [ref=f20e1752]: (1)
+                        - generic [ref=f20e1753]: "27"
+                      - generic [ref=f20e1756] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1758]:
+                          - button "Pin field" [ref=f20e1759]
+                        - generic "principal.user.title" [ref=f20e1762]
+                        - generic [ref=f20e1763]: (1)
+                        - generic [ref=f20e1764]: "27"
+                      - generic [ref=f20e1767] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1769]:
+                          - button "Pin field" [ref=f20e1770]
+                        - generic "principal.user.windows_sid" [ref=f20e1773]
+                        - generic [ref=f20e1774]: (1)
+                        - generic [ref=f20e1775]: "27"
+                      - generic [ref=f20e1778] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1780]:
+                          - button "Pin field" [ref=f20e1781]
+                        - generic "target.cloud.project.attribute.labels.key" [ref=f20e1784]
+                        - generic [ref=f20e1785]: (1)
+                        - generic [ref=f20e1786]: "27"
+                      - generic [ref=f20e1789] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1791]:
+                          - button "Pin field" [ref=f20e1792]
+                        - generic "target.cloud.project.attribute.labels.value" [ref=f20e1795]
+                        - generic [ref=f20e1796]: (1)
+                        - generic [ref=f20e1797]: "27"
+                      - generic [ref=f20e1800] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1802]:
+                          - button "Pin field" [ref=f20e1803]
+                        - generic "target.cloud.project.name" [ref=f20e1806]
+                        - generic [ref=f20e1807]: (1)
+                        - generic [ref=f20e1808]: "27"
+                      - generic [ref=f20e1811] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1813]:
+                          - button "Pin field" [ref=f20e1814]
+                        - generic "target.resource_ancestors.name" [ref=f20e1817]
+                        - generic [ref=f20e1818]: (1)
+                        - generic [ref=f20e1819]: "27"
+                      - generic [ref=f20e1822] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1824]:
+                          - button "Pin field" [ref=f20e1825]
+                        - generic "target.resource_ancestors.resource_type" [ref=f20e1828]
+                        - generic [ref=f20e1829]: (1)
+                        - generic [ref=f20e1830]: "27"
+                      - generic [ref=f20e1833] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1835]:
+                          - button "Pin field" [ref=f20e1836]
+                        - generic "target.resource.attribute.cloud.availability_zone" [ref=f20e1839]
+                        - generic [ref=f20e1840]: (1)
+                        - generic [ref=f20e1841]: "27"
+                      - generic [ref=f20e1844] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1846]:
+                          - button "Pin field" [ref=f20e1847]
+                        - generic "target.resource.resource_subtype" [ref=f20e1850]
+                        - generic [ref=f20e1851]: (1)
+                        - generic [ref=f20e1852]: "27"
+                      - generic [ref=f20e1855] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1857]:
+                          - button "Pin field" [ref=f20e1858]
+                        - generic "principal.asset_id" [ref=f20e1861]
+                        - generic [ref=f20e1862]: (1)
+                        - generic [ref=f20e1863]: "26"
+                      - generic [ref=f20e1866] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1868]:
+                          - button "Pin field" [ref=f20e1869]
+                        - generic "principal.asset.asset_id" [ref=f20e1872]
+                        - generic [ref=f20e1873]: (1)
+                        - generic [ref=f20e1874]: "26"
+                      - generic [ref=f20e1877] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1879]:
+                          - button "Pin field" [ref=f20e1880]
+                        - generic "principal.asset.attribute.creation_time.seconds" [ref=f20e1883]
+                        - generic [ref=f20e1884]: (1)
+                        - generic [ref=f20e1885]: "26"
+                      - generic [ref=f20e1888] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1890]:
+                          - button "Pin field" [ref=f20e1891]
+                        - generic "principal.asset.attribute.last_update_time.seconds" [ref=f20e1894]
+                        - generic [ref=f20e1895]: (1)
+                        - generic [ref=f20e1896]: "26"
+                      - generic [ref=f20e1899] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1901]:
+                          - button "Pin field" [ref=f20e1902]
+                        - generic "principal.asset.category" [ref=f20e1905]
+                        - generic [ref=f20e1906]: (1)
+                        - generic [ref=f20e1907]: "26"
+                      - generic [ref=f20e1910] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1912]:
+                          - button "Pin field" [ref=f20e1913]
+                        - generic "principal.asset.location.country_or_region" [ref=f20e1916]
+                        - generic [ref=f20e1917]: (1)
+                        - generic [ref=f20e1918]: "26"
+                      - generic [ref=f20e1921] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1923]:
+                          - button "Pin field" [ref=f20e1924]
+                        - generic "principal.asset.platform_software.platform" [ref=f20e1927]
+                        - generic [ref=f20e1928]: (1)
+                        - generic [ref=f20e1929]: "26"
+                      - generic [ref=f20e1932] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1934]:
+                          - button "Pin field" [ref=f20e1935]
+                        - generic "principal.asset.platform_software.platform_version" [ref=f20e1938]
+                        - generic [ref=f20e1939]: (1)
+                        - generic [ref=f20e1940]: "26"
+                      - generic [ref=f20e1943] [cursor=pointer]:
+                        - generic "Pin field" [ref=f20e1945]:
+                          - button "Pin field" [ref=f20e1946]
+                        - generic "principal.asset.product_object_id" [ref=f20e1949]
+                        - generic [ref=f20e1950]: (1)
+                        - generic [ref=f20e1951]: "26"
+                - generic [ref=f20e1962]:
+                  - generic [ref=f20e1967]:
+                    - generic [ref=f20e1969]:
+                      - button "Events" [ref=f20e1970] [cursor=pointer]
+                      - button "Pivot" [ref=f20e1971] [cursor=pointer]
+                    - generic [ref=f20e1972]:
+                      - searchbox "Search" [ref=f20e1978]
+                      - button "Columns" [ref=f20e1981] [cursor=pointer]
+                      - button "Wrap Text" [ref=f20e1986] [cursor=pointer]
+                      - button "download options" [ref=f20e1990] [cursor=pointer]
+                      - button "Maximize" [ref=f20e1994] [cursor=pointer]
+                  - generic [ref=f20e2002]:
+                    - grid [ref=f20e2010]:
+                      - rowgroup [ref=f20e2011]:
+                        - row [ref=f20e2012]:
+                          - columnheader "Event Status" [ref=f20e2013] [cursor=pointer]
+                          - columnheader "Timestamp" [ref=f20e2019] [cursor=pointer]:
+                            - generic [ref=f20e2020]:
+                              - generic [ref=f20e2021]: Timestamp
+                              - generic [aria-hidden] [ref=f20e2025]: info
+                          - columnheader "Type" [ref=f20e2027] [cursor=pointer]
+                          - columnheader "Summary" [ref=f20e2033]
+                          - columnheader "User" [ref=f20e2039] [cursor=pointer]
+                          - columnheader "Hostname" [ref=f20e2045] [cursor=pointer]
+                          - columnheader "Process Name" [ref=f20e2051] [cursor=pointer]
+                      - rowgroup [ref=f20e2057]:
+                        - row [ref=f20e2058] [cursor=pointer]:
+                          - gridcell [ref=f20e2059]
+                          - gridcell "2026-10-29T05:01:11.000 Open entity pivot menu" [ref=f20e2060]:
+                            - generic [ref=f20e2061]:
+                              - generic [ref=f20e2062]: 2026-10-29T05:01:11.000
+                              - button "Open entity pivot menu" [ref=f20e2070]
+                          - gridcell [ref=f20e2074]:
+                            - generic "NETWORK_HTTP" [ref=f20e2079]
+                          - gridcell "warren-morris to Demoverse > signin.accounts-gooqle.com" [ref=f20e2083]
+                          - gridcell [ref=f20e2090]:
+                            - link "warren-morris" [ref=f20e2094]:
+                              - /url: /search?query=network.http.method+%3D+%22POST%22&startTime=2026-08-01T00%3A00%3A00.000Z&endTime=2026-10-29T23%3A00%3A00.000Z&queryType=QUERY_TYPE_UDM_QUERY&entityByEventFieldOverlay=eventField%3Audm.principal.user.userid%2Cvalue%3Awarren-morris&tab=events&operationId=s-udm-12b22d7e-ead1-4ea6-80fe-48027330b950&vcfg=drillDownConfig%3A%5Bobject+Object%5D%2CtableAppearanceConfig%3A%5Bobject+Object%5D&chartType=Table
+                          - gridcell [ref=f20e2098]:
+                            - link "warren-morris-pc" [ref=f20e2102]:
+                              - /url: /search?query=network.http.method+%3D+%22POST%22&startTime=2026-08-01T00%3A00%3A00.000Z&endTime=2026-10-29T23%3A00%3A00.000Z&queryType=QUERY_TYPE_UDM_QUERY&entityByEventFieldOverlay=eventField%3Audm.principal.hostname%2Cvalue%3Awarren-morris-pc%2Cnamespace%3ADemoverse&tab=events&operationId=s-udm-12b22d7e-ead1-4ea6-80fe-48027330b950&vcfg=drillDownConfig%3A%5Bobject+Object%5D%2CtableAppearanceConfig%3A%5Bobject+Object%5D&chartType=Table
+                          - gridcell "—" [ref=f20e2106]
+                        - row [ref=f20e2109] [cursor=pointer]:
+                          - gridcell [ref=f20e2110]
+                          - gridcell "2026-10-29T04:58:37.860 Open entity pivot menu" [ref=f20e2111]:
+                            - generic [ref=f20e2112]:
+                              - generic [ref=f20e2113]: 2026-10-29T04:58:37.860
+                              - button "Open entity pivot menu" [ref=f20e2121]
+                          - gridcell [ref=f20e2125]:
+                            - generic "STATUS_UNCATEGORIZED" [ref=f20e2130]
+                          - gridcell "Demoverse > 192.158.1.38" [ref=f20e2134]
+                          - gridcell "—" [ref=f20e2141]
+                          - gridcell "—" [ref=f20e2144]
+                          - gridcell "—" [ref=f20e2147]
+                        - row [ref=f20e2150] [cursor=pointer]:
+                          - gridcell [ref=f20e2151]
+                          - gridcell "2026-10-29T04:53:40.000 Open entity pivot menu" [ref=f20e2152]:
+                            - generic [ref=f20e2153]:
+                              - generic [ref=f20e2154]: 2026-10-29T04:53:40.000
+                              - button "Open entity pivot menu" [ref=f20e2162]
+                          - gridcell [ref=f20e2166]:
+                            - generic "NETWORK_HTTP" [ref=f20e2171]
+                          - gridcell "phil.aldrin to Demoverse > alphastand.win" [ref=f20e2175]
+                          - gridcell [ref=f20e2182]:
+                            - link "phil.aldrin" [ref=f20e2186]:
+                              - /url: /search?query=network.http.method+%3D+%22POST%22&startTime=2026-08-01T00%3A00%3A00.000Z&endTime=2026-10-29T23%3A00%3A00.000Z&queryType=QUERY_TYPE_UDM_QUERY&entityByEventFieldOverlay=eventField%3Audm.principal.user.userid%2Cvalue%3Aphil.aldrin&tab=events&operationId=s-udm-12b22d7e-ead1-4ea6-80fe-48027330b950&vcfg=drillDownConfig%3A%5Bobject+Object%5D%2CtableAppearanceConfig%3A%5Bobject+Object%5D&chartType=Table
+                          - gridcell [ref=f20e2190]:
+                            - link "win-adfs" [ref=f20e2194]:
+                              - /url: /search?query=network.http.method+%3D+%22POST%22&startTime=2026-08-01T00%3A00%3A00.000Z&endTime=2026-10-29T23%3A00%3A00.000Z&queryType=QUERY_TYPE_UDM_QUERY&entityByEventFieldOverlay=eventField%3Audm.principal.hostname%2Cvalue%3Awin-adfs%2Cnamespace%3ADemoverse&tab=events&operationId=s-udm-12b22d7e-ead1-4ea6-80fe-48027330b950&vcfg=drillDownConfig%3A%5Bobject+Object%5D%2CtableAppearanceConfig%3A%5Bobject+Object%5D&chartType=Table
+                          - gridcell "—" [ref=f20e2198]
+                        - row [ref=f20e2201] [cursor=pointer]:
+                          - gridcell [ref=f20e2202]
+                          - gridcell "2026-10-29T04:52:11.000 Open entity pivot menu" [ref=f20e2203]:
+                            - generic [ref=f20e2204]:
+                              - generic [ref=f20e2205]: 2026-10-29T04:52:11.000
+                              - button "Open entity pivot menu" [ref=f20e2213]
+                          - gridcell [ref=f20e2217]:
+                            - generic "NETWORK_HTTP" [ref=f20e2222]
+                          - gridcell "emil-palmer to Demoverse > signin.office365x24.com" [ref=f20e2226]
+                          - gridcell [ref=f20e2233]:
+                            - link "emil-palmer" [ref=f20e2237]:
+                              - /url: /search?query=network.http.method+%3D+%22POST%22&startTime=2026-08-01T00%3A00%3A00.000Z&endTime=2026-10-29T23%3A00%3A00.000Z&queryType=QUERY_TYPE_UDM_QUERY&entityByEventFieldOverlay=eventField%3Audm.principal.user.userid%2Cvalue%3Aemil-palmer&tab=events&operationId=s-udm-12b22d7e-ead1-4ea6-80fe-48027330b950&vcfg=drillDownConfig%3A%5Bobject+Object%5D%2CtableAppearanceConfig%3A%5Bobject+Object%5D&chartType=Table
+                          - gridcell [ref=f20e2241]:
+                            - link "emil-palmer-pc" [ref=f20e2245]:
+                              - /url: /search?query=network.http.method+%3D+%22POST%22&startTime=2026-08-01T00%3A00%3A00.000Z&endTime=2026-10-29T23%3A00%3A00.000Z&queryType=QUERY_TYPE_UDM_QUERY&entityByEventFieldOverlay=eventField%3Audm.principal.hostname%2Cvalue%3Aemil-palmer-pc%2Cnamespace%3ADemoverse&tab=events&operationId=s-udm-12b22d7e-ead1-4ea6-80fe-48027330b950&vcfg=drillDownConfig%3A%5Bobject+Object%5D%2CtableAppearanceConfig%3A%5Bobject+Object%5D&chartType=Table
+                          - gridcell "—" [ref=f20e2249]
+                        - row [ref=f20e2252] [cursor=pointer]:
+                          - gridcell [ref=f20e2253]
+                          - gridcell "2026-10-29T04:50:11.000 Open entity pivot menu" [ref=f20e2254]:
+                            - generic [ref=f20e2255]:
+                              - generic [ref=f20e2256]: 2026-10-29T04:50:11.000
+                              - button "Open entity pivot menu" [ref=f20e2264]
+                          - gridcell [ref=f20e2268]:
+                            - generic "NETWORK_HTTP" [ref=f20e2273]
+                          - gridcell "ashton-davidson to Demoverse > signin.office365x24.com" [ref=f20e2277]
+                          - gridcell [ref=f20e2284]:
+                            - link "ashton-davidson" [ref=f20e2288]:
+                              - /url: /search?query=network.http.method+%3D+%22POST%22&startTime=2026-08-01T00%3A00%3A00.000Z&endTime=2026-10-29T23%3A00%3A00.000Z&queryType=QUERY_TYPE_UDM_QUERY&entityByEventFieldOverlay=eventField%3Audm.principal.user.userid%2Cvalue%3Aashton-davidson&tab=events&operationId=s-udm-12b22d7e-ead1-4ea6-80fe-48027330b950&vcfg=drillDownConfig%3A%5Bobject+Object%5D%2CtableAppearanceConfig%3A%5Bobject+Object%5D&chartType=Table
+                          - gridcell [ref=f20e2292]:
+                            - link "ashton-davidson-pc" [ref=f20e2296]:
+                              - /url: /search?query=network.http.method+%3D+%22POST%22&startTime=2026-08-01T00%3A00%3A00.000Z&endTime=2026-10-29T23%3A00%3A00.000Z&queryType=QUERY_TYPE_UDM_QUERY&entityByEventFieldOverlay=eventField%3Audm.principal.hostname%2Cvalue%3Aashton-davidson-pc%2Cnamespace%3ADemoverse&tab=events&operationId=s-udm-12b22d7e-ead1-4ea6-80fe-48027330b950&vcfg=drillDownConfig%3A%5Bobject+Object%5D%2CtableAppearanceConfig%3A%5Bobject+Object%5D&chartType=Table
+                          - gridcell "—" [ref=f20e2300]
+                        - row [ref=f20e2303] [cursor=pointer]:
+                          - gridcell [ref=f20e2304]
+                          - gridcell "2026-10-29T04:43:12.932 Open entity pivot menu" [ref=f20e2305]:
+                            - generic [ref=f20e2306]:
+                              - generic [ref=f20e2307]: 2026-10-29T04:43:12.932
+                              - button "Open entity pivot menu" [ref=f20e2315]
+                          - gridcell [ref=f20e2319]:
+                            - generic "NETWORK_CONNECTION" [ref=f20e2324]
+                          - gridcell "Demoverse > 10.10.20.60 to Demoverse > 206.221.181.253" [ref=f20e2328]
+                          - gridcell "—" [ref=f20e2335]
+                          - gridcell "—" [ref=f20e2338]
+                          - gridcell "—" [ref=f20e2341]
+                        - row [ref=f20e2344] [cursor=pointer]:
+                          - gridcell [ref=f20e2345]
+                          - gridcell "2026-10-29T04:43:12.932 Open entity pivot menu" [ref=f20e2346]:
+                            - generic [ref=f20e2347]:
+                              - generic [ref=f20e2348]: 2026-10-29T04:43:12.932
+                              - button "Open entity pivot menu" [ref=f20e2356]
+                          - gridcell [ref=f20e2360]:
+                            - generic "NETWORK_CONNECTION" [ref=f20e2365]
+                          - gridcell "Demoverse > 10.10.20.60 to Demoverse > 206.221.181.253" [ref=f20e2369]
+                          - gridcell "—" [ref=f20e2376]
+                          - gridcell "—" [ref=f20e2379]
+                          - gridcell "—" [ref=f20e2382]
+                      - rowgroup [ref=f20e2385]
+                    - group [ref=f20e2386]:
+                      - generic [ref=f20e2387]: Rows per page
+                      - combobox "Rows per page" [ref=f20e2389]:
+                        - generic [ref=f20e2390] [cursor=pointer]: "100"
+                      - generic "Pagination information" [ref=f20e2395]:
+                        - generic [ref=f20e2396]: "1"
+                        - generic [ref=f20e2397]: to
+                        - generic [ref=f20e2398]: "100"
+                        - generic [ref=f20e2399]: of
+                        - generic [ref=f20e2400]: "1607"
+                      - button "Already on the first page. First page" [disabled] [ref=f20e2401]
+                      - button "Already on the first page. Previous page" [disabled] [ref=f20e2406]
+                      - generic [ref=f20e2410]:
+                        - button "Page 1" [ref=f20e2411]: "1"
+                        - button "Page 2" [ref=f20e2412] [cursor=pointer]: "2"
+                        - button "Page 3" [ref=f20e2413] [cursor=pointer]: "3"
+                        - button "Page 4" [ref=f20e2414] [cursor=pointer]: "4"
+                        - button "Page 5" [ref=f20e2415] [cursor=pointer]: "5"
+                        - button "Page 6" [ref=f20e2416] [cursor=pointer]: "6"
+                        - button "Page 7" [ref=f20e2417] [cursor=pointer]: "7"
+                        - button "Page 8" [ref=f20e2418] [cursor=pointer]: "8"
+                        - button "Page 9" [ref=f20e2419] [cursor=pointer]: "9"
+                        - button "Page 10" [ref=f20e2420] [cursor=pointer]: "10"
+                      - button "Next page" [ref=f20e2424] [cursor=pointer]
+                      - button "Last page" [ref=f20e2428] [cursor=pointer]
+  - generic [ref=f20e2433]:
+    - alert
+    - alert
+    - complementary
+    - complementary

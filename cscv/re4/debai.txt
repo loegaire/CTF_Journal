@@ -1,0 +1,2 @@
+Bạn cần tìm đúng secret thỏa mãn crackme.exe <secret> = hash
+submit: CSCV2026{secret}

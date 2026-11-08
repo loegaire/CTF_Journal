@@ -1,0 +1,23 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: "Operation Cymbal: Cold Room"
+      - generic [ref=e5]: ACCOUNT ISSUANCE
+  - main [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: CASE FILE · CYMBAL INVESTMENTS
+      - heading "Enter the Cold Room" [level=1] [ref=e9]
+      - paragraph [ref=e10]: Get your Google SecOps account for the investigation. You will work inside a frozen copy of the Cymbal Investments environment.
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - generic [ref=e13]: "01"
+          - generic [ref=e14]: Enter your email and the event code from the challenge.
+        - listitem [ref=e15]:
+          - generic [ref=e16]: "02"
+          - generic [ref=e17]: Copy the username and password issued to you.
+        - listitem [ref=e18]:
+          - generic [ref=e19]: "03"
+          - generic [ref=e20]: Launch Google SecOps and sign in. Your tenant is already selected.
+    - paragraph [ref=e23]: Loading…
+  - contentinfo [ref=e24]:
+    - generic [ref=e25]: Event accounts are for this challenge only and are removed when it closes.

@@ -1,0 +1,352 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - link "Skip to main content" [ref=f2e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - banner [ref=f2e5]:
+        - generic [ref=f2e6]:
+          - link "Home" [ref=f2e7] [cursor=pointer]:
+            - /url: /
+            - img "HI Cyber Con 2026 CTF" [ref=f2e9]
+          - navigation "Main" [ref=f2e10]:
+            - link "Home" [ref=f2e11] [cursor=pointer]:
+              - /url: /
+            - link "Rules" [ref=f2e14] [cursor=pointer]:
+              - /url: /rules
+            - link "Community" [ref=f2e17] [cursor=pointer]:
+              - /url: /community
+            - link "Challenges" [ref=f2e20] [cursor=pointer]:
+              - /url: /challenges
+            - link "Scoreboard" [ref=f2e23] [cursor=pointer]:
+              - /url: /scores
+        - generic [ref=f2e26]:
+          - generic [ref=f2e27]:
+            - generic [ref=f2e28]: 1d 21:29:58
+            - generic [ref=f2e29]: to CTF end
+          - link "Login" [ref=f2e30] [cursor=pointer]:
+            - /url: /login
+          - link "Join HI Cyber Con Discord" [ref=f2e33] [cursor=pointer]:
+            - /url: https://discord.gg/rD2gHUWJhf
+          - link "Support Ticket" [ref=f2e34] [cursor=pointer]:
+            - /url: https://discord.com/channels/1095055386110857236/1555930020386578473
+          - button "Toggle theme" [ref=f2e37] [cursor=pointer]
+      - main [ref=f2e41]:
+        - generic [ref=f2e59]:
+          - generic [ref=f2e63]:
+            - generic [ref=f2e64]: REGISTRATION OPEN
+            - generic [ref=f2e66]: INTERNATIONAL CAPTURE THE FLAG
+            - paragraph [ref=f2e68]: HI_CTF // 2026
+            - heading "BREAK THE SIGNAL" [level=1] [ref=f2e69]:
+              - text: BREAK
+              - generic [ref=f2e70]: THE SIGNAL
+            - paragraph [ref=f2e71]: A 48-hour international CTF built for curious minds, technical problem-solvers, and teams ready to push beyond the obvious.
+            - generic [ref=f2e72]:
+              - link "REGISTER / LOGIN" [ref=f2e73] [cursor=pointer]:
+                - /url: /login
+              - link "READ THE RULES" [ref=f2e74] [cursor=pointer]:
+                - /url: /rules
+            - generic [ref=f2e75]:
+              - strong [ref=f2e76]: 30 OCT — 1 NOV 2026
+              - generic [ref=f2e77]: FULLY VIRTUAL
+              - generic [ref=f2e78]: GLOBAL
+          - generic [ref=f2e79]:
+            - article [ref=f2e80]:
+              - generic [ref=f2e81]: 48H
+              - generic [ref=f2e82]: Competition
+            - article [ref=f2e83]:
+              - generic [ref=f2e84]: 1–5
+              - generic [ref=f2e85]: Players / Team
+            - article [ref=f2e86]:
+              - generic [ref=f2e87]: 70+
+              - generic [ref=f2e88]: Planned Challenges
+            - article [ref=f2e89]:
+              - generic [ref=f2e90]: $20,000+
+              - generic [ref=f2e91]:
+                - text: TOTAL CTF PRIZE VALUE
+                - generic [ref=f2e92]: Includes $2,500 cash + sponsor rewards
+          - region [ref=f2e93]:
+            - generic [ref=f2e94]:
+              - generic [ref=f2e95]:
+                - paragraph [ref=f2e96]: 00 // COMPETITION DIVISIONS
+                - heading "One scoreboard. Two divisions." [level=2] [ref=f2e97]
+              - link "VIEW DIVISION RULES ↗" [ref=f2e98] [cursor=pointer]:
+                - /url: /rules
+            - generic [ref=f2e99]:
+              - article [ref=f2e100]:
+                - generic [ref=f2e101]:
+                  - generic [ref=f2e102]: 01 // TRADITIONAL
+                  - heading "HUMAN-LED" [level=3] [ref=f2e103]
+                  - paragraph [ref=f2e104]: Improvise. Investigate. Solve with human skill. AI is permitted as a reference tool only.
+              - article [ref=f2e105]:
+                - generic [ref=f2e106]:
+                  - generic [ref=f2e107]: 02 // AI-POWERED
+                  - heading "AGENTIC AI" [level=3] [ref=f2e108]
+                  - paragraph [ref=f2e109]: Automate. Experiment. Benchmark. AI solvers, agents and autonomous pipelines welcome.
+            - paragraph [ref=f2e110]: Both divisions follow the same challenge scope and fair-play rules.
+          - generic [ref=f2e111]:
+            - generic [ref=f2e112]:
+              - generic [ref=f2e113]:
+                - paragraph [ref=f2e114]: 01 // CHALLENGE NETWORK
+                - heading "Choose your attack surface." [level=2] [ref=f2e115]
+              - paragraph [ref=f2e116]: Twelve categories. Seventy-plus planned challenges. One continuous 48-hour competition.
+            - generic [ref=f2e117]:
+              - article [ref=f2e118]:
+                - generic [ref=f2e119]:
+                  - generic [ref=f2e120]: "01"
+                  - generic [aria-hidden] [ref=f2e121]: </>
+                - generic [ref=f2e122]:
+                  - generic [ref=f2e123]: Web
+                  - generic [ref=f2e124]: client · server · logic
+              - article [ref=f2e125]:
+                - generic [ref=f2e126]:
+                  - generic [ref=f2e127]: "02"
+                  - generic [aria-hidden] [ref=f2e128]: "0x41"
+                - generic [ref=f2e129]:
+                  - generic [ref=f2e130]: PWN
+                  - generic [ref=f2e131]: memory · binaries
+              - article [ref=f2e132]:
+                - generic [ref=f2e133]:
+                  - generic [ref=f2e134]: "03"
+                  - generic [aria-hidden] [ref=f2e135]: ASM
+                - generic [ref=f2e136]:
+                  - generic [ref=f2e137]: Reverse
+                  - generic [ref=f2e138]: disassemble · understand
+              - article [ref=f2e139]:
+                - generic [ref=f2e140]:
+                  - generic [ref=f2e141]: "04"
+                  - generic [aria-hidden] [ref=f2e142]: AES
+                - generic [ref=f2e143]:
+                  - generic [ref=f2e144]: Crypto
+                  - generic [ref=f2e145]: ciphers · mathematics
+              - article [ref=f2e146]:
+                - generic [ref=f2e147]:
+                  - generic [ref=f2e148]: "05"
+                  - generic [aria-hidden] [ref=f2e149]: DFIR
+                - generic [ref=f2e150]:
+                  - generic [ref=f2e151]: Forensics
+                  - generic [ref=f2e152]: disk · memory · artifacts
+              - article [ref=f2e153]:
+                - generic [ref=f2e154]:
+                  - generic [ref=f2e155]: "06"
+                  - generic [aria-hidden] [ref=f2e156]: LSB
+                - generic [ref=f2e157]:
+                  - generic [ref=f2e158]: Steganography
+                  - generic [ref=f2e159]: hidden · encoded
+              - article [ref=f2e160]:
+                - generic [ref=f2e161]:
+                  - generic [ref=f2e162]: "07"
+                  - generic [aria-hidden] [ref=f2e163]: PCAP
+                - generic [ref=f2e164]:
+                  - generic [ref=f2e165]: Network
+                  - generic [ref=f2e166]: packets · protocols
+              - article [ref=f2e167]:
+                - generic [ref=f2e168]:
+                  - generic [ref=f2e169]: "08"
+                  - generic [aria-hidden] [ref=f2e170]: GEO
+                - generic [ref=f2e171]:
+                  - generic [ref=f2e172]: OSINT
+                  - generic [ref=f2e173]: investigate · correlate
+              - article [ref=f2e174]:
+                - generic [ref=f2e175]:
+                  - generic [ref=f2e176]: "09"
+                  - generic [aria-hidden] [ref=f2e177]: LLM
+                - generic [ref=f2e178]:
+                  - generic [ref=f2e179]: AI / LLM
+                  - generic [ref=f2e180]: models · agents
+              - article [ref=f2e181]:
+                - generic [ref=f2e182]:
+                  - generic [ref=f2e183]: "10"
+                  - generic [aria-hidden] [ref=f2e184]: PCB
+                - generic [ref=f2e185]:
+                  - generic [ref=f2e186]: Hardware
+                  - generic [ref=f2e187]: signals · devices
+              - article [ref=f2e188]:
+                - generic [ref=f2e189]:
+                  - generic [ref=f2e190]: "11"
+                  - generic [aria-hidden] [ref=f2e191]: WEB3
+                - generic [ref=f2e192]:
+                  - generic [ref=f2e193]: Blockchain
+                  - generic [ref=f2e194]: contracts · chains
+              - article [ref=f2e195]:
+                - generic [ref=f2e196]:
+                  - generic [ref=f2e197]: "12"
+                  - generic [aria-hidden] [ref=f2e198]: "???"
+                - generic [ref=f2e199]:
+                  - generic [ref=f2e200]: Misc
+                  - generic [ref=f2e201]: expect the unexpected
+          - generic [ref=f2e202]:
+            - generic [ref=f2e204]:
+              - paragraph [ref=f2e205]: 02 // THE CTF
+              - heading "Built to reward skill." [level=2] [ref=f2e206]
+            - generic [ref=f2e207]:
+              - article [ref=f2e208]:
+                - text: "01"
+                - heading "Compete globally." [level=3] [ref=f2e209]
+                - paragraph [ref=f2e210]: Join players and teams from around the world in a fully virtual competition.
+              - article [ref=f2e211]:
+                - text: "02"
+                - heading "Go deep." [level=3] [ref=f2e212]
+                - paragraph [ref=f2e213]: Web, PWN, reverse engineering, forensics, AI, hardware, blockchain and more.
+              - article [ref=f2e214]:
+                - text: "03"
+                - heading "Build the team." [level=3] [ref=f2e215]
+                - paragraph [ref=f2e216]: Play solo or form a team of up to five competitors.
+          - generic [ref=f2e217]:
+            - generic [ref=f2e218]:
+              - generic [ref=f2e219]:
+                - paragraph [ref=f2e220]: 03 // EVENT NETWORK
+                - heading "Powered by the signal." [level=2] [ref=f2e221]
+              - paragraph [ref=f2e222]: Organizations supporting HI Cyber Con 2026 and helping strengthen the global cybersecurity community.
+            - generic [ref=f2e223]:
+              - article [ref=f2e224]:
+                - generic [ref=f2e225]:
+                  - generic [ref=f2e226]: "01"
+                  - generic [ref=f2e227]:
+                    - generic [ref=f2e228]: TITLE SPONSOR
+                    - paragraph [ref=f2e229]: Supporting the international HI Cyber Con 2026 experience.
+                - generic [ref=f2e230]:
+                  - link "Visit Resecurity website":
+                    - /url: https://www.resecurity.com/
+                    - img "Resecurity"
+              - generic [ref=f2e231]:
+                - article [ref=f2e232]:
+                  - generic [ref=f2e233]:
+                    - generic [ref=f2e234]: "02"
+                    - generic [ref=f2e235]:
+                      - generic [ref=f2e236]: ORGANIZED BY
+                      - paragraph [ref=f2e237]: The team behind HI Cyber Con.
+                  - link "Visit Hidden Investigations website" [ref=f2e239] [cursor=pointer]:
+                    - /url: https://hiddeninvestigations.net/
+                    - img "Hidden Investigations" [ref=f2e240]
+                - article [ref=f2e241]:
+                  - generic [ref=f2e242]:
+                    - generic [ref=f2e243]: "03"
+                    - generic [ref=f2e244]:
+                      - generic [ref=f2e245]: ORGANIZING PARTNER
+                      - paragraph [ref=f2e246]: Supporting the organization and global event program.
+                  - generic [ref=f2e247]:
+                    - link "Visit WUST website":
+                      - /url: https://www.wust.edu/
+                      - img "Washington University of Science and Technology"
+              - article [ref=f2e248]:
+                - generic [ref=f2e249]:
+                  - generic [ref=f2e250]: "04"
+                  - generic [ref=f2e251]:
+                    - generic [ref=f2e252]: MISSION PARTNER
+                    - paragraph [ref=f2e253]: Supporting strategic cybersecurity collaboration for HI Cyber Con.
+                - link "Visit Bangladesh Cyber Security Intelligence" [ref=f2e255] [cursor=pointer]:
+                  - /url: https://bcsi.gov.bd/
+                  - img "Bangladesh Cyber Security Intelligence (BCSI)"
+              - article [ref=f2e256]:
+                - generic [ref=f2e257]:
+                  - generic [ref=f2e258]: "05"
+                  - generic [ref=f2e259]:
+                    - generic [ref=f2e260]: SUPPORTING SPONSORS
+                    - paragraph [ref=f2e261]: Supporting learning, participation, and the CTF community.
+                - generic [ref=f2e262]:
+                  - link "Visit XYZ website" [ref=f2e264] [cursor=pointer]:
+                    - /url: https://gen.xyz/
+                    - img "XYZ" [ref=f2e265]
+                  - link "Visit Hackviser website" [ref=f2e267] [cursor=pointer]:
+                    - /url: https://hackviser.com/
+                    - img "Hackviser" [ref=f2e268]
+                  - link "Visit 13Cubed website" [ref=f2e270] [cursor=pointer]:
+                    - /url: https://www.13cubed.com/
+                    - img "13Cubed Studios LLC" [ref=f2e271]
+                  - link "Visit Netlas website" [ref=f2e273] [cursor=pointer]:
+                    - /url: https://netlas.io/
+                    - img "Netlas" [ref=f2e274]
+                  - link "Visit CyberDefenders website" [ref=f2e276] [cursor=pointer]:
+                    - /url: https://cyberdefenders.org/
+                    - img "CyberDefenders" [ref=f2e277]
+                  - link "Visit Campfire Security website" [ref=f2e279] [cursor=pointer]:
+                    - /url: https://campfiresecurity.dk/
+                    - img "Campfire Security" [ref=f2e280]
+                  - link "Visit White Knight Labs website" [ref=f2e282] [cursor=pointer]:
+                    - /url: https://whiteknightlabs.com/
+                    - img "White Knight Labs" [ref=f2e283]
+                  - link "Visit SweetScape website" [ref=f2e285] [cursor=pointer]:
+                    - /url: https://www.sweetscape.com/
+                    - img "SweetScape Software Inc. — 010 Editor" [ref=f2e286]
+                  - link "Visit Criminal IP website" [ref=f2e288] [cursor=pointer]:
+                    - /url: https://www.criminalip.io/
+                    - img "Criminal IP" [ref=f2e289]
+                  - link "Visit Just Hacking Training" [ref=f2e291] [cursor=pointer]:
+                    - /url: https://www.justhacking.com/
+                    - img "Just Hacking Training" [ref=f2e292]
+                  - link "Visit CYBERWAVE" [ref=f2e294] [cursor=pointer]:
+                    - /url: https://cyberwave.network/
+                    - img "CYBERWAVE" [ref=f2e295]
+                  - link "Visit Caido" [ref=f2e297] [cursor=pointer]:
+                    - /url: https://www.caido.io/
+                    - img "Caido" [ref=f2e298]
+                  - link "Visit The Team Phoenix Group (TTPG)" [ref=f2e300] [cursor=pointer]:
+                    - /url: https://theteamphoenix.org/
+                    - img "The Team Phoenix Group (TTPG)" [ref=f2e301]
+                  - link "Visit CCoE - Cyber Security Center of Excellence" [ref=f2e303] [cursor=pointer]:
+                    - /url: https://ccoe.bd/
+                    - img "CCoE - Cyber Security Center of Excellence" [ref=f2e304]
+                  - link "Visit SkillBit" [ref=f2e306] [cursor=pointer]:
+                    - /url: https://skillbit.com/
+                    - img "SkillBit" [ref=f2e307]
+                  - link "Visit Disclosify" [ref=f2e309] [cursor=pointer]:
+                    - /url: https://disclosify.io/
+                    - img "Disclosify" [ref=f2e310]
+                  - link "Visit PENOUGH LTD" [ref=f2e312] [cursor=pointer]:
+                    - /url: https://penough.com/
+                    - img "PENOUGH LTD" [ref=f2e313]
+              - generic "Official Security Partner" [ref=f2e314]:
+                - generic [ref=f2e315]: OFFICIAL SECURITY PARTNER
+                - link "Visit PentestPilot" [ref=f2e316] [cursor=pointer]:
+                  - /url: https://pentestpilot.com/
+                  - img "PentestPilot" [ref=f2e317]
+          - generic [ref=f2e318]:
+            - generic [ref=f2e319]:
+              - generic [ref=f2e320]:
+                - paragraph [ref=f2e321]: 04 // TIMELINE
+                - heading "Follow the transmission." [level=2] [ref=f2e322]
+              - paragraph [ref=f2e323]: Registration is open now. The competition begins on 30 October and the challenge network stays live for 48 hours.
+            - generic [ref=f2e324]:
+              - article [ref=f2e325]:
+                - generic [ref=f2e326]: "01"
+                - generic [ref=f2e327]: NOW
+                - heading "Registration Open" [level=3] [ref=f2e328]
+                - paragraph [ref=f2e329]: Create your account and prepare your team.
+              - article [ref=f2e330]:
+                - generic [ref=f2e331]: "02"
+                - generic [ref=f2e332]: 30 OCT · 14:00 UTC
+                - heading "CTF Opens" [level=3] [ref=f2e333]
+                - paragraph [ref=f2e334]: The full challenge network goes live.
+              - article [ref=f2e335]:
+                - generic [ref=f2e336]: "03"
+                - generic [ref=f2e337]: 48 HOURS
+                - heading "Competition Live" [level=3] [ref=f2e338]
+                - paragraph [ref=f2e339]: Solve, submit, climb and adapt.
+              - article [ref=f2e340]:
+                - generic [ref=f2e341]: "04"
+                - generic [ref=f2e342]: 01 NOV · 14:00 UTC
+                - heading "CTF Closes" [level=3] [ref=f2e343]
+                - paragraph [ref=f2e344]: Final submissions close with the competition.
+          - generic [ref=f2e345]:
+            - paragraph [ref=f2e346]: 05 // ENTER THE NETWORK
+            - heading "Ready to break the signal?" [level=2] [ref=f2e347]
+            - paragraph [ref=f2e348]: Create your account, build your team, and be ready when the challenge network goes live.
+            - generic [ref=f2e349]:
+              - link "REGISTER NOW" [ref=f2e350] [cursor=pointer]:
+                - /url: /login
+              - link "EXPLORE COMMUNITY" [ref=f2e351] [cursor=pointer]:
+                - /url: /community
+          - generic [ref=f2e353]:
+            - link "HI Cyber Con official website" [ref=f2e354] [cursor=pointer]:
+              - /url: https://hicybercon.hiddeninvestigations.net/
+              - img "HI Cyber Con 2026" [ref=f2e355]
+            - generic [ref=f2e356]: 30 OCT — 01 NOV 2026
+            - generic [ref=f2e358]:
+              - text: Organized by
+              - link "Hidden Investigations" [ref=f2e359] [cursor=pointer]:
+                - /url: https://hiddeninvestigations.net/
+    - generic [ref=f2e58]: HI Cyber Con 2026 CTF
+  - generic:
+    - region "Notifications, bottom-end (alt+T)":
+      - status "Logged in successfully!" [ref=f2e360]:
+        - button "Dismiss notification" [ref=f2e362] [cursor=pointer]: ×

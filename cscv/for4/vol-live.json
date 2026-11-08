@@ -1,0 +1,17 @@
+{
+  "dump": true,
+  "files": false,
+  "inode": 166642196467744,
+  "kernel.class": "volatility3.framework.contexts.Module",
+  "kernel.layer_name.class": "volatility3.framework.layers.intel.Intel32e",
+  "kernel.layer_name.kernel_banner": "Linux version 5.14.0-22.el9.x86_64 (mockbuild@x86-06.stream.rdu2.redhat.com) (gcc (GCC) 11.2.1 20211019 (Red Hat 11.2.1-6), GNU ld version 2.35.2-10.el9) #1 SMP Fri Nov 26 23:47:21 UTC 2021\n\u0000",
+  "kernel.layer_name.kernel_virtual_offset": 171966464,
+  "kernel.layer_name.memory_layer.base_layer.class": "volatility3.framework.layers.physical.FileLayer",
+  "kernel.layer_name.memory_layer.base_layer.location": "file:///home/thinh/ctf/cscv/for4/mem.dmp",
+  "kernel.layer_name.memory_layer.class": "volatility3.framework.layers.lime.LimeLayer",
+  "kernel.layer_name.page_map_offset": 807469056,
+  "kernel.offset": 171966464,
+  "kernel.symbol_table_name.class": "volatility3.framework.symbols.linux.LinuxKernelIntermedSymbols",
+  "kernel.symbol_table_name.isf_url": "file:///home/thinh/ctf/cscv/for3/symbols/linux/centos-5.14.0-22.json",
+  "kernel.symbol_table_name.symbol_mask": 281474976710655
+}

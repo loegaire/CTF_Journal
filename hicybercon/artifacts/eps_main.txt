@@ -1,0 +1,222 @@
+            ; CALL XREF from main @ 0x401d48(x)
+┌ 918: fcn.00401f10 ();
+│ afv: vars(16:sp[0x8..0x190])
+│           0x00401f10      4881ec9801..   sub rsp, 0x198
+│           0x00401f17      48899c2468..   mov qword [var_168h], rbx
+│           0x00401f1f      e8cc680000     call 0x4087f0
+│           0x00401f24      83f801         cmp eax, 1                  ; 1
+│       ┌─< 0x00401f27      7442           je 0x401f6b
+│      ┌──> 0x00401f29      488d542440     lea rdx, [var_40h]
+│   ┌┌┌───> 0x00401f2e      4889ac2470..   mov qword [var_170h], rbp
+│   ╎╎╎╎│   0x00401f36      31f6           xor esi, esi
+│   ╎╎╎╎│   0x00401f38      4c89a42478..   mov qword [var_178h], r12
+│   ╎╎╎╎│   0x00401f40      4c89ac2480..   mov qword [var_180h], r13
+│   ╎╎╎╎│   0x00401f48      4c89b42488..   mov qword [var_188h], r14
+│   ╎╎╎╎│   0x00401f50      4c89bc2490..   mov qword [var_190h], r15
+│   ╎╎╎╎│   ; CODE XREF from fcn.00401f10 @ 0x4022a1(x)
+│ ┌┌──────> 0x00401f58      4889d7         mov rdi, rdx
+│ ╎╎╎╎╎╎│   0x00401f5b      e8100b0000     call 0x402a70
+│ ╎╎╎╎╎╎│   0x00401f60      31d2           xor edx, edx
+│ ╎╎╎╎╎╎│   0x00401f62      31f6           xor esi, esi
+│ ╎╎╎╎╎╎│   0x00401f64      31ff           xor edi, edi
+│ ╎╎╎╎╎╎│   0x00401f66      e8d5240000     call 0x404440
+│ ╎╎╎╎╎╎└─> 0x00401f6b      488d5c2460     lea rbx, [var_60h]
+│ ╎╎╎╎╎╎    0x00401f70      488d4c243c     lea rcx, [var_3ch]
+│ ╎╎╎╎╎╎    0x00401f75      bf60334e00     mov edi, 0x4e3360           ; '`3N'
+│ ╎╎╎╎╎╎    0x00401f7a      31c0           xor eax, eax
+│ ╎╎╎╎╎╎    0x00401f7c      4889de         mov rsi, rbx
+│ ╎╎╎╎╎╎    0x00401f7f      488d542438     lea rdx, [var_38h]
+│ ╎╎╎╎╎╎    0x00401f84      41b800010000   mov r8d, 0x100              ; 256
+│ ╎╎╎╎╎╎    0x00401f8a      e891680000     call 0x408820
+│ ╎╎╎╎╎╎    0x00401f8f      8b74243c       mov esi, dword [var_3ch]
+│ ╎╎╎╎╎╎    0x00401f93      85f6           test esi, esi
+│ ╎╎╎╎╎└──< 0x00401f95      7592           jne 0x401f29
+│ ╎╎╎╎╎     0x00401f97      488d542440     lea rdx, [var_40h]
+│ ╎╎╎╎╎     0x00401f9c      837c243840     cmp dword [var_38h], 0x40
+│ ╎╎└─────< 0x00401fa1      758b           jne 0x401f2e
+│ ╎╎ ╎╎     0x00401fa3      31c9           xor ecx, ecx
+│ ╎╎ ╎╎     0x00401fa5      41b9ffffffff   mov r9d, 0xffffffff         ; -1
+│ ╎╎ ╎╎ ┌─< 0x00401fab      eb3d           jmp 0x401fea
+│ ╎╎ ╎╎┌──> 0x00401fad      8d47a9         lea eax, [rdi - 0x57]
+│ ╎╎ ╎╎╎│   ; CODE XREF from fcn.00401f10 @ 0x40200b(x)
+│ ──┌─────> 0x00401fb0      440fb6444b01   movzx r8d, byte [rbx + rcx*2 + 1]
+│ ╎╎╎╎╎╎│   0x00401fb6      418d78d0       lea edi, [r8 - 0x30]
+│ ╎╎╎╎╎╎│   0x00401fba      83ff09         cmp edi, 9                  ; 9
+│ ────────< 0x00401fbd      760d           jbe 0x401fcc
+│ ╎╎╎╎╎╎│   0x00401fbf      418d789f       lea edi, [r8 - 0x61]
+│ ╎╎╎╎╎╎│   0x00401fc3      83ff05         cmp edi, 5                  ; 5
+│ ────────< 0x00401fc6      7745           ja 0x40200d
+│ ╎╎╎╎╎╎│   0x00401fc8      418d78a9       lea edi, [r8 - 0x57]
+│ ╎╎╎╎╎╎│   ; CODE XREF from fcn.00401f10 @ 0x40201e(x)
+│ ────────> 0x00401fcc      4189fb         mov r11d, edi
+│ ╎╎╎╎╎╎│   0x00401fcf      4109c3         or r11d, eax
+│ ╎╎╎└────< 0x00401fd2      0f8856ffffff   js 0x401f2e
+│ ╎╎╎ ╎╎│   0x00401fd8      c1e004         shl eax, 4
+│ ╎╎╎ ╎╎│   0x00401fdb      01f8           add eax, edi
+│ ╎╎╎ ╎╎│   0x00401fdd      88040a         mov byte [rdx + rcx], al
+│ ╎╎╎ ╎╎│   0x00401fe0      4883c101       add rcx, 1
+│ ╎╎╎ ╎╎│   0x00401fe4      4883f920       cmp rcx, 0x20               ; 32
+│ ╎╎╎┌────< 0x00401fe8      7436           je 0x402020
+│ ╎╎╎│╎╎│   ; CODE XREF from fcn.00401f10 @ 0x401fab(x)
+│ ╎╎╎│╎╎└─> 0x00401fea      0fb63c4b       movzx edi, byte [rbx + rcx*2]
+│ ╎╎╎│╎╎    0x00401fee      8d47d0         lea eax, [rdi - 0x30]
+│ ╎╎╎│╎╎    0x00401ff1      83f809         cmp eax, 9                  ; 9
+│ ────────< 0x00401ff4      76ba           jbe 0x401fb0
+│ ╎╎╎│╎╎    0x00401ff6      8d479f         lea eax, [rdi - 0x61]
+│ ╎╎╎│╎╎    0x00401ff9      83f805         cmp eax, 5                  ; 5
+│ ╎╎╎│╎└──< 0x00401ffc      76af           jbe 0x401fad
+│ ╎╎╎│╎     0x00401ffe      8d47bf         lea eax, [rdi - 0x41]
+│ ╎╎╎│╎     0x00402001      83f806         cmp eax, 6                  ; 6
+│ ╎╎╎│╎     0x00402004      8d47c9         lea eax, [rdi - 0x37]
+│ ╎╎╎│╎     0x00402007      410f43c1       cmovae eax, r9d
+│ ╎╎└─────< 0x0040200b      eba3           jmp 0x401fb0
+│ ────────> 0x0040200d      418d78bf       lea edi, [r8 - 0x41]
+│ ╎╎ │╎     0x00402011      83ff05         cmp edi, 5                  ; 5
+│ ╎╎ │└───< 0x00402014      0f8714ffffff   ja 0x401f2e
+│ ╎╎ │      0x0040201a      418d78c9       lea edi, [r8 - 0x37]
+│ ────────< 0x0040201e      ebac           jmp 0x401fcc
+│ ╎╎ └────> 0x00402020      bf20000000     mov edi, 0x20               ; 32
+│ ╎╎        0x00402025      8974242c       mov dword [var_2ch], esi
+│ ╎╎        0x00402029      4889542420     mov qword [var_20h], rdx
+│ ╎╎        0x0040202e      4889ac2470..   mov qword [var_170h], rbp
+│ ╎╎        0x00402036      4c89a42478..   mov qword [var_178h], r12
+│ ╎╎        0x0040203e      4c89ac2480..   mov qword [var_180h], r13
+│ ╎╎        0x00402046      4c89b42488..   mov qword [var_188h], r14
+│ ╎╎        0x0040204e      4c89bc2490..   mov qword [var_190h], r15
+│ ╎╎        0x00402056      e805260700     call 0x474660
+│ ╎╎        0x0040205b      660f6f442440   movdqa xmm0, xmmword [var_40h]
+│ ╎╎        0x00402061      4889c7         mov rdi, rax
+│ ╎╎        0x00402064      0f1100         movups xmmword [rax], xmm0
+│ ╎╎        0x00402067      660f6f442450   movdqa xmm0, xmmword [var_50h]
+│ ╎╎        0x0040206d      f20f1010       movsd xmm2, qword [rax]
+│ ╎╎        0x00402071      f20f105808     movsd xmm3, qword [rax + 8]
+│ ╎╎        0x00402076      0f114010       movups xmmword [rax + 0x10], xmm0
+│ ╎╎        0x0040207a      f20f104818     movsd xmm1, qword [rax + 0x18]
+│ ╎╎        0x0040207f      488b5810       mov rbx, qword [rax + 0x10]
+│ ╎╎        0x00402083      f20f11542408   movsd qword [var_8h], xmm2
+│ ╎╎        0x00402089      f20f114c2418   movsd qword [var_18h], xmm1
+│ ╎╎        0x0040208f      f20f115c2410   movsd qword [var_10h], xmm3
+│ ╎╎        0x00402095      e8f62a0700     call 0x474b90
+│ ╎╎        0x0040209a      f20f104c2418   movsd xmm1, qword [var_18h]
+│ ╎╎        0x004020a0      660fefc0       pxor xmm0, xmm0
+│ ╎╎        0x004020a4      488b542420     mov rdx, qword [var_20h]
+│ ╎╎        0x004020a9      8b74242c       mov esi, dword [var_2ch]
+│ ╎╎        0x004020ad      660f2ec8       ucomisd xmm1, xmm0
+│ ────────< 0x004020b1      0f8aa1feffff   jp 0x401f58
+│ ────────< 0x004020b7      0f859bfeffff   jne 0x401f58
+│ ╎╎        0x004020bd      488b442408     mov rax, qword [var_8h]
+│ ╎╎        0x004020c2      488b7c2410     mov rdi, qword [var_10h]
+│ ╎╎        0x004020c7      f20f10642408   movsd xmm4, qword [var_8h]
+│ ╎╎        0x004020cd      f20f58642410   addsd xmm4, qword [var_10h]
+│ ╎╎        0x004020d3      4989f9         mov r9, rdi
+│ ╎╎        0x004020d6      4889c1         mov rcx, rax
+│ ╎╎        0x004020d9      4989f8         mov r8, rdi
+│ ╎╎        0x004020dc      4989c3         mov r11, rax
+│ ╎╎        0x004020df      49c1f934       sar r9, 0x34
+│ ╎╎        0x004020e3      48c1f934       sar rcx, 0x34
+│ ╎╎        0x004020e7      4989ff         mov r15, rdi
+│ ╎╎        0x004020ea      4989c2         mov r10, rax
+│ ╎╎        0x004020ed      49c1f827       sar r8, 0x27
+│ ╎╎        0x004020f1      4181e1ff07..   and r9d, 0x7ff              ; 2047
+│ ╎╎        0x004020f8      49c1fb27       sar r11, 0x27
+│ ╎╎        0x004020fc      81e1ff070000   and ecx, 0x7ff              ; 2047
+│ ╎╎        0x00402102      4e8d3409       lea r14, [rcx + r9]
+│ ╎╎        0x00402106      4889f9         mov rcx, rdi
+│ ╎╎        0x00402109      4181e7ff1f..   and r15d, 0x1fff
+│ ╎╎        0x00402110      4181e0ff1f..   and r8d, 0x1fff
+│ ╎╎        0x00402117      48c1f90d       sar rcx, 0xd
+│ ╎╎        0x0040211b      4181e2ff1f..   and r10d, 0x1fff
+│ ╎╎        0x00402122      4181e3ff1f..   and r11d, 0x1fff
+│ ╎╎        0x00402129      4889cd         mov rbp, rcx
+│ ╎╎        0x0040212c      4889c1         mov rcx, rax
+│ ╎╎        0x0040212f      4d01fa         add r10, r15
+│ ╎╎        0x00402132      4d01c3         add r11, r8
+│ ╎╎        0x00402135      48c1f90d       sar rcx, 0xd
+│ ╎╎        0x00402139      81e5ff1f0000   and ebp, 0x1fff
+│ ╎╎        0x0040213f      81e1ff1f0000   and ecx, 0x1fff
+│ ╎╎        0x00402145      4c8d2429       lea r12, [rcx + rbp]
+│ ╎╎        0x00402149      4889f9         mov rcx, rdi
+│ ╎╎        0x0040214c      48c1ef3f       shr rdi, 0x3f
+│ ╎╎        0x00402150      48c1f91a       sar rcx, 0x1a
+│ ╎╎        0x00402154      4989cd         mov r13, rcx
+│ ╎╎        0x00402157      4889c1         mov rcx, rax
+│ ╎╎        0x0040215a      48c1e83f       shr rax, 0x3f
+│ ╎╎        0x0040215e      48c1f91a       sar rcx, 0x1a
+│ ╎╎        0x00402162      4181e5ff1f..   and r13d, 0x1fff
+│ ╎╎        0x00402169      4801c0         add rax, rax
+│ ╎╎        0x0040216c      81e1ff1f0000   and ecx, 0x1fff
+│ ╎╎        0x00402172      4c01e9         add rcx, r13
+│ ╎╎        0x00402175      4801c7         add rdi, rax
+│ ╎╎        0x00402178      66480f7ee7     movq rdi, xmm4
+│ ╎╎        0x0040217d      0f94c0         sete al
+│ ╎╎        0x00402180      4839df         cmp rdi, rbx
+│ ╎╎        0x00402183      400f94c7       sete dil
+│ ╎╎        0x00402187      0fb6c0         movzx eax, al
+│ ╎╎        0x0040218a      400fb6ff       movzx edi, dil
+│ ╎╎        0x0040218e      21f8           and eax, edi
+│ ╎╎        0x00402190      4c89d7         mov rdi, r10
+│ ╎╎        0x00402193      81e7ff1f0000   and edi, 0x1fff
+│ ╎╎        0x00402199      4881ff3413..   cmp rdi, 0x1334             ; '4\x13'
+│ ╎╎        0x004021a0      400f94c7       sete dil
+│ ╎╎        0x004021a4      400fb6ff       movzx edi, dil
+│ ╎╎        0x004021a8      21f8           and eax, edi
+│ ╎╎        0x004021aa      4c89f7         mov rdi, r14
+│ ╎╎        0x004021ad      48f7d7         not rdi
+│ ╎╎        0x004021b0      f7c7ff070000   test edi, 0x7ff             ; 2047
+│ ╎╎        0x004021b6      400f94c7       sete dil
+│ ╎╎        0x004021ba      4d01fa         add r10, r15
+│ ╎╎        0x004021bd      400fb6ff       movzx edi, dil
+│ ╎╎        0x004021c1      4181e2ff1f..   and r10d, 0x1fff
+│ ╎╎        0x004021c8      21f8           and eax, edi
+│ ╎╎        0x004021ca      31ff           xor edi, edi
+│ ╎╎        0x004021cc      4981face0c..   cmp r10, 0xcce              ; 3278
+│ ╎╎        0x004021d3      400f94c7       sete dil
+│ ╎╎        0x004021d7      21f8           and eax, edi
+│ ╎╎        0x004021d9      4c89e7         mov rdi, r12
+│ ╎╎        0x004021dc      81e7ff1f0000   and edi, 0x1fff
+│ ╎╎        0x004021e2      4881ff9819..   cmp rdi, 0x1998
+│ ╎╎        0x004021e9      400f94c7       sete dil
+│ ╎╎        0x004021ed      400fb6ff       movzx edi, dil
+│ ╎╎        0x004021f1      21f8           and eax, edi
+│ ╎╎        0x004021f3      4889cf         mov rdi, rcx
+│ ╎╎        0x004021f6      81e7ff1f0000   and edi, 0x1fff
+│ ╎╎        0x004021fc      4881ffcc0c..   cmp rdi, 0xccc              ; 3276
+│ ╎╎        0x00402203      400f94c7       sete dil
+│ ╎╎        0x00402207      400fb6ff       movzx edi, dil
+│ ╎╎        0x0040220b      21f8           and eax, edi
+│ ╎╎        0x0040220d      4c89df         mov rdi, r11
+│ ╎╎        0x00402210      81e7ff1f0000   and edi, 0x1fff
+│ ╎╎        0x00402216      4881ff6606..   cmp rdi, 0x666              ; 1638
+│ ╎╎        0x0040221d      400f94c7       sete dil
+│ ╎╎        0x00402221      4d01f1         add r9, r14
+│ ╎╎        0x00402224      400fb6ff       movzx edi, dil
+│ ╎╎        0x00402228      4181e1ff07..   and r9d, 0x7ff              ; 2047
+│ ╎╎        0x0040222f      21f8           and eax, edi
+│ ╎╎        0x00402231      31ff           xor edi, edi
+│ ╎╎        0x00402233      4981f9ff03..   cmp r9, 0x3ff               ; 1023
+│ ╎╎        0x0040223a      400f94c7       sete dil
+│ ╎╎        0x0040223e      21f8           and eax, edi
+│ ╎╎        0x00402240      498d3c2c       lea rdi, [r12 + rbp]
+│ ╎╎        0x00402244      81e7ff1f0000   and edi, 0x1fff
+│ ╎╎        0x0040224a      4881ff6406..   cmp rdi, 0x664              ; 1636
+│ ╎╎        0x00402251      400f94c7       sete dil
+│ ╎╎        0x00402255      4c01e9         add rcx, r13
+│ ╎╎        0x00402258      81e1ff1f0000   and ecx, 0x1fff
+│ ╎╎        0x0040225e      400fb6ff       movzx edi, dil
+│ ╎╎        0x00402262      21f8           and eax, edi
+│ ╎╎        0x00402264      4881f93213..   cmp rcx, 0x1332             ; '2\x13'
+│ ╎╎        0x0040226b      0f94c1         sete cl
+│ ╎╎        0x0040226e      4d01d8         add r8, r11
+│ ╎╎        0x00402271      0fb6c9         movzx ecx, cl
+│ ╎╎        0x00402274      4181e0ff1f..   and r8d, 0x1fff
+│ ╎╎        0x0040227b      21c8           and eax, ecx
+│ ╎╎        0x0040227d      31c9           xor ecx, ecx
+│ ╎╎        0x0040227f      4981f89909..   cmp r8, 0x999               ; 2457
+│ ╎╎        0x00402286      0f94c1         sete cl
+│ ╎╎        0x00402289      84c8           test al, cl
+│ └───────< 0x0040228b      0f84c7fcffff   je 0x401f58
+│  ╎        0x00402291      66480f7ec8     movq rax, xmm1
+│  ╎        0x00402296      4885c0         test rax, rax
+│  ╎        0x00402299      b801000000     mov eax, 1
+│  ╎        0x0040229e      0f48f0         cmovs esi, eax
+└  └──────< 0x004022a1      e9b2fcffff     jmp 0x401f58

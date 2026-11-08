@@ -1,0 +1,258 @@
+[
+	{
+		"operator": "c",
+		"min_operands": 6,
+		"max_operands": 6,
+		"enabled": true,
+		"max_pct_per_operand": [1, 1, 1, 1, 1, 1],
+		"min_value": 0.05
+	},
+	{
+		"operator": "v",
+		"min_operands": 4,
+		"max_operands": 4,
+		"enabled": true,
+		"max_pct_per_operand": [1, 1, 1, 1],
+		"min_value": 0.05
+	},
+	{
+		"operator": "y",
+		"min_operands": 4,
+		"max_operands": 4,
+		"enabled": true,
+		"max_pct_per_operand": [1, 1, 1, 1],
+		"min_value": 0.05
+	},
+	{
+		"operator": "l",
+		"min_operands": 2,
+		"max_operands": 2,
+		"enabled": true,
+		"max_pct_per_operand": [0.05, 0.05],
+		"min_value": 0.05
+	},
+	{
+		"operator": "m",
+		"min_operands": 2,
+		"max_operands": 2,
+		"enabled": true,
+		"max_pct_per_operand": [0.05, 0.05],
+		"min_value": 0.05
+	},
+	{
+		"operator": "re",
+		"min_operands": 4,
+		"max_operands": 4,
+		"enabled": true,
+		"max_pct_per_operand": [0.2, 0.2, 0.2, 0.2],
+		"min_value": 0.01
+	},
+	{
+		"operator": "cm",
+		"min_operands": 6,
+		"max_operands": 6,
+		"enabled": true,
+		"max_pct_per_operand": [0.1, 0.1, 0.1, 0.1, 0.05, 0.05],
+		"min_value": 0.001
+	},
+	{
+		"operator": "i",
+		"min_operands": 1,
+		"max_operands": 1,
+		"enabled": true,
+		"max_pct_per_operand": [1],
+		"min_value": 0.05
+	},
+	{
+		"operator": "M",
+		"min_operands": 1,
+		"max_operands": 1,
+		"enabled": true,
+		"max_pct_per_operand": [1],
+		"min_value": 0.05
+	},
+	{
+		"operator": "w",
+		"min_operands": 1,
+		"max_operands": 1,
+		"enabled": true,
+		"max_pct_per_operand": [1],
+		"min_value": 0.05
+	},
+	{
+		"operator": "G",
+		"min_operands": 1,
+		"max_operands": 1,
+		"enabled": true,
+		"max_pct_per_operand": [5],
+		"min_value": 0.05
+	},
+	{
+		"operator": "g",
+		"min_operands": 1,
+		"max_operands": 1,
+		"enabled": true,
+		"max_pct_per_operand": [5],
+		"min_value": 0.05
+	},
+	
+	{
+		"operator": "K",
+		"min_operands": 4,
+		"max_operands": 4,
+		"enabled": true,
+		"max_pct_per_operand": [5, 5, 5, 5],
+		"min_value": 0.05
+	},
+	{
+		"operator": "k",
+		"min_operands": 4,
+		"max_operands": 4,
+		"enabled": true,
+		"max_pct_per_operand": [5, 5, 5, 5],
+		"min_value": 0.05
+	},
+	{
+		"operator": "RG",
+		"min_operands": 3,
+		"max_operands": 3,
+		"enabled": true,
+		"max_pct_per_operand": [5, 5, 5],
+		"min_value": 0.05
+	},
+	{
+		"operator": "rg",
+		"min_operands": 3,
+		"max_operands": 3,
+		"enabled": true,
+		"max_pct_per_operand": [5, 5, 5],
+		"min_value": 0.05
+	},
+	{
+		"operator": "sc",
+		"min_operands": 1,
+		"max_operands": 4,
+		"enabled": true,
+		"max_pct_per_operand": [5, 5, 5, 5],
+		"min_value": 0.05
+	},
+	{
+		"operator": "SC",
+		"min_operands": 1,
+		"max_operands": 4,
+		"enabled": true,
+		"max_pct_per_operand": [5, 5, 5, 5],
+		"min_value": 0.05
+	},
+	{
+		"operator": "scn",
+		"min_operands": 1,
+		"max_operands": 4,
+		"enabled": true,
+		"max_pct_per_operand": [5, 5, 5, 5],
+		"min_value": 0.05
+	},
+	{
+		"operator": "SCN",
+		"min_operands": 1,
+		"max_operands": 4,
+		"enabled": true,
+		"max_pct_per_operand": [5, 5, 5, 5],
+		"min_value": 0.05
+	},
+	{
+		"operator": "Tc",
+		"min_operands": 1,
+		"max_operands": 1,
+		"enabled": true,
+		"max_pct_per_operand": [1],
+		"min_value": 0.05
+	},
+	{
+		"operator": "Td",
+		"min_operands": 2,
+		"max_operands": 2,
+		"enabled": true,
+		"max_pct_per_operand": [2, 2],
+		"min_value": 0.05
+	},
+	{
+		"operator": "TD",
+		"min_operands": 2,
+		"max_operands": 2,
+		"enabled": true,
+		"max_pct_per_operand": [2, 2],
+		"min_value": 0.05
+	},
+	{
+		"operator": "Tf",
+		"min_operands": 1,
+		"max_operands": 1,
+		"enabled": true,
+		"max_pct_per_operand": [0.5],
+		"min_value": 0.05
+	},
+	{
+		"operator": "TL",
+		"min_operands": 1,
+		"max_operands": 1,
+		"enabled": true,
+		"max_pct_per_operand": [2],
+		"min_value": 0.05
+	},
+	{
+		"operator": "Tm",
+		"min_operands": 6,
+		"max_operands": 6,
+		"enabled": true,
+		"max_pct_per_operand": [0.005, 0.005, 0.005, 0.005, 2, 2],
+		"min_value": 0.001
+	},
+	{
+		"operator": "Ts",
+		"min_operands": 1,
+		"max_operands": 1,
+		"enabled": true,
+		"max_pct_per_operand": [5],
+		"min_value": 0.05
+	},
+	{
+		"operator": "Tw",
+		"min_operands": 1,
+		"max_operands": 1,
+		"enabled": true,
+		"max_pct_per_operand": [1],
+		"min_value": 0.05
+	},
+	{
+		"operator": "Tz",
+		"min_operands": 1,
+		"max_operands": 1,
+		"enabled": true,
+		"max_pct_per_operand": [0.5],
+		"min_value": 0.05
+	},
+	{
+		"operator": "TJ",
+		"min_operands": 0,
+		"enabled": true,
+		"max_pct_per_operand": [15],
+		"min_value": 5
+	},
+	{
+		"operator": "d0",
+		"min_operands": 1,
+		"max_operands": 1,
+		"enabled": true,
+		"max_pct_per_operand": [1],
+		"min_value": 0.05
+	},
+	{
+		"operator": "d1",
+		"min_operands": 5,
+		"max_operands": 5,
+		"enabled": true,
+		"max_pct_per_operand": [1, 1, 1, 1, 1],
+		"min_value": 0.05
+	}
+]

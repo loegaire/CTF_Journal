@@ -1,0 +1,16 @@
+{
+  "attachment_id": "526dad4acc974e1f8f361d46aca4fc28",
+  "expires_at": 1790327689,
+  "generated_at": 1790325889,
+  "preset": "entropy",
+  "provenance": {
+    "cwd": "/srv/ctf-mcp/app",
+    "entrypoint": "python -m ctf_mcp.server",
+    "runner": "ctf-super-agent/0.1.0",
+    "runtime": "python3.12"
+  },
+  "result": {
+    "entropy_bits_per_byte": 5.422448,
+    "size": 112
+  }
+}

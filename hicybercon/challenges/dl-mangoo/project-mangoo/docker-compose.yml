@@ -1,0 +1,32 @@
+services:
+  project_mangoo_exe:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: project_mangoo:exe
+    container_name: project_mangoo_exe
+    restart: unless-stopped
+    mem_limit: 1024m
+    cpus: 1.0
+    pids_limit: 32
+    healthcheck:
+      test: ["CMD", "/bin/grep", "-q", "socat", "/proc/1/cmdline"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+    read_only: true
+    cap_drop:
+      - ALL
+    cap_add:
+      - SETUID
+      - SETGID
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp:rw,nosuid,nodev,mode=1777,size=256m
+    ports:
+      - "7250:7250"
+    environment:
+      - MANGOO_ROOT_KEY=hiCTF{fake_flag_for_local_testing}

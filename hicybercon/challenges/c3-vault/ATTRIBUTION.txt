@@ -1,0 +1,7 @@
+Custom application: C3 Vault v2, original challenge code (MIT).
+ESP-IDF v5.3.1: https://github.com/espressif/esp-idf/tree/v5.3.1
+ESP-IDF is primarily Apache-2.0; see LICENSES/ for bundled notices.
+NVS partition generator 0.1.6 (Apache-2.0); esptool/espsecure 4.8.1
+(GPL-2.0-or-later) used as build tools, not included in this archive.
+eFuse acquisition follows ESP32-C3 read-register ordering, not a
+fictional key-block layout. No production credentials are included.

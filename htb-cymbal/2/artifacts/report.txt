@@ -1,0 +1,67 @@
+Event Coverage/Implication
+
+Updated: Threat Actors Associated with the ShinyHunters Brand Expand
+Targeting of Cloud Applications for Extortion Operations
+2026-01-16 20:48 , 26-10002301 , Version: 2
+
+Executive Summary
+
+In an incident spanning early to mid-January 2026, a threat actor likely used voice phishing (vishing) to obtain initial access to a victim's environment. They subsequently pivoted to
+various cloud platforms—including Google Workspace, Salesforce, Docusign, and Atlassian—and stole data used for ShinyHunters-branded extortion operations. Google Threat
+Intelligence Group (GTIG) attributes the extortion activity to UNC6240.
+The threat actor also used access to a compromised email account to send additional phishing emails to contacts at crypto-focused companies.
+This recent incident represents an expansion in the number and type of targeted cloud platforms, suggesting that the associated threat actors are modifying their operations to
+gather more sensitive data for extortion operations.
+UNC6240 has impacted organizations operating in a wide range of industries and based in Canada, France, the UK, and the US; however, targeting is likely broader than directly
+observed[.]Indicators associated with this activity have been attached to this report. Also see 25-10043011 for mitigation strategies to combat vishing attacks.
+
+Content
+New Version Details
+
+Version 2, Jan. 23, 2026: This report has been updated to highlight the emergence of a new ShinyHunters-branded data leak site (DLS) that may be listing victims impacted by these
+most recent extortion operations, as well as new reporting from Okta.
+
+Google Threat Intelligence Group (GTIG) is aware of multiple organizations responding to ShinyHunters-branded extortion incidents involving similar tactics, techniques, and procedures
+(TTPs). In an incident spanning early to mid-January 2026, a threat actor likely used voice phishing (vishing) to obtain initial access to a victim's environment. They subsequently pivoted
+to cloud resources and stole data used for ShinyHunters-branded extortion operations. Google Threat Intelligence Group (GTIG) attributes the extortion activity to UNC6240, based on
+several overlaps, such as the use of the Tox account BD1B683FD3E6CB094341317A4C09923B7AE3E7903A6CDB90E5631EC7DC1452636FF35D9F5AF2 for negotiations, ShinyHuntersbranded extortion emails, and Limewire to host samples of stolen data. The initial intrusion activity is still being analyzed; however, there are limited overlaps with activity previously
+attributed to UNC6040, such as the affiliation with UNC6240 and prior operations targeting Salesforce data via Salesforce DATALOADER (CAMP.25.032, 25-10025182).
+
+In early January, a threat actor masquerading to be "from IT" called an employee at the victim organization, claiming that the company was updating multifactor authentication
+(MFA) settings and verified the employee's phone number. The threat actor subsequently registered their own device for MFA.
+The threat actor also enabled the "ToggleBox Recall" add-on for Google Workspace, a tool designed to search for and permanently delete emails. They then deleted a "Security
+method enrolled" email from Okta, almost certainly to prevent the employee from identifying that their account was associated with a new MFA device.
+Okta has published a report about phishing kits targeting Identity Providers and cryptocurrency platforms, as well as follow-on vishing attacks. While they associate this
+activity with multiple threat clusters, at least some of the activity appears to overlap with ShinyHunters-branded operations.
+After the threat actor gained access to the Okta account, they moved laterally through the victim's environment and accessed and exfiltrated data from software-as-a-service (SaaS)
+platforms, including Google Workspace, Salesforce, DocuSign, and Atlassian.
+Preliminary analysis suggests that the threat actor targeted personally identifiable information (PII) stored in Salesforce. They also used Google Takeout to export Google
+account data.
+The threat actor also used access to a compromised email account to send additional phishing emails to contacts at cryptocurrency-focused companies, leveraging Calendly links
+as lures. GTIG has observed Calendly links used in other phishing emails targeting cryptocurrency entities, though it is currently unclear if those messages are part of the same
+activity set. The threat actor then deleted the outbound emails, likely in an attempt to obfuscate their malicious activity.
+In mid-January 2026, UNC6240 sent extortion emails outlining what data they allegedly stole, specifying a payment amount and destination BTC address, and threatening
+consequences if the ransom was not paid within 72 hours, which is consistent with prior extortion emails (Figure 1). They also provided "proof" of data theft via samples hosted on
+Limewire.
+A new ShinyHunters-branded data leak site (DLS) named "SHINYHUNTERS" has emerged listing several alleged victims who may have been compromised in these most recent
+extortion operations. The DLS also lists contact information that has previously been associated with UNC6240.
+
+Figure 1: Ransom note extract
+
+Outlook and Implications
+
+This recent incident is similar to prior operations associated with UNC6240, which have frequently used vishing for initial access and have targeted Salesforce data. It does, however,
+represent an expansion in the number and type of targeted cloud platforms, suggesting that the associated threat actors are modifying their operations to gather more sensitive data for
+extortion operations. Further, the use of a compromised account to send phishing emails to cryptocurrency-related entities suggests that they may be building relationships with
+potential victims to expand their access or engage in other follow-on operations.
+
+This report contains content and links to content which are the property of Google. and are protected by all applicable laws. This cyber threat intelligence and this message are solely
+intended for the use of the individual and organization to which it is addressed and is subject to the subscription Terms and Conditions to which your institution is a party. Onward
+distribution in part or in whole of any Google proprietary materials or intellectual property is restricted per the terms of agreement. By accessing and using this and related content and
+links, you agree to be bound by the subscription. © 2026, Google. All rights reserved.
+
+Confidential and Proprietary / Copyright © 2026 Google. All rights reserved.
+
+cmVwb3J0LS0yNi0xMDAwMjMwMXx8dGFyYWhsZXdpc19jbG91ZHNlY19nc2FfdGVhbXx8Y2xvdWRzZWNfZ3NhX3RlYW18fHYzfHwxNzg3NTkyODYyfHxjZTA1OWY4MjBhMWUzYmFjYmZiZDI2MjBlZDRkMzVkZWFiMGI1ZWNlYTYyMzFmODBlMmRjNzk1
+
+

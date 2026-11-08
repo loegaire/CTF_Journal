@@ -1,0 +1,18 @@
+{
+  "attachment_id": "f2d37a63c05d4a84b4927c0dabdbf0c3",
+  "expires_at": 1790329885,
+  "generated_at": 1790328085,
+  "preset": "binwalk",
+  "provenance": {
+    "cwd": "/srv/ctf-mcp/app",
+    "entrypoint": "python -m ctf_mcp.server",
+    "runner": "ctf-super-agent/0.1.0",
+    "runtime": "python3.12"
+  },
+  "result": {
+    "matches": [],
+    "returned": 0,
+    "scanned_bytes": 112,
+    "truncated": false
+  }
+}

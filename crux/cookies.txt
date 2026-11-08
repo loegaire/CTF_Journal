@@ -1,0 +1,2 @@
+# Netscape HTTP Cookie File
+cruxipher.crux-bphc.com	FALSE	/	FALSE	1793384737	session	65c26677-a19d-4d25-9f6f-ca0b46581f2e.-bJo7_S5hDxH8Mr0hwoRbgJKIyc

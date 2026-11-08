@@ -1,0 +1,176 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e52]:
+    - banner [ref=e53]:
+      - generic [ref=e54]: MDPress
+      - button "hustabc user H" [ref=e55] [cursor=pointer]:
+        - generic [ref=e56]: hustabc
+        - generic [ref=e57]: user
+        - generic [ref=e58]: H
+    - generic [ref=e59]:
+      - generic [ref=e61]:
+        - generic [ref=e62]: Published by the team
+        - heading "Articles" [level=2] [ref=e63]
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - 'button "Pandoc filters: extending Markdown without plugins #15 · @alice · 2026-05-22" [ref=e66] [cursor=pointer]':
+            - generic [ref=e67]: "Pandoc filters: extending Markdown without plugins"
+            - generic [ref=e68]:
+              - generic [ref=e69]: "#15"
+              - generic [ref=e70]: ·
+              - generic [ref=e71]: "@alice"
+              - generic [ref=e72]: ·
+              - generic [ref=e73]: 2026-05-22
+          - 'button "Data pipelines: batch vs streaming #14 · @grace_h · 2026-05-13" [ref=e74] [cursor=pointer]':
+            - generic [ref=e75]: "Data pipelines: batch vs streaming"
+            - generic [ref=e76]:
+              - generic [ref=e77]: "#14"
+              - generic [ref=e78]: ·
+              - generic [ref=e79]: "@grace_h"
+              - generic [ref=e80]: ·
+              - generic [ref=e81]: 2026-05-13
+          - 'button "Writing safe C in 2026 #13 · @frank77 · 2026-05-05" [ref=e82] [cursor=pointer]':
+            - generic [ref=e83]: Writing safe C in 2026
+            - generic [ref=e84]:
+              - generic [ref=e85]: "#13"
+              - generic [ref=e86]: ·
+              - generic [ref=e87]: "@frank77"
+              - generic [ref=e88]: ·
+              - generic [ref=e89]: 2026-05-05
+          - 'button "Understanding CORS: the developer''s field guide #12 · @eve_sec · 2026-04-27" [ref=e90] [cursor=pointer]':
+            - generic [ref=e91]: "Understanding CORS: the developer's field guide"
+            - generic [ref=e92]:
+              - generic [ref=e93]: "#12"
+              - generic [ref=e94]: ·
+              - generic [ref=e95]: "@eve_sec"
+              - generic [ref=e96]: ·
+              - generic [ref=e97]: 2026-04-27
+          - 'button "Lessons from five years of on-call #11 · @daveops · 2026-04-18" [ref=e98] [cursor=pointer]':
+            - generic [ref=e99]: Lessons from five years of on-call
+            - generic [ref=e100]:
+              - generic [ref=e101]: "#11"
+              - generic [ref=e102]: ·
+              - generic [ref=e103]: "@daveops"
+              - generic [ref=e104]: ·
+              - generic [ref=e105]: 2026-04-18
+          - 'button "How I write documentation that people actually read #10 · @carol42 · 2026-04-11" [ref=e106] [cursor=pointer]':
+            - generic [ref=e107]: How I write documentation that people actually read
+            - generic [ref=e108]:
+              - generic [ref=e109]: "#10"
+              - generic [ref=e110]: ·
+              - generic [ref=e111]: "@carol42"
+              - generic [ref=e112]: ·
+              - generic [ref=e113]: 2026-04-11
+          - 'button "REST vs GraphQL: a pragmatist''s view #9 · @bob_dev · 2026-04-03" [ref=e114] [cursor=pointer]':
+            - generic [ref=e115]: "REST vs GraphQL: a pragmatist's view"
+            - generic [ref=e116]:
+              - generic [ref=e117]: "#9"
+              - generic [ref=e118]: ·
+              - generic [ref=e119]: "@bob_dev"
+              - generic [ref=e120]: ·
+              - generic [ref=e121]: 2026-04-03
+          - 'button "Markdown math rendering in MDPress #8 · @alice · 2026-03-27" [ref=e122] [cursor=pointer]':
+            - generic [ref=e123]: Markdown math rendering in MDPress
+            - generic [ref=e124]:
+              - generic [ref=e125]: "#8"
+              - generic [ref=e126]: ·
+              - generic [ref=e127]: "@alice"
+              - generic [ref=e128]: ·
+              - generic [ref=e129]: 2026-03-27
+          - 'button "DuckDB for data engineers: a practical guide #7 · @grace_h · 2026-03-19" [ref=e130] [cursor=pointer]':
+            - generic [ref=e131]: "DuckDB for data engineers: a practical guide"
+            - generic [ref=e132]:
+              - generic [ref=e133]: "#7"
+              - generic [ref=e134]: ·
+              - generic [ref=e135]: "@grace_h"
+              - generic [ref=e136]: ·
+              - generic [ref=e137]: 2026-03-19
+          - 'button "Embedded Rust: first impressions #6 · @frank77 · 2026-03-11" [ref=e138] [cursor=pointer]':
+            - generic [ref=e139]: "Embedded Rust: first impressions"
+            - generic [ref=e140]:
+              - generic [ref=e141]: "#6"
+              - generic [ref=e142]: ·
+              - generic [ref=e143]: "@frank77"
+              - generic [ref=e144]: ·
+              - generic [ref=e145]: 2026-03-11
+          - 'button "Why every developer should try a CTF #5 · @eve_sec · 2026-03-05" [ref=e146] [cursor=pointer]':
+            - generic [ref=e147]: Why every developer should try a CTF
+            - generic [ref=e148]:
+              - generic [ref=e149]: "#5"
+              - generic [ref=e150]: ·
+              - generic [ref=e151]: "@eve_sec"
+              - generic [ref=e152]: ·
+              - generic [ref=e153]: 2026-03-05
+          - 'button "Homelab 2026: what I''m running #4 · @daveops · 2026-02-26" [ref=e154] [cursor=pointer]':
+            - generic [ref=e155]: "Homelab 2026: what I'm running"
+            - generic [ref=e156]:
+              - generic [ref=e157]: "#4"
+              - generic [ref=e158]: ·
+              - generic [ref=e159]: "@daveops"
+              - generic [ref=e160]: ·
+              - generic [ref=e161]: 2026-02-26
+          - 'button "Technical writing tips for engineers #3 · @carol42 · 2026-02-21" [ref=e162] [cursor=pointer]':
+            - generic [ref=e163]: Technical writing tips for engineers
+            - generic [ref=e164]:
+              - generic [ref=e165]: "#3"
+              - generic [ref=e166]: ·
+              - generic [ref=e167]: "@carol42"
+              - generic [ref=e168]: ·
+              - generic [ref=e169]: 2026-02-21
+          - 'button "Five tools every backend developer should know #2 · @bob_dev · 2026-02-17" [ref=e170] [cursor=pointer]':
+            - generic [ref=e171]: Five tools every backend developer should know
+            - generic [ref=e172]:
+              - generic [ref=e173]: "#2"
+              - generic [ref=e174]: ·
+              - generic [ref=e175]: "@bob_dev"
+              - generic [ref=e176]: ·
+              - generic [ref=e177]: 2026-02-17
+          - 'button "Getting started with LaTeX on MDPress #1 · @alice · 2026-02-14" [ref=e178] [cursor=pointer]':
+            - generic [ref=e179]: Getting started with LaTeX on MDPress
+            - generic [ref=e180]:
+              - generic [ref=e181]: "#1"
+              - generic [ref=e182]: ·
+              - generic [ref=e183]: "@alice"
+              - generic [ref=e184]: ·
+              - generic [ref=e185]: 2026-02-14
+        - generic [ref=e188]:
+          - generic [ref=e189]: Pick an article
+          - generic [ref=e190]: Select a piece on the left to start reading.
+  - complementary "Your profile" [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]: H
+      - generic [ref=e31]:
+        - generic [ref=e32]: hustabc
+        - generic [ref=e33]: "@hustabc"
+      - button "✕" [ref=e34] [cursor=pointer]
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "My identity" [level=3] [ref=e37]
+        - generic [ref=e38]: "uid: u_238487662de0691d4bdf23dc role: user token: AC-269DCD5D"
+      - generic [ref=e39]:
+        - heading "Edit profile" [level=3] [ref=e40]
+        - generic [ref=e41]:
+          - generic [ref=e42]: Display name
+          - textbox [ref=e43]: hustabc
+        - generic [ref=e44]:
+          - generic [ref=e45]: Bio
+          - textbox [ref=e46]
+        - generic [ref=e47]:
+          - generic [ref=e48]: Account code
+          - textbox [ref=e49]: AC-269DCD5D
+        - button "Save changes" [ref=e50] [cursor=pointer]
+      - button "Log out" [ref=e51] [cursor=pointer]
+  - generic:
+    - generic:
+      - generic:
+        - generic: New article
+        - button "✕"
+      - generic:
+        - generic:
+          - generic: Title
+          - textbox "Article title"
+        - generic:
+          - generic: Content — Markdown
+          - textbox
+      - generic:
+        - button "Cancel"
+        - button "Publish"

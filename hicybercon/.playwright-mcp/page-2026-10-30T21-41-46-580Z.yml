@@ -1,0 +1,163 @@
+- generic [ref=f107e4]:
+  - generic [ref=f107e5]:
+    - link "Download CyberChef file_download" [ref=f107e7] [cursor=pointer]:
+      - /url: "#"
+      - text: Download CyberChef
+      - generic [ref=f107e8]: file_download
+    - 'link "Last build: A day ago" [ref=f107e11] [cursor=pointer]':
+      - /url: https://github.com/gchq/CyberChef/blob/master/CHANGELOG.md
+    - generic [ref=f107e12]:
+      - link "Options settings" [ref=f107e13] [cursor=pointer]:
+        - /url: "#"
+        - text: Options
+        - generic [ref=f107e14]: settings
+      - link "About / Support help" [ref=f107e15] [cursor=pointer]:
+        - /url: "#"
+        - text: About / Support
+        - generic [ref=f107e16]: help
+  - generic [ref=f107e17]:
+    - generic [ref=f107e18]:
+      - generic [ref=f107e19]:
+        - text: Operations
+        - generic [ref=f107e20]: "506"
+      - searchbox "Search..." [ref=f107e22]:
+        - list
+      - generic [ref=f107e23]:
+        - generic [ref=f107e24]:
+          - generic [ref=f107e25] [cursor=pointer]:
+            - text: Favourites
+            - button "Edit Favourites" [ref=f107e26]:
+              - generic [aria-hidden] [ref=f107e27]: star
+          - list [ref=f107e29]:
+            - button "To Base64" [ref=f107e30]
+            - button "From Base64" [ref=f107e31]
+            - button "To Hex" [ref=f107e32]
+            - button "From Hex" [ref=f107e33]
+            - button "To Hexdump" [ref=f107e34]
+            - button "From Hexdump" [ref=f107e35]
+            - button "URL Decode" [ref=f107e36]
+            - button "Regular expression" [ref=f107e37]
+            - button "Entropy" [ref=f107e38]
+            - button "Fork" [ref=f107e39]
+            - button "Magic" [ref=f107e40]
+        - generic [ref=f107e41]: Data format
+        - generic [ref=f107e43]: Encryption / Encoding
+        - generic [ref=f107e45]: Public Key
+        - generic [ref=f107e47]: Arithmetic / Logic
+        - generic [ref=f107e49]: Networking
+        - generic [ref=f107e51]: Language
+        - generic [ref=f107e53]: Utils
+        - generic [ref=f107e55]: Date / Time
+        - generic [ref=f107e57]: Extractors
+        - generic [ref=f107e59]: Compression
+        - generic [ref=f107e61]: Hashing
+        - generic [ref=f107e63]: Code tidy
+        - generic [ref=f107e65]: Forensics
+        - generic [ref=f107e67]: Multimedia
+        - generic [ref=f107e69]: Other
+        - generic [ref=f107e71]: Flow control
+    - generic [ref=f107e74]:
+      - generic [ref=f107e75]:
+        - text: Recipe
+        - generic [ref=f107e76]:
+          - button "Hide arguments" [ref=f107e77] [cursor=pointer]:
+            - generic [ref=f107e78]: keyboard_arrow_up
+          - button "Save recipe" [ref=f107e79] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f107e80]: save
+          - button "Load recipe" [ref=f107e81] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f107e82]: folder
+          - button "Clear recipe" [ref=f107e83] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f107e84]: delete
+      - list [ref=f107e85]:
+        - listitem [ref=f107e189]:
+          - generic [ref=f107e190]: Magic
+          - generic [ref=f107e191]:
+            - generic [ref=f107e192]:
+              - generic: Depth
+              - spinbutton "Depth" [ref=f107e193]: "5"
+            - generic [ref=f107e196]:
+              - checkbox "Intensive mode" [checked]
+              - generic [ref=f107e197] [cursor=pointer]
+              - text: Intensive mode
+            - generic [ref=f107e201]:
+              - checkbox "Extensive language support" [checked]
+              - generic [ref=f107e202] [cursor=pointer]
+              - text: Extensive language support
+            - generic [ref=f107e204]:
+              - generic: Crib (known plaintext string or regex)
+              - textbox "Crib (known plaintext string or regex)" [ref=f107e205]: hiCTF
+          - generic [ref=f107e206]:
+            - generic "Set breakpoint" [ref=f107e207] [cursor=pointer]: pause
+            - generic "Disable operation" [ref=f107e208] [cursor=pointer]: not_interested
+            - generic "Hide operation's arguments" [ref=f107e209] [cursor=pointer]: keyboard_arrow_up
+      - generic [ref=f107e87]:
+        - button "Step" [ref=f107e88] [cursor=pointer]
+        - button "Bake!" [ref=f107e89] [cursor=pointer]
+        - generic [ref=f107e92] [cursor=pointer]:
+          - checkbox "Auto Bake" [checked]
+          - text: Auto Bake
+    - generic [ref=f107e96]:
+      - generic [ref=f107e97]:
+        - generic [ref=f107e98]:
+          - generic [ref=f107e99]: Input
+          - generic [ref=f107e100]:
+            - button "Add new input tab" [ref=f107e101] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f107e102]: add
+            - button "Open folder as input" [ref=f107e103] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f107e104]: folder_open
+            - button "Open file as input" [ref=f107e105] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f107e106]: input
+            - button "Clear input and output" [ref=f107e107] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f107e108]: delete
+            - button "Reset pane layout" [ref=f107e109] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f107e110]: view_compact
+        - generic [ref=f107e113]:
+          - textbox [ref=f107e115]
+          - generic [ref=f107e118]:
+            - generic [ref=f107e119]:
+              - generic [ref=f107e120]:
+                - generic [ref=f107e121]: abc
+                - text: "0"
+              - generic [ref=f107e122]:
+                - generic [ref=f107e123]: sort
+                - text: "1"
+            - generic [ref=f107e124]:
+              - generic [ref=f107e126] [cursor=pointer]:
+                - generic [ref=f107e127]: text_fields
+                - generic [ref=f107e128]: Raw Bytes
+              - generic [ref=f107e130] [cursor=pointer]:
+                - generic [ref=f107e131]: keyboard_return
+                - text: LF
+      - generic [ref=f107e133]:
+        - generic [ref=f107e134]:
+          - generic [ref=f107e135]: Output
+          - generic [ref=f107e136]:
+            - button "save" [ref=f107e137] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f107e138]: save
+            - button "copy content" [ref=f107e139] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f107e140]: content_copy
+            - button "replace input with output" [ref=f107e141] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f107e142]: open_in_browser
+            - button "maximise output pane" [ref=f107e143] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f107e144]: fullscreen
+        - generic [ref=f107e147]:
+          - textbox [ref=f107e149]:
+            - generic [ref=f107e150]: Nothing of interest could be detected about the input data. Have you tried modifying the operation arguments?
+          - generic [ref=f107e152]:
+            - generic [ref=f107e153]:
+              - generic [ref=f107e154]:
+                - generic [ref=f107e155]: abc
+                - text: "0"
+              - generic [ref=f107e156]:
+                - generic [ref=f107e157]: sort
+                - text: "1"
+            - generic [ref=f107e158]:
+              - generic [ref=f107e159]:
+                - generic [ref=f107e160]: schedule
+                - text: 41ms
+              - generic [ref=f107e162]:
+                - generic [ref=f107e163]: text_fields
+                - generic [ref=f107e164]: Raw Bytes
+              - generic [ref=f107e166]:
+                - generic [ref=f107e167]: keyboard_return
+                - text: LF

@@ -1,0 +1,321 @@
+- generic [active] [ref=f113e1]:
+  - generic [ref=f113e4]:
+    - banner [ref=f113e5]:
+      - search "Поиск в интернете" [ref=f113e6]:
+        - generic [ref=f113e7]:
+          - link "Yandex" [ref=f113e8] [cursor=pointer]:
+            - /url: //yandex.com
+          - button "Close" [ref=f113e14] [cursor=pointer]
+          - textbox [aria-hidden] [ref=f113e16]:
+            - /placeholder: Find an image
+      - button "Image search" [ref=f113e18] [cursor=pointer]
+      - button "Меню" [ref=f113e23] [cursor=pointer]
+    - navigation [ref=f113e26]:
+      - generic [ref=f113e27]:
+        - link "Web" [ref=f113e28] [cursor=pointer]:
+          - /url: //yandex.com?source=tabbar
+        - link "Yandex AI" [ref=f113e29] [cursor=pointer]:
+          - /url: //yandex.com?source=tabbar&promo=force_neuro
+        - link "Images" [ref=f113e30] [cursor=pointer]:
+          - /url: //yandex.com/images?parent-reqid=1793397338598505-15680404856072105438-xsdlt53qkcbv7a4r-BAL
+          - generic [aria-hidden] [ref=f113e31]: Images
+          - text: Images
+        - link "Video" [ref=f113e32] [cursor=pointer]:
+          - /url: //yandex.com/video?parent-reqid=1793397338598505-15680404856072105438-xsdlt53qkcbv7a4r-BAL&from=tabbar
+        - link "Maps" [ref=f113e33] [cursor=pointer]:
+          - /url: //yandex.com/maps/?source=serp_navig
+      - link "Translate" [ref=f113e35] [cursor=pointer]:
+        - /url: //translate.yandex.com?from=tabbar
+  - main [ref=f113e39]:
+    - generic [ref=f113e42]:
+      - generic [ref=f113e43]:
+        - region "Smart Camera" [ref=f113e46]:
+          - generic [ref=f113e47]:
+            - generic [ref=f113e48]: Smart Camera
+            - generic [ref=f113e63]: Move the frames to select the search area
+        - generic [ref=f113e65]:
+          - navigation "List of image search tabs" [ref=f113e66]:
+            - tablist "Active tab - Search" [ref=f113e70]:
+              - tab "Search" [selected] [ref=f113e71]
+              - tab "Similar images" [ref=f113e72] [cursor=pointer]
+              - tab "Sites" [ref=f113e73] [cursor=pointer]
+          - generic [ref=f113e75]:
+            - region [ref=f113e76]:
+              - heading "Image appears to contain" [level=2] [ref=f113e78]
+              - group [ref=f113e80]:
+                - link "пейзаж" [ref=f113e81] [cursor=pointer]:
+                  - /url: /images/search?text=%D0%BF%D0%B5%D0%B9%D0%B7%D0%B0%D0%B6
+                - link "с горы" [ref=f113e82] [cursor=pointer]:
+                  - /url: /images/search?text=%D1%81%20%D0%B3%D0%BE%D1%80%D1%8B
+                - link "green mountain" [ref=f113e83] [cursor=pointer]:
+                  - /url: /images/search?text=green%20mountain
+                - link "mountain landscape" [ref=f113e84] [cursor=pointer]:
+                  - /url: /images/search?text=mountain%20landscape
+                - link "hill mountain" [ref=f113e85] [cursor=pointer]:
+                  - /url: /images/search?text=hill%20mountain
+                - button "Show more" [ref=f113e86] [cursor=pointer]
+            - region [ref=f113e87]:
+              - heading "In other sizes" [level=2] [ref=f113e88]
+              - group [ref=f113e92]:
+                - link "2940 на 1960" [ref=f113e93] [cursor=pointer]:
+                  - /url: https://static.vecteezy.com/system/resources/previews/002/133/216/large_2x/view-of-green-mountains-free-photo.jpg
+                  - generic: 2940×1960
+                - link "1050 на 700" [ref=f113e94] [cursor=pointer]:
+                  - /url: https://static.vecteezy.com/system/resources/thumbnails/002/133/216/small_2x/view-of-green-mountains-free-photo.jpg
+                  - generic: 1050×700
+                - link "800 на 534" [ref=f113e95] [cursor=pointer]:
+                  - /url: https://thumbs.dreamstime.com/b/view-valley-mountain-green-saddle-landscape-background-121490010.jpg
+                  - generic: 800×534
+                - link "400 на 267" [ref=f113e96] [cursor=pointer]:
+                  - /url: https://img.myloview.se/fototapeter/utsikt-over-dalen-pa-en-bergsgron-sadel-400-129249374.jpg
+                  - generic: 400×267
+                - link "400 на 266" [ref=f113e97] [cursor=pointer]:
+                  - /url: https://img2.cliparto.com/pic/xl/222090/6636838-view-of-valley-on-mountain-green-saddle.jpg
+                  - generic: 400×266
+                - link "100 на 66" [ref=f113e98] [cursor=pointer]:
+                  - /url: https://img2.cliparto.com/pic/s/222090/6636838-view-of-valley-on-mountain-green-saddle.jpg
+                  - generic: 100×66
+              - button "Show all sizes" [ref=f113e100] [cursor=pointer]
+            - region [ref=f113e103]:
+              - heading [level=2] [ref=f113e104]:
+                - link "Similar images" [ref=f113e105] [cursor=pointer]:
+                  - /url: /images/search?rpt=imageview&url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&cbir_page=similar
+              - list [ref=f113e108]:
+                - generic [ref=f113e109]:
+                  - listitem [ref=f113e110]:
+                    - link [ref=f113e112] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F002%2F133%2F216%2Flarge_2x%2Fview-of-green-mountains-free-photo.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "vista a la montaña rocosa 2150403 Foto de stock" [ref=f113e113]
+                  - listitem [ref=f113e115]:
+                    - link [ref=f113e117] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fwww.sorea.sk%2Fimages%2Fpictures%2Flowtatras.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Objavte krásy Slovenska zo sedla bicykla Sorea" [ref=f113e118]
+                  - listitem [ref=f113e120]:
+                    - link [ref=f113e122] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Ftravel.24tv.ua%2Fresources%2Fphotos%2Fnews%2F202007%2F1382828.jpg%3Fv%3D1661268898000%26amp%3Bw%3D1200%26amp%3Bh%3D675&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - 'img "LYPA on Instagram: \"Spring vibes 🧚 🏼 ♀ . . #lypaproject #spring #mountains\" Green mountain, Mountain view, Mountains" [ref=f113e123]'
+                  - listitem [ref=f113e125]:
+                    - link [ref=f113e127] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fwww.respecthotel.com.ua%2Fwp-content%2Fuploads%2F2022%2F06%2Fgoverla-z-petrosa.jpeg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Похід на гору Петрос (2020 м.) - Буковель Ворохта Татарів Микуличин Яремче - NADVIRNA.LIFE" [ref=f113e128]
+                  - listitem [ref=f113e130]:
+                    - link [ref=f113e132] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Finstercoop.fr%2Fwp-content%2Fuploads%2F2019%2F03%2FAuvergne.png&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "12 idées de En France voyage en france, paysage france, paysage voyage" [ref=f113e133]
+                  - listitem [ref=f113e135]:
+                    - link [ref=f113e137] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fcudownyportal.pl%2Fwp-content%2Fuploads%2F2015%2F05%2FFotolia_3638945_M.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Sticker Tatras - PIXERS.HK" [ref=f113e138]
+                  - listitem [ref=f113e140]:
+                    - link [ref=f113e142] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fwww.balirando.fr%2Fwp-content%2Fuploads%2F2025%2F06%2FBalirando-ITI0181-Le-Sancy.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Auvergne-Rhône-Alpes, the region to be Set Up In France" [ref=f113e143]
+                  - listitem [ref=f113e145]:
+                    - link [ref=f113e147] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fwww.ck-rekrea.cz%2Fkatalogy-data%2Fimages%2Fatrakce%2F1176%2Fmala_fatra.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Malá Fatra" [ref=f113e148]
+                  - listitem [ref=f113e150]:
+                    - link [ref=f113e152] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F36%2F%25D0%2586%25D0%25B4%25D1%2583%25D1%2587%25D0%25B8_%25D0%25BD%25D0%25B0_%25D0%25B3%25D0%25BE%25D1%2580%25D1%2583.JPG%2F960px-%25D0%2586%25D0%25B4%25D1%2583%25D1%2587%25D0%25B8_%25D0%25BD%25D0%25B0_%25D0%25B3%25D0%25BE%25D1%2580%25D1%2583.JPG&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Отзывы о \"Гора Высокая\", Ивано-Франковская область, Рожнятовский район - Яндекс Карты" [ref=f113e153]
+                  - listitem [ref=f113e155]:
+                    - link [ref=f113e157] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fzaholovok.com.ua%2Fsites%2Fdefault%2Ffiles%2F810%2F2015%2F07%2F12%2F08-d0bfd196d0bf-d196d0b2d0b0d0bd-d0bcd0b0d180d0bc%2520%25281%2529.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Пiсля грози (Артур Грей Эсквайр) / Стихи.ру" [ref=f113e158]
+                  - listitem [ref=f113e160]:
+                    - link [ref=f113e162] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fd2idu5mmj5r5g3.cloudfront.net%2Fphotos_m%2FzEHynrNFb9463249.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Фотограф davidrie, Фотографии Погоды в Špindlerův Mlýn - Weawow" [ref=f113e163]
+                  - listitem [ref=f113e165]:
+                    - link [ref=f113e167] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fget.wallhere.com%2Fphoto%2Flandscape-mountains-hill-nature-photography-green-valley-mountain-pass-wilderness-Alps-summit-plateau-ridge-Terrain-cloud-mountain-grassland-meadow-highland-loch-rural-area-atmospheric-phenomenon-mountainous-landforms-landform-geographical-feature-mountain-range-fell-77702.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Картина на холсте 110x60 LinxOne \"Природа, пейзаж\" интерьерная для дома / на стену / на кухню / с подрамником - купить в интерне" [ref=f113e168]
+                  - listitem [ref=f113e170]:
+                    - link [ref=f113e172] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fwww.turancar.sk%2Fbuxus%2Fimages%2Fcache%2Fheader_image_n%2Fcontent%2Fthumb%2Fimage_3363e6907cd9276.jpeg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "W_obiektywie_telefonu - Pixabay" [ref=f113e173]
+                  - listitem [ref=f113e175]:
+                    - link [ref=f113e177] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Ffs05.vseosvita.ua%2F05004dzq-051c-306x170.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Фото жизнь - seraf - Карпатские зарисовки - Послушай голос далеких гор" [ref=f113e178]
+                  - listitem [ref=f113e180]:
+                    - link [ref=f113e182] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Ffoto.turistika.cz%2Ffoto%2F36032%2F111699%2Flrg_img_4291_panorama2.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Fotogalerie Snilovské sedlo (Vrátná dolina)-Velký Kriváň-Malý Kriváň-Chata pod Suchým-Starý hrad-Nezbudská Lúčka - č. 1027471 Tu" [ref=f113e183]
+                  - listitem [ref=f113e185]:
+                    - link [ref=f113e187] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fi.photographers.ua%2Fthumbnails%2Fpictures%2F12700%2F800x3_xdr_kopija.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "📸 Фото - Фотография 2 из 26 ВКонтакте" [ref=f113e188]
+                  - listitem [ref=f113e190]:
+                    - link [ref=f113e192] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Flive.staticflickr.com%2F8112%2F8642766928_e334c928d0_b.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Slovakia tours from Bratislava - mountains" [ref=f113e193]
+                  - listitem [ref=f113e195]:
+                    - link [ref=f113e197] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fwww.mywanderlust.pl%2Fwp-content%2Fuploads%2F2022%2F04%2Fplaces-to-visit-in-slovakia-13.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - 'img "En Del Soporte Maly Krivan, Lesser Fatra, Eslovaquia Imagen de archivo - Imagen de asoleado, eslovaquia: 112576577" [ref=f113e198]'
+                  - listitem [ref=f113e200]:
+                    - link [ref=f113e202] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F61%2F10%2F93%2F6110937a9f5ccf3f67ffdb2d19ec7ddd.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Pomysły (57) na temat Polish Mountains - Zieloni w podróży, które możesz zapisać już dziś wycieczki, wschód słońca, las i nie ty" [ref=f113e203]
+                  - listitem [ref=f113e205]:
+                    - link [ref=f113e207] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fblogger.googleusercontent.com%2Fimg%2Fb%2FR29vZ2xl%2FAVvXsEgFEfjhO1v21JN9tLOFc0ZS_2gIlToXl91l-J12MrFzDsI2rccBXIx5xIScCYfDIqFzvbTlij6VbtaZNKae6NnPwp7Z-W07zNNpc7y0dr_p_iXkTyCrTnk_SdF7N4QQYGq_75ZmfoDwgBs%2Fs1600%2Falpine-scenery.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Classical Writing Music - YouTube" [ref=f113e208]
+                  - listitem [ref=f113e210]:
+                    - link [ref=f113e212] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2021%2F01%2F06%2F07%2F03%2Ftatry-5893342_1280.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "2 000+ Бесплатные Татры & Татры изображения" [ref=f113e213]
+                  - listitem [ref=f113e215]:
+                    - link [ref=f113e217] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fwww.shutterstock.com%2Fimage-photo%2Fhigh-mountains-ukrainian-carpathians-cloudy-260nw-2184730807.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "1.076 Фон для товара billeder, stock-fotos, 3D-genstande og vektorer Shutterstock" [ref=f113e218]
+                  - listitem [ref=f113e220]:
+                    - link [ref=f113e222] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fic.pics.livejournal.com%2Fsjanchyk%2F43238804%2F324301%2F324301_original.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - 'img "Природний заповідник \"Горгани\" + скеля Білий Камінь.: sjanchyk - ЖЖ" [ref=f113e223]'
+                  - listitem [ref=f113e225]:
+                    - link [ref=f113e227] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fi.4pcdn.org%2Ftrv%2F1559915595997.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Low Tatras Slovakia.com Ski park, National parks, Tourism" [ref=f113e228]
+                  - listitem [ref=f113e230]:
+                    - link [ref=f113e232] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Flowcosttravel.club%2Fwp-content%2Fuploads%2F2024%2F04%2Fpeshij-turizm-scaled-e1713507679570.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "пеший туризм НАШІ МАНДРИ" [ref=f113e233]
+                  - listitem [ref=f113e235]:
+                    - link [ref=f113e237] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FkHwEFliSGTA%2Fmaxresdefault.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Karpatka - tizer (Мармаросы, Карпаты) - YouTube" [ref=f113e238]
+                  - listitem [ref=f113e240]:
+                    - link [ref=f113e242] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fb2%2F49%2Fde%2Fb249de146bae368d50b873c6274f0daa.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "chopok - slovakia Trip, Travel, Slovakia" [ref=f113e243]
+                  - listitem [ref=f113e245]:
+                    - link [ref=f113e247] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fpixy.org%2Fsrc2%2F601%2F6010747.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Tłumy na górskich szlakach" [ref=f113e248]
+                  - listitem [ref=f113e250]:
+                    - link [ref=f113e252] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fwww.shutterstock.com%2Fshutterstock%2Fphotos%2F2197385147%2Fdisplay_1500%2Fstock-photo-hoverla-is-the-highest-peak-of-the-ukrainian-carpathian-mountains-2197385147.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "MOUNT HOVERLA HIKING - Greentour" [ref=f113e253]
+                  - listitem [ref=f113e255]:
+                    - link [ref=f113e257] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Ftrekking.ru%2Fgory%2Fimages%2Fstories%2Fgory_1%2Fmaramureshskij_massiv.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Горы Украинские Карпаты" [ref=f113e258]
+                  - listitem [ref=f113e260]:
+                    - link [ref=f113e262] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fcdn.puzzlegarage.com%2Fimg%2Fpuzzle%2Fd%2F12621_preview_r.v1.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Jonas Brothers - Sucker - Listen on Online Radio Box" [ref=f113e263]
+                  - listitem [ref=f113e265]:
+                    - link [ref=f113e267] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F4%2F4f%2FSzeroka_T65.JPG%2F500px-Szeroka_T65.JPG&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Dolina Łuczywnik - Wikipedia, wolna encyklopedia" [ref=f113e268]
+                  - listitem [ref=f113e270]:
+                    - link [ref=f113e272] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fi.ytimg.com%2Fvi%2F08N9QLlSkJc%2Fmaxresdefault.jpg%3Fsqp%3D-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGFAgZSgbMA8%3D%26amp%3Brs%3DAOn4CLBOqeXzFpxRKw4BT9N6mbcITtkRYw&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Archive log 100.3 RTVS Rádio Regina Kosice Slovakia - YouTube" [ref=f113e273]
+                  - listitem [ref=f113e275]:
+                    - link [ref=f113e277] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F9f%2FPop_Iwan.jpg%2F960px-Pop_Iwan.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Pip Ivan (Chornohora) - Wikipedia" [ref=f113e278]
+                  - listitem [ref=f113e280]:
+                    - link [ref=f113e282] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fak6.picdn.net%2Fshutterstock%2Fvideos%2F32004256%2Fthumb%2F1.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - 'img "Sun Lit By: стоковое видео - видеоклипы 4K и HD Shutterstock" [ref=f113e283]'
+                  - listitem [ref=f113e285]:
+                    - link [ref=f113e287] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2F35photo.pro%2Fphotos_main%2F1268%2F6340459.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "озеро Несамовите, Українські Карпати" [ref=f113e288]
+                  - listitem [ref=f113e290]:
+                    - link [ref=f113e292] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2F35photo.pro%2Fphotos_main%2F527%2F2637329.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - 'img "Фото: Вид з Ребри. Фотограф путешественник Алексей Медведев. Пейзаж. Фотосайт Расфокус.ру" [ref=f113e293]'
+                  - listitem [ref=f113e295]:
+                    - link [ref=f113e297] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Ffzs.org%2Fwp-content%2Fuploads%2F2021%2F06%2Fmountain-range-scaled.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Rakshana Aunnathyamu Hebron Zion Songs Telugu - YouTube" [ref=f113e298]
+                  - listitem [ref=f113e300]:
+                    - link [ref=f113e302] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fpixy.org%2Fsrc%2F484%2F4842439.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Western Tatras great view free image download" [ref=f113e303]
+                  - listitem [ref=f113e305]:
+                    - link [ref=f113e307] [cursor=pointer]:
+                      - /url: /images/search?url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&img_url=https%3A%2F%2Fi.photographers.ua%2Fthumbnails%2Fpictures%2F36153%2F800xdscf3754.jpg&search_client=unknown&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&rpt=imageview&lr=10552&cbir_page=similar
+                      - img "Фотографія Східні Горгани / Виталий Гавриленко / photographers.ua" [ref=f113e308]
+              - link "Show more similar images" [ref=f113e310] [cursor=pointer]:
+                - /url: /images/search?rpt=imageview&url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&cbir_page=similar
+            - region [ref=f113e311]:
+              - heading "Sites with information about the image" [level=2] [ref=f113e312]:
+                - link "Sites" [ref=f113e313] [cursor=pointer]:
+                  - /url: /images/search?rpt=imageview&url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&cbir_page=sites
+              - list [ref=f113e314]:
+                - listitem [ref=f113e315]:
+                  - link [ref=f113e317] [cursor=pointer]:
+                    - /url: https://static.vecteezy.com/system/resources/thumbnails/002/133/216/small_2x/view-of-green-mountains-free-photo.jpg
+                    - generic [ref=f113e319]: 1050×700
+                  - generic [ref=f113e321]:
+                    - link "vista a la montaña rocosa 2150403 Foto de stock Gratis. https://es.vecteezy.com/foto/2150403-vista-a-la-montana-rocosa?utm_medium=organic&utm_source=yandexsmartcamera" [ref=f113e323] [cursor=pointer]:
+                      - /url: https://es.vecteezy.com/foto/2150403-vista-a-la-montana-rocosa?utm_medium=organic&utm_source=yandexsmartcamera
+                      - text: vista a la montaña rocosa 2150403 Foto de stock
+                    - link [aria-hidden] [ref=f113e324] [cursor=pointer]:
+                      - /url: https://es.vecteezy.com/foto/2150403-vista-a-la-montana-rocosa?utm_medium=organic&utm_source=yandexsmartcamera
+                      - text: es.vecteezy.com
+                    - generic [aria-hidden] [ref=f113e326]: Gratis.
+                - listitem [ref=f113e327]:
+                  - link [ref=f113e329] [cursor=pointer]:
+                    - /url: https://static.vecteezy.com/system/resources/previews/002/133/216/large_2x/view-of-green-mountains-free-photo.jpg
+                    - generic [ref=f113e331]: 2940×1960
+                  - generic [ref=f113e333]:
+                    - link "View of green mountains 2133216 Stock Photo at Vecteezy Download View of green mountains for free https://www.vecteezy.com/photo/2133216-view-of-green-mountains?utm_medium=organic&utm_source=yandexsmartcamera" [ref=f113e335] [cursor=pointer]:
+                      - /url: https://www.vecteezy.com/photo/2133216-view-of-green-mountains?utm_medium=organic&utm_source=yandexsmartcamera
+                      - text: View of green mountains 2133216 Stock Photo at Vecteezy
+                    - link [aria-hidden] [ref=f113e336] [cursor=pointer]:
+                      - /url: https://www.vecteezy.com/photo/2133216-view-of-green-mountains?utm_medium=organic&utm_source=yandexsmartcamera
+                      - text: vecteezy.com
+                    - generic [aria-hidden] [ref=f113e338]: Download View of green mountains for free
+                - listitem [ref=f113e339]:
+                  - link [ref=f113e341] [cursor=pointer]:
+                    - /url: https://thumbs.dreamstime.com/b/view-valley-mountain-green-saddle-landscape-background-121490010.jpg
+                    - generic [ref=f113e343]: 800×534
+                  - generic [ref=f113e345]:
+                    - link "Green Saddle on a Forested Ridge Captured from a Drone Trees Cascade Down the Slopes As an Open Meadow Leads Toward Higher Peaks View of the valley on a mountain green saddle stock photo https://www.dreamstime.com/green-saddle-forested-ridge-captured-drone-trees-cascade-down-slopes-as-open-meadow-leads-toward-higher-peaks-image468775281?utm_medium=organic&utm_source=yandexsmartcamera" [ref=f113e347] [cursor=pointer]:
+                      - /url: https://www.dreamstime.com/green-saddle-forested-ridge-captured-drone-trees-cascade-down-slopes-as-open-meadow-leads-toward-higher-peaks-image468775281?utm_medium=organic&utm_source=yandexsmartcamera
+                      - text: Green Saddle on a Forested Ridge Captured from a Drone Trees Cascade Down the Slopes As an Open Meadow Leads Toward Higher Peaks
+                    - link [aria-hidden] [ref=f113e348] [cursor=pointer]:
+                      - /url: https://www.dreamstime.com/green-saddle-forested-ridge-captured-drone-trees-cascade-down-slopes-as-open-meadow-leads-toward-higher-peaks-image468775281?utm_medium=organic&utm_source=yandexsmartcamera
+                      - text: dreamstime.com
+                    - generic [aria-hidden] [ref=f113e350]: View of the valley on a mountain green saddle stock photo
+                - listitem [ref=f113e351]:
+                  - link [ref=f113e353] [cursor=pointer]:
+                    - /url: https://thumbs.dreamstime.com/b/view-valley-mountain-green-saddle-landscape-background-121490010.jpg
+                    - generic [ref=f113e354]: 800×534
+                  - generic [ref=f113e356]:
+                    - link "Red tourist trail stock image. Image of park, color, nature - 64338707 More stock photos from. portfolio. https://www.dreamstime.com/stock-photo-red-tourist-trail-abstract-background-texture-sign-image64338707?utm_medium=organic&utm_source=yandexsmartcamera" [ref=f113e358] [cursor=pointer]:
+                      - /url: https://www.dreamstime.com/stock-photo-red-tourist-trail-abstract-background-texture-sign-image64338707?utm_medium=organic&utm_source=yandexsmartcamera
+                      - text: Red tourist trail stock image. Image of park, color, nature - 64338707
+                    - link [aria-hidden] [ref=f113e359] [cursor=pointer]:
+                      - /url: https://www.dreamstime.com/stock-photo-red-tourist-trail-abstract-background-texture-sign-image64338707?utm_medium=organic&utm_source=yandexsmartcamera
+                      - text: dreamstime.com
+                    - generic [aria-hidden] [ref=f113e361]: More stock photos from. portfolio.
+              - link "View all" [ref=f113e362] [cursor=pointer]:
+                - /url: /images/search?rpt=imageview&url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F9029838%2FJgZAw33lnaL0iNAhvEcbng7335%2Forig&cbir_id=9029838%2FJgZAw33lnaL0iNAhvEcbng7335&cbir_page=sites
+      - generic [ref=f113e365]:
+        - generic [ref=f113e366]:
+          - link "Your region Hanoi" [ref=f113e368] [cursor=pointer]:
+            - /url: //yandex.com/tune/geo/
+            - text: Hanoi
+          - generic [ref=f113e369]:
+            - link "Contact us" [ref=f113e370] [cursor=pointer]:
+              - /url: https://yandex.com/support/images/troubleshooting.html
+            - link "Help" [ref=f113e371] [cursor=pointer]:
+              - /url: https://yandex.com/support/images/
+          - link "Settings" [ref=f113e373] [cursor=pointer]:
+            - /url: https://yandex.com/tune/search/
+          - generic [ref=f113e374]:
+            - link "About" [ref=f113e375] [cursor=pointer]:
+              - /url: //yandex.com/company/
+            - link "License" [ref=f113e376] [cursor=pointer]:
+              - /url: //yandex.com/legal/termsofuse/
+            - link "Privacy Policy" [ref=f113e377] [cursor=pointer]:
+              - /url: //yandex.com/legal/confidential/
+        - generic [aria-hidden] [ref=f113e378] [cursor=pointer]

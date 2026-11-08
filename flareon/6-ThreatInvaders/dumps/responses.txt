@@ -1,0 +1,417 @@
+203 203
+===== 0 GET /api/v1/health HTTP/1.1 HTTP/1.1 200 OK
+{
+  "status": "ok",
+  "entries": 8,
+  "time": "2026-09-15T17:33:26Z"
+}
+===== 1 GET /api/v1/highscores?limit=25 HTTP/1.1 HTTP/1.1 200 OK
+{
+  "entries": [
+    {
+      "id": "f73924f6-8610-40ef-bc7e-59ab407c7b26",
+      "player_name": "ZAP",
+      "score": 9870,
+      "wave_reached": 7,
+      "duration_seconds": 612,
+      "achieved_at": "2026-07-02T18:14:00Z",
+      "comment_b64": "Y2xlYXJlZCB3YXZlIDcgb24gb25lIGxpZmU="
+    },
+    {
+      "id": "7019a8b2-3ac3-4739-86ed-c52f312854d0",
+      "player_name": "NOVA",
+      "score": 8140,
+      "wave_reached": 6,
+      "duration_seconds": 540,
+      "achieved_at": "2026-07-11T09:03:00Z",
+      "comment_b64": "dGhlIHNhdWNlciBvd2VzIG1lIG1vbmV5"
+    },
+    {
+      "id": "468622df-f946-4f5a-a47e-d6cd5cb1faf0",
+      "player_name": "RAY",
+      "score": 6520,
+      "wave_reached": 5,
+      "duration_seconds": 431,
+      "achieved_at": "2026-07-19T21:47:00Z",
+      "comment_b64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8AYmluYXJ5//4gcGF5bG9hZA=="
+    },
+    {
+      "id": "f047cf98-06ac-4510-9443-a9c1226d4dda",
+      "player_name": "ORBIT",
+      "score": 5300,
+      "wave_reached": 4,
+      "duration_seconds": 388,
+      "achieved_at": "2026-08-01T12:22:00Z",
+      "comment_b64": "YnVua2VycyBnb25lIGJ5IHdhdmUgMywgc3RpbGwgbWFkZSBpdA=="
+    },
+    {
+      "id": "7d1f9bcb-6691-4a7d-a15b-ad5b31929c82",
+      "player_name": "PIXEL",
+      "score": 4110,
+      "wave_reached": 4,
+      "duration_seconds": 301,
+      "achieved_at": "2026-08-05T16:35:00Z",
+      "comment_b64": ""
+    },
+    {
+      "id": "1a1a0656-1c53-4ca0-b68a-74cb5d881e1d",
+      "player_name": "GLITCH",
+      "score": 2980,
+      "wave_reached": 3,
+      "duration_seconds": 245,
+      "achieved_at": "2026-08-09T20:10:00Z",
+      "comment_b64": "cmFnZSBxdWl0IGF0IHRoZSBsYXN0IGludmFkZXI="
+    },
+    {
+      "id": "cba6dc87-909d-403f-a628-467c3c1df938",
+      "player_name": "ECHO",
+      "score": 1760,
+      "wave_reached": 2,
+      "duration_seconds": 158,
+      "achieved_at": "2026-08-14T11:58:00Z",
+      "comment_b64": "Zmlyc3QgZXZlciBydW4h"
+    },
+    {
+      "id": "8012647c-84ad-4970-b67b-84e4146c4e93",
+      "player_name": "DOT",
+      "score": 640,
+      "wave_reached": 1,
+      "duration_seconds": 74,
+      "achieved_at": "2026-08-17T08:29:00Z",
+      "comment_b64": "VGhpcyB3YXMgYXdlc29tZQ=="
+    }
+  ],
+  "total": 8
+}
+===== 2 GET /api/v1/version HTTP/1.1 HTTP/1.1 200 OK
+{
+  "latest": "1.0.0.1",
+  "message": ""
+}
+===== 3 POST /api/v1/telemetry HTTP/1.1 HTTP/1.1 200 OK
+{
+  "received": true,
+  "duplicate": false,
+  "session_games": 0,
+  "total_games": 0,
+  "sessions": 1,
+  "feedback_received": false,
+  "connects": 1,
+  "reward_now": false
+}
+===== 44 POST /api/v1/highscores HTTP/1.1 HTTP/1.1 201 Created
+{
+  "entry": {
+    "id": "c1e99488-5b8a-4335-b064-16606e12649c",
+    "player_name": "FLARE",
+    "score": 910,
+    "wave_reached": 1,
+    "duration_seconds": 54,
+    "achieved_at": "2026-09-15T17:34:36Z",
+    "comment_b64": "QWxtb3N0IGNsZWFyZWQgd2F2ZSBvbmU=",
+    "received_at": "2026-09-15T17:34:37Z"
+  },
+  "rank": 8
+}
+===== 45 GET /api/v1/highscores?limit=25 HTTP/1.1 HTTP/1.1 200 OK
+{
+  "entries": [
+    {
+      "id": "d1e4d082-dd32-445d-9cd9-8faddbd4c9ea",
+      "player_name": "BOOM",
+      "score": 31337,
+      "wave_reached": 1,
+      "duration_seconds": 0,
+      "achieved_at": "2026-09-15T17:34:37Z",
+      "comment_b64": "ZnVuIQ==",
+      "received_at": "2026-09-15T17:34:37Z"
+    },
+    {
+      "id": "f73924f6-8610-40ef-bc7e-59ab407c7b26",
+      "player_name": "ZAP",
+      "score": 9870,
+      "wave_reached": 7,
+      "duration_seconds": 612,
+      "achieved_at": "2026-07-02T18:14:00Z",
+      "comment_b64": "Y2xlYXJlZCB3YXZlIDcgb24gb25lIGxpZmU="
+    },
+    {
+      "id": "7019a8b2-3ac3-4739-86ed-c52f312854d0",
+      "player_name": "NOVA",
+      "score": 8140,
+      "wave_reached": 6,
+      "duration_seconds": 540,
+      "achieved_at": "2026-07-11T09:03:00Z",
+      "comment_b64": "dGhlIHNhdWNlciBvd2VzIG1lIG1vbmV5"
+    },
+    {
+      "id": "468622df-f946-4f5a-a47e-d6cd5cb1faf0",
+      "player_name": "RAY",
+      "score": 6520,
+      "wave_reached": 5,
+      "duration_seconds": 431,
+      "achieved_at": "2026-07-19T21:47:00Z",
+      "comment_b64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8AYmluYXJ5//4gcGF5bG9hZA=="
+    },
+    {
+      "id": "f047cf98-06ac-4510-9443-a9c1226d4dda",
+      "player_name": "ORBIT",
+      "score": 5300,
+      "wave_reached": 4,
+      "duration_seconds": 388,
+      "achieved_at": "2026-08-01T12:22:00Z",
+      "comment_b64": "YnVua2VycyBnb25lIGJ5IHdhdmUgMywgc3RpbGwgbWFkZSBpdA=="
+    },
+    {
+      "id": "7d1f9bcb-6691-4a7d-a15b-ad5b31929c82",
+      "player_name": "PIXEL",
+      "score": 4110,
+      "wave_reached": 4,
+      "duration_seconds": 301,
+      "achieved_at": "2026-08-05T16:35:00Z",
+      "comment_b64": ""
+    },
+    {
+      "id": "1a1a0656-1c53-4ca0-b68a-74cb5d881e1d",
+      "player_name": "GLITCH",
+      "score": 2980,
+      "wave_reached": 3,
+      "duration_seconds": 245,
+      "achieved_at": "2026-08-09T20:10:00Z",
+      "comment_b64": "cmFnZSBxdWl0IGF0IHRoZSBsYXN0IGludmFkZXI="
+    },
+    {
+      "id": "cba6dc87-909d-403f-a628-467c3c1df938",
+      "player_name": "ECHO",
+      "score": 1760,
+      "wave_reached": 2,
+      "duration_seconds": 158,
+      "achieved_at": "2026-08-14T11:58:00Z",
+      "comment_b64": "Zmlyc3QgZXZlciBydW4h"
+    },
+    {
+      "id": "c1e99488-5b8a-4335-b064-16606e12649c",
+      "player_name": "FLARE",
+      "score": 910,
+      "wave_reached": 1,
+      "duration_seconds": 54,
+      "achieved_at": "2026-09-15T17:34:36Z",
+      "comment_b64": "QWxtb3N0IGNsZWFyZWQgd2F2ZSBvbmU
+===== 46 GET /api/v1/health HTTP/1.1 HTTP/1.1 200 OK
+{
+  "status": "ok",
+  "entries": 10,
+  "time": "2026-09-15T17:34:38Z"
+}
+===== 58 POST /api/v1/telemetry HTTP/1.1 HTTP/1.1 200 OK
+{
+  "received": true,
+  "duplicate": false,
+  "session_games": 0,
+  "total_games": 0,
+  "sessions": 1,
+  "feedback_received": false,
+  "connects": 2,
+  "reward_now": false
+}
+===== 98 POST /api/v1/telemetry HTTP/1.1 HTTP/1.1 200 OK
+{
+  "received": true,
+  "duplicate": false,
+  "session_games": 0,
+  "total_games": 0,
+  "sessions": 1,
+  "feedback_received": true,
+  "connects": 3,
+  "reward_now": false
+}
+===== 136 GET /api/v1/highscores?limit=25 HTTP/1.1 HTTP/1.1 200 OK
+{
+  "entries": [
+    {
+      "id": "761ef3c6-510a-4ddd-9f91-d2ad10556d54",
+      "player_name": "BANANA",
+      "score": 2066361377,
+      "wave_reached": 69,
+      "duration_seconds": 0,
+      "achieved_at": "2026-09-15T17:37:07Z",
+      "comment_b64": "+bmPsSZwC3eIRD/rvqXFfnzf",
+      "received_at": "2026-09-15T17:37:07Z"
+    },
+    {
+      "id": "d1e4d082-dd32-445d-9cd9-8faddbd4c9ea",
+      "player_name": "BOOM",
+      "score": 31337,
+      "wave_reached": 1,
+      "duration_seconds": 0,
+      "achieved_at": "2026-09-15T17:34:37Z",
+      "comment_b64": "ZnVuIQ==",
+      "received_at": "2026-09-15T17:34:37Z"
+    },
+    {
+      "id": "f73924f6-8610-40ef-bc7e-59ab407c7b26",
+      "player_name": "ZAP",
+      "score": 9870,
+      "wave_reached": 7,
+      "duration_seconds": 612,
+      "achieved_at": "2026-07-02T18:14:00Z",
+      "comment_b64": "Y2xlYXJlZCB3YXZlIDcgb24gb25lIGxpZmU="
+    },
+    {
+      "id": "7019a8b2-3ac3-4739-86ed-c52f312854d0",
+      "player_name": "NOVA",
+      "score": 8140,
+      "wave_reached": 6,
+      "duration_seconds": 540,
+      "achieved_at": "2026-07-11T09:03:00Z",
+      "comment_b64": "dGhlIHNhdWNlciBvd2VzIG1lIG1vbmV5"
+    },
+    {
+      "id": "468622df-f946-4f5a-a47e-d6cd5cb1faf0",
+      "player_name": "RAY",
+      "score": 6520,
+      "wave_reached": 5,
+      "duration_seconds": 431,
+      "achieved_at": "2026-07-19T21:47:00Z",
+      "comment_b64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8AYmluYXJ5//4gcGF5bG9hZA=="
+    },
+    {
+      "id": "f047cf98-06ac-4510-9443-a9c1226d4dda",
+      "player_name": "ORBIT",
+      "score": 5300,
+      "wave_reached": 4,
+      "duration_seconds": 388,
+      "achieved_at": "2026-08-01T12:22:00Z",
+      "comment_b64": "YnVua2VycyBnb25lIGJ5IHdhdmUgMywgc3RpbGwgbWFkZSBpdA=="
+    },
+    {
+      "id": "7d1f9bcb-6691-4a7d-a15b-ad5b31929c82",
+      "player_name": "PIXEL",
+      "score": 4110,
+      "wave_reached": 4,
+      "duration_seconds": 301,
+      "achieved_at": "2026-08-05T16:35:00Z",
+      "comment_b64": ""
+    },
+    {
+      "id": "1a1a0656-1c53-4ca0-b68a-74cb5d881e1d",
+      "player_name": "GLITCH",
+      "score": 2980,
+      "wave_reached": 3,
+      "duration_seconds": 245,
+      "achieved_at": "2026-08-09T20:10:00Z",
+      "comment_b64": "cmFnZSBxdWl0IGF0IHRoZSBsYXN0IGludmFkZXI="
+    },
+    {
+      "id": "cba6dc87-909d-403f-a628-467c3c1df938",
+      "player_name": "ECHO",
+      "score": 1760,
+      "wave_reached": 2,
+      "duration_seconds": 158,
+      "achieved_at": "2026-08-14T11:58:00
+===== 141 POST /api/v1/telemetry HTTP/1.1 HTTP/1.1 200 OK
+{
+  "received": true,
+  "duplicate": false,
+  "session_games": 0,
+  "total_games": 0,
+  "sessions": 1,
+  "feedback_received": true,
+  "connects": 4,
+  "reward_now": false
+}
+===== 167 GET /api/v1/highscores?limit=25 HTTP/1.1 HTTP/1.1 200 OK
+{
+  "entries": [
+    {
+      "id": "76f5fc2b-a8a0-4bd4-a754-b922c822bfac",
+      "player_name": "BENIGN",
+      "score": 1932142625,
+      "wave_reached": 67,
+      "duration_seconds": 0,
+      "achieved_at": "2026-09-15T17:37:58Z",
+      "comment_b64": "GenjMZg28ziV/EU2YTRDGmZISVPsEraqrCO03g==",
+      "received_at": "2026-09-15T17:37:58Z"
+    },
+    {
+      "id": "d1e4d082-dd32-445d-9cd9-8faddbd4c9ea",
+      "player_name": "BOOM",
+      "score": 31337,
+      "wave_reached": 1,
+      "duration_seconds": 0,
+      "achieved_at": "2026-09-15T17:34:37Z",
+      "comment_b64": "ZnVuIQ==",
+      "received_at": "2026-09-15T17:34:37Z"
+    },
+    {
+      "id": "f73924f6-8610-40ef-bc7e-59ab407c7b26",
+      "player_name": "ZAP",
+      "score": 9870,
+      "wave_reached": 7,
+      "duration_seconds": 612,
+      "achieved_at": "2026-07-02T18:14:00Z",
+      "comment_b64": "Y2xlYXJlZCB3YXZlIDcgb24gb25lIGxpZmU="
+    },
+    {
+      "id": "7019a8b2-3ac3-4739-86ed-c52f312854d0",
+      "player_name": "NOVA",
+      "score": 8140,
+      "wave_reached": 6,
+      "duration_seconds": 540,
+      "achieved_at": "2026-07-11T09:03:00Z",
+      "comment_b64": "dGhlIHNhdWNlciBvd2VzIG1lIG1vbmV5"
+    },
+    {
+      "id": "468622df-f946-4f5a-a47e-d6cd5cb1faf0",
+      "player_name": "RAY",
+      "score": 6520,
+      "wave_reached": 5,
+      "duration_seconds": 431,
+      "achieved_at": "2026-07-19T21:47:00Z",
+      "comment_b64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8AYmluYXJ5//4gcGF5bG9hZA=="
+    },
+    {
+      "id": "f047cf98-06ac-4510-9443-a9c1226d4dda",
+      "player_name": "ORBIT",
+      "score": 5300,
+      "wave_reached": 4,
+      "duration_seconds": 388,
+      "achieved_at": "2026-08-01T12:22:00Z",
+      "comment_b64": "YnVua2VycyBnb25lIGJ5IHdhdmUgMywgc3RpbGwgbWFkZSBpdA=="
+    },
+    {
+      "id": "7d1f9bcb-6691-4a7d-a15b-ad5b31929c82",
+      "player_name": "PIXEL",
+      "score": 4110,
+      "wave_reached": 4,
+      "duration_seconds": 301,
+      "achieved_at": "2026-08-05T16:35:00Z",
+      "comment_b64": ""
+    },
+    {
+      "id": "1a1a0656-1c53-4ca0-b68a-74cb5d881e1d",
+      "player_name": "GLITCH",
+      "score": 2980,
+      "wave_reached": 3,
+      "duration_seconds": 245,
+      "achieved_at": "2026-08-09T20:10:00Z",
+      "comment_b64": "cmFnZSBxdWl0IGF0IHRoZSBsYXN0IGludmFkZXI="
+    },
+    {
+      "id": "cba6dc87-909d-403f-a628-467c3c1df938",
+      "player_name": "ECHO",
+      "score": 1760,
+      "wave_reached": 2,
+      "duration_seconds": 158,
+      "achieved_at": "202
+===== 172 POST /api/v1/telemetry HTTP/1.1 HTTP/1.1 200 OK
+{
+  "received": true,
+  "duplicate": false,
+  "session_games": 0,
+  "total_games": 0,
+  "sessions": 1,
+  "feedback_received": true,
+  "connects": 5,
+  "reward_now": true
+}

@@ -1,0 +1,10 @@
+services:
+  letmeout:
+    build: .
+    restart: unless-stopped
+    environment:
+      FLAG: ${FLAG:-}
+    ports:
+      - "127.0.0.1:${PORT:-7201}:7201"
+    pids_limit: 128
+    mem_limit: 512m

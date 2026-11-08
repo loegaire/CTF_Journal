@@ -1,0 +1,762 @@
+                                                              Journal of Digital Forensics,
+                                                                         Security and Law
+
+Volume 12       Number 1                                                                         Article 10
+
+
+3-31-2017
+
+Forensic Analysis of Virtual Hard Drives
+Patrick Tobin
+University College Dublin, Ireland, pat.tobin@ucdconnect.ie
+
+Nhien-An Le-Khac
+School of Computer Science & Informatics, University College Dublin, Ireland, an.lekhac@ucd.ie
+
+Tahar Kechadi
+Centre for Cyber Crime Investigation, University College Dublin, Ireland, tahar.kechadi@ucd.ie
+
+
+
+
+Follow this and additional works at: https://commons.erau.edu/jdfsl
+
+
+Recommended Citation
+Tobin, Patrick; Le-Khac, Nhien-An; and Kechadi, Tahar (2017) "Forensic Analysis of Virtual Hard Drives,"
+Journal of Digital Forensics, Security and Law: Vol. 12 : No. 1 , Article 10.
+DOI: https://doi.org/10.15394/jdfsl.2017.1438
+Available at: https://commons.erau.edu/jdfsl/vol12/iss1/10
+
+
+
+
+This Article is brought to you for free and open access by
+the Journals at Scholarly Commons. It has been
+accepted for inclusion in Journal of Digital Forensics,
+Security and Law by an authorized administrator of                                  (c)ADFSL
+Scholarly Commons. For more information, please
+contact commons@erau.edu.
+Forensic Analysis of Virtual Hard Drives                                             JDFSL V12N1
+
+
+
+
+       FORENSIC ANALYSIS OF VIRTUAL HARD
+                   DRIVES
+                                          Patrick Tobin
+                                        Nhien-An Le-Khac
+                                        M-Tahar Kechadi
+                                    University College Dublin
+                                         Dublin, Ireland
+                     pat.tobin@ucdconnect.ie, {an.lekhac, tahar.kechadi}@ucd.ie
+
+                                           ABSTRACT
+The issue of the volatility of virtual machines is perhaps the most pressing concern in any digital
+investigation. Current digital forensics tools do not fully address the complexities of data
+recovery that are posed by virtual hard drives. It is necessary, for this reason, to explore ways to
+capture evidence other than those using current digital forensic methods. This should be done in
+the most efficient and secure manner, as quickly, and in a non-intrusive way as can be
+achieved. All data in a virtual machine is disposed of when that virtual machine is destroyed, it
+may not therefore be possible to extract and preserve evidence such as incriminating images prior
+to destruction. Recovering that evidence, or finding some way of associating that evidence with
+the virtual machine before its destruction, is therefore crucial. In this paper, we present a method
+of extracting evidence from a virtual hard disk drive in a quick, secure and verifiable manner,
+with a minimum impact on the drive thus preserving its integrity for further analysis.
+Keywords: Virtual Machine, Digital Forensics, Virtual Machine Forensics, Virtual Hard Drive
+
+        INTRODUCTION                               involved, yet the goal of an examiner remains
+                                                   the same - to secure as much evidence as
+It is very rare to find a crime scene where a      possible [2].
+digital device of some kind has not been
+used. Whether it is a tablet computer, a                How evidence is collected is important to
+phone or perhaps portable digital storage          its integrity and the subsequent conduct of any
+device like a USB key or external hard drive,      investigation. What happens to that evidence
+and whether they are Unix, Linux or Windows        after collection is crucial, how it is saved, how
+based systems these are devices that can be        it is handled and processed, and how it is
+taken possession of for examination [1]. The       related to an offence or misconduct is vitally
+data they contain can be catalogued, classified,   important to an investigation. Traditional
+extracted     and     subject   to     detailed    digital forensics has developed, tried, and
+examination. They constitute a physical            tested methods of achieving these goals and
+connection between their user or owner, those      tools have been developed for these
+data they contain and how those data were          purposes. Applying these to VM forensics may
+used in a crime. The real, physical nature of      involve developing, or enhancing these tools or
+these devices is invaluable to an investigator,    methods further, or designing new tools to take
+but is absent where a virtual machine (VM) is      account of the absence of physical hardware.
+
+
+
+© 2017 ADFSL                                                                                Page 47
+    JDFSL V12N1                                                       Forensic Analysis of Virtual Hard Drives
+
+
+        A VM possesses all the characteristics of               computing and high speed bandwidth [6]. Our
+    true hardware [3] - the virtual hard drive                  focus    is    on   virtualisation  in    cloud
+    (vHDD) is formatted to the specifications of                computing. Cloud computing, and the ability
+    the operating system being used, the virtual                to create a computing instance when required,
+    RAM (vRAM) has all the expected attributes                  pose Law Enforcement (LE) with a difficult
+    that true RAM has, as do the other virtual                  investigation model. The multi-tenancy [7]
+    devices associated with a VM, e.g. NICs, USB                nature of much of cloud computing and the
+    controllers,        graphics         processors,            sharing of resources, adds to the investigation
+    etc. Nonetheless recovering evidence from a                 more difficulties.
+    VM is more difficult not only because we are
+                                                                     In this paper, we propose a method of
+    investigating one process of the host operating
+                                                                gathering evidence from a VM's vHDD, reduce
+    system (OS), but also because of the volatility
+                                                                the data size being gathered, and minimise
+    of a VM. Evidence in a VM can be lost easily
+                                                                intrusion on a suspect VM. In the case of
+    when it is moved [6] or deleted.
+                                                                remote acquisition of a VM's data, physical
+        The 'throwaway' nature of VMs also allows               access to the hardware that a VM resides on is
+    their use as anti-forensics tools, as discussed by          difficult, but will not be necessary in the
+    Barrett and Kipper in [6]. They further                     context of what we propose. The paper is
+    propose that in future a truly disposable OS                organised as follows: Firstly we outline what
+    may be created for single session use, using                technologies are currently available to carry
+    hypervisor functions and applications moved to              out a digital forensic examination on a VM. In
+    the Web to create that OS, and dismantled                   section 2 we examine how to best gather data
+    completely when shut down. This prospect                    from a vHDD. We then describe our approach
+    will defeat any forensics tool not in a position            to VM forensics and how we implement
+    to capture the OS and data, prior to shut                   it. Section 4 looks at how best to optimise
+    down - nothing being left to analyse after the              software execution, evidence gathering, and the
+    session is finished.                                        consequences of these for both the suspect and
+                                                                investigator. We support our optimisation
+        Cloud computing provides users with a
+                                                                techniques with metrics of execution times
+    flexibility that traditional computing lacks. It
+                                                                before and after optimisation. Finally, we will
+    allows     organisations    to  manage     their
+                                                                conclude by outlining further research.
+    computing needs on an on-demand basis,
+    rather than a lead-in time of perhaps weeks or                  2. VIRTUAL MACHINES
+    months if installing physical hardware. It
+                                                                VM technologies fall into two categories - Type
+    allows a company to balance its workload very
+                                                                I and Type II virtual machines, the distinction
+    quickly, maintain secure images of their data,
+                                                                between these lies in the presence of an
+    and ensure resilience against hardware failure
+                                                                underlying OS. Type I virtualisation involves
+    [4]. This business model enables costs to be
+                                                                a hypervisor (VMM) using a thin layer of code
+    controlled - you pay for what you use. Cloud
+                                                                to allocate resources in real-time. They run
+    computing models, such as SaaS 1, DaaS, IaaS
+                                                                directly on the hardware and are commonly
+    all rely on virtualisation to deliver their
+                                                                known as 'bare-metal' hypervisors, examples
+    services [5]. These components form the basis
+                                                                include XenServer from Citrix, ESXi from
+    of cloud computing, including distributed
+                                                                VMware and Hyper-V from Microsoft. They
+1                                                               reduce the overhead needed by the hypervisor
+      Software as a service,      Desktop   as   a   Service,
+    Infrastructure as a Service
+
+
+
+    Page 48                                                                                    © 2017 ADFSL
+Forensic Analysis of Virtual Hard Drives                                                JDFSL V12N1
+
+
+itself, and provide good             performance,      data on the hard drive, causing privacy
+availability and security.                             concerns, furthermore there are also very few
+                                                       tools to assist in investigating a live vHDD,
+    Type II hypervisors run as an application
+                                                       apart from LibVMI [15]. If the VM is
+on top of an operating system. They are very
+                                                       operating on a desktop machine, in VirtualBox
+popular and are usually used to emulate
+                                                       or KVM/QEMU, for instance, it may not be
+another OS within the OS that the hypervisor
+                                                       possible to gain access to the virtual drive.
+is running, e.g. running Windows within Linux,
+or vice versa. These are more usually found on                 2.2    VM Introspection
+home computer systems and where security
+                                                       The most important VM forensics technology
+and efficiency is less critical, examples include
+                                                       developed to date has been Virtual Machine
+Oracle VirtualBox, Microsoft VirtualPC and
+                                                       Introspection (VMI) [10]. VMI uses the virtual
+VMware.
+                                                       machine manager (VMM) to view what is
+ 2.1 VM Forensics - Current State                      happening inside a VM. It was originally
+             of Art                                    introduced as a method of implementing
+                                                       intrusion detection systems, allowing a VM to
+VMs were introduced in the 1960's [8] but
+                                                       be monitored from outside to assess what is
+declined in demand, due mainly to the decline
+                                                       happening inside, but is now used extensively
+in popularity of mainframes and the wider
+                                                       in the forensic investigation of VMs.
+accessibility of personal computers [27]. Their
+recent re-emergence and use by different                   VMI describes how a VMM administrator
+entities, has brought with it many challenges          can inspect that is occurring inside a VM, to
+for Law Enforcement [9]. VM digital forensics          view the VM memory, its processes, its
+is similar to that of traditional digital forensics,   network     settings,  its   installed  OSes,
+such as log analysis and data capture and              applications and services. This powerful
+analysis, but recovering those data from a             feature of VMI has allowed criminal
+cloud VM can pose a challenge. Methods and             investigations of VMs to take place and data
+tools exist to recover data from traditional           to be captured, which would otherwise have
+computer systems and their hard drives, but            been lost.
+although the principles are essentially the                Nance et al. [11] describes VMI as falling
+same, collecting evidence from a vHDD can be           into two categories - those that monitor a VM
+more problematic.                                      and those that interfere with a VM. Using
+    In a traditional digital investigation             VMI to monitor the runtime state of a VM
+capturing the data on a hard drive involves            effectively allows such monitoring to take place
+capturing the suspect computer and seizing             from outside the guest system being monitored,
+and removing the hard drive for analysis,              without the knowledge of that guest system
+however, seizing the hard drive, both physical         [11]. Furthermore, without knowledge of VMI
+and virtual, that a VM uses is less                    monitoring it is therefore not possible to
+straightforward. If the VM is operating in the         prevent it, nor is it possible to interfere with
+cloud through a service provider, accessing the        that monitoring [11]. Interference, on the
+physical hard drive could involve removing it          other hand, comprises a different set of
+from the data centre, and then examining               circumstances, for instance when VMI
+it. This is likely to take time, running the risk      interferes with a VM it responds to some
+of data being altered, removed, deleted or             condition in the VM that requires a response,
+destroyed. It may also expose other users’             such as a detected threat, by terminating the
+
+
+© 2017 ADFSL                                                                                   Page 49
+JDFSL V12N1                                              Forensic Analysis of Virtual Hard Drives
+
+
+affected process. This interference with the       analysing     those     subverted    memory
+guest system may alter data, this should be        files. Compromisation can be achieved by
+avoided as any change to the system being          various means, including using a rootkit,
+inspected could effectively alter evidence and     possibly causing in any data being recovered
+thus possibly provide a different outcome to       from that OS being rendered unsound, with
+that of an unaltered system. This will have        significant implications for the value of
+consequences for any evidence recovered and        evidence gathered from those data.
+may cause that evidence to be ruled as
+                                                      2.2.2 The Volatility Framework
+inadmissible. VMI does not affect a VM's
+performance in any other way, as it does not       The Volatility Framework [14] is used in
+use any of the VM's resources.                     forensic memory analysis. It provides an
+                                                   analysis platform for a wide range of file types,
+      2.2.1 Semantic Awareness
+                                                   including core dumps, from various OSes,
+The semantic gap that exists between raw data      including Linux kernels from 2.6.11 to 4.2.3,
+and its natural language representation, is        OS X from 10.5.x to 10.11.x and most
+recognised as the greatest challenge facing        Windows OS's from Windows XP SP2 to
+virtual machine forensics [30]. Nance et al.       Windows 10, and various virtual machine
+[11] describe semantic awareness as the VM's       monitors (VMMs), including VMware and
+knowledge of its guest operating system (OS),      VirtualBox. Linux core dumps can be dumped
+and by Joshi et al. [28] as the level of           into ELF files which can be parsed using
+abstraction      used      by      a     virtual   Volatility. However, accessing the vHDD is
+machine. Bridging that gap is not a trivial        not possible using Volatility, as it is a memory
+process and is made more difficult by the          inspection tool.
+failure of the OS being inspected to follow
+                                                       Another very useful memory acquisition
+certain semantic expectations, it is very much
+                                                   and inspection tool is LibVMI [15]. This is a
+dependent upon the OS following the known
+                                                   tool that allows reading from and writing to a
+data structures and syntax of that OS. By
+                                                   VM's memory. It was developed for the Xen
+failing to follow those structures and syntaxes
+                                                   VMM, but has been extended to other
+Bahram et al. [13] described how to subvert
+                                                   VMMs. As Volatility was originally intended
+VMI in such a way that any data recovered
+                                                   for use on static memory images the developers
+through VMI renders those data to be
+                                                   of LibVMI extended its functionality to live
+questionable. This can be achieved through
+                                                   memory address spaces by writing a Python
+the simple assumption that data on the suspect
+                                                   wrapper for Volatility for use by LibVMI
+system conforms with the expected data
+                                                   [15]. Although this is a powerful addition to
+structures and syntax of that kernel and by
+                                                   the digital forensic examiners toolkit it is very
+not adhering to that assumption those data
+                                                   likely to suffer a latency issue between when
+can become subverted. This means that to
+                                                   data are present in RAM and the when
+evade VMI a completely different view of the
+                                                   LibVMI captures them. This could cause data
+system can be presented to VMI, than that
+                                                   to be swapped out of memory, or be
+which is seen by the user. This approach can
+                                                   overwritten before LibVMI captures those
+cause reversal of that obfuscation to be
+                                                   data.
+computationally very complex and very
+expensive, and without prior knowledge of how
+that is achieved, it would make tools such as
+The Volatility Framework of little use in
+
+
+Page 50                                                                            © 2017 ADFSL
+Forensic Analysis of Virtual Hard Drives                                             JDFSL V12N1
+
+
+   2.2.3 Best Practice Guidelines                   limited in that it is a fixed image and will fail
+                                                    to capture data subsequent to the snapshot.
+The Association of Chief Police Officers of the
+                                                    Also the VM must be live when taking a
+UK (ACPO) [16], ISO Standard 27037 [17], U.
+                                                    snapshot rather than the scenario in digital
+S. Department of Justice Office of Justice
+                                                    forensics of a standard computer where off-line
+Programmes National Institute of Justice [18]
+                                                    capture is possible.
+and the EU publication Guidelines on Digital
+Forensic Procedures for OLAF Staff [19] have            The ACPO Good Practice Guide for
+set guidelines to be followed when examining        Digital Evidence and the US Department of
+digital evidence.                                   Justice Special Report of April 2004[18] are
+                                                    two very relevant reports and were written to
+    The ACPO have published four simple
+                                                    contribute to a framework for ensuring
+principles to be followed, Principles 1 and 2 are
+                                                    gathered evidence and the methods used to
+most relevant to our work. Briefly described,
+                                                    recover that evidence, meet a minimum
+these are: Principle 1 expressly disallows
+                                                    standard. They were originally intended to
+changes to original data, Principle 2 describes
+                                                    guide examination of standard computer
+how data should only be accessed by a
+                                                    systems, but these guidelines equally apply to
+qualified person, but allows an examiner to
+                                                    VMs.
+explain the reasons for any action taken that
+may have changed the original data, this is             When data are recovered from a VM they
+important in the context of VM forensics and        can be processed in the same manner as those
+our approach to this. These principals have         recovered from standard systems. In our
+been accepted as best practice by the Courts in     proposal, we calculate and recover the md5
+the UK, Ireland and Canada, and have                signatures of data and propose using these
+influenced the drafting of the EU OLAF              signatures to match against data sets of hash
+guidelines.                                         signatures of known files.        Matching the
+                                                    recovered hashes against those in repositories
+3.      COLLECTING DATA                             such as the National Software Reference
+        FROM A VHDD                                 Library (NSRL) can identify the files in
+                                                    question where those hash signatures exist in
+There are many tools and collection of tools        the library. This method of file identification
+available to examine data on a physical hard        is efficient, because files are identified by
+drive, e.g. EnCase [20], the SANS Investigative     means of using a hash signature. In our
+Forensics Toolkit [21], FTK [22], TSK [23],         proposal, we generate MD5’s of found files, by
+these       have     varying     degrees      of    doing this we reduce data to be recovered from
+functionality. What they all have in common         several MB to 32B. This has advantages in
+is that they require that the hard disk be          reducing the bandwidth necessary to transmit
+available to be examined, or an image of that       data, and reducing the volume of data to be
+hard disk, something not necessarily possible       stored prior to transmission or recovery. By
+where a cloud VM is concerned. It is possible       identifying suspect data through their MD5
+to obtain an image of a vHDD when a VM is           hash we can flag those files we need to recover
+captured while still live, but the volatility of    and     alert   an    investigator   to    their
+VMs can still make this a difficult                 presence. Any alteration to the original data,
+process. Typically, VM data are captured            prior to generating an MD5 hash, will result in
+through a snapshot of the VM via the VMM.           a different hash signature to that which would
+It preserves the VM at a specific time, but is      have been generated with original data. This
+
+
+© 2017 ADFSL                                                                                Page 51
+JDFSL V12N1                                             Forensic Analysis of Virtual Hard Drives
+
+
+could be addressed through sub-file forensics,    vHDD, and because the RAM disk is a
+but this is not examined this in this research.   reserved area of RAM there are no changes to
+                                                  RAM data. The small size of the RAM disk
+  4. EVIDENCE SEARCH
+                                                  used, 8 MiB, has very little impact on the VM
+ THROUGH INJECTED CODE                            and its performance.
+Our approach to VM forensics involves                 We believe our approach has some
+injecting executable forensic software into a     important advantages. First it significantly
+VM and executing that software. In their          scales down the volume of data needed to be
+paper, Tobin and Kechadi [24] described how       extracted, second it provides an investigator
+code injected into a VM could be used to          with a forensically sound fingerprint of a file
+execute known benevolent code to carry out        used, or distributed. Code can be tailored to
+digital forensics in that VM, they elaborated     suit any purpose required, it can be customised
+on some benefits of doing this. In this paper     to search for and recover files, and export them
+part of this proposal is implemented and the      or save them for extraction by VMI software,
+results are described.                            and by using the OS semantics this can help
+    We have built a simple search engine for      bridge the semantic gap. It can help escape
+this purpose, which will have minimal impact      kernel data structure manipulation as outlined
+on the host system in terms of processor time     by Bahram et al [13] by identifying the means
+consumed, and other resources necessary, e.g.     of such manipulation, and speed of execution
+RAM and bandwidth. This engine will simply        may avoid loss of VM data through shutdown
+search a virtual drive, or partition, for pre-    or power-off.
+defined file types, for example jpegs or               Using the hash signature to help identify
+documents, and create an MD5 hash of each         files reduces the volume of data for recovery to
+file found that satisfies the search criteria.    32 B per file, from a jpeg of approximately 5
+The hash signature is then saved to a separate    MB, a reduction in data size of approx. 1.5 x
+file for extraction by VMI software. This            4
+                                                  10 , giving a very significant reduction in data
+approach allows very fast searching of a hard     volume to be extracted. This will result in
+drive, reduces the volume of data for             extraction of a much smaller data footprint,
+extraction and minimises interaction with the     reduce the bandwidth necessary and minimise
+host system.                                      the risk of corruption.
+    Evidence integrity can be compromised by          Providing an md5 signature of a file allows
+writing to a hard drive. Preventing this          that file to be matched against databases of
+happening in a digital forensics laboratory       hash signatures of known files. The NIST
+invariably means interfacing a write-blocker      National Software Reference Library (NSRL),
+between the hard drive and the forensics          among others, currently provide a Reference
+tool. Using a write-blocker is not possible in    Data Set against which md5 signatures can be
+the VM forensics approach we propose. To          referenced and their corresponding files
+solve this problem we have written a software     identified. This is a very fast and secure
+write-blocker for use with this search            method of identifying files. Furthermore, the
+engine. We create a small RAM disk, we then       hash signatures can be used to identify files
+install the tool into that RAM disk, execute it   recovered from other computers and suspected
+from there and save all data found to files       to have originated from the system being
+within the RAM disk. This prevents any data       inspected.
+being written to the vHDD, preserving the
+
+
+Page 52                                                                          © 2017 ADFSL
+Forensic Analysis of Virtual Hard Drives                                            JDFSL V12N1
+
+
+    Overcoming the semantic gap is not a                 5.       EXPERIMENT
+trivial   matter,    it    is  expensive   and
+computationally complex. Using software            We describe here what experiments we carried
+injected into an OS, in the manner we              out, and which test data we used.
+describe, and executing that software natively            5.1     Code Optimisation
+on the suspect machine, we are using the
+original data in the file system, the semantics    Optimising code execution is best achieved
+of the target OS and the data structures of        through careful design of the algorithms,
+that OS. By accessing the file data present on     making use of the available hardware, reducing
+the system, we can recover those files of          interaction with the user and selective
+interest, we should not need to convert data       targeting of data for processing. We have used
+from its raw state to its natural language         CPU affinity to make the best use of the
+representation, nor should we have a need to       available CPUs, and CPU cache, by pinning
+address the data structures. This is a very        our tools to one CPU and timing execution.
+significant advantage to our approach, as it               5.2     Test Environment
+helps reduce the time needed to examine a
+system, saves investigator time and reduces the    To build our software engine and the
+volume of data to be recovered.                    investigation       environment     we       used
+                                                   KVM/QEMU v1.3.2 running on Sabayon
+    We     also   overcome    the    subversion    Linux v15.11, kernel 4.2.0 and created a VM
+techniques described by Bahram et al [13]. In      using the same Sabayon Linux version as the
+the same way as we describe overcoming the         host system. We used an Intel i7 processor, at
+semantic gap, we also use the kernel data          1.7 GHz, with 4 GB RAM, and an SSD at 540
+structures of a compromised operating system       MB/sec read speed. We used a relatively low
+to our advantage, by processing data inside        power processor to mirror as closely as possible
+that compromised system. We must be very           the performance of an Amazon Web Services
+cautious that by using a compromised OS we         T2 medium EC2 instance, to measure how our
+run a significant risk of compromising data        software might operate on such an
+recovered, but it is possible to determine the     instance. We gave our VM 1,024 MB of RAM,
+method of manipulation used and by doing so        20 GB of SSD and 2 vCPUs. We copied a
+it should be possible to reverse it and recover    data set of 2.5 GB - 12,808 files, in 4642
+uncompromised data.                                directories - into the guest and used this as our
+    Speed of execution is important whether        test data. Allocating two vCPUs allowed us to
+inspecting a standard computer system or a         manipulate our test platform to our own
+VM. A standard computer will have a hard           specifications. The purpose of this was to
+drive which can be removed and data                make comparison between two different
+recovered from it, but a VM will have no such      management scenarios, one where the OS
+physical drive, it does not have a persistent      managed the vCPU allocation and one where
+physical data store. This is compounded by         we pinned our program to one vCPU. We
+the volatility of VMs and their storage, delete    executed our program in these two
+the VM and everything within the VM is lost.       management environments to find which one
+By alerting a user to external activity on their   returned the best performance and gave the
+VM this can quickly result in the destruction      best results in terms of execution speed.
+of the VM and loss of all data. It is therefore                  5.3   Description
+important to use code that executes quickly.
+
+
+© 2017 ADFSL                                                                               Page 53
+JDFSL V12N1                                                 Forensic Analysis of Virtual Hard Drives
+
+
+To achieve our aims, we built a tool to search       In our example we sought text files, identifying
+the content of a hard drive. The tool searches       them using the Linux terminal command file,
+a file tree for files, recursing into sub-           and generated an md5 hash for each file
+directories when they are found. It then uses        found. We closed all open processes prior to
+the Linux utility file to extract the file type,     the test runs. We ran both programs, our
+from any files found. We then used the grep          search program, Tool_1, and one using ftw.h –
+command to search the output of the file             Tool_2 – ten times and took the mean
+command to identify text files. The program          execution time. Initial execution times were
+then built the full path to the files found and      consistently within a range that indicated that
+used the Linux command md5sum to calculate           further testing of both programs would not
+the MD5 hash of the files found. The                 significantly influence those results. Our VM
+'md5sum' output is then saved to file.               was provisioned with two vCPUs and we
+                                                     carried out two separate sets of tests. In the
+     We developed this tool on the host system
+                                                     first test run we pinned our programs to one
+described above and compiled it using the
+                                                     vCPU in the VM and timed ten runs of both
+Gentoo Hardened 4.9.3 p1.1 version of
+                                                     tools, in the second test run we allowed the
+gcc. We took this route building our own
+                                                     VM operating system manage CPU balancing
+search engine in preference to using the Linux
+                                                     while executing our programs. We saved the
+terminal utility 'find'. The find command can
+                                                     output from both sets of tests to files. Both
+be tailored to a user’s specification by
+                                                     tools generated an MD5 hash of files found and
+customising the path to be searched and the
+                                                     saved the resulting hash and the complete file
+files to be searched for, however initial testing
+                                                     path, to file.
+showed that this approach consumed was CPU
+heavy, resulting in longer execution times than          Pinning a process to one CPU, vCPU or
+our own search engine when we compared               core forces the execution of that process to be
+those times.                                         carried out exclusively on that CPU or core,
+                                                     affinity can result in greater efficiency
+     The POSIX interface library contains a
+                                                     [25]. Efficiency can arise by optimising cache
+header file, 'ftw.h', used to recursively search a
+                                                     performance and reducing cache miss rates
+file system tree. We wrote a program using
+                                                     [29], task data does not need to be cycled,
+this header file, to be used as a comparison
+                                                     leading to efficiency, and therefore time
+environment. We used this program to make
+                                                     saving. Table 1 illustrates the results we
+comparisons between its execution time and
+                                                     obtained from our tool runs, we have labelled
+our program execution time. We have
+                                                     the data appropriately - pinned meaning
+designed our tool to replicate the functions of
+                                                     pinned to one vCPU, unpinned meaning OS
+both find and ftw.h exactly. Our tool
+                                                     managed balancing.
+recursively calls directories in a file system
+tree, searches those directories for files
+appropriate to the search criteria and processes         Test Results.
+those files as required. It continues until a
+                                                     Table 1
+termination character is found at which point        Timing of program runs of the two tools used - showing
+it will exit the search of that directory branch     ranges +/- mean.
+to resume its search of the parent directory.                 pinned                unpinned
+          5.4 Tool Execution                         Tool_1 47.48s ± 0.5s           55.59s ± 1.6s
+                                                     Tool_2 101s ± 2.1s             91s ± 2.5s to10s
+
+
+
+Page 54                                                                                 © 2017 ADFSL
+Forensic Analysis of Virtual Hard Drives                                             JDFSL V12N1
+
+
+    Our test results show that our tool ran         accelerating data access. We corrected this
+significantly faster than that using ftw.h and      feature by clearing the cache each time we ran
+was faster again when CPU affinity was              each process.
+applied.     This     'unbalanced'   processing
+                                                        Time is of critical importance in VM
+environment had an appreciably positive
+                                                    forensics and any method that can reduce the
+outcome for execution times. An unexpected
+                                                    time taken to recover evidence from a VM
+outcome of our experiments showed that there
+                                                    should be availed of. Our tool indicates that a
+was smaller divergence from the mean
+                                                    tailored solution to this problem can have
+execution time when our tool was measured,
+                                                    significant benefits in terms of run time
+compared with a wider divergence range when
+                                                    reduction.
+Tool_2 was tested.
+    We ran further tests to verify that the                7.     CONCLUSION
+correct MD5 hashes were being returned by           VM forensics is in its infancy, with the growth
+our tool by taking random entries from the          in VM use, and its expected future growth, the
+results files and separately calculating MD5        need to forensically examine VMs will only
+hashes of these files. Those results confirmed      escalate. We were careful to ensure that the
+that our tool was executing as expected.            tool we developed impacted the system being
+Comparison of the results showed that our tool      examined in a very insignificant way by
+runs faster than the alternative tool. In the       writing just one file to RAM disk. We have
+context of our tests and the volume of data         shown that our tool has a number of important
+used the time differences do not appear to be       qualities, it executes quickly. It is simple and
+of significance, but scaling to much larger file    forensically sound.
+systems we would expect the disparity to
+                                                        Our approach allows us to tailor our tool
+become more obvious.
+                                                    to probe any system, whether it is a VM or
+    6.    PERFORMANCE                               traditional computer system, any hardware
+         AND ANALYSIS                               platform or any software platform. It will not
+                                                    be dependent on any compiler, we inject an
+Linux maintains a page cache to accelerate          executable program. We can customise our
+access to files. Data can very quickly be read      tool to recover any evidence, any data,
+from cache rather than re-reading the data          including the password files, log files, Process
+from storage, this facility is also known as disk   Identifier (PID) lists, etc. We are currently
+buffering [26]. This valuable feature can           working on ways to recover open and running
+significantly increase the performance of           processes and ways of cloaking our
+processes by reading data once from disk,           investigative tool execution from a user,
+caching it to fast cache memory and reading it      presenting a view of the system where it
+from the cache for subsequent operations            appears only user processes are running.
+involving those data, rather than accessing the
+                                                        Our software has a small footprint, it is
+very much slower memory.
+                                                    compact and efficient. One feature of our tool
+     In our experiments, cached data produced       is its flexibility and we are investigating
+very slightly anomalous results each time we        extending it to interact with OS's other than
+timed our program operation. This occurred          Linux. As future work, we will build on the
+because we were re-using the data from the          strength of the work we present in this
+first program run on subsequent runs, thus          paper. We will also be investigating how best
+
+
+
+© 2017 ADFSL                                                                                Page 55
+JDFSL V12N1                                                Forensic Analysis of Virtual Hard Drives
+
+
+to remove or export the results file from the            Professor M-Tahar Kechadi was awarded
+VM in a forensically secure manner. This is a        his PhD and Masters degree - in Computer
+simple, secure, fast way of recovering data with     Science from University of Lille 1, France. He
+a reduced risk of corruption of those data. We       joined the UCD School of Computer Science &
+will also look at the feasibility of extending our   Informatics (CSI) in 1999. He is currently
+approach in memory forensics [31] of mobile          Professor of Computer Science at CSI, UCD.
+devices in smart phone investigations [32].          His research interests span the areas of Data
+                                                     Mining, distributed data mining heterogeneous
+ ABOUT THE AUTHORS                                   distributed    systems,   Grid    and     Cloud
+Patrick Tobin is a retired policeman. He has a       Computing, and digital forensics and cyber-
+BSc. in Computer Applications from Dublin            crime investigations. Prof Kechadi has
+City University, Dublin, Ireland and a MSc. in       published over 260 research articles in refereed
+Forensic     Computing      and     Cybercrime       journals and conferences. He serves on the
+Investigation (FCCI) from University College         scientific committees for a number of
+Dublin, Ireland.      He is presently (2017)         international conferences and he organised and
+completing his PhD research, his research topic      hosted one of the leading conferences in his
+is titled Forensic Evidence Identification and       area. He is currently an editorial board
+Extraction from Virtual Machines.        He is       member of the Journal of Future Generation of
+currently lecturing the VoIP module in the           Computer Systems and of IST Transactions of
+MSc. in FCCI.                                        Applied       Mathematics-Modelling          and
+                                                     Simulation. He is a member of the
+     Dr. Nhien An Le Khac is a Lecturer at the
+                                                     communication of the ACM journal and IEEE
+UCD School of Computer Science. He is
+                                                     computer society.
+currently the Program Director of MSc
+programme in Forensic Computing and Cybercrime
+Investigation - an international distance
+learning programme for the law enforcement
+officers     specialising     in     cybercrime
+investigations. Previously, 2008, he was a
+Research Fellow in Citibank, Ireland (Citi). He
+was also a postdoctoral fellow from 2006 in
+UCD. He obtained his Ph.D. in Computer
+Science in 2005 at the Institut National
+Polytechnique Grenoble (INPG), France. His
+research interest spans the area of Data
+Mining/Distributed Data Mining for Security,
+Fraud and Criminal Detection, Cloud Security
+and Privacy, Grid and High Performance
+computing. He has published more than 60
+scientific papers in international peer-reviewed
+journal and conferences in related disciplines.
+He has also been on the Programme
+Committee of International Conferences and a
+regular reviewer for Future Generation of
+Computer System journal (FGCS, Elsevier).
+
+
+
+Page 56                                                                             © 2017 ADFSL
+Forensic Analysis of Virtual Hard Drives                                            JDFSL V12N1
+
+
+
+
+                                     REFERENCES
+[1] Casey, E. (2011). Digital evidence and            Introspection Based Architecture for
+    computer    crime:  Forensic    science,          Intrusion Detection. In Ndss (Vol. 3, No.
+    computers, and the internet. Academic             2003, pp. 191-206).
+    press.
+                                                   [11] Nance, K., Bishop, M., & Hay, B. (2008).
+[2] Dykstra, J., & Sherman, A. T. (2012).              Virtual machine introspection: Observation
+    Acquiring      forensic     evidence   from        or interference?. IEEE Security & Privacy,
+    infrastructure-as-a-service cloud computing:       6(5).
+    Exploring and evaluating tools, trust, and
+                                                   [12] Carrier, B., & Spafford, E. H. (2003).
+    techniques. Digital Investigation, 9, S90-
+                                                       Getting     physical    with     the  digital
+    S98.
+                                                       investigation process. International Journal
+[3] Goldberg, R. P. (1974). Survey of                  of digital evidence, 2(2), 1-20.
+    virtual machine research. Computer, 7(6),
+                                                   [13] Bahram, S., Jiang, X., Wang, Z., Grace,
+    34-45.
+                                                       M., Li, J., Srinivasan, D., ... & Xu, D.
+[4] Kremer, J. (2010). Cloud Computing and             (2010, October). Dksm: Subverting virtual
+    Virtualization.   White    paper    on             machine introspection for fun and profit. In
+    virtualization.                                    Reliable Distributed Systems, 2010 29th
+                                                       IEEE Symposium on (pp. 82-91). IEEE.
+[5] Cusumano, M. (2010). Cloud computing
+    and SaaS as new computing platforms.           [14] The Volatility Foundation (2013 - 2014)
+    Communications of the ACM, 53(4), 27-29.           Retrieved                            from
+                                                       http://www.volatilityfoundation.org/
+[6] Barrett, D., & Kipper, G. (2010).
+    Virtualization and forensics: A digital        [15] Payne, B. D. (2012). Simplifying virtual
+    forensic investigator’s guide to virtual           machine introspection using libvmi. Sandia
+    environments. Syngress.                            report, 43-44.
+[7] Cai, H., Wang, N., & Zhou, M. J. (2010,        [16] Wilkinson, S., (2012). Good practice guide
+    July). A transparent approach of enabling          for computer-based electronic evidence.
+    SaaS multi-tenancy in the cloud. In                Association of Chief Police Officers.
+    Services (services-1), 2010 6th world
+                                                   [17] Guidelines for identification, collection,
+    congress on (pp. 40-47). IEEE.
+                                                       acquisition and preservation of digital
+[8] Bitner, B., & Greenlee, S. (2012). z/VM A          evidence,     (2012),   Retrieved     from
+    Brief Review of Its 40 Year History.               https://www.iso.org/obp/ui/#iso:std:iso-
+                                                       iec:27037:ed-1:v1:en
+[9] Brick, D. (2011, January). Technical
+    challenges of forensic investigations in       [18] Ashcroft, J., Daniels, D., Hart, S., (April
+    cloud    computing    environments.   In           2004). NIJ Special Report, (April 2004)
+    workshop on cryptography and security in           Retrieved                              from
+    clouds.                                            https://www.ncjrs.gov/pdffiles1/nij/199408
+                                                       .pdf
+[10] Garfinkel, T., & Rosenblum, M. (2003,
+    February).      A   Virtual   Machine
+
+
+© 2017 ADFSL                                                                               Page 57
+JDFSL V12N1                                              Forensic Analysis of Virtual Hard Drives
+
+
+[19] Kessler, G., (2016, February, 15th.),            past and present intrusions through
+    Guidelines on Digital Forensic Procedures         vulnerability-specific predicates. In ACM
+    for    OLAF      Staff,  Retrieved   from         SIGOPS Operating Systems Review (Vol.
+    http://ec.europa.eu/anti_fraud/documents          39, No. 5, pp. 91-104). ACM.
+    /forensics/guidelines_en.pdf
+                                                   [29] Love, R. (2003). Kernel korner: CPU
+[20] EnCASE® Forensic (1997 - 2016),                   affinity. Linux Journal, 2003(111), 8.
+    Retrieved from forensic?cmpid=nav_r
+                                                   [30] Dolan-Gavitt, B., Leek, T., Zhivich, M.,
+[21] SANS DFIR (2016) Retrieved            from        Giffin, J. and Lee, W., (2011, May).
+    http://digital-forensics.sans.org/                 Virtuoso: Narrowing the semantic gap in
+                                                       virtual machine introspection. In Security
+[22] Forensic Toolkit (FTK) (2016), from
+                                                       and Privacy (SP), 2011 IEEE Symposium
+    http://accessdata.com/solutions/digital-
+                                                       on (pp. 297-312). IEEE.
+    forensics/forensic-toolkit-ftk
+                                                   [31] Witteman, R., Meijer, A., Kechadi, M. T.,
+[23] Carrier, B, (2013 - 2016) The Sleuthkit,
+                                                       & Le-Khac, N. A. (2016, April). Toward a
+    Overview,          Retrieved        from
+                                                       new tool to extract the Evidence from a
+    http://www.sleuthkit.org/sleuthkit/
+                                                       Memory Card of Mobile phones. In Digital
+[24] Tobin, P., & Kechadi, T. (2014, January).         Forensic and Security (ISDFS), 2016 4th
+    Virtual machine forensics by means of              International Symposium on (pp. 143-147).
+    introspection     and      kernel    code          IEEE.
+    injection.    In Proceedings of the 9th
+                                                   [32] Faheem, M., Kechadi, M., & Le-Khac, N.
+    International Conference on Cyber Warfare
+                                                       A. (2016). The State of the Art Forensic
+    & Security: ICCWS 2014 (p. 294).
+                                                       Techniques in Mobile Cloud Environment:
+[25] Squillante, M. S., & Lazowska, E. D.              A Survey, Challenges and Current Trends.
+    (1993). Using processor-cache affinity             arXiv preprint arXiv:1611.09566.
+    information        in        shared-memory
+    multiprocessor scheduling. Ieee transactions
+    on parallel and distributed systems, 4(2),
+    131-143.
+[26] Wirzenius, Lars, Oja, J., Stafford, S.,
+    Weeks, A., (2016, 27th. January), Linux
+    Systems Administrators Guide, Chapter 6
+    Memory Management, retrieved from
+    http://www.tldp.org/LDP/sag/html/buffer
+    - cache.html, accessed
+[27] Reuther, A., Michaleas, P., Prout, A., &
+    Kepner, J. (2012, September). HPC-VMs:
+    Virtual machines in high performance
+    computing systems. In High Performance
+    Extreme Computing (HPEC), 2012 IEEE
+    Conference on (pp. 1-6). IEEE.
+[28] Joshi, A., King, S. T., Dunlap, G. W., &
+    Chen, P. M. (2005, October). Detecting
+
+
+Page 58                                                                          © 2017 ADFSL
+

@@ -1,0 +1,475 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - link "Skip to main content" [ref=f4e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - banner [ref=f4e5]:
+        - generic [ref=f4e6]:
+          - link "Home" [ref=f4e7] [cursor=pointer]:
+            - /url: /
+            - img "HI Cyber Con 2026 CTF" [ref=f4e9]
+          - navigation "Main" [ref=f4e10]:
+            - link "Home" [ref=f4e11] [cursor=pointer]:
+              - /url: /
+            - link "Rules" [ref=f4e14] [cursor=pointer]:
+              - /url: /rules
+            - link "Community" [ref=f4e17] [cursor=pointer]:
+              - /url: /community
+            - link "Challenges" [ref=f4e20] [cursor=pointer]:
+              - /url: /challenges
+            - link "Scoreboard" [ref=f4e23] [cursor=pointer]:
+              - /url: /scores
+        - generic [ref=f4e26]:
+          - generic [ref=f4e27]:
+            - generic [ref=f4e28]: 1d 21:26:35
+            - generic [ref=f4e29]: to CTF end
+          - generic [ref=f4e31]:
+            - generic [ref=f4e32]: 92nd
+            - generic [ref=f4e33]: of 575
+          - button "ttttthin Agentic AI T" [ref=f4e36] [cursor=pointer]:
+            - generic [ref=f4e37]:
+              - generic [ref=f4e38]: ttttthin
+              - generic [ref=f4e39]: Agentic AI
+            - generic [ref=f4e41]: T
+          - link "Join HI Cyber Con Discord" [ref=f4e43] [cursor=pointer]:
+            - /url: https://discord.gg/rD2gHUWJhf
+          - link "Support Ticket" [ref=f4e44] [cursor=pointer]:
+            - /url: https://discord.com/channels/1095055386110857236/1555930020386578473
+          - button "Toggle theme" [ref=f4e47] [cursor=pointer]
+      - main [ref=f4e51]:
+        - generic [ref=f4e54]:
+          - generic [ref=f4e58]:
+            - generic [ref=f4e59]:
+              - generic [ref=f4e60]:
+                - generic [ref=f4e61]:
+                  - strong [ref=f4e62]: 1,259
+                  - text: / 3,066 pts
+                - generic [ref=f4e63]:
+                  - strong [ref=f4e64]: "20"
+                  - text: / 28
+              - generic [ref=f4e65]:
+                - searchbox "Search challenges" [ref=f4e69]
+                - generic [ref=f4e70]:
+                  - button "Hide solved challenges" [ref=f4e71] [cursor=pointer]
+                  - button "Collapse all categories" [ref=f4e74] [cursor=pointer]
+            - generic [ref=f4e78]:
+              - generic [ref=f4e79]:
+                - button "Binary Exploitation 1 / 1" [expanded] [ref=f4e81] [cursor=pointer]:
+                  - generic [ref=f4e84]: Binary Exploitation
+                  - generic [ref=f4e85]:
+                    - strong [ref=f4e86]: "1"
+                    - text: / 1
+                - region "Binary Exploitation 1 / 1" [ref=f4e89]:
+                  - list [ref=f4e90]:
+                    - listitem [ref=f4e91]:
+                      - button "pwn / Apex Engine otolk1 63 pts 214 solves" [active] [ref=f4e92] [cursor=pointer]:
+                        - generic [ref=f4e95]:
+                          - generic [ref=f4e96]: pwn / Apex Engine
+                          - generic [ref=f4e97]: otolk1
+                        - generic [ref=f4e98]:
+                          - generic [ref=f4e99]:
+                            - strong [ref=f4e100]: "63"
+                            - text: pts
+                          - generic [ref=f4e101]: 214 solves
+              - generic [ref=f4e102]:
+                - button "Reverse Engineering 5 / 5" [expanded] [ref=f4e104] [cursor=pointer]:
+                  - generic [ref=f4e107]: Reverse Engineering
+                  - generic [ref=f4e108]:
+                    - strong [ref=f4e109]: "5"
+                    - text: / 5
+                - region "Reverse Engineering 5 / 5" [ref=f4e112]:
+                  - list [ref=f4e113]:
+                    - listitem [ref=f4e114]:
+                      - button "reverse / Cold Beacon Hidden Investigations 59 pts 309 solves" [ref=f4e494] [cursor=pointer]:
+                        - generic [ref=f4e118]:
+                          - generic [ref=f4e119]: reverse / Cold Beacon
+                          - generic [ref=f4e120]: Hidden Investigations
+                        - generic [ref=f4e121]:
+                          - generic [ref=f4e122]:
+                            - strong [ref=f4e123]: "59"
+                            - text: pts
+                          - generic [ref=f4e124]: 309 solves
+                    - listitem [ref=f4e125]:
+                      - button "reverse / Epsilon Drift Hidden Investigations 60 pts 271 solves" [ref=f4e495] [cursor=pointer]:
+                        - generic [ref=f4e129]:
+                          - generic [ref=f4e130]: reverse / Epsilon Drift
+                          - generic [ref=f4e131]: Hidden Investigations
+                        - generic [ref=f4e132]:
+                          - generic [ref=f4e133]:
+                            - strong [ref=f4e134]: "60"
+                            - text: pts
+                          - generic [ref=f4e135]: 271 solves
+                    - listitem [ref=f4e136]:
+                      - button "reverse / Obfuscated Flow otolk1 65 pts 192 solves" [ref=f4e496] [cursor=pointer]:
+                        - generic [ref=f4e140]:
+                          - generic [ref=f4e141]: reverse / Obfuscated Flow
+                          - generic [ref=f4e142]: otolk1
+                        - generic [ref=f4e143]:
+                          - generic [ref=f4e144]:
+                            - strong [ref=f4e145]: "65"
+                            - text: pts
+                          - generic [ref=f4e146]: 192 solves
+                    - listitem [ref=f4e147]:
+                      - button "reverse / Night Batch Hidden Investigations 67 pts 176 solves" [ref=f4e148] [cursor=pointer]:
+                        - generic [ref=f4e151]:
+                          - generic [ref=f4e152]: reverse / Night Batch
+                          - generic [ref=f4e153]: Hidden Investigations
+                        - generic [ref=f4e154]:
+                          - generic [ref=f4e155]:
+                            - strong [ref=f4e156]: "67"
+                            - text: pts
+                          - generic [ref=f4e157]: 176 solves
+                    - listitem [ref=f4e158]:
+                      - button "reverse / Last Execution Hidden Investigations 69 pts 157 solves" [ref=f4e497] [cursor=pointer]:
+                        - generic [ref=f4e162]:
+                          - generic [ref=f4e163]: reverse / Last Execution
+                          - generic [ref=f4e164]: Hidden Investigations
+                        - generic [ref=f4e165]:
+                          - generic [ref=f4e166]:
+                            - strong [ref=f4e167]: "69"
+                            - text: pts
+                          - generic [ref=f4e168]: 157 solves
+              - generic [ref=f4e169]:
+                - button "Cryptography 1 / 3" [expanded] [ref=f4e171] [cursor=pointer]:
+                  - generic [ref=f4e174]: Cryptography
+                  - generic [ref=f4e175]:
+                    - strong [ref=f4e176]: "1"
+                    - text: / 3
+                - region "Cryptography 1 / 3" [ref=f4e179]:
+                  - list [ref=f4e180]:
+                    - listitem [ref=f4e181]:
+                      - button "crypto / Cipher Cascade @archnexus707 56 pts 444 solves" [ref=f4e182] [cursor=pointer]:
+                        - generic [ref=f4e185]:
+                          - generic [ref=f4e186]: crypto / Cipher Cascade
+                          - generic [ref=f4e187]: "@archnexus707"
+                        - generic [ref=f4e188]:
+                          - generic [ref=f4e189]:
+                            - strong [ref=f4e190]: "56"
+                            - text: pts
+                          - generic [ref=f4e191]: 444 solves
+                    - listitem [ref=f4e192]:
+                      - button "crypto / Just Give Me The Flag Man Hidden Investigations 83 pts 99 solves" [ref=f4e193] [cursor=pointer]:
+                        - generic [ref=f4e194]:
+                          - generic [ref=f4e195]: crypto / Just Give Me The Flag Man
+                          - generic [ref=f4e196]: Hidden Investigations
+                        - generic [ref=f4e197]:
+                          - generic [ref=f4e198]:
+                            - strong [ref=f4e199]: "83"
+                            - text: pts
+                          - generic [ref=f4e200]: 99 solves
+                    - listitem [ref=f4e201]:
+                      - button "crypto / ChronoGrind Hidden Investigations 181 pts 26 solves" [ref=f4e202] [cursor=pointer]:
+                        - generic [ref=f4e203]:
+                          - generic [ref=f4e204]: crypto / ChronoGrind
+                          - generic [ref=f4e205]: Hidden Investigations
+                        - generic [ref=f4e206]:
+                          - generic [ref=f4e207]:
+                            - strong [ref=f4e208]: "181"
+                            - text: pts
+                          - generic [ref=f4e209]: 26 solves
+              - generic [ref=f4e210]:
+                - button "Forensics 3 / 5" [expanded] [ref=f4e212] [cursor=pointer]:
+                  - generic [ref=f4e215]: Forensics
+                  - generic [ref=f4e216]:
+                    - strong [ref=f4e217]: "3"
+                    - text: / 5
+                - region "Forensics 3 / 5" [ref=f4e220]:
+                  - list [ref=f4e221]:
+                    - listitem [ref=f4e222]:
+                      - button "forensics / Broken Signals @archnexus707 57 pts 382 solves" [ref=f4e498] [cursor=pointer]:
+                        - generic [ref=f4e226]:
+                          - generic [ref=f4e227]: forensics / Broken Signals
+                          - generic [ref=f4e228]: "@archnexus707"
+                        - generic [ref=f4e229]:
+                          - generic [ref=f4e230]:
+                            - strong [ref=f4e231]: "57"
+                            - text: pts
+                          - generic [ref=f4e232]: 382 solves
+                    - listitem [ref=f4e233]:
+                      - button "forensics / Ghost in the Wire @archnexus707 57 pts 371 solves" [ref=f4e499] [cursor=pointer]:
+                        - generic [ref=f4e237]:
+                          - generic [ref=f4e238]: forensics / Ghost in the Wire
+                          - generic [ref=f4e239]: "@archnexus707"
+                        - generic [ref=f4e240]:
+                          - generic [ref=f4e241]:
+                            - strong [ref=f4e242]: "57"
+                            - text: pts
+                          - generic [ref=f4e243]: 371 solves
+                    - listitem [ref=f4e244]:
+                      - button "forensics / Memory Liar otolk1 59 pts 303 solves" [ref=f4e245] [cursor=pointer]:
+                        - generic [ref=f4e248]:
+                          - generic [ref=f4e249]: forensics / Memory Liar
+                          - generic [ref=f4e250]: otolk1
+                        - generic [ref=f4e251]:
+                          - generic [ref=f4e252]:
+                            - strong [ref=f4e253]: "59"
+                            - text: pts
+                          - generic [ref=f4e254]: 303 solves
+                    - listitem [ref=f4e255]:
+                      - button "forensics / RESURRECTION (Operation Eclipse Void) Hidden Investigations 88 pts 88 solves" [ref=f4e256] [cursor=pointer]:
+                        - generic [ref=f4e257]:
+                          - generic [ref=f4e258]: forensics / RESURRECTION (Operation Eclipse Void)
+                          - generic [ref=f4e259]: Hidden Investigations
+                        - generic [ref=f4e260]:
+                          - generic [ref=f4e261]:
+                            - strong [ref=f4e262]: "88"
+                            - text: pts
+                          - generic [ref=f4e263]: 88 solves
+                    - listitem [ref=f4e264]:
+                      - button "forensics / Operation Chimera 0xblackfox 363 pts 7 solves" [ref=f4e265] [cursor=pointer]:
+                        - generic [ref=f4e266]:
+                          - generic [ref=f4e267]: forensics / Operation Chimera
+                          - generic [ref=f4e268]: 0xblackfox
+                        - generic [ref=f4e269]:
+                          - generic [ref=f4e270]:
+                            - strong [ref=f4e271]: "363"
+                            - text: pts
+                          - generic [ref=f4e272]: 7 solves
+              - generic [ref=f4e273]:
+                - button "Miscellaneous 3 / 3" [expanded] [ref=f4e275] [cursor=pointer]:
+                  - generic [ref=f4e278]: Miscellaneous
+                  - generic [ref=f4e279]:
+                    - strong [ref=f4e280]: "3"
+                    - text: / 3
+                - region "Miscellaneous 3 / 3" [ref=f4e283]:
+                  - list [ref=f4e284]:
+                    - listitem [ref=f4e285]:
+                      - button "misc / Forgotten Secrets @archnexus707 59 pts 314 solves" [ref=f4e500] [cursor=pointer]:
+                        - generic [ref=f4e289]:
+                          - generic [ref=f4e290]: misc / Forgotten Secrets
+                          - generic [ref=f4e291]: "@archnexus707"
+                        - generic [ref=f4e292]:
+                          - generic [ref=f4e293]:
+                            - strong [ref=f4e294]: "59"
+                            - text: pts
+                          - generic [ref=f4e295]: 314 solves
+                    - listitem [ref=f4e296]:
+                      - button "misc / The Foxglove Trace Hidden Investigations 59 pts 293 solves" [ref=f4e297] [cursor=pointer]:
+                        - generic [ref=f4e300]:
+                          - generic [ref=f4e301]: misc / The Foxglove Trace
+                          - generic [ref=f4e302]: Hidden Investigations
+                        - generic [ref=f4e303]:
+                          - generic [ref=f4e304]:
+                            - strong [ref=f4e305]: "59"
+                            - text: pts
+                          - generic [ref=f4e306]: 293 solves
+                    - listitem [ref=f4e307]:
+                      - button "misc / Warden’s Maze Hidden Investigations 74 pts 131 solves" [ref=f4e308] [cursor=pointer]:
+                        - generic [ref=f4e311]:
+                          - generic [ref=f4e312]: misc / Warden’s Maze
+                          - generic [ref=f4e313]: Hidden Investigations
+                        - generic [ref=f4e314]:
+                          - generic [ref=f4e315]:
+                            - strong [ref=f4e316]: "74"
+                            - text: pts
+                          - generic [ref=f4e317]: 131 solves
+              - generic [ref=f4e318]:
+                - button "OSINT 1 / 2" [expanded] [ref=f4e320] [cursor=pointer]:
+                  - generic [ref=f4e323]: OSINT
+                  - generic [ref=f4e324]:
+                    - strong [ref=f4e325]: "1"
+                    - text: / 2
+                - region "OSINT 1 / 2" [ref=f4e328]:
+                  - list [ref=f4e329]:
+                    - listitem [ref=f4e330]:
+                      - button "osint / Shadow Identity @archnexus707 58 pts 344 solves" [ref=f4e501] [cursor=pointer]:
+                        - generic [ref=f4e334]:
+                          - generic [ref=f4e335]: osint / Shadow Identity
+                          - generic [ref=f4e336]: "@archnexus707"
+                        - generic [ref=f4e337]:
+                          - generic [ref=f4e338]:
+                            - strong [ref=f4e339]: "58"
+                            - text: pts
+                          - generic [ref=f4e340]: 344 solves
+                    - listitem [ref=f4e341]:
+                      - button "osint / chillin!!! Hidden Investigations 500 pts 0 solves" [ref=f4e342] [cursor=pointer]:
+                        - generic [ref=f4e343]:
+                          - generic [ref=f4e344]: osint / chillin!!!
+                          - generic [ref=f4e345]: Hidden Investigations
+                        - generic [ref=f4e346]:
+                          - generic [ref=f4e347]:
+                            - strong [ref=f4e348]: "500"
+                            - text: pts
+                          - generic [ref=f4e349]: 0 solves
+              - generic [ref=f4e350]:
+                - button "android 1 / 1" [expanded] [ref=f4e352] [cursor=pointer]:
+                  - generic [ref=f4e355]: android
+                  - generic [ref=f4e356]:
+                    - strong [ref=f4e357]: "1"
+                    - text: / 1
+                - region "android 1 / 1" [ref=f4e360]:
+                  - list [ref=f4e361]:
+                    - listitem [ref=f4e362]:
+                      - button "android / VaultKeeper Hidden Investigations 71 pts 145 solves" [ref=f4e502] [cursor=pointer]:
+                        - generic [ref=f4e366]:
+                          - generic [ref=f4e367]: android / VaultKeeper
+                          - generic [ref=f4e368]: Hidden Investigations
+                        - generic [ref=f4e369]:
+                          - generic [ref=f4e370]:
+                            - strong [ref=f4e371]: "71"
+                            - text: pts
+                          - generic [ref=f4e372]: 145 solves
+              - generic [ref=f4e373]:
+                - button "hardware 1 / 2" [expanded] [ref=f4e375] [cursor=pointer]:
+                  - generic [ref=f4e378]: hardware
+                  - generic [ref=f4e379]:
+                    - strong [ref=f4e380]: "1"
+                    - text: / 2
+                - region "hardware 1 / 2" [ref=f4e383]:
+                  - list [ref=f4e384]:
+                    - listitem [ref=f4e385]:
+                      - button "hardware / Tasmota Vault Hidden Investigations 66 pts 190 solves" [ref=f4e503] [cursor=pointer]:
+                        - generic [ref=f4e389]:
+                          - generic [ref=f4e390]: hardware / Tasmota Vault
+                          - generic [ref=f4e391]: Hidden Investigations
+                        - generic [ref=f4e392]:
+                          - generic [ref=f4e393]:
+                            - strong [ref=f4e394]: "66"
+                            - text: pts
+                          - generic [ref=f4e395]: 190 solves
+                    - listitem [ref=f4e396]:
+                      - button "hardware / C3 Vault Hidden Investigations 79 pts 110 solves" [ref=f4e504] [cursor=pointer]:
+                        - generic [ref=f4e398]:
+                          - generic [ref=f4e399]: hardware / C3 Vault
+                          - generic [ref=f4e400]: Hidden Investigations
+                        - generic [ref=f4e401]:
+                          - generic [ref=f4e402]:
+                            - strong [ref=f4e403]: "79"
+                            - text: pts
+                          - generic [ref=f4e404]: 110 solves
+              - generic [ref=f4e405]:
+                - button "steg 4 / 6" [expanded] [ref=f4e407] [cursor=pointer]:
+                  - generic [ref=f4e410]: steg
+                  - generic [ref=f4e411]:
+                    - strong [ref=f4e412]: "4"
+                    - text: / 6
+                - region "steg 4 / 6" [ref=f4e415]:
+                  - list [ref=f4e416]:
+                    - listitem [ref=f4e417]:
+                      - button "steg / Roof of Africa @archnexus707 58 pts 337 solves" [ref=f4e418] [cursor=pointer]:
+                        - generic [ref=f4e421]:
+                          - generic [ref=f4e422]: steg / Roof of Africa
+                          - generic [ref=f4e423]: "@archnexus707"
+                        - generic [ref=f4e424]:
+                          - generic [ref=f4e425]:
+                            - strong [ref=f4e426]: "58"
+                            - text: pts
+                          - generic [ref=f4e427]: 337 solves
+                    - listitem [ref=f4e428]:
+                      - button "steg / Zanzibar Whisper @archnexus707 59 pts 313 solves" [ref=f4e505] [cursor=pointer]:
+                        - generic [ref=f4e432]:
+                          - generic [ref=f4e433]: steg / Zanzibar Whisper
+                          - generic [ref=f4e434]: "@archnexus707"
+                        - generic [ref=f4e435]:
+                          - generic [ref=f4e436]:
+                            - strong [ref=f4e437]: "59"
+                            - text: pts
+                          - generic [ref=f4e438]: 313 solves
+                    - listitem [ref=f4e439]:
+                      - button "steg / Whispers in the Margin Hidden Investigations 63 pts 228 solves" [ref=f4e506] [cursor=pointer]:
+                        - generic [ref=f4e443]:
+                          - generic [ref=f4e444]: steg / Whispers in the Margin
+                          - generic [ref=f4e445]: Hidden Investigations
+                        - generic [ref=f4e446]:
+                          - generic [ref=f4e447]:
+                            - strong [ref=f4e448]: "63"
+                            - text: pts
+                          - generic [ref=f4e449]: 228 solves
+                    - listitem [ref=f4e450]:
+                      - button "steg / Echoes of a Forgotten Canvas Hidden Investigations 80 pts 107 solves" [ref=f4e507] [cursor=pointer]:
+                        - generic [ref=f4e454]:
+                          - generic [ref=f4e455]: steg / Echoes of a Forgotten Canvas
+                          - generic [ref=f4e456]: Hidden Investigations
+                        - generic [ref=f4e457]:
+                          - generic [ref=f4e458]:
+                            - strong [ref=f4e459]: "80"
+                            - text: pts
+                          - generic [ref=f4e460]: 107 solves
+                    - listitem [ref=f4e461]:
+                      - button "steg / Paper Trail Hidden Investigations 85 pts 93 solves" [ref=f4e508] [cursor=pointer]:
+                        - generic [ref=f4e463]:
+                          - generic [ref=f4e464]: steg / Paper Trail
+                          - generic [ref=f4e465]: Hidden Investigations
+                        - generic [ref=f4e466]:
+                          - generic [ref=f4e467]:
+                            - strong [ref=f4e468]: "85"
+                            - text: pts
+                          - generic [ref=f4e469]: 93 solves
+                    - listitem [ref=f4e470]:
+                      - button "steg / Unremarable Hidden Investigations 428 pts 4 solves" [ref=f4e471] [cursor=pointer]:
+                        - generic [ref=f4e472]:
+                          - generic [ref=f4e473]: steg / Unremarable
+                          - generic [ref=f4e474]: Hidden Investigations
+                        - generic [ref=f4e475]:
+                          - generic [ref=f4e476]:
+                            - strong [ref=f4e477]: "428"
+                            - text: pts
+                          - generic [ref=f4e478]: 4 solves
+          - separator [ref=f4e479]
+          - generic [ref=f4e509]:
+            - generic [ref=f4e510]:
+              - generic [ref=f4e511]:
+                - heading "Apex Engine" [level=2] [ref=f4e512]
+                - generic [ref=f4e513]:
+                  - generic [ref=f4e514]: by otolk1
+                  - generic [aria-hidden] [ref=f4e515]: ·
+                  - generic [ref=f4e516]: Binary Exploitation
+              - generic [ref=f4e520]:
+                - generic [ref=f4e521]: 63 pts
+                - generic [ref=f4e522]: 214 solves
+            - generic [ref=f4e524]:
+              - tablist [ref=f4e525]:
+                - tab "Details" [selected] [ref=f4e526] [cursor=pointer]
+                - tab "Solves (214)" [ref=f4e529] [cursor=pointer]:
+                  - text: Solves
+                  - generic [ref=f4e532]: (214)
+              - tabpanel "Details" [ref=f4e533]:
+                - generic [ref=f4e536]:
+                  - generic [ref=f4e537]:
+                    - generic [ref=f4e538]: Description
+                    - generic [ref=f4e540]:
+                      - paragraph [ref=f4e541]: Welcome to the Apex Multi-Threaded Settlement Engine — a high-frequency asset custody vault built for low-latency asynchronous transaction processing. Our internal risk model asserts that funds cannot be double-spent, and classified vault records are completely shielded from non-root clearance. Can you identify the flaws and recover the flag?
+                      - paragraph [ref=f4e542]:
+                        - strong [ref=f4e543]: "Files:"
+                        - link "pwn-apex-engine.zip" [ref=f4e544] [cursor=pointer]:
+                          - /url: https://hicon26-files-b19d71.nbg1.your-objectstorage.com/pwn-apex-engine/eb528dfd1dd0c174/pwn-apex-engine.zip
+                      - paragraph [ref=f4e545]:
+                        - text: "SHA-256:"
+                        - code [ref=f4e546]: aa932101aa0b92c17bcedd5bb76a6cf6fa3bd622f686ce9316b75fe5e4ef00a7
+                      - paragraph [ref=f4e547]:
+                        - strong [ref=f4e548]: "Flag Format:"
+                        - code [ref=f4e549]: "hiCTF{}"
+                  - generic [ref=f4e551]:
+                    - generic [ref=f4e552]: Instancer
+                    - generic [ref=f4e555]:
+                      - generic [ref=f4e556]: No instance running.
+                      - button "Start instance" [ref=f4e557] [cursor=pointer]
+            - generic [ref=f4e559]:
+              - generic [ref=f4e561]:
+                - generic [ref=f4e562]:
+                  - generic [ref=f4e563]: 1st
+                  - generic [ref=f4e564]:
+                    - generic [ref=f4e565]:
+                      - generic [ref=f4e566]: W4llz
+                      - generic [ref=f4e567]: 3m
+                    - img "W4llz" [ref=f4e569]
+                - generic [ref=f4e570]:
+                  - generic [ref=f4e571]: 2nd
+                  - generic [ref=f4e572]:
+                    - generic [ref=f4e573]:
+                      - generic [ref=f4e574]: Eklavya
+                      - generic [ref=f4e575]: +1m
+                    - generic [ref=f4e576]: E
+                - generic [ref=f4e578]:
+                  - generic [ref=f4e579]: 111th
+                  - generic [ref=f4e580]:
+                    - generic [ref=f4e581]:
+                      - generic [ref=f4e582]: ttttthin
+                      - generic [ref=f4e583]: +1h, 1m
+                    - generic [ref=f4e584]: T
+              - generic [ref=f4e588]:
+                - generic [ref=f4e589]: Challenge solved!
+                - button "Submit flag" [disabled] [ref=f4e593]
+    - generic [ref=f4e491]: Challenges | HI Cyber Con 2026 CTF
+  - generic:
+    - region "Notifications, bottom-end (alt+T)"

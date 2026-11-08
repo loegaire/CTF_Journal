@@ -1,0 +1,18 @@
+{
+  "attachment_id": "adae20e9f73842b5b600f39ecb445328",
+  "expires_at": 1790329772,
+  "generated_at": 1790327972,
+  "preset": "file_info",
+  "provenance": {
+    "cwd": "/srv/ctf-mcp/app",
+    "entrypoint": "python -m ctf_mcp.server",
+    "runner": "ctf-super-agent/0.1.0",
+    "runtime": "python3.12"
+  },
+  "result": {
+    "detected_type": "text",
+    "first_bytes_hex": "74657374",
+    "sha256": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+    "size": 4
+  }
+}

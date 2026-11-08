@@ -1,0 +1,779 @@
+567	1792731608.632236000	4	10.13.37.7	6667	:crux.local 332 watcher #offtopic :keep your ears open
+693	1792731609.751881000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+697	1792731609.765610000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+699	1792731609.772403000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+703	1792731609.779257000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+707	1792731609.790249000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+713	1792731609.799485000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+716	1792731609.807719000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+719	1792731609.815517000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+723	1792731609.828162000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+727	1792731609.837326000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+729	1792731609.844429000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+733	1792731609.851128000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+737	1792731609.857171000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+741	1792731609.870122000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+747	1792731609.882457000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+749	1792731609.891250000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+751	1792731609.904927000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+753	1792731609.913193000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+755	1792731609.921138000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+757	1792731609.931141000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+759	1792731609.933603000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+763	1792731609.996717000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+765	1792731610.004305000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+771	1792731610.015380000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+775	1792731610.028606000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+778	1792731610.040587000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+781	1792731610.048412000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+785	1792731610.057379000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+789	1792731610.065927000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+840	1792731610.276784000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+844	1792731610.283887000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+848	1792731610.290425000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+852	1792731610.301983000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+856	1792731610.314878000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+862	1792731610.327058000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+864	1792731610.336634000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+866	1792731610.341343000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+871	1792731610.402499000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+877	1792731610.413995000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+880	1792731610.425545000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+885	1792731610.438014000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+889	1792731610.451347000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+893	1792731610.461770000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+897	1792731610.468267000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+898	1792731610.468637000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+936	1792731610.647706000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+940	1792731610.656150000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+943	1792731610.665410000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+947	1792731610.674791000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+953	1792731610.686361000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+957	1792731610.698137000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+961	1792731610.704359000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+965	1792731610.713648000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+969	1792731610.722609000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+973	1792731610.732212000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+977	1792731610.738358000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+983	1792731610.750341000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+985	1792731610.764034000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+987	1792731610.777064000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+989	1792731610.786624000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+991	1792731610.793220000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+993	1792731610.801127000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+995	1792731610.807263000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+997	1792731610.818089000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+999	1792731610.828543000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1001	1792731610.835203000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1004	1792731610.848799000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1007	1792731610.857401000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1009	1792731610.864521000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1011	1792731610.871541000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1016	1792731610.940137000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1018	1792731610.946901000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1021	1792731610.960430000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1023	1792731610.971228000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1025	1792731610.981440000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1028	1792731610.989325000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1031	1792731610.998450000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1033	1792731611.003130000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1038	1792731611.073958000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1043	1792731611.085451000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1046	1792731611.093490000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1050	1792731611.102571000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1054	1792731611.114423000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1060	1792731611.127214000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1064	1792731611.138875000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1069	1792731611.152369000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1075	1792731611.163081000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1080	1792731611.171500000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1084	1792731611.182733000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1086	1792731611.189634000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1091	1792731611.198766000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1097	1792731611.208605000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1103	1792731611.217756000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1108	1792731611.229511000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1112	1792731611.237596000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1116	1792731611.246796000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1120	1792731611.253035000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1124	1792731611.262961000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1128	1792731611.270460000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1130	1792731611.274295000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1150	1792731611.349181000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1152	1792731611.360130000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1154	1792731611.373315000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1156	1792731611.386828000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1158	1792731611.399583000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1160	1792731611.410761000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1163	1792731611.417704000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1187	1792731611.654309000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1189	1792731611.667271000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1191	1792731611.677556000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1193	1792731611.686301000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1195	1792731611.694504000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1197	1792731611.705433000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1199	1792731611.714497000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1201	1792731611.721867000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1263	1792731612.161610000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1267	1792731612.171037000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1271	1792731612.180215000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1275	1792731612.186260000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1279	1792731612.197425000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1283	1792731612.209728000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1287	1792731612.221549000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1290	1792731612.229115000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1295	1792731612.241044000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1297	1792731612.247960000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1301	1792731612.261185000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1305	1792731612.273984000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1309	1792731612.284898000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1313	1792731612.292989000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1317	1792731612.303509000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1319	1792731612.311273000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1325	1792731612.324017000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1330	1792731612.334833000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1335	1792731612.346190000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1338	1792731612.352253000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1342	1792731612.360965000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1345	1792731612.367303000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1349	1792731612.375556000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1353	1792731612.383971000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1357	1792731612.390482000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1389	1792731612.586604000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1391	1792731612.596320000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1393	1792731612.607050000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1397	1792731612.620693000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1401	1792731612.627166000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1405	1792731612.639546000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1409	1792731612.651774000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1410	1792731612.652614000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1427	1792731612.713781000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1429	1792731612.720072000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1431	1792731612.732002000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1433	1792731612.742276000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1435	1792731612.754571000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1437	1792731612.762851000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1439	1792731612.770314000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1441	1792731612.782748000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1443	1792731612.789961000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1445	1792731612.802775000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1447	1792731612.812536000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1449	1792731612.820501000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1451	1792731612.833419000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1453	1792731612.842258000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1455	1792731612.852347000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1457	1792731612.865551000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1459	1792731612.875525000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1461	1792731612.884869000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1463	1792731612.891365000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1465	1792731612.903302000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1467	1792731612.911728000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1469	1792731612.923667000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1471	1792731612.935555000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1473	1792731612.944679000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1475	1792731612.946586000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1477	1792731613.017536000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1479	1792731613.027032000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1482	1792731613.037757000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1487	1792731613.051026000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1491	1792731613.060431000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1495	1792731613.070343000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1499	1792731613.080441000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1503	1792731613.092565000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1505	1792731613.096042000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1529	1792731613.288698000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1533	1792731613.296299000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1537	1792731613.309694000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1541	1792731613.317686000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1545	1792731613.326200000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1549	1792731613.332732000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1551	1792731613.339391000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1553	1792731613.345750000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1555	1792731613.359093000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1557	1792731613.369218000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1559	1792731613.376995000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1561	1792731613.389698000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1563	1792731613.401204000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1565	1792731613.409106000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1569	1792731613.418047000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1573	1792731613.431251000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1577	1792731613.440974000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1581	1792731613.448620000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1585	1792731613.459823000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1587	1792731613.467441000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1591	1792731613.476207000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1597	1792731613.489868000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1601	1792731613.497690000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1617	1792731613.573620000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1621	1792731613.583269000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1625	1792731613.596056000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1629	1792731613.603648000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1633	1792731613.611839000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1637	1792731613.620505000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1641	1792731613.632246000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1645	1792731613.638337000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1649	1792731613.647630000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1651	1792731613.650296000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1667	1792731613.717398000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1670	1792731613.727273000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1675	1792731613.737685000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1679	1792731613.744342000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1682	1792731613.751154000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1687	1792731613.764618000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1689	1792731613.778033000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1691	1792731613.784577000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1693	1792731613.793849000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1695	1792731613.805849000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1697	1792731613.817777000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1699	1792731613.824658000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1701	1792731613.832749000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1703	1792731613.846271000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1705	1792731613.853330000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1708	1792731613.862849000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1713	1792731613.872241000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1715	1792731613.880389000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1719	1792731613.887030000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1723	1792731613.896989000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1727	1792731613.909215000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1731	1792731613.918942000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1735	1792731613.928362000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1736	1792731613.928522000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1751	1792731613.989545000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1755	1792731614.000508000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1759	1792731614.010650000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1762	1792731614.018299000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1766	1792731614.028008000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1769	1792731614.038544000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1773	1792731614.048806000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1778	1792731614.059619000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1783	1792731614.072646000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1787	1792731614.086601000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1791	1792731614.095617000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1795	1792731614.105546000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1799	1792731614.115473000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1801	1792731614.123703000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1805	1792731614.135694000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1809	1792731614.142726000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1813	1792731614.149194000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1815	1792731614.161272000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+1817	1792731614.168957000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+1819	1792731614.176329000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+1821	1792731614.181225000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2034	1792731615.730192000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2038	1792731615.743046000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2042	1792731615.752377000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2046	1792731615.760965000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2050	1792731615.773229000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2054	1792731615.781227000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2056	1792731615.789272000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2062	1792731615.798410000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2064	1792731615.805680000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2068	1792731615.813344000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2071	1792731615.821963000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2077	1792731615.833074000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2082	1792731615.840873000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2087	1792731615.853737000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2091	1792731615.860523000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2095	1792731615.872026000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2101	1792731615.885185000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2105	1792731615.894621000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2109	1792731615.902920000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2113	1792731615.912739000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2117	1792731615.918872000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2122	1792731615.929837000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2127	1792731615.940810000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2131	1792731615.947357000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2152	1792731616.014594000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2154	1792731616.027118000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2156	1792731616.039838000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2158	1792731616.048719000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2160	1792731616.062536000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2162	1792731616.075009000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2164	1792731616.075863000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2211	1792731616.281065000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2217	1792731616.293069000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2221	1792731616.302099000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2225	1792731616.311965000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2229	1792731616.323763000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2235	1792731616.334770000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2239	1792731616.342575000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2243	1792731616.349543000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2255	1792731616.420433000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2257	1792731616.427371000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2259	1792731616.440939000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2261	1792731616.452451000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2263	1792731616.459057000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2265	1792731616.466024000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2267	1792731616.473780000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2269	1792731616.480882000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2271	1792731616.488105000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2275	1792731616.493437000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2323	1792731616.713300000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2327	1792731616.725596000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2331	1792731616.736515000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2335	1792731616.750407000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2339	1792731616.763252000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2343	1792731616.771905000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2347	1792731616.785813000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2351	1792731616.797885000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2355	1792731616.806187000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2357	1792731616.812869000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2359	1792731616.819750000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2361	1792731616.827352000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2363	1792731616.833899000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2365	1792731616.843114000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2367	1792731616.856255000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2369	1792731616.863022000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2371	1792731616.872494000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2373	1792731616.878723000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2375	1792731616.892364000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2377	1792731616.899613000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2379	1792731616.907530000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2381	1792731616.918414000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2383	1792731616.930170000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2385	1792731616.937190000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2387	1792731616.945980000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2389	1792731616.953458000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2391	1792731617.021942000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2393	1792731617.035758000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2395	1792731617.045783000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2397	1792731617.055083000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2399	1792731617.061465000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2401	1792731617.070704000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2403	1792731617.083598000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2405	1792731617.093163000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2407	1792731617.101630000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2408	1792731617.102130000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2419	1792731617.180720000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2423	1792731617.187165000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2427	1792731617.198690000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2431	1792731617.208583000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2435	1792731617.216521000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2439	1792731617.226530000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2443	1792731617.233202000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2447	1792731617.242771000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2452	1792731617.250332000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2455	1792731617.257389000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2457	1792731617.269102000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2459	1792731617.277670000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2461	1792731617.289953000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2463	1792731617.296725000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2465	1792731617.304218000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2467	1792731617.312678000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2469	1792731617.319659000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2471	1792731617.333038000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2473	1792731617.341165000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2475	1792731617.348008000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2477	1792731617.357456000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2483	1792731617.369870000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2487	1792731617.378756000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2489	1792731617.388374000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2495	1792731617.400719000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2497	1792731617.405654000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2513	1792731617.465780000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2515	1792731617.475796000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2517	1792731617.483492000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2519	1792731617.494406000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2521	1792731617.507044000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2523	1792731617.516379000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2525	1792731617.527425000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2527	1792731617.538911000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2528	1792731617.539722000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2564	1792731617.762410000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2566	1792731617.773359000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2568	1792731617.783099000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2570	1792731617.793185000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2572	1792731617.800286000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2576	1792731617.813414000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2578	1792731617.822110000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2580	1792731617.834031000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2581	1792731617.834656000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2631	1792731618.290483000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2637	1792731618.296737000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2639	1792731618.304107000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2641	1792731618.317613000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2643	1792731618.329624000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2645	1792731618.339550000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2647	1792731618.351341000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2649	1792731618.361808000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2651	1792731618.368347000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2653	1792731618.374550000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2656	1792731618.381698000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2658	1792731618.389713000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2662	1792731618.400270000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2667	1792731618.413595000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2671	1792731618.423692000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2677	1792731618.437116000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2681	1792731618.449925000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2685	1792731618.463799000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2689	1792731618.471644000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2693	1792731618.484895000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2697	1792731618.497337000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2701	1792731618.498908000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2741	1792731618.724759000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2743	1792731618.730821000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2745	1792731618.741646000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2747	1792731618.755107000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2749	1792731618.768528000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2751	1792731618.776248000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2753	1792731618.785853000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2757	1792731618.793173000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2760	1792731618.801085000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2763	1792731618.802758000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2777	1792731618.865935000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2781	1792731618.874971000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2787	1792731618.888962000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2791	1792731618.901028000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2795	1792731618.911376000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2799	1792731618.919059000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2803	1792731618.933010000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2808	1792731618.945366000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2812	1792731618.956736000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2817	1792731618.970426000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2821	1792731618.977500000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2825	1792731618.986777000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2829	1792731618.995700000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2833	1792731619.003083000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2837	1792731619.009865000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2841	1792731619.022628000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2845	1792731619.034609000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2849	1792731619.044408000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2851	1792731619.046632000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2855	1792731619.120464000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2857	1792731619.131711000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2861	1792731619.144573000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2865	1792731619.154474000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2868	1792731619.165636000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2871	1792731619.177267000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2875	1792731619.184057000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2880	1792731619.197118000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2883	1792731619.199056000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2909	1792731619.398714000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2913	1792731619.409271000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2917	1792731619.418494000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2923	1792731619.430535000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2925	1792731619.436651000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2929	1792731619.443668000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2933	1792731619.457551000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2937	1792731619.470925000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2943	1792731619.483851000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2947	1792731619.492736000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2951	1792731619.504206000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2955	1792731619.514130000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2959	1792731619.527453000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2963	1792731619.534608000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2967	1792731619.541434000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2971	1792731619.554273000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2975	1792731619.564415000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2981	1792731619.574562000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2985	1792731619.585619000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+2987	1792731619.594736000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+2993	1792731619.605928000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+2997	1792731619.618426000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3001	1792731619.624475000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3013	1792731619.689589000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3015	1792731619.700598000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3017	1792731619.711498000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3019	1792731619.720431000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3021	1792731619.732873000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3023	1792731619.745246000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3025	1792731619.749677000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3027	1792731619.813808000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3029	1792731619.825571000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3031	1792731619.838819000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3033	1792731619.847818000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3035	1792731619.854261000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3037	1792731619.862990000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3039	1792731619.876628000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3041	1792731619.887781000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3043	1792731619.896179000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3045	1792731619.906070000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3047	1792731619.913136000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3049	1792731619.926872000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3051	1792731619.936384000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3055	1792731619.944221000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3060	1792731619.956735000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3063	1792731619.968789000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3067	1792731619.976442000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3071	1792731619.986546000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3075	1792731619.992678000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3079	1792731620.005238000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3083	1792731620.018548000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3087	1792731620.027007000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3091	1792731620.038445000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3093	1792731620.044965000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3095	1792731620.110890000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3097	1792731620.123845000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3099	1792731620.130581000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3101	1792731620.140438000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3105	1792731620.150378000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3109	1792731620.159047000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3113	1792731620.168597000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3119	1792731620.182574000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3123	1792731620.193316000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3127	1792731620.205628000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3131	1792731620.218389000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3135	1792731620.229274000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3139	1792731620.240594000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3141	1792731620.252521000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3143	1792731620.260359000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3145	1792731620.268885000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3147	1792731620.277962000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3149	1792731620.290860000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3151	1792731620.298355000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3153	1792731620.308739000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3155	1792731620.318562000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3157	1792731620.326470000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3162	1792731620.338509000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3165	1792731620.344774000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3167	1792731620.350888000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3341	1792731621.706625000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3345	1792731621.719056000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3349	1792731621.726854000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3351	1792731621.734351000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3355	1792731621.746431000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3361	1792731621.760107000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3364	1792731621.771405000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3369	1792731621.784569000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3371	1792731621.790605000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3373	1792731621.804543000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3375	1792731621.814965000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3377	1792731621.826650000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3380	1792731621.837707000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3383	1792731621.851406000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3385	1792731621.857504000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3389	1792731621.870837000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3393	1792731621.880109000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3398	1792731621.889627000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3401	1792731621.896453000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3407	1792731621.908375000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3409	1792731621.910163000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3430	1792731621.987418000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3432	1792731621.996785000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3434	1792731622.005415000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3436	1792731622.019352000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3438	1792731622.031106000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3440	1792731622.042991000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3442	1792731622.047469000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3489	1792731622.266550000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3495	1792731622.279441000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3499	1792731622.290798000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3503	1792731622.304607000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3507	1792731622.314426000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3511	1792731622.325014000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3512	1792731622.326304000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3525	1792731622.394936000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3527	1792731622.406743000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3529	1792731622.418140000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3531	1792731622.428709000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3533	1792731622.439306000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3535	1792731622.449931000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3537	1792731622.460474000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3539	1792731622.468776000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3541	1792731622.475091000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3547	1792731622.679260000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3551	1792731622.692647000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3555	1792731622.699675000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3557	1792731622.706433000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3561	1792731622.715346000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3565	1792731622.727979000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3571	1792731622.741233000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3573	1792731622.749238000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3579	1792731622.760937000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3583	1792731622.774093000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3587	1792731622.782726000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3589	1792731622.790237000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3591	1792731622.800428000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3593	1792731622.813876000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3595	1792731622.824730000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3597	1792731622.831616000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3599	1792731622.844292000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3601	1792731622.850907000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3603	1792731622.862831000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3605	1792731622.874851000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3607	1792731622.881068000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3611	1792731622.894324000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3612	1792731622.895050000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3630	1792731622.972188000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3633	1792731622.981166000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3637	1792731622.990320000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3641	1792731623.002237000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3645	1792731623.011208000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3647	1792731623.024287000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3649	1792731623.036519000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3651	1792731623.044197000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3653	1792731623.045520000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3655	1792731623.111006000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3659	1792731623.123118000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3663	1792731623.134175000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3667	1792731623.146283000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3671	1792731623.152994000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3675	1792731623.160414000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3677	1792731623.170582000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3681	1792731623.177701000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3685	1792731623.183973000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3689	1792731623.196184000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3691	1792731623.204340000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3695	1792731623.213821000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3699	1792731623.221176000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3703	1792731623.227180000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3705	1792731623.237881000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3707	1792731623.251055000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3709	1792731623.258886000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3711	1792731623.267822000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3713	1792731623.276276000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3715	1792731623.289076000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3717	1792731623.302063000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3719	1792731623.308561000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3737	1792731623.385053000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3741	1792731623.398081000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3746	1792731623.408738000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3751	1792731623.419952000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3755	1792731623.429956000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3759	1792731623.436664000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3763	1792731623.449237000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3764	1792731623.450304000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3805	1792731623.691297000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3807	1792731623.698540000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3809	1792731623.706422000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3811	1792731623.718888000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3814	1792731623.725770000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3817	1792731623.732496000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3821	1792731623.742550000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3825	1792731623.753812000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3829	1792731623.764826000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3830	1792731623.765092000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3887	1792731624.268588000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3889	1792731624.281200000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3891	1792731624.287610000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3893	1792731624.295768000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3897	1792731624.303617000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3901	1792731624.313698000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3907	1792731624.325717000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3911	1792731624.334162000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3917	1792731624.348080000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3921	1792731624.357863000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3923	1792731624.368407000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3927	1792731624.375074000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3932	1792731624.382967000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3937	1792731624.396820000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3941	1792731624.403805000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3943	1792731624.411472000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3945	1792731624.422291000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3947	1792731624.432571000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3949	1792731624.446321000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3951	1792731624.448047000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3983	1792731624.649827000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3987	1792731624.659445000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+3991	1792731624.666740000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+3995	1792731624.675682000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+3998	1792731624.688456000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4001	1792731624.697221000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4005	1792731624.707186000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4011	1792731624.719523000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4012	1792731624.719968000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4029	1792731624.789841000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4031	1792731624.797424000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4035	1792731624.810167000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4041	1792731624.823216000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4043	1792731624.829616000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4048	1792731624.841235000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4055	1792731624.851382000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4057	1792731624.859521000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4059	1792731624.866670000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4061	1792731624.878910000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4063	1792731624.888193000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4065	1792731624.900608000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4067	1792731624.910121000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4069	1792731624.918112000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4071	1792731624.930264000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4073	1792731624.936897000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4077	1792731624.948145000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4081	1792731624.957026000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4085	1792731624.963932000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4087	1792731624.970804000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4105	1792731625.045558000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4107	1792731625.055753000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4109	1792731625.063988000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4111	1792731625.070148000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4113	1792731625.078749000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4115	1792731625.089398000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4117	1792731625.095865000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4119	1792731625.109567000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4121	1792731625.115785000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4123	1792731625.119661000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4127	1792731625.319814000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4130	1792731625.328403000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4134	1792731625.335804000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4138	1792731625.344075000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4144	1792731625.357601000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4149	1792731625.369250000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4155	1792731625.383038000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4157	1792731625.389116000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4161	1792731625.402790000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4165	1792731625.411931000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4169	1792731625.420569000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4173	1792731625.432611000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4177	1792731625.439124000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4181	1792731625.450136000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4185	1792731625.460580000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4189	1792731625.472886000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4193	1792731625.483816000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4199	1792731625.496452000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4203	1792731625.508303000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4207	1792731625.515086000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4211	1792731625.521880000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4213	1792731625.529253000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4217	1792731625.538663000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4221	1792731625.549065000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4225	1792731625.555190000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4245	1792731625.633915000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4248	1792731625.641583000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4253	1792731625.652225000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4256	1792731625.660468000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4261	1792731625.668345000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4263	1792731625.674904000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4265	1792731625.685613000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4267	1792731625.695742000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4269	1792731625.700860000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4271	1792731625.771000000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4275	1792731625.781079000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4279	1792731625.787517000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4283	1792731625.800046000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4287	1792731625.807231000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4291	1792731625.820490000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4295	1792731625.830434000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4299	1792731625.836453000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4303	1792731625.850349000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4305	1792731625.859367000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4309	1792731625.867420000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4313	1792731625.877711000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4317	1792731625.891123000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4319	1792731625.902352000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4321	1792731625.912875000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4323	1792731625.924096000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4325	1792731625.930762000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4327	1792731625.942099000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4329	1792731625.949053000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4330	1792731625.949996000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4337	1792731626.009965000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4341	1792731626.019745000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4345	1792731626.030173000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4349	1792731626.044085000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4355	1792731626.058061000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4357	1792731626.064175000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4361	1792731626.071106000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4365	1792731626.081632000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4369	1792731626.093654000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4373	1792731626.102885000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4377	1792731626.109023000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4379	1792731626.116393000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4385	1792731626.125589000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4388	1792731626.137924000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4393	1792731626.146770000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4395	1792731626.154176000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4399	1792731626.163007000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4402	1792731626.171354000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing
+4405	1792731626.182250000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :just kidding... or am I
+4409	1792731626.195964000	4	10.13.37.7	6667	:mallory!mallory@crux.local PRIVMSG #offtopic :cruXipher{d3c0y_str34m}
+4411	1792731626.196557000	4	10.13.37.7	6667	:eve!eve@crux.local PRIVMSG #offtopic :the flag is in the timing

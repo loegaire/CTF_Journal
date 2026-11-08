@@ -1,0 +1,40 @@
+EXE-9 OPERATOR CONSOLE CAPTURE // SESSION 77A1 // FINAL EXECUTION
+========================================================================
+[00:00:00.001] core armed. entry chain:
+[00:00:00.001]   EXEC_MAIN -> EXEC_FOLD_A -> EXEC_FOLD_B -> EXEC_FINAL
+[00:00:00.040] dma scrub ok (checksum late by 2 frames)
+[00:00:01.221] fold_a pass 1/3 rows=0400
+[00:00:02.907] fold_b pass 2/3 rows=0400
+[00:00:03.812] CORE TEMP CRITICAL - telemetry loses sync here
+[00:00:03.813] pc trace dropped; counters untrusted from this point
+[00:00:04.444] final execution completed; core dark.
+
+=== FINAL REGISTER FILE (as captured at final halt) ===
+  R0  = 0x0000000000000003
+  R1  = 0x30677DF2A112FFFB
+  R2  = 0xFF975FD2B1F14576
+  R3  = 0xABEC2195F731C083
+  R4  = 0x9C3FB793EED6DA86
+  R5  = 0x0000000000000000
+  R6  = 0x0000000000000000
+  R7  = 0x0000000000000000
+  R8  = 0x0000000000000000
+  R9  = 0x0000000000000000
+  R10 = 0x0000000000000000
+  R11 = 0x0000000000000000
+  R12 = 0x0000000000000000
+  R13 = 0x0000000000000000
+  R14 = 0x0000000000000000
+  R15 = 0x000000005354414C
+
+  fold0 (xor of R1..R4) = 0xF823B4260904A088   [core says VERIFIED]
+  fold1 (add of R1..R4) = 0x782AB6EF390CE07A   [core says VERIFIED]
+
+  note (op. tech): acceptance rig re-ran this state this morning;
+  the sealed result of THAT run is filed under TEST_SEAL_2.
+  do not re-derive, the core only executes once and it is gone.
+
+  note (supervisor): this capture is the record of the final
+  execution. see the PRIMER appendix for its standing.
+========================================================================
+[EOF]

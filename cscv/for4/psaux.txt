@@ -1,0 +1,274 @@
+Volatility 3 Framework 2.28.2
+
+PID	PPID	COMM	ARGS
+
+1	0	systemd	/usr/lib/systemd/systemd --switched-root --system --deserialize 31
+2	0	kthreadd	[kthreadd]
+3	2	rcu_gp	[rcu_gp]
+4	2	rcu_par_gp	[rcu_par_gp]
+6	2	kworker/0:0H	[kworker/0:0H]
+9	2	mm_percpu_wq	[mm_percpu_wq]
+10	2	rcu_tasks_kthre	[rcu_tasks_kthre]
+11	2	rcu_tasks_rude_	[rcu_tasks_rude_]
+12	2	rcu_tasks_trace	[rcu_tasks_trace]
+13	2	ksoftirqd/0	[ksoftirqd/0]
+14	2	rcu_sched	[rcu_sched]
+15	2	migration/0	[migration/0]
+16	2	cpuhp/0	[cpuhp/0]
+17	2	cpuhp/1	[cpuhp/1]
+18	2	migration/1	[migration/1]
+19	2	ksoftirqd/1	[ksoftirqd/1]
+21	2	kworker/1:0H	[kworker/1:0H]
+24	2	kdevtmpfs	[kdevtmpfs]
+25	2	netns	[netns]
+26	2	inet_frag_wq	[inet_frag_wq]
+27	2	kauditd	[kauditd]
+31	2	khungtaskd	[khungtaskd]
+32	2	oom_reaper	[oom_reaper]
+33	2	writeback	[writeback]
+34	2	kcompactd0	[kcompactd0]
+35	2	ksmd	[ksmd]
+36	2	khugepaged	[khugepaged]
+53	2	cryptd	[cryptd]
+99	2	kintegrityd	[kintegrityd]
+100	2	kblockd	[kblockd]
+101	2	blkcg_punt_bio	[blkcg_punt_bio]
+102	2	tpm_dev_wq	[tpm_dev_wq]
+103	2	md	[md]
+104	2	edac-poller	[edac-poller]
+105	2	watchdogd	[watchdogd]
+106	2	kworker/1:1H	[kworker/1:1H]
+120	2	kswapd0	[kswapd0]
+122	2	kthrotld	[kthrotld]
+123	2	irq/24-pciehp	[irq/24-pciehp]
+124	2	irq/25-pciehp	[irq/25-pciehp]
+125	2	irq/26-pciehp	[irq/26-pciehp]
+126	2	irq/27-pciehp	[irq/27-pciehp]
+127	2	irq/28-pciehp	[irq/28-pciehp]
+128	2	irq/29-pciehp	[irq/29-pciehp]
+129	2	irq/30-pciehp	[irq/30-pciehp]
+130	2	irq/31-pciehp	[irq/31-pciehp]
+131	2	irq/32-pciehp	[irq/32-pciehp]
+132	2	irq/33-pciehp	[irq/33-pciehp]
+133	2	irq/34-pciehp	[irq/34-pciehp]
+134	2	irq/35-pciehp	[irq/35-pciehp]
+135	2	irq/36-pciehp	[irq/36-pciehp]
+136	2	irq/37-pciehp	[irq/37-pciehp]
+137	2	irq/38-pciehp	[irq/38-pciehp]
+138	2	irq/39-pciehp	[irq/39-pciehp]
+139	2	irq/40-pciehp	[irq/40-pciehp]
+140	2	irq/41-pciehp	[irq/41-pciehp]
+141	2	irq/42-pciehp	[irq/42-pciehp]
+142	2	irq/43-pciehp	[irq/43-pciehp]
+143	2	irq/44-pciehp	[irq/44-pciehp]
+144	2	irq/45-pciehp	[irq/45-pciehp]
+145	2	irq/46-pciehp	[irq/46-pciehp]
+146	2	irq/47-pciehp	[irq/47-pciehp]
+147	2	irq/48-pciehp	[irq/48-pciehp]
+148	2	irq/49-pciehp	[irq/49-pciehp]
+149	2	irq/50-pciehp	[irq/50-pciehp]
+150	2	irq/51-pciehp	[irq/51-pciehp]
+151	2	irq/52-pciehp	[irq/52-pciehp]
+152	2	irq/53-pciehp	[irq/53-pciehp]
+153	2	irq/54-pciehp	[irq/54-pciehp]
+154	2	irq/55-pciehp	[irq/55-pciehp]
+155	2	acpi_thermal_pm	[acpi_thermal_pm]
+156	2	kworker/u256:2	[kworker/u256:2]
+157	2	kmpath_rdacd	[kmpath_rdacd]
+158	2	kaluad	[kaluad]
+159	2	mld	[mld]
+160	2	kworker/0:1H	[kworker/0:1H]
+161	2	ipv6_addrconf	[ipv6_addrconf]
+162	2	kstrp	[kstrp]
+210	2	zswap-shrink	[zswap-shrink]
+215	2	kworker/u257:0	[kworker/u257:0]
+411	2	mpt_poll_0	[mpt_poll_0]
+412	2	mpt/0	[mpt/0]
+425	2	kworker/1:3	[kworker/1:3]
+427	2	ata_sff	[ata_sff]
+428	2	scsi_eh_0	[scsi_eh_0]
+429	2	scsi_tmf_0	[scsi_tmf_0]
+430	2	scsi_eh_1	[scsi_eh_1]
+431	2	scsi_tmf_1	[scsi_tmf_1]
+435	2	scsi_eh_2	[scsi_eh_2]
+436	2	scsi_tmf_2	[scsi_tmf_2]
+466	2	ttm_swap	[ttm_swap]
+468	2	irq/16-vmwgfx	[irq/16-vmwgfx]
+470	2	card0-crtc0	[card0-crtc0]
+471	2	card0-crtc1	[card0-crtc1]
+472	2	card0-crtc2	[card0-crtc2]
+473	2	card0-crtc3	[card0-crtc3]
+474	2	card0-crtc4	[card0-crtc4]
+475	2	card0-crtc5	[card0-crtc5]
+476	2	card0-crtc6	[card0-crtc6]
+477	2	card0-crtc7	[card0-crtc7]
+519	2	kdmflush	[kdmflush]
+528	2	kdmflush	[kdmflush]
+544	2	xfsalloc	[xfsalloc]
+545	2	xfs_mru_cache	[xfs_mru_cache]
+546	2	xfs-buf/dm-0	[xfs-buf/dm-0]
+547	2	xfs-conv/dm-0	[xfs-conv/dm-0]
+548	2	xfs-cil/dm-0	[xfs-cil/dm-0]
+549	2	xfs-reclaim/dm-	[xfs-reclaim/dm-]
+550	2	xfs-gc/dm-0	[xfs-gc/dm-0]
+551	2	xfs-log/dm-0	[xfs-log/dm-0]
+552	2	xfsaild/dm-0	[xfsaild/dm-0]
+649	1	systemd-journal	/usr/lib/systemd/systemd-journald
+663	1	vmware-vmblock-	vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+666	1	systemd-udevd	/usr/lib/systemd/systemd-udevd
+720	2	nfit	[nfit]
+730	2	kdmflush	[kdmflush]
+738	2	xfs-buf/sda1	[xfs-buf/sda1]
+739	2	xfs-conv/sda1	[xfs-conv/sda1]
+740	2	xfs-buf/dm-2	[xfs-buf/dm-2]
+741	2	xfs-cil/sda1	[xfs-cil/sda1]
+742	2	xfs-conv/dm-2	[xfs-conv/dm-2]
+743	2	xfs-reclaim/sda	[xfs-reclaim/sda]
+744	2	xfs-cil/dm-2	[xfs-cil/dm-2]
+745	2	xfs-gc/sda1	[xfs-gc/sda1]
+746	2	xfs-reclaim/dm-	[xfs-reclaim/dm-]
+747	2	xfs-gc/dm-2	[xfs-gc/dm-2]
+748	2	xfs-log/dm-2	[xfs-log/dm-2]
+749	2	xfsaild/dm-2	[xfsaild/dm-2]
+750	2	xfs-log/sda1	[xfs-log/sda1]
+751	2	xfsaild/sda1	[xfsaild/sda1]
+756	1	auditd	/sbin/auditd
+758	756	sedispatch	/usr/sbin/sedispatch
+779	1	alsactl	/usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+780	1	avahi-daemon	avahi-daemon: running [cen
+782	1	irqbalance	/usr/sbin/irqbalance --foreground
+783	1	lsmd	/usr/bin/lsmd -d
+784	1	mcelog	/usr/sbin/mcelog --daemon --foreground
+785	1	polkitd	/usr/lib/polkit-1/polkitd --no-debug
+786	1	power-profiles-	/usr/libexec/power-profiles-daemon
+787	1	rsyslogd	/usr/sbin/rsyslogd -n
+788	1	rtkit-daemon	/usr/libexec/rtkit-daemon
+789	1	accounts-daemon	/usr/libexec/accounts-daemon
+790	1	systemd-logind	/usr/lib/systemd/systemd-logind
+791	1	udisksd	/usr/libexec/udisks2/udisksd
+792	1	upowerd	/usr/libexec/upowerd
+796	1	VGAuthService	/usr/bin/VGAuthService -s
+797	1	vmtoolsd	/usr/bin/vmtoolsd
+798	780	avahi-daemon	avahi-daemon: chroot helpe
+799	1	dbus-broker-lau	/usr/bin/dbus-broker-launch --scope system --audit
+808	1	chronyd	/usr/sbin/chronyd -F 2
+810	799	dbus-broker	dbus-broker --log 4 --controller 9 --machine-id 3601188fbcc04a5da1a59be3b5383dfb --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+846	1	ModemManager	/usr/sbin/ModemManager
+847	1	firewalld	/usr/bin/python3 -s /usr/sbin/firewalld --nofork --nopid
+969	1	NetworkManager	/usr/sbin/NetworkManager --no-daemon
+976	1	cupsd	/usr/sbin/cupsd -l
+977	1	sshd	sshd: /usr/sbin/ss
+1055	1	atd	/usr/sbin/atd -f
+1057	1	crond	/usr/sbin/crond -n
+1058	1	gdm	/usr/sbin/gdm
+1525	1	wpa_supplicant	/usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -u -s
+1793	1	colord	/usr/libexec/colord
+1862	1058	gdm-session-wor	gdm-session-worker [pam/gdm-password]
+1883	1	systemd	/usr/lib/systemd/systemd --user
+1889	1883	(sd-pam)	(sd-pam)
+1916	1	gnome-keyring-d	/usr/bin/gnome-keyring-daemon --daemonize --login
+1926	1862	gdm-wayland-ses	/usr/libexec/gdm-wayland-session --register-session gnome-session
+1929	1883	dbus-broker-lau	/usr/bin/dbus-broker-launch --scope user
+1930	1929	dbus-broker	dbus-broker --log 4 --controller 9 --machine-id 3601188fbcc04a5da1a59be3b5383dfb --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+1933	1926	gnome-session-b	/usr/libexec/gnome-session-binary
+1967	1883	gnome-session-c	/usr/libexec/gnome-session-ctl --monitor
+1969	1883	gnome-session-b	/usr/libexec/gnome-session-binary --systemd-service --session=gnome
+1990	1883	gnome-shell	/usr/bin/gnome-shell
+2036	1883	gvfsd	/usr/libexec/gvfsd
+2043	1883	gvfsd-fuse	/usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+2055	1883	at-spi-bus-laun	/usr/libexec/at-spi-bus-launcher
+2060	2055	dbus-broker-lau	/usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+2061	2060	dbus-broker	dbus-broker --log 4 --controller 9 --machine-id 3601188fbcc04a5da1a59be3b5383dfb --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+2087	1883	xdg-permission-	/usr/libexec/xdg-permission-store
+2091	1883	gnome-shell-cal	/usr/libexec/gnome-shell-calendar-server
+2097	1883	evolution-sourc	/usr/libexec/evolution-source-registry
+2101	1883	pipewire	/usr/bin/pipewire
+2102	1883	wireplumber	/usr/bin/wireplumber
+2104	1883	pipewire-pulse	/usr/bin/pipewire-pulse
+2112	1883	goa-daemon	/usr/libexec/goa-daemon
+2119	1883	dconf-service	/usr/libexec/dconf-service
+2126	1883	evolution-calen	/usr/libexec/evolution-calendar-factory
+2147	1883	gvfs-udisks2-vo	/usr/libexec/gvfs-udisks2-volume-monitor
+2158	1883	gvfs-mtp-volume	/usr/libexec/gvfs-mtp-volume-monitor
+2165	1883	evolution-addre	/usr/libexec/evolution-addressbook-factory
+2170	1883	gvfs-gphoto2-vo	/usr/libexec/gvfs-gphoto2-volume-monitor
+2181	1883	goa-identity-se	/usr/libexec/goa-identity-service
+2185	1883	gvfs-goa-volume	/usr/libexec/gvfs-goa-volume-monitor
+2198	1	sssd_kcm	/usr/libexec/sssd/sssd_kcm --uid 0 --gid 0 --logger=files
+2202	1883	gjs	/usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+2204	1883	at-spi2-registr	/usr/libexec/at-spi2-registryd --use-gnome-session
+2215	1883	gsd-a11y-settin	/usr/libexec/gsd-a11y-settings
+2222	1883	gsd-color	/usr/libexec/gsd-color
+2228	1883	gsd-datetime	/usr/libexec/gsd-datetime
+2229	1883	gsd-housekeepin	/usr/libexec/gsd-housekeeping
+2231	1883	gsd-keyboard	/usr/libexec/gsd-keyboard
+2236	1883	gsd-media-keys	/usr/libexec/gsd-media-keys
+2239	1883	gsd-power	/usr/libexec/gsd-power
+2242	1883	gsd-print-notif	/usr/libexec/gsd-print-notifications
+2250	1883	gsd-rfkill	/usr/libexec/gsd-rfkill
+2256	1883	gsd-screensaver	/usr/libexec/gsd-screensaver-proxy
+2265	1883	gsd-sharing	/usr/libexec/gsd-sharing
+2270	1883	gsd-smartcard	/usr/libexec/gsd-smartcard
+2284	1883	gsd-sound	/usr/libexec/gsd-sound
+2293	1883	gsd-usb-protect	/usr/libexec/gsd-usb-protection
+2302	1883	gsd-printer	/usr/libexec/gsd-printer
+2303	1883	gsd-wacom	/usr/libexec/gsd-wacom
+2317	2	kworker/0:2	[kworker/0:2]
+2327	1969	evolution-alarm	/usr/libexec/evolution-data-server/evolution-alarm-notify
+2332	1969	gsd-disk-utilit	/usr/libexec/gsd-disk-utility-notify
+2334	1969	gnome-software	/usr/bin/gnome-software --gapplication-service
+2350	1883	vmtoolsd	/usr/bin/vmtoolsd -n vmusr --blockFd 3 --uinputFd 4
+2353	1883	gjs	/usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+2355	2	kworker/u256:4	[kworker/u256:4]
+2479	1990	Xwayland	/usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.2WQSV3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7
+2526	1	fwupd	/usr/libexec/fwupd/fwupd
+2533	1990	ibus-daemon	ibus-daemon --panel disable -r --xim
+2534	1883	gsd-xsettings	/usr/libexec/gsd-xsettings
+2549	2533	ibus-dconf	/usr/libexec/ibus-dconf
+2550	2533	ibus-extension-	/usr/libexec/ibus-extension-gtk3
+2554	1883	ibus-x11	/usr/libexec/ibus-x11 --kill-daemon
+2557	1883	ibus-portal	/usr/libexec/ibus-portal
+2604	2533	ibus-engine-sim	/usr/libexec/ibus-engine-simple
+2775	1883	gvfsd-metadata	/usr/libexec/gvfsd-metadata
+2866	1883	browser	/opt/coccoc/browser/browser --disable-gpu --disable-gpu-compositing --disable-software-rasterizer=false       .
+2874	2866	cat	cat
+2875	2866	cat	cat
+2877	1883	chrome_crashpad	/opt/coccoc/browser/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/centos/.config/coccoc-browser/Crash Reports --url=https://browser-crashes.coccoc.com/cr/report --annotation=channel=stable --annotation=lsb-release=CentOS Stream 9 --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=149.0.7827.208 --initial-client-fd=5 --shared-client-connection
+2879	1883	chrome_crashpad	/opt/coccoc/browser/chrome_crashpad_handler --no-periodic-tasks --no-upload-gzip --monitor-self-annotation=ptype=crashpad-handler --database=/home/centos/.config/coccoc-browser/Crash Reports --url=https://browser-crashes.coccoc.com/cr/report --annotation=channel=stable --annotation=lsb-release=CentOS Stream 9 --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=149.0.7827.208 --initial-client-fd=4 --shared-client-connection
+2893	2866	browser	/opt/coccoc/browser/browser --type=zygote --no-zygote-sandbox --crashpad-handler-pid=2877 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable
+2894	2866	browser	/opt/coccoc/browser/browser --type=zygote --crashpad-handler-pid=2877 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable
+2896	2894	browser	/opt/coccoc/browser/browser --type=zygote --crashpad-handler-pid=2877 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable
+2921	2893	browser	/opt/coccoc/browser/browser --type=gpu-process --ozone-platform=wayland --crashpad-handler-pid=2877 --enable-crash-reporter=,stable --change-stack-guard-on-fo
+2924	2866	browser	/opt/coccoc/browser/browser --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2877 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,18222172443594236308,12490589993444379828,524288 --field-trial-handle=3,i,14442145435128329971,8172218519444554390,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,1678791399062255792,2416235336410326705,4 --trace-process-track-uuid=3190708
+2942	2921	browser	/opt/coccoc/browser/browser --type=broker                                                                                                                    .
+2943	2896	browser	/opt/coccoc/browser/browser --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --c
+2981	2896	browser	/opt/coccoc/browser/browser --type=renderer --crashpad-handler-pid=2877 --enable-crash-reporter=,stable --extension-process --change-stack
+2982	2896	browser	/opt/coccoc/browser/browser --type=renderer --crashpad-handler-pid=2877 --enable-crash-reporter=,stable --extension-process --change-stack
+2988	2896	browser	/opt/coccoc/browser/browser --type=renderer --crashpad-handler-pid=2877 --enable-crash-reporter=,stable --extension-process --change-stack
+2990	2896	browser	/opt/coccoc/browser/browser --type=renderer --crashpad-handler-pid=2877 --enable-crash-reporter=,stable --extension-process --change-stack
+3026	1883	xdg-desktop-por	/usr/libexec/xdg-desktop-portal
+3031	1883	xdg-document-po	/usr/libexec/xdg-document-portal
+3035	3031	fusermount	fusermount -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+3040	1883	xdg-desktop-por	/usr/libexec/xdg-desktop-portal-gtk
+3082	2896	browser	/opt/coccoc/browser/browser --type=renderer --crashpad-handler-pid=2877 --enable-crash-reporter=,stable --extension-process --change-stack
+3301	2896	browser	/opt/coccoc/browser/browser --type=renderer --crashpad-handler-pid=2877 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enabl
+3313	2896	browser	/opt/coccoc/browser/browser --type=renderer --crashpad-handler-pid=2877 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enabl
+3333	2896	browser	/opt/coccoc/browser/browser --type=renderer --crashpad-handler-pid=2877 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enabl
+3348	2866	browser	/opt/coccoc/browser/browser --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2877 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,580454332824112547,10681845162106927097,524288 --field-trial-handle=3,i,14442145435128329971,8172218519444554390,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,1678791399062255792,2416235336410326705,4 --trace-process-track-uuid=3190709
+3465	1883	nautilus	/usr/bin/nautilus --gapplication-service
+3468	2036	gvfsd-trash	/usr/libexec/gvfsd-trash --spawner :1.17 /org/gtk/gvfs/exec_spaw/0
+3486	2	kworker/0:1	[kworker/0:1]
+3487	2896	browser	/opt/coccoc/browser/browser --type=renderer --crashpad-handler-pid=2877 --enable-crash-reporter=,stable --change-stack-guard-on-fork=enabl
+3524	2	kworker/1:1	[kworker/1:1]
+3542	2036	gvfsd-network	/usr/libexec/gvfsd-network --spawner :1.17 /org/gtk/gvfs/exec_spaw/1
+3563	2036	gvfsd-dnssd	/usr/libexec/gvfsd-dnssd --spawner :1.17 /org/gtk/gvfs/exec_spaw/3
+3607	1883	tracker-miner-f	/usr/libexec/tracker-miner-fs-3
+3624	1883	kworker_daemon	./kworker_daemon
+3625	3624	kworker/0:2H	./kworker_daemon
+3723	2	kworker/u256:0	[kworker/u256:0]
+3792	1	vmhgfs-fuse	/usr/bin/vmhgfs-fuse .host:/ /mnt/hgfs -o subtype=vmhgfs-fuse,allow_other
+3847	1883	gnome-terminal-	/usr/libexec/gnome-terminal-server
+3873	3847	bash	bash
+3925	3873	sudo	sudo /mnt/hgfs/Documents/avml /mnt/hgfs/Documents/mem.dmp
+3927	3925	avml	/mnt/hgfs/Documents/avml /mnt/hgfs/Documents/mem.dmp
+3941	2	kworker/0:0	[kworker/0:0]

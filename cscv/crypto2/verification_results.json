@@ -1,0 +1,759 @@
+{
+  "trials": [
+    {
+      "trial": 0,
+      "nonces": [
+        "0x0",
+        "0x0"
+      ],
+      "freq": 80,
+      "zeroed": [],
+      "residual_rows": []
+    },
+    {
+      "trial": 0,
+      "nonces": [
+        "0x0",
+        "0x0"
+      ],
+      "freq": 95,
+      "zeroed": [
+        "c60"
+      ],
+      "residual_rows": [
+        60
+      ]
+    },
+    {
+      "trial": 0,
+      "nonces": [
+        "0x0",
+        "0x0"
+      ],
+      "freq": 100,
+      "zeroed": [
+        "c22",
+        "c35",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 0,
+      "nonces": [
+        "0x0",
+        "0x0"
+      ],
+      "freq": 112,
+      "zeroed": [
+        "c3",
+        "a7",
+        "a17",
+        "c22",
+        "a31",
+        "c35",
+        "a44",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        3,
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 0,
+      "nonces": [
+        "0x1",
+        "0x2"
+      ],
+      "freq": 80,
+      "zeroed": [],
+      "residual_rows": []
+    },
+    {
+      "trial": 0,
+      "nonces": [
+        "0x1",
+        "0x2"
+      ],
+      "freq": 95,
+      "zeroed": [
+        "c60"
+      ],
+      "residual_rows": [
+        60
+      ]
+    },
+    {
+      "trial": 0,
+      "nonces": [
+        "0x1",
+        "0x2"
+      ],
+      "freq": 100,
+      "zeroed": [
+        "c22",
+        "c35",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 0,
+      "nonces": [
+        "0x1",
+        "0x2"
+      ],
+      "freq": 112,
+      "zeroed": [
+        "c3",
+        "a7",
+        "a17",
+        "c22",
+        "a31",
+        "c35",
+        "a44",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        3,
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 0,
+      "nonces": [
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000000",
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593efffffff"
+      ],
+      "freq": 80,
+      "zeroed": [],
+      "residual_rows": []
+    },
+    {
+      "trial": 0,
+      "nonces": [
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000000",
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593efffffff"
+      ],
+      "freq": 95,
+      "zeroed": [
+        "c60"
+      ],
+      "residual_rows": [
+        60
+      ]
+    },
+    {
+      "trial": 0,
+      "nonces": [
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000000",
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593efffffff"
+      ],
+      "freq": 100,
+      "zeroed": [
+        "c22",
+        "c35",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 0,
+      "nonces": [
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000000",
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593efffffff"
+      ],
+      "freq": 112,
+      "zeroed": [
+        "c3",
+        "a7",
+        "a17",
+        "c22",
+        "a31",
+        "c35",
+        "a44",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        3,
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 1,
+      "nonces": [
+        "0x0",
+        "0x0"
+      ],
+      "freq": 80,
+      "zeroed": [],
+      "residual_rows": []
+    },
+    {
+      "trial": 1,
+      "nonces": [
+        "0x0",
+        "0x0"
+      ],
+      "freq": 95,
+      "zeroed": [
+        "c60"
+      ],
+      "residual_rows": [
+        60
+      ]
+    },
+    {
+      "trial": 1,
+      "nonces": [
+        "0x0",
+        "0x0"
+      ],
+      "freq": 100,
+      "zeroed": [
+        "c22",
+        "c35",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 1,
+      "nonces": [
+        "0x0",
+        "0x0"
+      ],
+      "freq": 112,
+      "zeroed": [
+        "c3",
+        "a7",
+        "a17",
+        "c22",
+        "a31",
+        "c35",
+        "a44",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        3,
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 1,
+      "nonces": [
+        "0x1",
+        "0x2"
+      ],
+      "freq": 80,
+      "zeroed": [],
+      "residual_rows": []
+    },
+    {
+      "trial": 1,
+      "nonces": [
+        "0x1",
+        "0x2"
+      ],
+      "freq": 95,
+      "zeroed": [
+        "c60"
+      ],
+      "residual_rows": [
+        60
+      ]
+    },
+    {
+      "trial": 1,
+      "nonces": [
+        "0x1",
+        "0x2"
+      ],
+      "freq": 100,
+      "zeroed": [
+        "c22",
+        "c35",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 1,
+      "nonces": [
+        "0x1",
+        "0x2"
+      ],
+      "freq": 112,
+      "zeroed": [
+        "c3",
+        "a7",
+        "a17",
+        "c22",
+        "a31",
+        "c35",
+        "a44",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        3,
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 1,
+      "nonces": [
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000000",
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593efffffff"
+      ],
+      "freq": 80,
+      "zeroed": [],
+      "residual_rows": []
+    },
+    {
+      "trial": 1,
+      "nonces": [
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000000",
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593efffffff"
+      ],
+      "freq": 95,
+      "zeroed": [
+        "c60"
+      ],
+      "residual_rows": [
+        60
+      ]
+    },
+    {
+      "trial": 1,
+      "nonces": [
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000000",
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593efffffff"
+      ],
+      "freq": 100,
+      "zeroed": [
+        "c22",
+        "c35",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 1,
+      "nonces": [
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000000",
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593efffffff"
+      ],
+      "freq": 112,
+      "zeroed": [
+        "c3",
+        "a7",
+        "a17",
+        "c22",
+        "a31",
+        "c35",
+        "a44",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        3,
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 2,
+      "nonces": [
+        "0x0",
+        "0x0"
+      ],
+      "freq": 80,
+      "zeroed": [],
+      "residual_rows": []
+    },
+    {
+      "trial": 2,
+      "nonces": [
+        "0x0",
+        "0x0"
+      ],
+      "freq": 95,
+      "zeroed": [
+        "c60"
+      ],
+      "residual_rows": [
+        60
+      ]
+    },
+    {
+      "trial": 2,
+      "nonces": [
+        "0x0",
+        "0x0"
+      ],
+      "freq": 100,
+      "zeroed": [
+        "c22",
+        "c35",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 2,
+      "nonces": [
+        "0x0",
+        "0x0"
+      ],
+      "freq": 112,
+      "zeroed": [
+        "c3",
+        "a7",
+        "a17",
+        "c22",
+        "a31",
+        "c35",
+        "a44",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        3,
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 2,
+      "nonces": [
+        "0x1",
+        "0x2"
+      ],
+      "freq": 80,
+      "zeroed": [],
+      "residual_rows": []
+    },
+    {
+      "trial": 2,
+      "nonces": [
+        "0x1",
+        "0x2"
+      ],
+      "freq": 95,
+      "zeroed": [
+        "c60"
+      ],
+      "residual_rows": [
+        60
+      ]
+    },
+    {
+      "trial": 2,
+      "nonces": [
+        "0x1",
+        "0x2"
+      ],
+      "freq": 100,
+      "zeroed": [
+        "c22",
+        "c35",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 2,
+      "nonces": [
+        "0x1",
+        "0x2"
+      ],
+      "freq": 112,
+      "zeroed": [
+        "c3",
+        "a7",
+        "a17",
+        "c22",
+        "a31",
+        "c35",
+        "a44",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        3,
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 2,
+      "nonces": [
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000000",
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593efffffff"
+      ],
+      "freq": 80,
+      "zeroed": [],
+      "residual_rows": []
+    },
+    {
+      "trial": 2,
+      "nonces": [
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000000",
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593efffffff"
+      ],
+      "freq": 95,
+      "zeroed": [
+        "c60"
+      ],
+      "residual_rows": [
+        60
+      ]
+    },
+    {
+      "trial": 2,
+      "nonces": [
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000000",
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593efffffff"
+      ],
+      "freq": 100,
+      "zeroed": [
+        "c22",
+        "c35",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "trial": 2,
+      "nonces": [
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000000",
+        "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593efffffff"
+      ],
+      "freq": 112,
+      "zeroed": [
+        "c3",
+        "a7",
+        "a17",
+        "c22",
+        "a31",
+        "c35",
+        "a44",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        3,
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    }
+  ],
+  "proof_checks": [
+    {
+      "freq": 80,
+      "remainder": "0x0",
+      "matches_interpolated_residual": true
+    },
+    {
+      "freq": 95,
+      "remainder": "0x634966da9dabc8197f39a7ca4a640820b7d77bfe1f4e4dc0a799bbb91c5c67f",
+      "matches_interpolated_residual": true
+    },
+    {
+      "freq": 100,
+      "remainder": "0x19c52df6f5f49db7bc8c090c084aae0cd3f746cf99dacf41751db94ddec71ccb",
+      "matches_interpolated_residual": true
+    },
+    {
+      "freq": 112,
+      "remainder": "0x2f5432ae503b47b08351005004691dfc390ba9c715601d0c1ccaf856a1e74e66",
+      "matches_interpolated_residual": true
+    }
+  ],
+  "sweep": [
+    {
+      "v": 1000,
+      "f": 1,
+      "zeroed": [],
+      "residual_rows": []
+    },
+    {
+      "v": 1000,
+      "f": 63,
+      "zeroed": [
+        "c60"
+      ],
+      "residual_rows": [
+        60
+      ]
+    },
+    {
+      "v": 1000,
+      "f": 69,
+      "zeroed": [
+        "c22",
+        "c35",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    },
+    {
+      "v": 1000,
+      "f": 78,
+      "zeroed": [
+        "c3",
+        "a7",
+        "a17",
+        "c22",
+        "a31",
+        "c35",
+        "a44",
+        "c49",
+        "c57",
+        "c60"
+      ],
+      "residual_rows": [
+        3,
+        22,
+        35,
+        49,
+        57,
+        60
+      ]
+    }
+  ],
+  "coefficient_bits": {
+    "A": 253,
+    "B": 254,
+    "C": 254,
+    "D": 254,
+    "E": 253
+  }
+}

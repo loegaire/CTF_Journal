@@ -1,0 +1,285 @@
+- generic [ref=f147e2]:
+  - generic [ref=f147e4]:
+    - link [ref=f147e6] [cursor=pointer]:
+      - /url: https://www.dcode.fr/en
+      - img "dCode" [ref=f147e7]
+    - generic [ref=f147e8]: Search for a tool
+    - generic [ref=f147e9]:
+      - text: 🔎︎ Search a tool on dCode
+      - searchbox "🔎︎ Search a tool on dCode" [ref=f147e10]
+      - button "⏎" [ref=f147e11] [cursor=pointer]
+      - generic [ref=f147e12]:
+        - text: Browse the
+        - link "full dCode tools' list" [ref=f147e13] [cursor=pointer]:
+          - /url: tools-list
+    - generic [ref=f147e14]: Cipher Identifier
+    - paragraph [ref=f147e15]: Tool to identify/recognize the type of encryption/encoding applied to a message (more 200 ciphers/codes are detectable). Cipher identifier to quickly decrypt/decode any text.
+    - generic [ref=f147e18]:
+      - generic [ref=f147e21]:
+        - paragraph [ref=f147e22]:
+          - text: Cipher Identifier -
+          - link "dCode" [ref=f147e24] [cursor=pointer]:
+            - /url: https://www.dcode.fr/
+        - paragraph [ref=f147e25]: "Tag(s) : Cryptography, Cryptanalysis, dCode"
+      - generic [ref=f147e26]: Share
+      - img "Share" [ref=f147e28] [cursor=pointer]
+      - generic [ref=f147e29]: dCode and more
+      - paragraph [ref=f147e30] [cursor=pointer]:
+        - text: dCode is free and its tools are a valuable help in games, maths, geocaching, puzzles and problems to solve every day!A suggestion ? a feedback ? a bug ? an idea ?
+        - emphasis [ref=f147e31]: Write to dCode
+        - text: "!"
+  - generic [ref=f147e32]:
+    - heading [level=3] [ref=f147e33]:
+      - text: dCode is preparing a new interface. Come test and give your feedback on the
+      - 'link "new page: Cipher Identifier" [ref=f147e34] [cursor=pointer]':
+        - /url: cipher-identifier&v5
+      - text: "!"
+    - heading "Cipher Identifier" [level=1] [ref=f147e35]
+    - list [ref=f147e37]:
+      - listitem [ref=f147e38]:
+        - link "Cryptography" [ref=f147e39] [cursor=pointer]:
+          - /url: https://www.dcode.fr/tools-list#cryptography
+      - listitem [ref=f147e40]:
+        - text: ›
+        - link "Cipher Identifier" [ref=f147e41] [cursor=pointer]:
+          - /url: https://www.dcode.fr/cipher-identifier
+    - generic [ref=f147e43]:
+      - heading "Encrypted Message Identifier ↺" [level=2] [ref=f147e44]:
+        - text: Encrypted Message Identifier
+        - generic "Reset form" [ref=f147e45] [cursor=pointer]: ↺
+      - generic [ref=f147e46]:
+        - text: Ciphertext to recognize ?
+        - textbox "Ciphertext to recognize" [ref=f147e47]: 53 74 u3 17 35 x3 x2 76 24 33 93 u3 16 v4 36 v4 93 32 64 22 z3 x2 42 w4 54 05 v2 v5 63 v6 26 23 26 33 86 u3 33 x3 74 x2 06 54 62 x5 22 74 44 04 45 v5 93 x2
+        - text: Clues/Keywords (if any)
+        - textbox "Clues/Keywords (if any)" [ref=f147e49]
+        - button "▶ Analyze" [ref=f147e50] [cursor=pointer]
+        - generic [ref=f147e51]:
+          - text: "See also:"
+          - link "Frequency Analysis" [ref=f147e52] [cursor=pointer]:
+            - /url: /frequency-analysis
+          - text: —
+          - link "Index of Coincidence" [ref=f147e53] [cursor=pointer]:
+            - /url: /index-coincidence
+        - heading "Symbols Identifier" [level=3] [ref=f147e54]
+        - generic [ref=f147e55]:
+          - text: "⮞ Go to:"
+          - link "Symbols Cipher List" [ref=f147e56] [cursor=pointer]:
+            - /url: /symbols-ciphers
+    - heading "Answers to Questions (FAQ)" [level=2] [ref=f147e58]
+    - generic [ref=f147e59]:
+      - generic [ref=f147e60]:
+        - heading "What is a cipher identifier? (Definition)" [level=3] [ref=f147e61]
+        - paragraph [ref=f147e64]: An encryption detector is a computer tool designed to recognize encryption/encoding from a text message. The detector performs cryptanalysis, examines various features of the text, such as letter distribution, character repetition, word length, etc. to determine the type of encryption and guide users to the dedicated pages on dCode based on the type of code or encryption identified.
+      - generic [ref=f147e65]:
+        - heading "How to decrypt a cipher text?" [level=3] [ref=f147e66]
+        - generic [ref=f147e68]:
+          - paragraph [ref=f147e69]: To decrypt / decipher an encoded message, it is necessary to know the encryption used (or the encoding method, or the implemented cryptographic principle). Without knowing the technique chosen by the sender of the message, it is impossible to decrypt it (or decode it). Knowing the encryption (or encoding, or code) is therefore the first step to start the decryption (or decoding) process.
+          - paragraph [ref=f147e70]: dCode therefore proposes, on this page above, an artificial intelligence tool dedicated to the automatic recognition/identification of encryption and direct links to dCode tools capable of deciphering the message/text.
+      - generic [ref=f147e71]:
+        - heading "How to recognize a cipher?" [level=3] [ref=f147e72]
+        - generic [ref=f147e74]:
+          - paragraph [ref=f147e75]: "To recognize/guess the type of cipher/coding used to encrypt/encode a message, dCode uses several detection/cryptanalysis methods:"
+          - paragraph [ref=f147e76]:
+            - text: —
+            - link "Frequency analysis" [ref=f147e77] [cursor=pointer]:
+              - /url: https://www.dcode.fr/frequency-analysis
+            - text: ": This involves observing which characters in the message appear most frequently and in what proportions. This analysis can cover all characters, but generally focuses on the letters of the alphabet (A-Z) and numbers (0-9), which helps eliminate many cipher or coding methods. The analysis of"
+            - link "bigrams" [ref=f147e78] [cursor=pointer]:
+              - /url: https://www.dcode.fr/bigrams
+            - text: or
+            - link "trigrams" [ref=f147e79] [cursor=pointer]:
+              - /url: https://www.dcode.fr/trigrams
+            - text: (or more generally, groups of letters) allows for more refined cryptanalysis. The presence or absence of certain sequences provides valuable clues for determining the type of cipher.
+          - paragraph [ref=f147e80]:
+            - text: —
+            - link "Coincidence index" [ref=f147e81] [cursor=pointer]:
+              - /url: https://www.dcode.fr/index-coincidence
+            - text: ": This assesses the degree of randomness in the distribution of characters in a message. In a language like English, certain characters appear much more frequently than others: the letter E is widely used, while the letter X remains much rarer. This natural tendency in intelligible texts helps distinguish a structured message from a sequence of encrypted characters."
+          - paragraph [ref=f147e82]: "— Signature search: This involves identifying the distinctive features specific to certain ciphers or encodings. These characteristic elements make them easier to identify."
+          - paragraph [ref=f147e84]:
+            - text: "Example:"
+            - link "Base64" [ref=f147e85] [cursor=pointer]:
+              - /url: https://www.dcode.fr/base-64-encoding
+            - text: code can contain all possible numbers and letters (
+            - link "uppercase and lowercase" [ref=f147e86] [cursor=pointer]:
+              - /url: https://www.dcode.fr/uppercase-lowercase
+            - text: ) distributed fairly evenly, and three times out of four, it ends with the = sign.
+          - paragraph [ref=f147e88]: "When the message is accompanied by instructions or clues, certain keywords can trigger more results thanks to the dCode database. Note: there is no need to specify known plaintext."
+      - generic [ref=f147e89]:
+        - heading "Why does the detector display a warning?" [level=3] [ref=f147e90]
+        - generic [ref=f147e92]:
+          - paragraph [ref=f147e93]:
+            - text: Sometimes the
+            - term [ref=f147e94]: cipher identifier
+            - text: "finds little or no relevant result, several reasons are possible:"
+          - paragraph [ref=f147e95]:
+            - text: "— The message is too short: a message containing not enough characters does not allow a good"
+            - link "frequency analysis" [ref=f147e96] [cursor=pointer]:
+              - /url: https://www.dcode.fr/frequency-analysis
+            - text: to be performed. The possibilities become very numerous without a way to precisely identify the encryption.
+          - paragraph [ref=f147e97]:
+            - text: "— The message has a low entropy: it is composed of few distinct characters (a binary message containing only 0s and 1s has a low entropy). Furthermore, nearly all messages can be stored"
+            - link "in binary" [ref=f147e98] [cursor=pointer]:
+              - /url: https://www.dcode.fr/binary-code
+            - text: ", identifying the encryption precisely is difficult."
+          - paragraph [ref=f147e99]: — The message contains unnecessary characters (such as spaces between each letter), which weakens the frequency analyses. Remove spaces or other unnecessary symbols for best results.
+          - paragraph [ref=f147e100]: "— The message is over-encrypted: several successive encodings / ciphers have been applied, the over-encryption tends to mask the characteristic signatures of the original encryption."
+          - paragraph [ref=f147e101]:
+            - text: "— The message is composed of several distinct messages: the presence of several ciphers with different properties disturbs the detector which searches for a single cipher. Please"
+            - link "split the message" [ref=f147e102] [cursor=pointer]:
+              - /url: https://www.dcode.fr/text-splitter
+            - text: to determine the coding of each portion.
+          - paragraph [ref=f147e103]: "— The encryption used is recent: modern cryptography techniques are such that it is impossible to recognize an encrypted message from a random message, it is moreover a quality of a good encryption. Identification is, in essence, difficult."
+          - paragraph [ref=f147e104]: "— The encryption used is very rare: dCode can detect more than 300 different ciphers and continues to improve thanks to your feedback and messages, but it is not impossible that some ciphers are still unknown/missing."
+      - generic [ref=f147e105]:
+        - heading "Why does the analyzer/recognizer not detect my cipher method?" [level=3] [ref=f147e106]
+        - paragraph [ref=f147e109]: Sometimes, the recognition algorithm, based on artificial intelligence and machine learning, detects multiple signals or characteristics from different types of encryption, which can lead to approximate results. Do not hesitate to contact us by providing the encrypted message, the original message, and the encryption method used. This will allow dCode to teach the analyzer this new information for future analyses. The more data there is, the more accurate the detection will be.
+      - generic [ref=f147e110]:
+        - heading "How does the cipher identifier work?" [level=3] [ref=f147e111]
+        - generic [ref=f147e113]:
+          - paragraph [ref=f147e114]: The AI encryption detection program is based on a multilayer perceptron (MLP). An MLP is a type of neural network composed of multiple layers of interconnected neurons, where each layer transforms the received input before passing it on to the next. This structure allows the program to detect subtle patterns in data, improve its accuracy, and adapt to different types of encryption more effectively.
+          - paragraph [ref=f147e115]: At the input layer there are the coded messages (with ngrams), and at the output layer the different types of known and referenced ciphers on dCode.
+          - paragraph [ref=f147e116]: Regularly the database is updated and new ciphers are added which allows to refine the results.
+      - button "❓ Ask a new question" [ref=f147e117] [cursor=pointer]
+    - insertion [ref=f147e118]
+    - heading "Source code" [level=2] [ref=f147e120]
+    - paragraph [ref=f147e121]: "dCode retains ownership of the \"Cipher Identifier\" source code. Any algorithm for the \"Cipher Identifier\" algorithm, applet or snippet or script (converter, solver, encryption / decryption, encoding / decoding, ciphering / deciphering, breaker, translator), or any \"Cipher Identifier\" functions (calculate, convert, solve, decrypt / encrypt, decipher / cipher, decode / encode, translate) written in any informatic language (Python, Java, PHP, C#, Javascript, Matlab, etc.) or any database download or API access for \"Cipher Identifier\" or any other element are not public (except explicit open source licence). Same with the download for offline use on PC, mobile, tablet, iPhone or Android app. Reminder: dCode is an educational and teaching resource, accessible online for free and for everyone."
+    - heading "Cite dCode" [level=2] [ref=f147e122]
+    - generic [ref=f147e123]:
+      - paragraph [ref=f147e124]: The content of the page "Cipher Identifier" and its results may be freely copied and reused, including for commercial purposes, provided that dCode.fr is cited as the source (Creative Commons CC-BY free distribution license).
+      - paragraph [ref=f147e125]: Exporting the results is free and can be done simply by clicking on the export icons ⤓ (.csv or .txt format) or ⧉ (copy and paste).
+      - paragraph [ref=f147e126]: "To cite dCode.fr on another website, use the link: https://www.dcode.fr/cipher-identifier"
+      - paragraph [ref=f147e127]:
+        - text: "In a scientific article or book, the recommended bibliographic citation is: Cipher Identifier on dCode.fr [online website], retrieved on 2026-10-31,"
+        - generic [ref=f147e128]: https://www.dcode.fr/cipher-identifier
+    - generic [ref=f147e130]:
+      - heading "Need Help ?" [level=2] [ref=f147e131]
+      - paragraph [ref=f147e132]:
+        - text: Please, check our
+        - link "dCode Discord" [ref=f147e133] [cursor=pointer]:
+          - /url: https://discord.gg/bKdbZeP
+        - text: "community for help requests!NB: for encrypted messages, test our automatic"
+        - link "cipher identifier" [ref=f147e134] [cursor=pointer]:
+          - /url: /cipher-identifier
+        - text: "!"
+      - heading "Questions / Comments" [level=2] [ref=f147e135]
+      - button "Write a message" [ref=f147e136] [cursor=pointer]
+      - paragraph [ref=f147e137]: Feedback and suggestions are welcome so that dCode offers the best 'Cipher Identifier' tool for free! Thank you!
+  - generic [ref=f147e138]:
+    - generic [ref=f147e139]:
+      - link [ref=f147e140] [cursor=pointer]:
+        - /url: https://www.dcode.fr/identification-chiffrement
+        - img "French (Français)" [ref=f147e141]
+      - link [ref=f147e142] [cursor=pointer]:
+        - /url: https://www.dcode.fr/identificador-cifrado
+        - img "Spanish (Español)" [ref=f147e143]
+    - button "hide_right_part" [ref=f147e144] [cursor=pointer]
+    - generic [ref=f147e146]: Summary
+    - generic [ref=f147e147]:
+      - list [ref=f147e149]:
+        - listitem [ref=f147e150]:
+          - link "Encrypted Message Identifier" [ref=f147e151] [cursor=pointer]:
+            - /url: "#f0"
+        - listitem [ref=f147e152]:
+          - link "What is a cipher identifier? (Definition)" [ref=f147e153] [cursor=pointer]:
+            - /url: "#q1"
+        - listitem [ref=f147e154]:
+          - link "How to decrypt a cipher text?" [ref=f147e155] [cursor=pointer]:
+            - /url: "#q2"
+        - listitem [ref=f147e156]:
+          - link "How to recognize a cipher?" [ref=f147e157] [cursor=pointer]:
+            - /url: "#q3"
+        - listitem [ref=f147e158]:
+          - link "Why does the detector display a warning?" [ref=f147e159] [cursor=pointer]:
+            - /url: "#q4"
+        - listitem [ref=f147e160]:
+          - link "Why does the analyzer/recognizer not detect my cipher method?" [ref=f147e161] [cursor=pointer]:
+            - /url: "#q5"
+        - listitem [ref=f147e162]:
+          - link "How does the cipher identifier work?" [ref=f147e163] [cursor=pointer]:
+            - /url: "#q6"
+      - generic [ref=f147e164]: Similar pages
+      - list [ref=f147e166]:
+        - listitem [ref=f147e167]:
+          - link "Index of Coincidence" [ref=f147e168] [cursor=pointer]:
+            - /url: index-coincidence
+        - listitem [ref=f147e169]:
+          - link "Frequency Analysis" [ref=f147e170] [cursor=pointer]:
+            - /url: frequency-analysis
+        - listitem [ref=f147e171]:
+          - link "Symbols Cipher List" [ref=f147e172] [cursor=pointer]:
+            - /url: symbols-ciphers
+        - listitem [ref=f147e173]:
+          - link "Hash Identifier" [ref=f147e174] [cursor=pointer]:
+            - /url: hash-identifier
+        - listitem [ref=f147e175]:
+          - link "Multi-Layered Ciphers" [ref=f147e176] [cursor=pointer]:
+            - /url: multi-layered-ciphers
+        - listitem [ref=f147e177]:
+          - link "Medieval Ciphers" [ref=f147e178] [cursor=pointer]:
+            - /url: medieval-ciphers
+        - listitem [ref=f147e179]:
+          - link "Gravity Falls Cipher" [ref=f147e180] [cursor=pointer]:
+            - /url: gravity-falls-ciphers
+        - listitem [ref=f147e181]:
+          - link "DCODE'S TOOLS LIST" [ref=f147e182] [cursor=pointer]:
+            - /url: tools-list
+      - generic [ref=f147e183]: Support dCode
+      - generic [ref=f147e184] [cursor=pointer]:
+        - text: "Participate in the Discord forum:"
+        - list [ref=f147e185]:
+          - listitem [ref=f147e186]:
+            - link "Discord" [ref=f147e187]:
+              - /url: https://discord.gg/bKdbZeP
+      - generic [ref=f147e188]: Forum/Help
+      - link [ref=f147e190] [cursor=pointer]:
+        - /url: https://discord.gg/bKdbZeP
+        - img "Discuss" [ref=f147e191]
+      - generic [ref=f147e192]: Keywords
+      - generic [ref=f147e193]:
+        - link "recognition" [ref=f147e194] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "identification" [ref=f147e195] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "detection" [ref=f147e196] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "recognizer" [ref=f147e197] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "identifier" [ref=f147e198] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "detector" [ref=f147e199] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "cipher" [ref=f147e200] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "encryption" [ref=f147e201] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "code" [ref=f147e202] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "finder" [ref=f147e203] [cursor=pointer]:
+          - /url: "#search"
+      - generic [ref=f147e204]: Links
+      - list [ref=f147e206]:
+        - listitem [ref=f147e207]:
+          - link "Contact" [ref=f147e208] [cursor=pointer]:
+            - /url: about
+        - listitem [ref=f147e209]:
+          - link "About dCode" [ref=f147e210] [cursor=pointer]:
+            - /url: about
+        - listitem [ref=f147e211]:
+          - link "dCode App" [ref=f147e212] [cursor=pointer]:
+            - /url: mobile-app
+        - listitem [ref=f147e213]:
+          - link "Wikipedia" [ref=f147e214] [cursor=pointer]:
+            - /url: https://en.wikipedia.org/
+  - generic [ref=f147e215]:
+    - generic [ref=f147e216]: https://www.dcode.fr/cipher-identifier
+    - generic [ref=f147e217]: © 2026 dCode — The ultimate collection of tools for games, math, and puzzles.

@@ -1,0 +1,194 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e7]:
+    - complementary [ref=f8e8]:
+      - button "Skip to main content" [ref=f8e10] [cursor=pointer]
+    - banner "Header" [ref=f8e11]:
+      - button "Navigation menu" [ref=f8e12] [cursor=pointer]
+      - link [ref=f8e17] [cursor=pointer]:
+        - /url: /
+        - img "Company logo" [ref=f8e19]
+      - heading "SIEM Search" [level=1] [ref=f8e20]
+      - generic [ref=f8e22]:
+        - button "Help" [ref=f8e24] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f8e26]: info
+        - button "SecOps Labs page" [ref=f8e27] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f8e29]: google_labs
+        - button "Notifications, 0 issues" [ref=f8e30] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f8e32]: notifications
+        - button "Get the help of AI" [ref=f8e34] [cursor=pointer]
+        - button "Logged in as CTF Player ctf-us-15-009" [ref=f8e38] [cursor=pointer]:
+          - img "CTF Player ctf-us-15-009" [ref=f8e40]:
+            - generic [ref=f8e41]: CP
+    - generic [ref=f8e44]:
+      - navigation "Navigation panel" [ref=f8e45]:
+        - menu "Navigation Menu" [ref=f8e46]:
+          - generic [ref=f8e47]:
+            - menuitem "Cases" [ref=f8e49] [cursor=pointer]
+            - menuitem "Your Workdesk" [ref=f8e55] [cursor=pointer]
+            - menuitem "Investigation" [ref=f8e61] [cursor=pointer]
+            - menuitem "Detection" [ref=f8e70] [cursor=pointer]
+            - menuitem "Response" [ref=f8e79] [cursor=pointer]
+            - menuitem "Dashboards & Reports" [ref=f8e88] [cursor=pointer]
+            - menuitem "Content Hub" [ref=f8e97] [cursor=pointer]
+            - menuitem "Settings" [ref=f8e103] [cursor=pointer]
+      - generic [ref=f8e113]:
+        - alert [ref=f8e115]:
+          - generic [ref=f8e125]:
+            - text: "IMMEDIATE ACTION NEEDED: If you use Backstory or Ingestion API programmatically using API calls or through custom integrations / scripts, please migrate the API calls to Chronicle API before July 20, 2027 for higher reliability, privacy, security and compliance. Please refer to the"
+            - link "Migration Guide" [ref=f8e126] [cursor=pointer]:
+              - /url: https://docs.cloud.google.com/chronicle/docs/administration/migrate-from-legacy-api-to-chronicle-api
+            - text: . Backstory and Ingestion API will not be accessible from July 20, 2027.
+          - button "Close" [ref=f8e127] [cursor=pointer]
+        - status [ref=f8e132]:
+          - paragraph [ref=f8e143]:
+            - text: Your Agentic SOC trial has concluded on August 31, 2026. You can now use Security Tokens to run agents. For more information, please check
+            - link "the documentation" [ref=f8e144] [cursor=pointer]:
+              - /url: https://docs.cloud.google.com/chronicle/docs/agentic-soc/security-tokens
+            - text: . If you have Auto-Investigate Alerts in Gemini enabled, you will need to re-enable them in Settings -> SIEM Settings -> Gemini Investigations.
+          - button "Close" [ref=f8e145] [cursor=pointer]
+        - main [ref=f8e149]:
+          - main [ref=f8e154]:
+            - generic "Search-view" [ref=f8e157]:
+              - banner [ref=f8e159]:
+                - generic [ref=f8e160]: The request time range is greater than maximum duration.
+                - generic "Dismiss error banner" [ref=f8e161] [cursor=pointer]
+              - generic [ref=f8e170]:
+                - generic [ref=f8e171]:
+                  - heading "Search" [level=4] [ref=f8e172]
+                  - generic "Search info" [ref=f8e173]:
+                    - generic [aria-hidden] [ref=f8e174]: info
+                  - button "New Features" [ref=f8e175] [cursor=pointer]
+                - generic [ref=f8e176]:
+                  - button "History" [ref=f8e178] [cursor=pointer]
+                  - button "Search Manager" [ref=f8e188] [cursor=pointer]
+                  - button "Documentation" [ref=f8e193] [cursor=pointer]
+                  - button "Settings" [ref=f8e198] [cursor=pointer]
+                  - button "Toggle search query editor button" [ref=f8e203] [cursor=pointer]
+                - generic [ref=f8e208]:
+                  - generic [ref=f8e209]:
+                    - generic [ref=f8e213]:
+                      - textbox "Enter any question here, for example \"Find externally shared documents with confidential in the title\"" [ref=f8e219]
+                      - button "Generate Query" [disabled] [ref=f8e220]
+                    - generic [ref=f8e225]:
+                      - code [ref=f8e226]:
+                        - generic [ref=f8e227]:
+                          - generic [ref=f8e230]: "1"
+                          - generic [ref=f8e233]: network.http.method = "POST"
+                          - textbox "Editor content;Press Alt+F1 for Accessibility Options." [ref=f8e239]: network.http.method = "POST"
+                      - code [ref=f8e240]:
+                        - generic [ref=f8e241]:
+                          - generic [ref=f8e244]: "1"
+                          - generic [ref=f8e247]: network.http.method = "POST"
+                          - textbox "Editor content;Press Alt+F1 for Accessibility Options." [ref=f8e253]: network.http.method = "POST"
+                  - generic [ref=f8e256]:
+                    - generic [ref=f8e257]:
+                      - button "UDM Lookup" [ref=f8e259] [cursor=pointer]
+                      - button "Lists" [ref=f8e261] [cursor=pointer]
+                    - generic [ref=f8e262]:
+                      - button "Case Sensitivity Off" [ref=f8e264] [cursor=pointer]
+                      - generic [ref=f8e268]:
+                        - button "January 01 2025, 12:00 AM - October 29 2026, 12:00 AM" [ref=f8e270] [cursor=pointer]
+                        - generic:
+                          - generic:
+                            - generic: Range
+                            - generic: Event Time
+                          - generic: Apply
+                          - generic:
+                            - generic: last 5 minutes
+                            - generic: last 15 minutes
+                            - generic: last 30 minutes
+                            - generic: last hour
+                            - generic: last 3 hours
+                            - generic: last 6 hours
+                            - generic: last 12 hours
+                            - generic: last 24 hours
+                            - generic: last 3 days
+                            - generic: last week
+                            - generic: last 2 weeks
+                            - generic: last month
+                            - generic: last 2 months
+                            - generic: last 3 months
+                            - generic: last 6 months
+                            - generic: last year
+                            - generic:
+                              - generic: 00:00:00
+                              - generic: 00:30:00
+                              - generic: 01:00:00
+                              - generic: 01:30:00
+                              - generic: 02:00:00
+                              - generic: 02:30:00
+                              - generic: 03:00:00
+                              - generic: 03:30:00
+                              - generic: 04:00:00
+                              - generic: 04:30:00
+                              - generic: 05:00:00
+                              - generic: 05:30:00
+                              - generic: 06:00:00
+                              - generic: 06:30:00
+                              - generic: 07:00:00
+                              - generic: 07:30:00
+                              - generic: 08:00:00
+                              - generic: 08:30:00
+                              - generic: 09:00:00
+                              - generic: 09:30:00
+                              - generic: 10:00:00
+                              - generic: 10:30:00
+                              - generic: 11:00:00
+                              - generic: 11:30:00
+                              - generic: 12:00:00
+                              - generic: 12:30:00
+                              - generic: 13:00:00
+                              - generic: 13:30:00
+                              - generic: 14:00:00
+                              - generic: 14:30:00
+                              - generic: 15:00:00
+                              - generic: 15:30:00
+                              - generic: 16:00:00
+                              - generic: 16:30:00
+                              - generic: 17:00:00
+                              - generic: 17:30:00
+                              - generic: 18:00:00
+                              - generic: 18:30:00
+                              - generic: 19:00:00
+                              - generic: 19:30:00
+                              - generic: 20:00:00
+                              - generic: 20:30:00
+                              - generic: 21:00:00
+                              - generic: 21:30:00
+                              - generic: 22:00:00
+                              - generic: 22:30:00
+                              - generic: 23:00:00
+                              - generic: 23:30:00
+                      - button "Run Search" [ref=f8e273] [cursor=pointer]
+                      - button "Save options" [disabled] [ref=f8e275]:
+                        - generic [aria-hidden] [ref=f8e280]: expand_more
+              - generic [ref=f8e289] [cursor=pointer]:
+                - button "Results (0)" [ref=f8e290]
+                - button "Alerts (0) & Detections (0)" [ref=f8e291]
+                - button "Overview (0)" [ref=f8e292]
+              - generic [ref=f8e295]:
+                - generic [ref=f8e300]:
+                  - heading "Gemini Summary" [level=4] [ref=f8e310]
+                  - generic [ref=f8e311]:
+                    - generic [ref=f8e312]: Enter your search in chat and see a summary of your results here.
+                    - button "Ask Gemini" [ref=f8e316] [cursor=pointer]
+                - generic [ref=f8e325]:
+                  - heading "No Overview Data" [level=3] [ref=f8e326]
+                  - paragraph [ref=f8e327]: The query doesn't name specific entities, or these entities didn't return results
+  - generic [ref=f8e5]: Loading Complete
+  - generic [ref=f8e328]:
+    - alert
+    - alert
+    - complementary
+    - complementary
+  - dialog [ref=f8e331]:
+    - generic [ref=f8e335]:
+      - generic [ref=f8e343]:
+        - heading "Chat is now more powerful!" [level=1] [ref=f8e344]
+        - button "Close" [ref=f8e345] [cursor=pointer]
+      - region "Chat is now more powerful! Close" [ref=f8e349]:
+        - generic [ref=f8e352]:
+          - paragraph [ref=f8e353]: We’ve upgraded Gemini for SecOps to be grounded in our documentation and have extensive access to instances.
+          - button [active] [ref=f8e354] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f8e356]: chat_spark
+            - text: What are my open cases?

@@ -1,0 +1,106 @@
+Volatility 3 Framework 2.28.2
+
+PID	Process	Start	End	Flags	PgOff	Major	Minor	Inode	File Path	File output
+
+2924	browser	0x10000	0x100100000	---	0x0	0	0	0	Anonymous Mapping	Error outputting file
+2924	browser	0xb8000000000	0xb8000004000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8000000000-0xb8000004000.dmp
+2924	browser	0xb8000004000	0xb8000130000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8000004000-0xb8000130000.dmp
+2924	browser	0xb8000130000	0xb8000204000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8000130000-0xb8000204000.dmp
+2924	browser	0xb8000204000	0xb8000230000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8000204000-0xb8000230000.dmp
+2924	browser	0xb8000230000	0xb8400002000	---	0x0	0	0	0	Anonymous Mapping	Error outputting file
+2924	browser	0xb8400002000	0xb8400003000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400002000-0xb8400003000.dmp
+2924	browser	0xb8400003000	0xb8400004000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400003000-0xb8400004000.dmp
+2924	browser	0xb8400004000	0xb84001f4000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400004000-0xb84001f4000.dmp
+2924	browser	0xb84001f4000	0xb8400202000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb84001f4000-0xb8400202000.dmp
+2924	browser	0xb8400202000	0xb8400203000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400202000-0xb8400203000.dmp
+2924	browser	0xb8400203000	0xb8400204000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400203000-0xb8400204000.dmp
+2924	browser	0xb8400204000	0xb84003f4000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400204000-0xb84003f4000.dmp
+2924	browser	0xb84003f4000	0xb8400402000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb84003f4000-0xb8400402000.dmp
+2924	browser	0xb8400402000	0xb8400403000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400402000-0xb8400403000.dmp
+2924	browser	0xb8400403000	0xb8400404000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400403000-0xb8400404000.dmp
+2924	browser	0xb8400404000	0xb84005fc000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400404000-0xb84005fc000.dmp
+2924	browser	0xb84005fc000	0xb8400602000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb84005fc000-0xb8400602000.dmp
+2924	browser	0xb8400602000	0xb8400603000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400602000-0xb8400603000.dmp
+2924	browser	0xb8400603000	0xb8400604000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400603000-0xb8400604000.dmp
+2924	browser	0xb8400604000	0xb84007f4000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400604000-0xb84007f4000.dmp
+2924	browser	0xb84007f4000	0xb8400802000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb84007f4000-0xb8400802000.dmp
+2924	browser	0xb8400802000	0xb8400803000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400802000-0xb8400803000.dmp
+2924	browser	0xb8400803000	0xb8400804000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400803000-0xb8400804000.dmp
+2924	browser	0xb8400804000	0xb84009fc000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400804000-0xb84009fc000.dmp
+2924	browser	0xb84009fc000	0xb8400a02000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb84009fc000-0xb8400a02000.dmp
+2924	browser	0xb8400a02000	0xb8400a03000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400a02000-0xb8400a03000.dmp
+2924	browser	0xb8400a03000	0xb8400a04000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400a03000-0xb8400a04000.dmp
+2924	browser	0xb8400a04000	0xb8400bfc000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400a04000-0xb8400bfc000.dmp
+2924	browser	0xb8400bfc000	0xb8400c02000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400bfc000-0xb8400c02000.dmp
+2924	browser	0xb8400c02000	0xb8400c03000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400c02000-0xb8400c03000.dmp
+2924	browser	0xb8400c03000	0xb8400c04000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400c03000-0xb8400c04000.dmp
+2924	browser	0xb8400c04000	0xb8400df8000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400c04000-0xb8400df8000.dmp
+2924	browser	0xb8400df8000	0xb8400e02000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400df8000-0xb8400e02000.dmp
+2924	browser	0xb8400e02000	0xb8400e03000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400e02000-0xb8400e03000.dmp
+2924	browser	0xb8400e03000	0xb8400e04000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400e03000-0xb8400e04000.dmp
+2924	browser	0xb8400e04000	0xb8400ff0000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400e04000-0xb8400ff0000.dmp
+2924	browser	0xb8400ff0000	0xb8401002000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8400ff0000-0xb8401002000.dmp
+2924	browser	0xb8401002000	0xb8401003000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8401002000-0xb8401003000.dmp
+2924	browser	0xb8401003000	0xb8401004000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8401003000-0xb8401004000.dmp
+2924	browser	0xb8401004000	0xb84011dc000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8401004000-0xb84011dc000.dmp
+2924	browser	0xb84011dc000	0xb8401202000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb84011dc000-0xb8401202000.dmp
+2924	browser	0xb8401202000	0xb8401203000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8401202000-0xb8401203000.dmp
+2924	browser	0xb8401203000	0xb8401204000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8401203000-0xb8401204000.dmp
+2924	browser	0xb8401204000	0xb84013d4000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8401204000-0xb84013d4000.dmp
+2924	browser	0xb84013d4000	0xb8401402000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb84013d4000-0xb8401402000.dmp
+2924	browser	0xb8401402000	0xb8401403000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8401402000-0xb8401403000.dmp
+2924	browser	0xb8401403000	0xb8401404000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8401403000-0xb8401404000.dmp
+2924	browser	0xb8401404000	0xb8401528000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xb8401404000-0xb8401528000.dmp
+2924	browser	0xb8401528000	0xb8800000000	---	0x0	0	0	0	Anonymous Mapping	Error outputting file
+2924	browser	0xdb07aa2c000	0xdb07aa2d000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07aa2c000-0xdb07aa2d000.dmp
+2924	browser	0xdb07aa2d000	0xdb07aa2e000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07aa2d000-0xdb07aa2e000.dmp
+2924	browser	0xdb07aa2e000	0xdb07aa2f000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07aa2e000-0xdb07aa2f000.dmp
+2924	browser	0xdb07aa2f000	0xdb07aa30000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07aa2f000-0xdb07aa30000.dmp
+2924	browser	0xdb07aa30000	0xdb07ac2d000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07aa30000-0xdb07ac2d000.dmp
+2924	browser	0xdb07ac2d000	0xdb07ac2e000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07ac2d000-0xdb07ac2e000.dmp
+2924	browser	0xdb07ac2e000	0xdb07ac2f000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07ac2e000-0xdb07ac2f000.dmp
+2924	browser	0xdb07ac2f000	0xdb07ac30000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07ac2f000-0xdb07ac30000.dmp
+2924	browser	0xdb07ac30000	0xdb07ae2f000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07ac30000-0xdb07ae2f000.dmp
+2924	browser	0xdb07ae2f000	0xdb07ae30000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07ae2f000-0xdb07ae30000.dmp
+2924	browser	0xdb07ae30000	0xdb07b02f000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07ae30000-0xdb07b02f000.dmp
+2924	browser	0xdb07b02f000	0xdb07b030000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07b02f000-0xdb07b030000.dmp
+2924	browser	0xdb07b030000	0xdb07b22f000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07b030000-0xdb07b22f000.dmp
+2924	browser	0xdb07b22f000	0xdb07b230000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07b22f000-0xdb07b230000.dmp
+2924	browser	0xdb07b230000	0xdb07b42f000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07b230000-0xdb07b42f000.dmp
+2924	browser	0xdb07b42f000	0xdb07b430000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07b42f000-0xdb07b430000.dmp
+2924	browser	0xdb07b430000	0xdb07b62f000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07b430000-0xdb07b62f000.dmp
+2924	browser	0xdb07b62f000	0xdb07b630000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07b62f000-0xdb07b630000.dmp
+2924	browser	0xdb07b630000	0xdb07b82f000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07b630000-0xdb07b82f000.dmp
+2924	browser	0xdb07b82f000	0xdb07b830000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07b82f000-0xdb07b830000.dmp
+2924	browser	0xdb07b830000	0xdb07ba2f000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07b830000-0xdb07ba2f000.dmp
+2924	browser	0xdb07ba2f000	0xdb07ba30000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07ba2f000-0xdb07ba30000.dmp
+2924	browser	0xdb07ba30000	0xdb07bc2f000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07ba30000-0xdb07bc2f000.dmp
+2924	browser	0xdb07bc2f000	0xdb07bc30000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07bc2f000-0xdb07bc30000.dmp
+2924	browser	0xdb07bc30000	0xdb07be2f000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07bc30000-0xdb07be2f000.dmp
+2924	browser	0xdb07be2f000	0xdb07be30000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0xdb07be2f000-0xdb07be30000.dmp
+2924	browser	0xdb07be30000	0xdb47aa2c000	---	0x0	0	0	0	Anonymous Mapping	Error outputting file
+2924	browser	0x564d51485000	0x564d54287000	r--	0x0	253	0	202397832	/opt/coccoc/browser/browser	pid.2924.vma.0x564d51485000-0x564d54287000.dmp
+2924	browser	0x564d54288000	0x564d614fb000	r-x	0x2e02000	253	0	202397832	/opt/coccoc/browser/browser	Error outputting file
+2924	browser	0x564d614fb000	0x564d61fdf000	r--	0x10074000	253	0	202397832	/opt/coccoc/browser/browser	pid.2924.vma.0x564d614fb000-0x564d61fdf000.dmp
+2924	browser	0x564d61fe0000	0x564d621ba000	rw-	0x10b58000	253	0	202397832	/opt/coccoc/browser/browser	pid.2924.vma.0x564d61fe0000-0x564d621ba000.dmp
+2924	browser	0x564d621ba000	0x564d624bc000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0x564d621ba000-0x564d624bc000.dmp
+2924	browser	0x7f0bafd44000	0x7f0bb3d24000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0x7f0bafd44000-0x7f0bb3d24000.dmp
+2924	browser	0x7f0bb3d24000	0x7f0bb3d25000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0x7f0bb3d24000-0x7f0bb3d25000.dmp
+2924	browser	0x7f0bb3d25000	0x7f0bb4525000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0x7f0bb3d25000-0x7f0bb4525000.dmp
+2924	browser	0x7f0bb4788000	0x7f0bb4789000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0x7f0bb4788000-0x7f0bb4789000.dmp
+2924	browser	0x7f0bb4789000	0x7f0bb4f89000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0x7f0bb4789000-0x7f0bb4f89000.dmp
+2924	browser	0x7f0bb4f89000	0x7f0bb4fe9000	r--	0x0	253	2	268456624	/home/centos/.config/coccoc-browser/optimization_guide_model_store/2/E6DC4029A1E4B4C1/68F3CDAD51C25312/model.tflite	pid.2924.vma.0x7f0bb4f89000-0x7f0bb4fe9000.dmp
+2924	browser	0x7f0bb4fe9000	0x7f0bb5334000	r--	0x0	253	2	268456630	/home/centos/.config/coccoc-browser/optimization_guide_model_store/25/E6DC4029A1E4B4C1/B580519223079A1E/visual_model_desktop.tflite	pid.2924.vma.0x7f0bb4fe9000-0x7f0bb5334000.dmp
+2924	browser	0x7f0bb5334000	0x7f0bb5335000	---	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0x7f0bb5334000-0x7f0bb5335000.dmp
+2924	browser	0x7f0bb5335000	0x7f0bb5b45000	rw-	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0x7f0bb5335000-0x7f0bb5b45000.dmp
+2924	browser	0x7f0bb5b45000	0x7f0bb5b65000	rw-	0x0	0	23	137	 /dev/shm/.org.coccoc.Coccoc.MJOxWR (deleted)	pid.2924.vma.0x7f0bb5b45000-0x7f0bb5b65000.dmp
+2924	browser	0x7f0bb5b65000	0x7f0bb5b85000	rw-	0x0	0	23	137	 /dev/shm/.org.coccoc.Coccoc.MJOxWR (deleted)	pid.2924.vma.0x7f0bb5b65000-0x7f0bb5b85000.dmp
+2924	browser	0x7f0bb5b85000	0x7f0bb5ba5000	rw-	0x0	0	23	136	 /dev/shm/.org.coccoc.Coccoc.i5GgJT (deleted)	pid.2924.vma.0x7f0bb5b85000-0x7f0bb5ba5000.dmp
+2924	browser	0x7f0bb5ba5000	0x7f0bb620f000	r--	0x0	0	23	113	 /dev/shm/.org.coccoc.Coccoc.0U3IUA (deleted)	pid.2924.vma.0x7f0bb5ba5000-0x7f0bb620f000.dmp
+2924	browser	0x7f0bb620f000	0x7f0bb622f000	rw-	0x0	0	23	69	 /dev/shm/.org.coccoc.Coccoc.DHEe64 (deleted)	pid.2924.vma.0x7f0bb620f000-0x7f0bb622f000.dmp
+2924	browser	0x7f0bb622f000	0x7f0bb6230000	r--	0x0	0	23	64	 /dev/shm/.org.coccoc.Coccoc.219Sao (deleted)	pid.2924.vma.0x7f0bb622f000-0x7f0bb6230000.dmp
+2924	browser	0x7f0bb6230000	0x7f0bb6231000	r--	0x0	0	23	2	 /dev/shm/.org.coccoc.Coccoc.mvFx6A (deleted)	pid.2924.vma.0x7f0bb6230000-0x7f0bb6231000.dmp
+2924	browser	0x7f0bb6231000	0x7f0bb6232000	r--	0x0	0	23	49	 /dev/shm/.org.coccoc.Coccoc.pXkdAz (deleted)	pid.2924.vma.0x7f0bb6231000-0x7f0bb6232000.dmp
+2924	browser	0x7f0bb6232000	0x7f0bb62af000	r--	0x0	0	23	47	 /dev/shm/.org.coccoc.Coccoc.KGWs9P (deleted)	pid.2924.vma.0x7f0bb6232000-0x7f0bb62af000.dmp
+2924	browser	0x7f0bb62af000	0x7f0bb62b8000	r--	0x0	0	23	44	 /dev/shm/.org.coccoc.Coccoc.dI3wSt (deleted)	pid.2924.vma.0x7f0bb62af000-0x7f0bb62b8000.dmp
+2924	browser	0x7f0bba2b8000	0x7f0bba2c8000	r--	0x0	0	0	0	Anonymous Mapping	pid.2924.vma.0x7f0bba2b8000-0x7f0bba2c8000.dmp

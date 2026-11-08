@@ -1,1 +1,0 @@
-<?php $flag = 'DUCTF{TEST_FLAG}'; ?>

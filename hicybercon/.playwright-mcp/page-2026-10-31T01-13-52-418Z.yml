@@ -1,0 +1,126 @@
+- generic [active] [ref=f114e1]:
+  - generic [ref=f114e4]:
+    - banner [ref=f114e5]:
+      - search "Поиск в интернете" [ref=f114e6]:
+        - generic [ref=f114e7]:
+          - link "Yandex" [ref=f114e8] [cursor=pointer]:
+            - /url: //yandex.com
+          - generic [ref=f114e12]:
+            - textbox [aria-hidden] [ref=f114e13]:
+              - /placeholder: Find an image
+            - combobox "Запрос" [ref=f114e14]
+      - button "Image search" [ref=f114e16] [cursor=pointer]
+      - button "Меню" [ref=f114e21] [cursor=pointer]
+    - navigation [ref=f114e24]:
+      - generic [ref=f114e25]:
+        - link "Web" [ref=f114e26] [cursor=pointer]:
+          - /url: //yandex.com?source=tabbar
+        - link "Yandex AI" [ref=f114e27] [cursor=pointer]:
+          - /url: //yandex.com?source=tabbar&promo=force_neuro
+        - link "Images" [ref=f114e28] [cursor=pointer]:
+          - /url: //yandex.com/images?parent-reqid=1793409229901655-1890239986783274689-s6cr4lnrqtqjpe3z-BAL
+          - generic [aria-hidden] [ref=f114e29]: Images
+          - text: Images
+        - link "Video" [ref=f114e30] [cursor=pointer]:
+          - /url: //yandex.com/video?parent-reqid=1793409229901655-1890239986783274689-s6cr4lnrqtqjpe3z-BAL&from=tabbar
+        - link "Maps" [ref=f114e31] [cursor=pointer]:
+          - /url: //yandex.com/maps/?source=serp_navig
+      - link "Translate" [ref=f114e33] [cursor=pointer]:
+        - /url: //translate.yandex.com?from=tabbar
+  - main [ref=f114e37]:
+    - generic [ref=f114e40]:
+      - generic [ref=f114e42]:
+        - link [ref=f114e44] [cursor=pointer]:
+          - /url: /images/search?text=Great%20Barrier%20Reef&nl=1&source=morda
+          - img "Great Barrier Reef" [ref=f114e45]
+          - generic [aria-hidden] [ref=f114e47]: Great Barrier Reef
+        - link [ref=f114e50] [cursor=pointer]:
+          - /url: /images/search?text=Realistic%20animal%20drawings&nl=1&source=morda
+          - img "Realistic animal drawings" [ref=f114e51]
+          - generic [aria-hidden] [ref=f114e53]: Realistic animal drawings
+        - link [ref=f114e56] [cursor=pointer]:
+          - /url: /images/search?text=Hiking&nl=1&source=morda
+          - img "Hiking" [ref=f114e57]
+          - generic [aria-hidden] [ref=f114e59]: Hiking
+        - link [ref=f114e62] [cursor=pointer]:
+          - /url: /images/search?text=Photo%20of%20Enceladus&nl=1&source=morda
+          - img "Photo of Enceladus" [ref=f114e63]
+          - generic [aria-hidden] [ref=f114e65]: Photo of Enceladus
+        - link [ref=f114e68] [cursor=pointer]:
+          - /url: /images/search?text=Paris-Dakar%20Rally&nl=1&source=morda
+          - img "Paris-Dakar Rally" [ref=f114e69]
+          - generic [aria-hidden] [ref=f114e71]: Paris-Dakar Rally
+        - link [ref=f114e74] [cursor=pointer]:
+          - /url: /images/search?text=Aurora%20photo&nl=1&source=morda
+          - img "Aurora photo" [ref=f114e75]
+          - generic [aria-hidden] [ref=f114e77]: Aurora photo
+        - link [ref=f114e80] [cursor=pointer]:
+          - /url: /images/search?text=City%20landscape&nl=1&source=morda
+          - img "City landscape" [ref=f114e81]
+          - generic [aria-hidden] [ref=f114e83]: City landscape
+        - link [ref=f114e86] [cursor=pointer]:
+          - /url: /images/search?text=Latte%20art&nl=1&source=morda
+          - img "Latte art" [ref=f114e87]
+          - generic [aria-hidden] [ref=f114e89]: Latte art
+        - link [ref=f114e92] [cursor=pointer]:
+          - /url: /images/search?text=Heels&nl=1&source=morda
+          - img "Heels" [ref=f114e93]
+          - generic [aria-hidden] [ref=f114e95]: Heels
+        - link [ref=f114e98] [cursor=pointer]:
+          - /url: /images/search?text=Oversize%20clothing&nl=1&source=morda
+          - img "Oversize clothing" [ref=f114e99]
+          - generic [aria-hidden] [ref=f114e101]: Oversize clothing
+        - link [ref=f114e104] [cursor=pointer]:
+          - /url: /images/search?text=St.%20Petersburg%20channels&nl=1&source=morda
+          - img "St. Petersburg channels" [ref=f114e105]
+          - generic [aria-hidden] [ref=f114e107]: St. Petersburg channels
+        - link [ref=f114e110] [cursor=pointer]:
+          - /url: /images/search?text=Convertibles&nl=1&source=morda
+          - img "Convertibles" [ref=f114e111]
+          - generic [aria-hidden] [ref=f114e113]: Convertibles
+        - link [ref=f114e116] [cursor=pointer]:
+          - /url: /images/search?text=Kayaking&nl=1&source=morda
+          - img "Kayaking" [ref=f114e117]
+          - generic [aria-hidden] [ref=f114e119]: Kayaking
+        - link [ref=f114e122] [cursor=pointer]:
+          - /url: /images/search?text=Cherry%20blossoms%20in%20Japan&nl=1&source=morda
+          - img "Cherry blossoms in Japan" [ref=f114e123]
+          - generic [aria-hidden] [ref=f114e125]: Cherry blossoms in Japan
+        - link [ref=f114e128] [cursor=pointer]:
+          - /url: /images/search?text=Cocoa%20with%20marshmallow&nl=1&source=morda
+          - img "Cocoa with marshmallow" [ref=f114e129]
+          - generic [aria-hidden] [ref=f114e131]: Cocoa with marshmallow
+        - link [ref=f114e134] [cursor=pointer]:
+          - /url: /images/search?text=Masquerade&nl=1&source=morda
+          - img "Masquerade" [ref=f114e135]
+          - generic [aria-hidden] [ref=f114e137]: Masquerade
+        - link [ref=f114e140] [cursor=pointer]:
+          - /url: /images/search?text=Hubble%20pictures&nl=1&source=morda
+          - img "Hubble pictures" [ref=f114e141]
+          - generic [aria-hidden] [ref=f114e143]: Hubble pictures
+        - link [ref=f114e146] [cursor=pointer]:
+          - /url: /images/search?text=Paper%20animals&nl=1&source=morda
+          - img "Paper animals" [ref=f114e147]
+          - generic [aria-hidden] [ref=f114e149]: Paper animals
+      - generic [ref=f114e153]:
+        - generic [ref=f114e154]:
+          - link "Your region Hanoi" [ref=f114e156] [cursor=pointer]:
+            - /url: //yandex.com/tune/geo/
+            - text: Hanoi
+          - generic [ref=f114e157]:
+            - link "Contact us" [ref=f114e158] [cursor=pointer]:
+              - /url: https://yandex.com/support/images/troubleshooting.html
+            - link "Help" [ref=f114e159] [cursor=pointer]:
+              - /url: https://yandex.com/support/images/
+          - link "Settings" [ref=f114e161] [cursor=pointer]:
+            - /url: https://yandex.com/tune/search/
+          - link "Image and photo search" [ref=f114e163] [cursor=pointer]:
+            - /url: /images/search?rpt=imageview
+          - generic [ref=f114e164]:
+            - link "About" [ref=f114e165] [cursor=pointer]:
+              - /url: //yandex.com/company/
+            - link "License" [ref=f114e166] [cursor=pointer]:
+              - /url: //yandex.com/legal/termsofuse/
+            - link "Privacy Policy" [ref=f114e167] [cursor=pointer]:
+              - /url: //yandex.com/legal/confidential/
+        - generic [aria-hidden] [ref=f114e168] [cursor=pointer]

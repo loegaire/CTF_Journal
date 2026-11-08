@@ -1,0 +1,41 @@
+[      95ms] [ERROR] Loading the script 'https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495' violates the following Content Security Policy directive: "script-src 'self'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked. @ https://web-chall-cscv.space/:0
+[  392303ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web-chall-cscv.space/api/v1/artifacts/:0
+[  392386ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://web-chall-cscv.space/api/v1/files:0
+[  392473ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web-chall-cscv.space/api/v1/jobs:0
+[  392561ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://web-chall-cscv.space/api/v1/debug:0
+[  392647ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://web-chall-cscv.space/api/v1/health:0
+[  392722ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://web-chall-cscv.space/api/v1/openapi.json:0
+[  393047ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://web-chall-cscv.space/.git/HEAD:0
+[  393130ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://web-chall-cscv.space/.env:0
+[  421227ms] [ERROR] Failed to load resource: the server responded with a status of 405 () @ https://web-chall-cscv.space/api/v1/chat/attachments/f8ddda94df0d4ba7aa30cc2b0e47ec7e:0
+[  421313ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web-chall-cscv.space/api/v1/chat/attachments/f8ddda94df0d4ba7aa30cc2b0e47ec7e/download:0
+[  421395ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web-chall-cscv.space/api/v1/attachments/f8ddda94df0d4ba7aa30cc2b0e47ec7e:0
+[  421479ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web-chall-cscv.space/api/v1/chat/attachments/f8ddda94df0d4ba7aa30cc2b0e47ec7e/content:0
+[  421561ms] [ERROR] Failed to load resource: the server responded with a status of 405 () @ https://web-chall-cscv.space/api/v1/chat/attachments/f8ddda94df0d4ba7aa30cc2b0e47ec7e?download=1:0
+[  504755ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web-chall-cscv.space/assets/index-BekAxqWX.js.map:0
+[  504837ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web-chall-cscv.space/assets/index-BekAxqWX.js.LICENSE.txt:0
+[  504945ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web-chall-cscv.space/favicon.ico:0
+[  505336ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web-chall-cscv.space/api/v1:0
+[  713171ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web-chall-cscv.space/api/v1/chat/attachments/03a0edff24e54a82bfcc5e34ba348539:0
+[  954857ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[  954857ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[  973261ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[ 1006493ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[ 1039218ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[ 1070965ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[ 1103441ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[ 1136272ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[ 1168962ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[ 1201722ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[ 1234432ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[ 1266159ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[ 1298988ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[ 1331738ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[ 1364466ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[ 1397203ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[ 1429666ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[ 1462299ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[ 1561433ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[30418352ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[30448353ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0
+[62511373ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web-chall-cscv.space/api/v1/chat/quota:0

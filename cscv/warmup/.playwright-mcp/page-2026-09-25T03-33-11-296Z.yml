@@ -1,0 +1,68 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]: MDPress
+      - heading "Write in Markdown. Publish for your readers." [level=2] [ref=e5]
+      - paragraph [ref=e6]: A quiet home for editorial notes and release write-ups — authored by the team, exported to print with one click.
+      - generic [ref=e7]:
+        - generic [ref=e8]: "# heading"
+        - generic [ref=e9]: "**bold**"
+        - generic [ref=e10]: →
+        - generic [ref=e11]: PDF
+    - main [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]: MDPress account
+        - heading "Welcome back" [level=1] [ref=e15]
+        - paragraph [ref=e16]: Sign in to read the latest published articles.
+        - tablist [ref=e17]:
+          - tab "Log in" [selected] [ref=e18] [cursor=pointer]
+          - tab "Register" [ref=e19] [cursor=pointer]
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - generic [ref=e22]: Username
+            - textbox "Username" [ref=e23]:
+              - /placeholder: your handle
+          - generic [ref=e24]:
+            - generic [ref=e25]: Password
+            - textbox "Password" [ref=e26]:
+              - /placeholder: ••••••••
+          - button "Log in" [ref=e27] [cursor=pointer]
+  - complementary "Your profile" [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]: "?"
+      - generic [ref=e31]:
+        - generic [ref=e32]: —
+        - generic [ref=e33]: "@—"
+      - button "✕" [ref=e34] [cursor=pointer]
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "My identity" [level=3] [ref=e37]
+        - generic [ref=e38]: —
+      - generic [ref=e39]:
+        - heading "Edit profile" [level=3] [ref=e40]
+        - generic [ref=e41]:
+          - generic [ref=e42]: Display name
+          - textbox [ref=e43]
+        - generic [ref=e44]:
+          - generic [ref=e45]: Bio
+          - textbox [ref=e46]
+        - generic [ref=e47]:
+          - generic [ref=e48]: Account code
+          - textbox [ref=e49]
+        - button "Save changes" [ref=e50] [cursor=pointer]
+      - button "Log out" [ref=e51] [cursor=pointer]
+  - generic:
+    - generic:
+      - generic:
+        - generic: New article
+        - button "✕"
+      - generic:
+        - generic:
+          - generic: Title
+          - textbox "Article title"
+        - generic:
+          - generic: Content — Markdown
+          - textbox
+      - generic:
+        - button "Cancel"
+        - button "Publish"

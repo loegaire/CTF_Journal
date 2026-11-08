@@ -1,0 +1,43 @@
+[{"stream_name":"stdout","time":8.100486113,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 3.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":9.108101264,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.0/62.0 kB 27.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":9.427036903,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 203.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":9.447686444,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.1/566.1 kB 292.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":9.539364965,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.5/16.5 MB 245.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":32.662161333,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":32.662215539,"data":"bigframes 2.39.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":32.662222582,"data":"google-colab 1.0.0 requires jupyter-server==2.14.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":32.662227937,"data":"google-colab 1.0.0 requires pandas==2.2.2, but you have pandas 2.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":32.662232956,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":32.662238257,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":32.662243443,"data":"numba 0.60.0 requires numpy\u003c2.1,\u003e=1.22, but you have numpy 2.2.6 which is incompatible.\n"}
+,{"stream_name":"stdout","time":107.453108275,"data":"completed 4/96\n"}
+,{"stream_name":"stdout","time":108.156584545,"data":"completed 8/96\n"}
+,{"stream_name":"stdout","time":108.85527961,"data":"completed 12/96\n"}
+,{"stream_name":"stdout","time":109.546963639,"data":"completed 16/96\n"}
+,{"stream_name":"stdout","time":110.233497467,"data":"completed 20/96\n"}
+,{"stream_name":"stdout","time":110.937849837,"data":"completed 24/96\n"}
+,{"stream_name":"stdout","time":111.634686682,"data":"completed 28/96\n"}
+,{"stream_name":"stdout","time":112.336975688,"data":"completed 32/96\n"}
+,{"stream_name":"stdout","time":113.037224092,"data":"completed 36/96\n"}
+,{"stream_name":"stdout","time":113.728449644,"data":"completed 40/96\n"}
+,{"stream_name":"stdout","time":114.430499029,"data":"completed 44/96\n"}
+,{"stream_name":"stdout","time":115.139167033,"data":"completed 48/96\n"}
+,{"stream_name":"stdout","time":115.833113396,"data":"completed 52/96\n"}
+,{"stream_name":"stdout","time":116.539499274,"data":"completed 56/96\n"}
+,{"stream_name":"stdout","time":117.234896412,"data":"completed 60/96\n"}
+,{"stream_name":"stdout","time":117.941600852,"data":"completed 64/96\n"}
+,{"stream_name":"stdout","time":118.642560709,"data":"completed 68/96\n"}
+,{"stream_name":"stdout","time":119.358712741,"data":"completed 72/96\n"}
+,{"stream_name":"stdout","time":120.059518893,"data":"completed 76/96\n"}
+,{"stream_name":"stdout","time":120.776946786,"data":"completed 80/96\n"}
+,{"stream_name":"stdout","time":121.480188717,"data":"completed 84/96\n"}
+,{"stream_name":"stdout","time":122.198878999,"data":"completed 88/96\n"}
+,{"stream_name":"stdout","time":122.90511774,"data":"completed 92/96\n"}
+,{"stream_name":"stdout","time":123.623629222,"data":"completed 96/96\n"}
+,{"stream_name":"stderr","time":136.01018916,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":136.01023294,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":136.4054097,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":136.40544244,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":137.217487956,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":138.177124893,"data":"[NbConvertApp] Writing 346316 bytes to __results__.html\n"}
+]

@@ -1,0 +1,7 @@
+{
+  "title": "Qwen3 VL 2B vision-only checkpoint",
+  "id": "hajjilla/qwen3-vl-2b-vision-only",
+  "licenses": [
+    {"name": "other"}
+  ]
+}

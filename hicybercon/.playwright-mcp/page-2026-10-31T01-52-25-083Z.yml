@@ -1,0 +1,33 @@
+- generic [active] [ref=f136e1]:
+  - generic [ref=f136e2]: beta3
+  - generic [ref=f136e5]:
+    - text: quipqiup is a fast and automated cryptogram solver by
+    - link "Edwin Olson" [ref=f136e6] [cursor=pointer]:
+      - /url: http://april.eecs.umich.edu/people/ebolson
+    - text: . It can solve simple substitution ciphers often found in newspapers, including puzzles like cryptoquips (in which word boundaries are preserved) and patristocrats (inwhi chwor dboun darie saren t).
+  - generic [ref=f136e7]:
+    - link "Puzzle" [ref=f136e8] [cursor=pointer]:
+      - /url: "#"
+    - text: ":"
+    - textbox [ref=f136e11]
+    - text: "Clues: For example G=R QVW=THE"
+    - generic [ref=f136e12]:
+      - textbox [ref=f136e13]
+      - generic [ref=f136e15]:
+        - generic [ref=f136e16] [cursor=pointer]: Solve
+        - generic [ref=f136e17] [cursor=pointer]: ▾
+    - insertion [ref=f136e19]:
+      - generic [ref=f136e22]:
+        - heading "These are topics related to the article that might interest you" [level=2] [ref=f136e24]: Discover more
+        - link "Cryptogram solver software" [ref=f136e25] [cursor=pointer]
+        - link "Subscription cryptogram service" [ref=f136e30] [cursor=pointer]
+        - link "Daily cryptogram puzzles" [ref=f136e35] [cursor=pointer]
+  - generic [ref=f136e41]:
+    - generic:
+      - table
+    - generic [ref=f136e42]: Don't like the solutions you got? You can experiment with different solving modes by clicking the drop down menu next to the 'solve' button.
+  - generic [ref=f136e45]:
+    - text: Thanks for using quipqiup.com! The code and website are (C) 2014-2020 by Edwin Olson,
+    - link "ebolson@umich.edu" [ref=f136e46] [cursor=pointer]:
+      - /url: mailto:ebolson@umich.edu
+    - text: . Quotes were compiled by James F Thompson.

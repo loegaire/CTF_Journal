@@ -1,0 +1,27 @@
+- generic [ref=f115e4]:
+  - banner [ref=f115e5]:
+    - search "Поиск в интернете" [ref=f115e6]:
+      - generic [ref=f115e7]:
+        - link "Yandex" [ref=f115e8] [cursor=pointer]:
+          - /url: //yandex.com
+        - button "Close" [ref=f115e14] [cursor=pointer]
+        - textbox [aria-hidden] [ref=f115e16]:
+          - /placeholder: Find an image
+    - button "Image search" [ref=f115e18] [cursor=pointer]
+    - button "Меню" [ref=f115e23] [cursor=pointer]
+  - navigation [ref=f115e26]:
+    - generic [ref=f115e27]:
+      - link "Web" [ref=f115e28] [cursor=pointer]:
+        - /url: //yandex.com?source=tabbar
+      - link "Yandex AI" [ref=f115e29] [cursor=pointer]:
+        - /url: //yandex.com?source=tabbar&promo=force_neuro
+      - link "Images" [ref=f115e30] [cursor=pointer]:
+        - /url: //yandex.com/images?parent-reqid=1793409254334221-14497677174498022643-s6cr4lnrqtqjpe3z-BAL
+        - generic [aria-hidden] [ref=f115e31]: Images
+        - text: Images
+      - link "Video" [ref=f115e32] [cursor=pointer]:
+        - /url: //yandex.com/video?parent-reqid=1793409254334221-14497677174498022643-s6cr4lnrqtqjpe3z-BAL&from=tabbar
+      - link "Maps" [ref=f115e33] [cursor=pointer]:
+        - /url: //yandex.com/maps/?source=serp_navig
+    - link "Translate" [ref=f115e35] [cursor=pointer]:
+      - /url: //translate.yandex.com?from=tabbar

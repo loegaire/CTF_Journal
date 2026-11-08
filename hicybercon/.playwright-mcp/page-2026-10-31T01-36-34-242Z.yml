@@ -1,0 +1,427 @@
+- generic [ref=f116e2]:
+  - generic [ref=f116e4]:
+    - link [ref=f116e6] [cursor=pointer]:
+      - /url: https://www.dcode.fr/en
+      - img "dCode" [ref=f116e7]
+    - generic [ref=f116e8]: Search for a tool
+    - generic [ref=f116e9]:
+      - text: 🔎︎ Search a tool on dCode
+      - searchbox "🔎︎ Search a tool on dCode" [ref=f116e10]
+      - button "⏎" [ref=f116e11] [cursor=pointer]
+      - generic [ref=f116e12]:
+        - text: Browse the
+        - link "full dCode tools' list" [ref=f116e13] [cursor=pointer]:
+          - /url: tools-list
+    - generic [ref=f116e14]: Mono-alphabetic Substitution
+    - paragraph [ref=f116e15]: Tool to decrypt monoalphabetical substitution and find each letter of a substituted message with a deranged alphabet (monoalphabetic cipher).
+    - generic [ref=f116e18]:
+      - generic [ref=f116e21]:
+        - paragraph [ref=f116e22]:
+          - text: Mono-alphabetic Substitution -
+          - link "dCode" [ref=f116e24] [cursor=pointer]:
+            - /url: https://www.dcode.fr/
+        - paragraph [ref=f116e25]: "Tag(s) : Substitution Cipher"
+      - generic [ref=f116e26]: Share
+      - img "Share" [ref=f116e28] [cursor=pointer]
+      - generic [ref=f116e29]: dCode and more
+      - paragraph [ref=f116e30] [cursor=pointer]:
+        - text: dCode is free and its tools are a valuable help in games, maths, geocaching, puzzles and problems to solve every day!A suggestion ? a feedback ? a bug ? an idea ?
+        - emphasis [ref=f116e31]: Write to dCode
+        - text: "!"
+  - generic [ref=f116e32]:
+    - heading [level=3] [ref=f116e33]:
+      - text: dCode is preparing a new interface. Come test and give your feedback on the
+      - 'link "new page: Mono-alphabetic Substitution" [ref=f116e34] [cursor=pointer]':
+        - /url: monoalphabetic-substitution&v5
+      - text: "!"
+    - heading "Mono-alphabetic Substitution" [level=1] [ref=f116e35]
+    - list [ref=f116e37]:
+      - listitem [ref=f116e38]:
+        - link "Cryptography" [ref=f116e39] [cursor=pointer]:
+          - /url: https://www.dcode.fr/tools-list#cryptography
+      - listitem [ref=f116e40]:
+        - text: ›
+        - link "Substitution Cipher" [ref=f116e41] [cursor=pointer]:
+          - /url: https://www.dcode.fr/tools-list#substitution_cipher
+      - listitem [ref=f116e42]:
+        - text: ›
+        - link "Mono-alphabetic Substitution" [ref=f116e43] [cursor=pointer]:
+          - /url: https://www.dcode.fr/monoalphabetic-substitution
+    - generic [ref=f116e45]:
+      - heading "Monoalphabetic Substitution Decoder" [level=2] [ref=f116e46]
+      - generic [ref=f116e47]:
+        - text: Alphabetic substitution ciphertext
+        - textbox [ref=f116e49]
+        - table [ref=f116e50]:
+          - rowgroup [ref=f116e51]:
+            - row [ref=f116e52]:
+              - cell "Spaces" [ref=f116e53]
+              - radiogroup "Spaces" [ref=f116e54]:
+                - generic [ref=f116e55]:
+                  - radio "are relevant and must be kept (Aristocrat cipher)" [checked] [ref=f116e56]
+                  - text: are relevant and must be kept (Aristocrat cipher)
+                - generic [ref=f116e57]:
+                  - radio "can be ignored or are missing (Patristocrat cipher)" [ref=f116e58]
+                  - text: can be ignored or are missing (Patristocrat cipher)
+        - text: Plaintext language
+        - combobox "Plaintext language" [ref=f116e59]:
+          - option "English" [selected]
+          - option "French (Français)"
+          - option "Spanish (Español)"
+          - option "German (Deutsch)"
+          - option "Portuguese (Português)"
+          - option "Italian (Italiano)"
+          - option "Dutch (Nederlands)"
+          - option "Norwegian (Norsk)"
+          - option "Swedish (Svenska)"
+          - option "Catalan (Catalá)"
+          - option "Czech (Čeština)"
+          - option "Danish (Dansk)"
+          - option "Estonian (Eesti)"
+          - option "Finnish (Suomi)"
+          - option "Croatian (Hrvatski)"
+          - option "Hungarian (Magyar)"
+          - option "Lithuanian (Lietuvių)"
+          - option "Latvian (Latviešu)"
+          - option "Polish (Polski)"
+          - option "Romanian (Română)"
+          - option "Slovak (Slovenčina)"
+          - option "Slovenian (Slovenščina)"
+          - option "Albanian (Shqip)"
+          - option "Serbian (Српски / Srpski)"
+          - option "Swedish (Svenska)"
+          - option "Turkish (Türkçe)"
+          - option "Latin"
+        - button "▶ Decrypt Automatically" [ref=f116e60] [cursor=pointer]
+        - heading "Other decryption methods" [level=3] [ref=f116e61]
+        - generic [ref=f116e62]:
+          - radio "Knowing the substitution alphabet" [checked] [ref=f116e63]
+          - text: Knowing the substitution alphabet
+        - generic [ref=f116e64]:
+          - textbox "Knowing the substitution alphabet" [ref=f116e65]: QWERTYUIOPASDFGHJKLZXCVBNM
+          - generic [ref=f116e66] [cursor=pointer]: x
+        - generic [ref=f116e67]:
+          - radio "Knowing the coded/reciprocal alphabet ⇅" [ref=f116e68]
+          - text: Knowing the coded/reciprocal alphabet ⇅
+        - textbox "Knowing the coded/reciprocal alphabet ⇅" [ref=f116e70]
+        - generic [ref=f116e71]:
+          - radio "Knowing the keyword used to generate the alphabet" [ref=f116e72]
+          - text: Knowing the keyword used to generate the alphabet
+        - textbox "Knowing the keyword used to generate the alphabet" [ref=f116e74]
+        - generic [ref=f116e75]:
+          - radio "Attack with probable word/known plain text" [ref=f116e76]
+          - text: Attack with probable word/known plain text
+        - generic [ref=f116e77]:
+          - textbox "Attack with probable word/known plain text" [ref=f116e78]: substitution
+          - generic [ref=f116e79] [cursor=pointer]: x
+        - generic [ref=f116e80]:
+          - radio "Manual decryption (empty visual tool)" [ref=f116e81]
+          - text: Manual decryption (empty visual tool)
+        - button "▶ Decrypt" [ref=f116e82] [cursor=pointer]
+        - generic [ref=f116e83]:
+          - text: "See also:"
+          - link "Word Desubstitution/Pattern" [ref=f116e84] [cursor=pointer]:
+            - /url: /word-desubstitution
+          - text: —
+          - link "Frequency Analysis" [ref=f116e85] [cursor=pointer]:
+            - /url: /frequency-analysis
+      - heading "Monoalphabetic Substitution Encoder" [level=2] [ref=f116e86]
+      - generic [ref=f116e87]:
+        - text: Unsubstituted plain text ?
+        - textbox "Unsubstituted plain text" [ref=f116e88]: dCode is able to decipher an alphabetic substitution of a text by analyzing the frequencies of occurrence of the letters. The message must be as long as possible so that dCode can accurately find the substitution alphabet.
+        - text: Substitution alphabet
+        - generic [ref=f116e89]:
+          - textbox "Substitution alphabet" [ref=f116e90]: QWERTYUIOPASDFGHJKLZXCVBNM
+          - generic [ref=f116e91] [cursor=pointer]: x
+        - button "▶ Encrypt" [ref=f116e92] [cursor=pointer]
+        - generic [ref=f116e93]:
+          - text: "See also:"
+          - link "Caesar Cipher" [ref=f116e94] [cursor=pointer]:
+            - /url: /caesar-cipher
+      - heading "Custom Deranged Alphabet Generator" [level=2] [ref=f116e95]
+      - generic [ref=f116e96]:
+        - text: "⮞ Go to:"
+        - link "Deranged Alphabet Generator" [ref=f116e97] [cursor=pointer]:
+          - /url: /deranged-alphabet-generator
+    - heading "Answers to Questions (FAQ)" [level=2] [ref=f116e99]
+    - generic [ref=f116e100]:
+      - generic [ref=f116e101]:
+        - heading "What is a (mono-)alphabetical substitution? (Definition)" [level=3] [ref=f116e102]
+        - generic [ref=f116e104]:
+          - paragraph [ref=f116e105]:
+            - text: An
+            - term [ref=f116e106]: alphabetic substitution
+            - text: is a substitution cipher where the letters of the alphabet are replaced by others according to a 1-1 correspondence (a plain letter always corresponds to the same cipher letter).
+          - paragraph [ref=f116e107]: The substitution is said to be monoalphabetic because it uses only one alphabet, this alphabet is said to be disordered.
+      - generic [ref=f116e108]:
+        - heading "How to encrypt using an alphabetical substitution?" [level=3] [ref=f116e109]
+        - generic [ref=f116e111]:
+          - paragraph [ref=f116e112]:
+            - text: The
+            - term [ref=f116e113]: monoalphabetical substitution
+            - text: consists in using a
+            - link "mixed alphabet" [ref=f116e114] [cursor=pointer]:
+              - /url: https://www.dcode.fr/deranged-alphabet-generator
+            - text: (with the letters in an unusual order) and
+            - link "replacing the letters" [ref=f116e115] [cursor=pointer]:
+              - /url: https://www.dcode.fr/word-letter-change
+            - text: of the alphabet normal by it.
+          - paragraph [ref=f116e117]:
+            - text: "Example: BYKWASLFXOCZTDHJUMIGPVENQR is a totally"
+            - link "random alphabet" [ref=f116e118] [cursor=pointer]:
+              - /url: https://www.dcode.fr/deranged-alphabet-generator
+            - text: with the 26 letters of the Latin alphabet.
+          - paragraph [ref=f116e119]: "To understand, write the alphabet over the classic alphabet:"
+          - table [ref=f116e120]:
+            - rowgroup [ref=f116e121]:
+              - row [ref=f116e122]:
+                - rowheader "Plain alphabet" [ref=f116e123]
+                - cell "ABCDEFGHIJKLMNOPQRSTUVWXYZ" [ref=f116e124]
+              - row [ref=f116e125]:
+                - rowheader "Substitution alphabet" [ref=f116e126]
+                - cell "BYKWASLFXOCZTDHJUMIGPVENQR" [ref=f116e127]
+          - paragraph
+          - paragraph [ref=f116e128]: The substitution involves a replacement in the plaintext of all the letters of the first row with the letters associated with the second row.
+          - paragraph [ref=f116e130]: "Example: All A become N, all the B remain B, all the C become A, etc."
+          - paragraph [ref=f116e132]: "Example: With this substitution DCODE is encrypted as WKHWA."
+          - paragraph [ref=f116e134]:
+            - text: Any
+            - link "deranged alphabet" [ref=f116e135] [cursor=pointer]:
+              - /url: https://www.dcode.fr/deranged-alphabet-generator
+            - text: can be used to create a
+            - term [ref=f116e136]: mono alphabetic substitution
+            - text: "provided it respects the criterion of an alphabet: not containing the same letter several times."
+      - generic [ref=f116e137]:
+        - heading "What do K1, K2, K3, K4 mean?" [level=3] [ref=f116e138]
+        - generic [ref=f116e140]:
+          - paragraph [ref=f116e141]: The K1, K2, K3, and K4 classifications are used by the ACA to describe the use of keywords in encryption alphabets.
+          - paragraph [ref=f116e142]: "— K1: The key is inserted into the substitution alphabet, usually at the beginning and then the rest of the letters follow in alphabetical order."
+          - paragraph [ref=f116e144]: "Example: Default CODEABFGHIJKLMNPQRSTUVWXYZ but an offset is possible XYZCODEABFGHIJKLMNPQRSTUVW"
+          - paragraph [ref=f116e145]: "— K2: The key is inserted into the substitution (reciprocal) coded alphabet ⇅."
+          - paragraph [ref=f116e146]: "— K3: The key is used in both plaintext and coded alphabets."
+          - paragraph [ref=f116e147]: "— K4: Two different keys are used: one for the substitution alphabet and another for the coded alphabet."
+      - generic [ref=f116e148]:
+        - heading "How to decrypt using an alphabetical substitution?" [level=3] [ref=f116e149]
+        - generic [ref=f116e151]:
+          - paragraph [ref=f116e152]: Decryption requires knowing the alphabet mixed used and the inverse substitution encryption.
+          - paragraph
+          - table [ref=f116e153]:
+            - rowgroup [ref=f116e154]:
+              - row [ref=f116e155]:
+                - rowheader "Substitution Alphabet" [ref=f116e156]
+                - cell "NBAJYFOWLZMPXIKUVCDEGRQSTH" [ref=f116e157]
+              - row [ref=f116e158]:
+                - rowheader "Plain Alphabet" [ref=f116e159]
+                - cell "ABCDEFGHIJKLMNOPQRSTUVWXYZ" [ref=f116e160]
+          - paragraph
+          - paragraph [ref=f116e161]: The substitution involves replacing in the ciphertext all the letters of the first row with the letters associated with the second row.
+          - paragraph [ref=f116e163]: "Example: The encrypted message JAKJY has for plain message DCODE."
+      - generic [ref=f116e164]:
+        - heading "How to recognize a mono alphabetical substituted text?" [level=3] [ref=f116e165]
+        - generic [ref=f116e167]:
+          - paragraph [ref=f116e168]:
+            - text: The ciphered message has an
+            - link "index of coincidence" [ref=f116e169] [cursor=pointer]:
+              - /url: https://www.dcode.fr/index-coincidence
+            - text: identical to the language of the plain text.
+          - paragraph [ref=f116e170]: English speakers call this encryption aristocrat (if there are spaces) or patristocrat (if there are no spaces between words).
+      - generic [ref=f116e171]:
+        - heading "How to decipher a substitution without the alphabet?" [level=3] [ref=f116e172]
+        - generic [ref=f116e174]:
+          - paragraph [ref=f116e175]: The MCMC technique (used by dCode) is one of the most effective for finding the most probable plain text and proposing a replacement alphabet.
+          - paragraph [ref=f116e176]: dCode additionally adds an interactive tool to manually decrypt substitution-encrypted messages.
+          - paragraph [ref=f116e177]: Another possibility, the known plaintext attack that makes possible to deduce some letters of the alphabet via the knowledge or the preliminary guess of certain portions of the plain text.
+          - paragraph [ref=f116e179]: "Example: The most common alphabets used for substitutions are: QWERTYUIOPASDFGHJKLZXCVBNMMNBVCXZLKJHGFDSAPOIUYTREWQQAZWSXEDCRFVTGBYHNUJMIKOLPAZERTYUIOPQSDFGHJKLMWXCVBNNBVCXWMLKJHGFDSQPOIUYTREZAAQWZSXEDCRFVTGBYHNUJIKOLPMZYXWVUTSRQPONMLKJIHGFEDCBAAEIOUYBCDFGHJKLMNPQRSTVWXZ'Pangrams can also be used as an alphabet (by removing redundant letters)."
+      - generic [ref=f116e185]:
+        - heading "What is the MCMC technique?" [level=3] [ref=f116e186]
+        - generic [ref=f116e188]:
+          - paragraph [ref=f116e189]:
+            - text: MCMC (
+            - link "Markov Chain" [ref=f116e190] [cursor=pointer]:
+              - /url: https://www.dcode.fr/markov-chain-text
+            - text: Monte Carlo) is the name given to a statistical method that applies very well to mono-alphabetical substitutions.
+          - paragraph [ref=f116e191]: "1 - Initialization: use a random substitution alphabet (but it is possible to carry out an analysis of letter frequencies to obtain a first plain alphabet - encrypted alphabet mapping table)."
+          - paragraph [ref=f116e192]:
+            - text: "2 - Evaluation: calculation of the probability that the current substitution alphabet produces plain text (score generally based on the frequencies of appearance of"
+            - link "bigrams" [ref=f116e193] [cursor=pointer]:
+              - /url: https://www.dcode.fr/bigrams
+            - text: in the target language).
+          - paragraph [ref=f116e194]: "3 - Modification of the alphabet: randomly exchange certain plain letter-cipher letter correspondences"
+          - paragraph [ref=f116e195]: 4 - Repeat steps 2 and 3 as long as the plausibility score of the message obtained increases and the alphabet selected offers the most probable plain message.
+          - paragraph [ref=f116e196]:
+            - text: "Source:"
+            - link "here" [ref=f116e197] [cursor=pointer]:
+              - /url: https://www.ams.org/journals/bull/2009-46-02/S0273-0979-08-01238-X/S0273-0979-08-01238-X.pdf
+            - text: Diaconis, Persi. (2009). The
+            - link "Markov Chain" [ref=f116e200] [cursor=pointer]:
+              - /url: https://www.dcode.fr/markov-chain-text
+            - text: Monte Carlo Revolution. Bulletin of the American Mathematical Society. 46. 179-205. 10.1090/S0273-0979-08-01238-X.
+      - generic [ref=f116e201]:
+        - heading "What are the variants of the substitution cipher?" [level=3] [ref=f116e202]
+        - generic [ref=f116e204]:
+          - paragraph [ref=f116e205]:
+            - text: First, some substitution use specific alphabets, such as
+            - link "Atbash" [ref=f116e206] [cursor=pointer]:
+              - /url: https://www.dcode.fr/atbash-cipher
+            - text: that takes the alphabet backwards ZYXWVUTSRQPONMLKJIHGFEDCBA or the
+            - link "Caesar cipher" [ref=f116e207] [cursor=pointer]:
+              - /url: https://www.dcode.fr/caesar-cipher
+            - text: which uses a shifted alphabet DEFGHIJKLMNOPQRSTUVWXYZABC that is shifted by 3.
+          - paragraph [ref=f116e208]:
+            - text: There are also substitutions that use several alphabets, alphabet that changes depending on an algorithm defined by encryption (e.g.
+            - link "Vigenere" [ref=f116e209] [cursor=pointer]:
+              - /url: https://www.dcode.fr/vigenere-cipher
+            - text: uses 26 alphabets).
+          - paragraph [ref=f116e210]: In game-play journals, substitution games / exercises are often called cryptograms.
+      - button "❓ Ask a new question" [ref=f116e211] [cursor=pointer]
+    - insertion [ref=f116e212]
+    - heading "Source code" [level=2] [ref=f116e214]
+    - paragraph [ref=f116e215]: "dCode retains ownership of the \"Mono-alphabetic Substitution\" source code. Any algorithm for the \"Mono-alphabetic Substitution\" algorithm, applet or snippet or script (converter, solver, encryption / decryption, encoding / decoding, ciphering / deciphering, breaker, translator), or any \"Mono-alphabetic Substitution\" functions (calculate, convert, solve, decrypt / encrypt, decipher / cipher, decode / encode, translate) written in any informatic language (Python, Java, PHP, C#, Javascript, Matlab, etc.) or any database download or API access for \"Mono-alphabetic Substitution\" or any other element are not public (except explicit open source licence). Same with the download for offline use on PC, mobile, tablet, iPhone or Android app. Reminder: dCode is an educational and teaching resource, accessible online for free and for everyone."
+    - heading "Cite dCode" [level=2] [ref=f116e216]
+    - generic [ref=f116e217]:
+      - paragraph [ref=f116e218]: The content of the page "Mono-alphabetic Substitution" and its results may be freely copied and reused, including for commercial purposes, provided that dCode.fr is cited as the source (Creative Commons CC-BY free distribution license).
+      - paragraph [ref=f116e219]: Exporting the results is free and can be done simply by clicking on the export icons ⤓ (.csv or .txt format) or ⧉ (copy and paste).
+      - paragraph [ref=f116e220]: "To cite dCode.fr on another website, use the link: https://www.dcode.fr/monoalphabetic-substitution"
+      - paragraph [ref=f116e221]:
+        - text: "In a scientific article or book, the recommended bibliographic citation is: Mono-alphabetic Substitution on dCode.fr [online website], retrieved on 2026-10-31,"
+        - generic [ref=f116e222]: https://www.dcode.fr/monoalphabetic-substitution
+    - generic [ref=f116e224]:
+      - heading "Need Help ?" [level=2] [ref=f116e225]
+      - paragraph [ref=f116e226]:
+        - text: Please, check our
+        - link "dCode Discord" [ref=f116e227] [cursor=pointer]:
+          - /url: https://discord.gg/bKdbZeP
+        - text: "community for help requests!NB: for encrypted messages, test our automatic"
+        - link "cipher identifier" [ref=f116e228] [cursor=pointer]:
+          - /url: /cipher-identifier
+        - text: "!"
+      - heading "Questions / Comments" [level=2] [ref=f116e229]
+      - button "Write a message" [ref=f116e230] [cursor=pointer]
+      - paragraph [ref=f116e231]: Feedback and suggestions are welcome so that dCode offers the best 'Mono-alphabetic Substitution' tool for free! Thank you!
+  - generic [ref=f116e232]:
+    - generic [ref=f116e233]:
+      - link [ref=f116e234] [cursor=pointer]:
+        - /url: https://www.dcode.fr/substitution-monoalphabetique
+        - img "French (Français)" [ref=f116e235]
+      - link [ref=f116e236] [cursor=pointer]:
+        - /url: https://www.dcode.fr/sustitucion-monoalfabetica
+        - img "Spanish (Español)" [ref=f116e237]
+    - button "hide_right_part" [ref=f116e238] [cursor=pointer]
+    - generic [ref=f116e240]: Summary
+    - generic [ref=f116e241]:
+      - list [ref=f116e243]:
+        - listitem [ref=f116e244]:
+          - link "Monoalphabetic Substitution Decoder" [ref=f116e245] [cursor=pointer]:
+            - /url: "#f0"
+        - listitem [ref=f116e246]:
+          - link "Monoalphabetic Substitution Encoder" [ref=f116e247] [cursor=pointer]:
+            - /url: "#f1"
+        - listitem [ref=f116e248]:
+          - link "Custom Deranged Alphabet Generator" [ref=f116e249] [cursor=pointer]:
+            - /url: "#f2"
+        - listitem [ref=f116e250]:
+          - link "What is a (mono-)alphabetical substitution? (Definition)" [ref=f116e251] [cursor=pointer]:
+            - /url: "#q1"
+        - listitem [ref=f116e252]:
+          - link "How to encrypt using an alphabetical substitution?" [ref=f116e253] [cursor=pointer]:
+            - /url: "#q2"
+        - listitem [ref=f116e254]:
+          - link "What do K1, K2, K3, K4 mean?" [ref=f116e255] [cursor=pointer]:
+            - /url: "#q3"
+        - listitem [ref=f116e256]:
+          - link "How to decrypt using an alphabetical substitution?" [ref=f116e257] [cursor=pointer]:
+            - /url: "#q4"
+        - listitem [ref=f116e258]:
+          - link "How to recognize a mono alphabetical substituted text?" [ref=f116e259] [cursor=pointer]:
+            - /url: "#q5"
+        - listitem [ref=f116e260]:
+          - link "How to decipher a substitution without the alphabet?" [ref=f116e261] [cursor=pointer]:
+            - /url: "#q6"
+        - listitem [ref=f116e262]:
+          - link "What is the MCMC technique?" [ref=f116e263] [cursor=pointer]:
+            - /url: "#q7"
+        - listitem [ref=f116e264]:
+          - link "What are the variants of the substitution cipher?" [ref=f116e265] [cursor=pointer]:
+            - /url: "#q8"
+      - generic [ref=f116e266]: Similar pages
+      - list [ref=f116e268]:
+        - listitem [ref=f116e269]:
+          - link "Word Desubstitution/Pattern" [ref=f116e270] [cursor=pointer]:
+            - /url: word-desubstitution
+        - listitem [ref=f116e271]:
+          - link "Deranged Alphabet Generator" [ref=f116e272] [cursor=pointer]:
+            - /url: deranged-alphabet-generator
+        - listitem [ref=f116e273]:
+          - link "Caesar Cipher" [ref=f116e274] [cursor=pointer]:
+            - /url: caesar-cipher
+        - listitem [ref=f116e275]:
+          - link "Word Substitution" [ref=f116e276] [cursor=pointer]:
+            - /url: word-substitution
+        - listitem [ref=f116e277]:
+          - link "Atbash Cipher" [ref=f116e278] [cursor=pointer]:
+            - /url: atbash-cipher
+        - listitem [ref=f116e279]:
+          - link "Frequency Analysis" [ref=f116e280] [cursor=pointer]:
+            - /url: frequency-analysis
+        - listitem [ref=f116e281]:
+          - link "Substitution Cipher" [ref=f116e282] [cursor=pointer]:
+            - /url: substitution-cipher
+        - listitem [ref=f116e283]:
+          - link "DCODE'S TOOLS LIST" [ref=f116e284] [cursor=pointer]:
+            - /url: tools-list
+      - generic [ref=f116e285]: Support dCode
+      - generic [ref=f116e286] [cursor=pointer]:
+        - text: "Participate in the Discord forum:"
+        - list [ref=f116e287]:
+          - listitem [ref=f116e288]:
+            - link "Discord" [ref=f116e289]:
+              - /url: https://discord.gg/bKdbZeP
+      - generic [ref=f116e290]: Forum/Help
+      - link [ref=f116e292] [cursor=pointer]:
+        - /url: https://discord.gg/bKdbZeP
+        - img "Discuss" [ref=f116e293]
+      - generic [ref=f116e294]: Keywords
+      - generic [ref=f116e295]:
+        - link "substitution" [ref=f116e296] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "monoalphabetical" [ref=f116e297] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "alphabet" [ref=f116e298] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "cryptogram" [ref=f116e299] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "aristocrat" [ref=f116e300] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "patristocrat" [ref=f116e301] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "pangram" [ref=f116e302] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "correspondence" [ref=f116e303] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "mapping" [ref=f116e304] [cursor=pointer]:
+          - /url: "#search"
+      - generic [ref=f116e305]: Links
+      - list [ref=f116e307]:
+        - listitem [ref=f116e308]:
+          - link "Contact" [ref=f116e309] [cursor=pointer]:
+            - /url: about
+        - listitem [ref=f116e310]:
+          - link "About dCode" [ref=f116e311] [cursor=pointer]:
+            - /url: about
+        - listitem [ref=f116e312]:
+          - link "dCode App" [ref=f116e313] [cursor=pointer]:
+            - /url: mobile-app
+        - listitem [ref=f116e314]:
+          - link "Wikipedia" [ref=f116e315] [cursor=pointer]:
+            - /url: https://en.wikipedia.org/
+  - generic [ref=f116e316]:
+    - generic [ref=f116e317]: https://www.dcode.fr/monoalphabetic-substitution
+    - generic [ref=f116e318]: © 2026 dCode — The ultimate collection of tools for games, math, and puzzles.

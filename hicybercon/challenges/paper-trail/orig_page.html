@@ -1,0 +1,802 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- inj yui3-seed: --><script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/yui/3.6.0/yui/yui-min.js'></script><script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script><!-- Adobe Analytics --><script type='text/javascript' src='https://assets.adobedtm.com/4a848ae9611a/d0e96722185b/launch-d525bb0064d8.min.js'></script><script type='text/javascript' src=/assets/nr_browser_production.js></script>
+
+<!-- def.1 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>
+"Forensic Analysis of Virtual Hard Drives" by Patrick Tobin, Nhien-An Le-Khac et al.
+</title>
+
+
+<!-- FILE article_meta-tags.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/article_meta-tags.inc -->
+<meta itemprop="name" content="Forensic Analysis of Virtual Hard Drives">
+<meta property="og:title" content="Forensic Analysis of Virtual Hard Drives">
+<meta name="twitter:title" content="Forensic Analysis of Virtual Hard Drives">
+<meta property="article:author" content="Patrick Tobin">
+<meta name="author" content="Patrick Tobin">
+<meta property="article:author" content="Nhien-An Le-Khac">
+<meta name="author" content="Nhien-An Le-Khac">
+<meta property="article:author" content="Tahar Kechadi">
+<meta name="author" content="Tahar Kechadi">
+<meta name="robots" content="noodp, noydir">
+<meta name="description" content="The issue of the volatility of virtual machines is perhaps the most pressing concern in any digital investigation. Current digital forensics tools do not fully address the complexities of data recovery that are posed by virtual hard drives. It is necessary, for this reason, to explore ways to capture evidence other than those using current digital forensic methods. This should be done in the most efficient and secure manner, as quickly, and in a non-intrusive way as can be achieved. All data in a virtual machine is disposed of when that virtual machine is destroyed, it may not therefore be possible to extract and preserve evidence such as incriminating images prior to destruction. Recovering that evidence, or finding some way of associating that evidence with the virtual machine before its destruction, is therefore crucial. In this paper, we present a method of extracting evidence from a virtual hard disk drive in a quick, secure and verifiable manner, with a minimum impact on the drive thus preserving its integrity for further analysis.">
+<meta itemprop="description" content="The issue of the volatility of virtual machines is perhaps the most pressing concern in any digital investigation. Current digital forensics tools do not fully address the complexities of data recovery that are posed by virtual hard drives. It is necessary, for this reason, to explore ways to capture evidence other than those using current digital forensic methods. This should be done in the most efficient and secure manner, as quickly, and in a non-intrusive way as can be achieved. All data in a virtual machine is disposed of when that virtual machine is destroyed, it may not therefore be possible to extract and preserve evidence such as incriminating images prior to destruction. Recovering that evidence, or finding some way of associating that evidence with the virtual machine before its destruction, is therefore crucial. In this paper, we present a method of extracting evidence from a virtual hard disk drive in a quick, secure and verifiable manner, with a minimum impact on the drive thus preserving its integrity for further analysis.">
+<meta name="twitter:description" content="The issue of the volatility of virtual machines is perhaps the most pressing concern in any digital investigation. Current digital forensics tools do not fully address the complexities of data recovery that are posed by virtual hard drives. It is necessary, for this reason, to explore ways to capture evidence other than those using current digital forensic methods. This should be done in the most efficient and secure manner, as quickly, and in a non-intrusive way as can be achieved. All data in a virtual machine is disposed of when that virtual machine is destroyed, it may not therefore be possible to extract and preserve evidence such as incriminating images prior to destruction. Recovering that evidence, or finding some way of associating that evidence with the virtual machine before its destruction, is therefore crucial. In this paper, we present a method of extracting evidence from a virtual hard disk drive in a quick, secure and verifiable manner, with a minimum impact on the drive thus preserving its integrity for further analysis.">
+<meta property="og:description" content="The issue of the volatility of virtual machines is perhaps the most pressing concern in any digital investigation. Current digital forensics tools do not fully address the complexities of data recovery that are posed by virtual hard drives. It is necessary, for this reason, to explore ways to capture evidence other than those using current digital forensic methods. This should be done in the most efficient and secure manner, as quickly, and in a non-intrusive way as can be achieved. All data in a virtual machine is disposed of when that virtual machine is destroyed, it may not therefore be possible to extract and preserve evidence such as incriminating images prior to destruction. Recovering that evidence, or finding some way of associating that evidence with the virtual machine before its destruction, is therefore crucial. In this paper, we present a method of extracting evidence from a virtual hard disk drive in a quick, secure and verifiable manner, with a minimum impact on the drive thus preserving its integrity for further analysis.">
+<meta name="keywords" content="Virtual Machine, Digital Forensics, Virtual Machine Forensics, Virtual Hard Drive">
+<meta name="bepress_citation_journal_title" content="Journal of Digital Forensics, Security and Law">
+<meta name="bepress_citation_firstpage" content="10">
+<meta name="bepress_citation_author" content="Tobin, Patrick">
+<meta name="bepress_citation_author_institution" content="University College Dublin, Ireland">
+<meta name="bepress_citation_author" content="Le-Khac, Nhien-An">
+<meta name="bepress_citation_author_institution" content="School of Computer Science & Informatics, University College Dublin, Ireland">
+<meta name="bepress_citation_author" content="Kechadi, Tahar">
+<meta name="bepress_citation_author_institution" content="Centre for Cyber Crime Investigation, University College Dublin, Ireland">
+<meta name="bepress_citation_title" content="Forensic Analysis of Virtual Hard Drives">
+<meta name="bepress_citation_date" content="2017">
+<meta name="bepress_citation_volume" content="12">
+<meta name="bepress_citation_issue" content="1">
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_download_link.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/article_meta-tags.inc (cont) -->
+<meta name="bepress_citation_pdf_url" content="https://commons.erau.edu/cgi/viewcontent.cgi?article=1438&amp;context=jdfsl">
+<meta name="bepress_citation_abstract_html_url" content="https://commons.erau.edu/jdfsl/vol12/iss1/10">
+<meta name="bepress_citation_doi" content="https://doi.org/10.15394/jdfsl.2017.1438">
+<meta name="bepress_citation_issn" content="1558-7223">
+<meta name="bepress_citation_online_date" content="2017/6/13">
+<meta name="viewport" content="width=device-width">
+<!-- Additional Twitter data -->
+<meta name="twitter:card" content="summary">
+<!-- Additional Open Graph data -->
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://commons.erau.edu/jdfsl/vol12/iss1/10">
+<meta property="og:site_name" content="AERO Commons">
+
+
+
+
+<!-- FILE: article_meta-tags.inc (cont) -->
+<meta name="bepress_is_article_cover_page" content="1">
+
+
+<!-- sh.1 -->
+<link rel="stylesheet" href="/jdfsl/ir-journal-style.css" type="text/css" media="screen">
+<link rel="alternate" type="application/rss+xml" title="ournal of Digital Forensics, Security and Law Newsfeed" href="/jdfsl/recent.rss">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+<link type="text/css" rel="stylesheet" href="/assets/floatbox/floatbox.css">
+<script type="text/javascript" src="/assets/jsUtilities.js"></script>
+<script type="text/javascript" src="/assets/footnoteLinks.js"></script>
+<link rel="stylesheet" href="/ir-print.css" type="text/css" media="print">
+<!--[if IE]>
+<link rel="stylesheet" href="/ir-ie.css" type="text/css" media="screen">
+<![endif]-->
+<!-- end sh.1 -->
+
+
+
+
+<script type="text/javascript">var pageData = {"page":{"environment":"prod","productName":"bpdg","language":"en","name":"ir_journal:volume:issue:article","businessUnit":"els:rp:st"},"visitor":{}};</script>
+
+</head>
+<body >
+<!-- FILE /srv/sequoia/main/data/assets/site/ir_journal/header.pregen -->
+
+	<!-- FILE: /srv/sequoia/main/data/journals/commons.erau.edu/jdfsl/assets/header_custom.inc --><!-- FILE: /srv/sequoia/main/data/commons.erau.edu/assets/ir_gtm.inc -->
+<!-- Google Tag Manager -->
+<noscript><iframe src=https://www.googletagmanager.com/ns.html?id=GTM-P8VPTMR height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','G-044LT3PXR9');</script>
+<!-- End Google Tag Manager -->
+<!-- FILE: /srv/sequoia/main/data/journals/commons.erau.edu/jdfsl/assets/header_custom.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/mobile_nav.inc --><!--[if !IE]>-->
+<script src="/assets/scripts/dc-mobile/dc-responsive-nav.js"></script>
+
+<header id="mobile-nav" class="nav-down device-fixed-height" style="visibility: hidden;">
+  
+  
+  <nav class="nav-collapse">
+    <ul>
+      <li class="menu-item active device-fixed-width"><a href="https://commons.erau.edu" title="Home" data-scroll >Home</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://commons.erau.edu/do/search/advanced/" title="Search" data-scroll ><i class="icon-search"></i> Search</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://commons.erau.edu/communities.html" title="Browse" data-scroll >Browse Collections</a></li>
+      <li class="menu-item device-fixed-width"><a href="/cgi/myaccount.cgi?context=" title="My Account" data-scroll >My Account</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://commons.erau.edu/about.html" title="About" data-scroll >About</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://network.bepress.com" title="Digital Commons Network" data-scroll ><img width="16" height="16" alt="DC Network" style="vertical-align:top;" src="/assets/md5images/8e240588cf8cd3a028768d4294acd7d3.png"> Digital Commons Network™</a></li>
+    </ul>
+  </nav>
+</header>
+
+<script src="/assets/scripts/dc-mobile/dc-mobile-nav.js"></script>
+<!--<![endif]-->
+<!-- FILE: /srv/sequoia/main/data/journals/commons.erau.edu/jdfsl/assets/header_custom.inc (cont) -->
+
+<div id="jdfsl">
+	<div id="container">
+		<a href="#main" class="skiplink" accesskey="2" >Skip to main content</a>
+
+				
+		
+			<div id="header">
+				<a href="https://commons.erau.edu/jdfsl" id="banner_link" title="" >
+					<img id="banner_image" alt="	" width='980' height='114' src="/assets/md5images/328703f4adda530e82dc14ccb13b0514.png">
+				</a>
+				<a href="http://www.erau.edu/" id="logo_link" title="Embry-Riddle Aeronautical University" ></a>
+			</div>
+			<div id="navigation">
+				<!-- FILE: /srv/sequoia/main/data/assets/site/ir_navigation.inc --><div id="tabs" role="navigation" aria-label="Main"><ul><li id="tabone"><a href="https://commons.erau.edu" title="Scholarly Commons Home" ><span>Scholarly Commons Home</span></a></li><li id="tabtwo"><a href="https://commons.erau.edu/about.html" title="About" ><span>About</span></a></li><li id="tabthree"><a href="https://commons.erau.edu/faq.html" title="FAQ" ><span>FAQ</span></a></li><li id="tabfour"><a href="https://commons.erau.edu/cgi/myaccount.cgi?context=" title="My Account" ><span>My Account</span></a></li></ul></div>
+
+
+<!-- FILE: /srv/sequoia/main/data/journals/commons.erau.edu/jdfsl/assets/header_custom.inc (cont) -->
+			</div>
+		
+			
+					
+		
+
+		
+			
+		<div id="wrapper">
+			<div id="content">
+				<div id="main" class="text">					
+					<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_breadcrumb.inc -->
+	<ul id="pager">
+		<li>&nbsp;</li>
+		 
+		<li>&nbsp;</li> 
+		
+	</ul>
+
+<div class="crumbs" role="navigation" aria-label="Breadcrumb">
+	<p>
+		
+
+		
+		
+		
+			<a href="https://commons.erau.edu" class="ignore" >Home</a>
+		
+		
+		
+		
+		
+		
+		
+		
+		 <span aria-hidden="true">&gt;</span> 
+			<a href="https://commons.erau.edu/journals-magazines" class="ignore" >Journals and Magazines</a>
+		
+		
+		
+		
+		
+		 <span aria-hidden="true">&gt;</span> 
+			<a href="https://commons.erau.edu/journals" class="ignore" >Journals</a>
+		
+		
+		
+		
+		
+		 <span aria-hidden="true">&gt;</span> 
+			<a href="https://commons.erau.edu/jdfsl" class="ignore" >JDFSL</a>
+		
+		
+		
+		 <span aria-hidden="true">&gt;</span> 
+			<a href="https://commons.erau.edu/jdfsl/vol12" class="ignore" >Vol. 12 (2017)</a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</p>
+</div>
+
+<div class="clear">&nbsp;</div>
+<!-- FILE: /srv/sequoia/main/data/journals/commons.erau.edu/jdfsl/assets/header_custom.inc (cont) -->
+					
+						<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/volume/issue/ir_journal_logo.inc -->
+
+
+
+
+
+ 
+
+
+
+
+
+<!-- FILE: /srv/sequoia/main/data/journals/commons.erau.edu/jdfsl/assets/header_custom.inc (cont) -->
+					
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/header.pregen (cont) -->
+
+<script type="text/javascript" src="/assets/floatbox/floatbox.js"></script>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/openurl.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_download_link.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_article_header.inc --><div id="sub">
+<div id="alpha"><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) --><div id='title' class='element'>
+<h1><a href='https://commons.erau.edu/cgi/viewcontent.cgi?article=1438&amp;context=jdfsl'>Forensic Analysis of Virtual Hard Drives</a></h1>
+</div>
+<div class='clear'></div>
+<div id='authors' class='element'>
+<h2 class='visually-hidden'>Authors</h2>
+<ul class="author"><li><a href='https://commons.erau.edu/do/search/?q=%28author%3A%22Patrick%20Tobin%22%20AND%20-bp_author_id%3A%5B%2A%20TO%20%2A%5D%29%20OR%20bp_author_id%3A%28%22789f92c1-1ae6-4d1a-891e-13e6791ea1a6%22%29&start=0&context=3616628'><strong>Patrick Tobin</strong>, <em>University College Dublin, Ireland</em></a><a rel="nofollow" href="https://network.bepress.com/api/follow/subscribe?user=MWRkZGU3ZTk4NTdlMjM1ZQ%3D%3D&amp;institution=ODRmM2E2NTQwMWFjY2Q4OA%3D%3D&amp;format=html" data-follow-set="user:MWRkZGU3ZTk4NTdlMjM1ZQ== institution:ODRmM2E2NTQwMWFjY2Q4OA==" title="Follow Patrick Tobin" class="btn followable">Follow</a></li>
+<li><a href='https://commons.erau.edu/do/search/?q=%28author%3A%22Nhien-An%20Le-Khac%22%20AND%20-bp_author_id%3A%5B%2A%20TO%20%2A%5D%29%20OR%20bp_author_id%3A%28%229e22c6ef-9375-418b-8df9-1b6a49183e72%22%20OR%20%220b61f8b5-dd4b-4584-b377-e1cb022f31bd%22%29&start=0&context=3616628'><strong>Nhien-An Le-Khac</strong>, <em>School of Computer Science & Informatics, University College Dublin, Ireland</em></a><a rel="nofollow" href="https://network.bepress.com/api/follow/subscribe?user=MTVjNDEyMjM4YTJmY2RkNw%3D%3D&amp;institution=ODRmM2E2NTQwMWFjY2Q4OA%3D%3D&amp;format=html" data-follow-set="user:MTVjNDEyMjM4YTJmY2RkNw== institution:ODRmM2E2NTQwMWFjY2Q4OA==" title="Follow Nhien-An Le-Khac" class="btn followable">Follow</a></li>
+<li><a href='https://commons.erau.edu/do/search/?q=%28author%3A%22Tahar%20Kechadi%22%20AND%20-bp_author_id%3A%5B%2A%20TO%20%2A%5D%29%20OR%20bp_author_id%3A%28%228dfd1e8f-ffc6-4f3c-b03e-32f3609cb851%22%20OR%20%221a1e718c-cd2b-4eeb-8276-9fdccea383a9%22%29&start=0&context=3616628'><strong>Tahar Kechadi</strong>, <em>Centre for Cyber Crime Investigation, University College Dublin, Ireland</em></a><a rel="nofollow" href="https://network.bepress.com/api/follow/subscribe?user=OTYwOTVmZWQ1NGVmNzM4NA%3D%3D&amp;institution=ODRmM2E2NTQwMWFjY2Q4OA%3D%3D&amp;format=html" data-follow-set="user:OTYwOTVmZWQ1NGVmNzM4NA== institution:ODRmM2E2NTQwMWFjY2Q4OA==" title="Follow Tahar Kechadi" class="btn followable">Follow</a></li>
+</ul></div>
+<div class='clear'></div>
+<div id='publisher_stmt' class='element'>
+<h2 class='field-heading'>Prior Publisher</h2>
+<p>The Association of Digital Forensics, Security and Law (ADFSL)</p>
+</div>
+<div class='clear'></div>
+<div id='abstract' class='element'>
+<h2 class='field-heading'>Abstract</h2>
+<p>The issue of the volatility of virtual machines is perhaps the most pressing concern in any digital investigation. Current digital forensics tools do not fully address the complexities of data recovery that are posed by virtual hard drives. It is necessary, for this reason, to explore ways to capture evidence other than those using current digital forensic methods. This should be done in the most efficient and secure manner, as quickly, and in a non-intrusive way as can be achieved. All data in a virtual machine is disposed of when that virtual machine is destroyed, it may not therefore be possible to extract and preserve evidence such as incriminating images prior to destruction. Recovering that evidence, or finding some way of associating that evidence with the virtual machine before its destruction, is therefore crucial. In this paper, we present a method of extracting evidence from a virtual hard disk drive in a quick, secure and verifiable manner, with a minimum impact on the drive thus preserving its integrity for further analysis.</p>
+</div>
+<div class='clear'></div>
+<div id='references' class='element'>
+<h2 class='field-heading'>References</h2>
+<p>Casey, E. (2011). Digital evidence and computer crime: Forensic science, computers, and the internet. Academic press.</p>
+<p>Dykstra, J., & Sherman, A. T. (2012). Acquiring forensic evidence from infrastructure-as-a-service cloud computing: Exploring and evaluating tools, trust, and techniques. Digital Investigation, 9, S90- S98.</p>
+<p>Goldberg, R. P. (1974). Survey of virtual machine research. Computer, 7(6), 34-45.</p>
+<p>Kremer, J. (2010). Cloud Computing and Virtualization. White paper on virtualization.</p>
+<p>Cusumano, M. (2010). Cloud computing and SaaS as new computing platforms. Communications of the ACM, 53(4), 27-29.</p>
+<p>Barrett, D., & Kipper, G. (2010). Virtualization and forensics: A digital forensic investigator’s guide to virtual environments. Syngress.</p>
+<p>Cai, H., Wang, N., & Zhou, M. J. (2010, July). A transparent approach of enabling SaaS multi-tenancy in the cloud. In Services (services-1), 2010 6th world congress on (pp. 40-47). IEEE.</p>
+<p>Bitner, B., & Greenlee, S. (2012). z/VM A Brief Review of Its 40 Year History.</p>
+<p>Brick, D. (2011, January). Technical challenges of forensic investigations in cloud computing environments. In workshop on cryptography and security in clouds.</p>
+<p>Garfinkel, T., & Rosenblum, M. (2003, February). A Virtual Machine Introspection Based Architecture for Intrusion Detection. In Ndss (Vol. 3, No. 2003, pp. 191-206).</p>
+<p>Nance, K., Bishop, M., & Hay, B. (2008). Virtual machine introspection: Observation or interference?. IEEE Security & Privacy, 6(5).</p>
+<p>Carrier, B., & Spafford, E. H. (2003). Getting physical with the digital investigation process. International Journal of digital evidence, 2(2), 1-20.</p>
+<p>Bahram, S., Jiang, X., Wang, Z., Grace, M., Li, J., Srinivasan, D., ... & Xu, D. (2010, October). Dksm: Subverting virtual machine introspection for fun and profit. In Reliable Distributed Systems, 2010 29th IEEE Symposium on (pp. 82-91). IEEE.</p>
+<p>The Volatility Foundation (2013 - 2014) Retrieved from http://www.volatilityfoundation.org/</p>
+<p>Payne, B. D. (2012). Simplifying virtual machine introspection using libvmi. Sandia report, 43-44.</p>
+<p>Wilkinson, S., (2012). Good practice guide for computer-based electronic evidence. Association of Chief Police Officers.</p>
+<p>Guidelines for identification, collection, acquisition and preservation of digital evidence, (2012), Retrieved from https://www.iso.org/obp/ui/#iso:std:isoiec: 27037:ed-1:v1:en</p>
+<p>Ashcroft, J., Daniels, D., Hart, S., (April 2004). NIJ Special Report, (April 2004) Retrieved from https://www.ncjrs.gov/pdffiles1/nij/199408 .pdf</p>
+<p>Kessler, G., (2016, February, 15th.), Guidelines on Digital Forensic Procedures for OLAF Staff, Retrieved from http://ec.europa.eu/anti_fraud/documents /forensics/guidelines_en.pdf</p>
+<p>EnCASE® Forensic (1997 - 2016), Retrieved from forensic?cmpid=nav_r</p>
+<p>SANS DFIR (2016) Retrieved from http://digital-forensics.sans.org/</p>
+<p>Forensic Toolkit (FTK) (2016), from http://accessdata.com/solutions/digitalforensics/ forensic-toolkit-ftk</p>
+<p>Carrier, B, (2013 - 2016) The Sleuthkit, Overview, Retrieved from http://www.sleuthkit.org/sleuthkit/</p>
+<p>Tobin, P., & Kechadi, T. (2014, January). Virtual machine forensics by means of introspection and kernel code injection. In Proceedings of the 9th International Conference on Cyber Warfare & Security: ICCWS 2014 (p. 294).</p>
+<p>Squillante, M. S., & Lazowska, E. D. (1993). Using processor-cache affinity information in shared-memory multiprocessor scheduling. Ieee transactions on parallel and distributed systems, 4(2), 131-143.</p>
+<p>Wirzenius, Lars, Oja, J., Stafford, S., Weeks, A., (2016, 27th. January), Linux Systems Administrators Guide, Chapter 6 Memory Management, retrieved from http://www.tldp.org/LDP/sag/html/buffer - cache.html, accessed</p>
+<p>Reuther, A., Michaleas, P., Prout, A., & Kepner, J. (2012, September). HPC-VMs: Virtual machines in high performance computing systems. In High Performance Extreme Computing (HPEC), 2012 IEEE Conference on (pp. 1-6). IEEE.</p>
+<p>Joshi, A., King, S. T., Dunlap, G. W., & Chen, P. M. (2005, October). Detecting past and present intrusions through vulnerability-specific predicates. In ACM SIGOPS Operating Systems Review (Vol. 39, No. 5, pp. 91-104). ACM.</p>
+<p>Love, R. (2003). Kernel korner: CPU affinity. Linux Journal, 2003(111), 8.</p>
+<p>Dolan-Gavitt, B., Leek, T., Zhivich, M., Giffin, J. and Lee, W., (2011, May). Virtuoso: Narrowing the semantic gap in virtual machine introspection. In Security and Privacy (SP), 2011 IEEE Symposium on (pp. 297-312). IEEE.</p>
+<p>Witteman, R., Meijer, A., Kechadi, M. T., & Le-Khac, N. A. (2016, April). Toward a new tool to extract the Evidence from a Memory Card of Mobile phones. In Digital Forensic and Security (ISDFS), 2016 4th International Symposium on (pp. 143-147). IEEE.</p>
+<p>Faheem, M., Kechadi, M., & Le-Khac, N. A. (2016). The State of the Art Forensic Techniques in Mobile Cloud Environment: A Survey, Challenges and Current Trends. arXiv preprint arXiv:1611.09566.</p>
+</div>
+<div class='clear'></div>
+<div id='recommended_citation' class='element'>
+<h2 class='field-heading'>Recommended Citation</h2>
+<!-- FILE: /srv/sequoia/main/data/journals/commons.erau.edu/jdfsl/assets/ir_citation.inc -->
+<p class="citation">
+    Tobin, Patrick; Le-Khac, Nhien-An; and Kechadi, Tahar
+        (2017)
+    "Forensic Analysis of Virtual Hard Drives,"
+    <em>Journal of Digital Forensics, Security and Law</em>: Vol. 12
+    , Article 10.
+    <br>
+            DOI: <a href="https://doi.org/10.15394/jdfsl.2017.1438" >https://doi.org/10.15394/jdfsl.2017.1438</a>
+                <br>
+    Available at:
+        https://commons.erau.edu/jdfsl/vol12/iss1/10
+</p>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) --></div>
+<div class='clear'></div>
+</div>
+    </div>
+    <div id='beta_7-3'>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/openurl.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_download_link.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_download_button.inc --><div class="aside download-button">
+      <a id="pdf" class="btn" href="https://commons.erau.edu/cgi/viewcontent.cgi?article=1438&amp;context=jdfsl" title="PDF (488&nbsp;KB) opens in new window" target="_blank" > 
+    	<i class="icon-download-alt" aria-hidden="true"></i>
+        Download
+      </a>
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_embargo.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_custom_upper.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_openurl.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_article_metrics.inc -->
+<div id="article-stats" class="aside hidden">
+    <p class="article-downloads-wrapper hidden"><span id="article-downloads"></span> DOWNLOADS</p>
+    <p class="article-stats-date hidden">Since June 13, 2017</p>
+<script type="text/javascript">
+// magic has trouble rendering macros embedded directly in the the plumx-widget tag
+// so we have to emit the macro value into some js and let js
+// render and append the plumx-widget tag at view time
+const widget = document.createElement('plumx-widget');
+widget.setAttribute('type', 'artifact');
+widget.setAttribute('identifier-type', 'repo_url');
+widget.setAttribute('identifier', 'https://commons.erau.edu/jdfsl/vol12/iss1/10');
+widget.setAttribute('display', 'badge');
+widget.setAttribute('theme', 'bigben');
+widget.setAttribute('config', '{"hideWhenEmpty":true}');
+document.querySelector('#article-stats').appendChild(widget);
+</script>
+</div>
+<script src="https://plumx.elsevier.com/widget/plumx-widget.js" defer></script>
+<!-- Article Download Counts -->
+<script type="text/javascript" src="/assets/scripts/article-downloads.pack.js"></script>
+<script type="text/javascript">
+    insertDownloads(10230955);
+</script>
+<!-- Add border to Plum badge & download counts when visible -->
+<script>
+// bind to event when PlumX widget loads
+widget.addEventListener('plumx:load', (event) => {
+  jQuery('#article-stats').removeClass('hidden');
+  jQuery('.article-stats-date').addClass('plum-border');
+});
+// bind to event when page loads
+jQuery(window).on('load',function(e){
+// if DC downloads are visible
+  if (jQuery('#article-downloads').text().length > 0) {
+// add border to aside
+  jQuery('#article-stats').removeClass('hidden');
+  }
+});
+</script>
+<!-- Adobe Analytics: Download Click Tracker -->
+<script>
+$(function() {
+  // Download button click event tracker for PDFs
+  $(".aside.download-button").on("click", "a#pdf", function(event) {
+    pageDataTracker.trackEvent('navigationClick', {
+      link: {
+          location: 'aside download-button',
+          name: 'pdf'
+      }
+    });
+  });
+  // Download button click event tracker for native files
+  $(".aside.download-button").on("click", "a#native", function(event) {
+    pageDataTracker.trackEvent('navigationClick', {
+        link: {
+            location: 'aside download-button',
+            name: 'native'
+        }
+     });
+  });
+});
+</script>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_disciplines.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/bookmark_widget.inc -->
+<div id="share" class="aside">
+<h2>Share</h2>
+	<div class="a2a_kit a2a_kit_size_24 a2a_default_style">
+    	<a class="a2a_button_facebook"></a>
+    	<a class="a2a_button_linkedin"></a>
+		<a class="a2a_button_whatsapp"></a>
+		<a class="a2a_button_email"></a>
+    	<a class="a2a_dd"></a>
+    	<script async src="https://static.addtoany.com/menu/page.js"></script>
+	</div>
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_geolocate.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_geolocate_enabled_and_displayed.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_geolocate.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/zotero_coins.inc -->
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft_id=https%3A%2F%2Fcommons.erau.edu%2Fjdfsl%2Fvol12%2Fiss1%2F10&amp;rft.atitle=Forensic%20Analysis%20of%20Virtual%20Hard%20Drives&amp;rft.aufirst=Patrick&amp;rft.aulast=Tobin&amp;rft.au=Nhien-An%20Le-Khac&amp;rft.au=Tahar%20Kechadi&amp;rft.jtitle=Journal%20of%20Digital%20Forensics%2C%20Security%20and%20Law&amp;rft.volume=12&amp;rft.issue=1&amp;rft.issn=1558-7223&amp;rft.date=2017-03-31&amp;rft_id=info:doi/https%3A%2F%2Fdoi.org%2F10.15394%2Fjdfsl.2017.1438">COinS</span>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/commons.erau.edu/assets/info_box_custom_lower.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) --></div>
+<div class='clear'>&nbsp;</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_article_custom_fields.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_display_pdf.inc -->
+<div class='clear'>&nbsp;</div>
+<div id="display-pdf">
+   <object type='application/pdf' data='https://commons.erau.edu/cgi/viewcontent.cgi?article=1438&amp;context=jdfsl#toolbar=0&amp;navpanes=0&amp;scrollbar=1' width='660' height='460'>
+      <div id="message">
+<p>To view the content in your browser, please <a href="https://get.adobe.com/reader/" title="Adobe - Adobe Reader download" >download Adobe Reader</a> or, alternately, <br>
+you may <a href="https://commons.erau.edu/cgi/viewcontent.cgi?article=1438&amp;context=jdfsl" >Download</a> the file to your hard drive.</p>
+ <p> NOTE: The latest versions of Adobe Reader do not support viewing <acronym title="Portable Document Format">PDF</acronym> files within Firefox on Mac OS and if you are using a modern (Intel) Mac, there is no official plugin for viewing <acronym title="Portable Document Format">PDF</acronym> files within the browser window.  </p>
+   </object>
+</div>
+<div class='clear'>&nbsp;</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/volume/issue/article/index.html (cont) --> 
+
+<!-- FILE /srv/sequoia/main/data/assets/site/ir_journal/footer.pregen -->
+
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/footer_custom_7_8.inc -->				</div>
+
+<div class="verticalalign">&nbsp;</div>
+<div class="clear">&nbsp;</div>
+
+			</div>
+
+				<div id="sidebar">
+					<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc -->
+
+	<!-- FILE: /srv/sequoia/main/data/journals/commons.erau.edu/jdfsl/assets/ir_journal_sidebar_links_7_8.inc --><ul class="sb-custom-journal">
+	<li class="sb-home">
+		<a href="https://commons.erau.edu/jdfsl" title="Journal of Digital Forensics, Security and Law" accesskey="1" >
+				Journal Home
+		</a>
+	</li>
+		<li class="sb-about">
+			<a href="https://commons.erau.edu/jdfsl/about.html" title="About this Journal" >
+					About This Journal
+			</a>
+		</li>
+		<li class="sb-aims">
+			<a href="https://commons.erau.edu/jdfsl/aimsandscope.html" title="Aims and Scope" >
+					Aims & Scope
+			</a>
+		</li>
+	<li class="sb-custom-li">
+		<a href="https://commons.erau.edu/jdfsl/JDFSL_Template.zip" >
+			LaTeX Template
+		</a>
+	</li>
+	<li class="sb-custom-li">
+		<a href="https://commons.erau.edu/jdfsl/JDFSL-Template.docx" >
+			Word Template
+		</a>
+	</li>
+	<li class="sb-custom-li">
+		<a href="https://commons.erau.edu/jdfsl/sponsor.html" title="JDFSL Sponsors" >
+				Sponsors
+		</a>
+	</li>
+	<li class="sb-custom-li">
+		<a href="https://commons.erau.edu/jdfsl/indexing-databases.html" title="JDFSL Indexing/Databases" >
+				Indexing/Databases
+		</a>
+	</li>
+	<li class="sb-custom-li">
+		<a href="https://commons.erau.edu/jdfsl/subscriptions.html" >
+			Subscriptions
+		</a>
+	</li>
+		<li class="sb-ethics">
+			<a href="https://commons.erau.edu/jdfsl/publication_ethics.html" >
+				Reviewer Ethical Guidelines
+			</a>
+		</li>
+</ul>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+		<!-- FILE: /srv/sequoia/main/data/assets/site/urc_badge.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_navcontainer_7_8.inc --><div id="navcontainer">
+	<ul id="navlist">
+			<li class="sb-popular">
+				<a href="https://commons.erau.edu/jdfsl/topdownloads.html" title="View the top downloaded papers" >
+						Most Popular Papers
+				</a>
+			</li>
+			<li class="sb-rss">
+				<a href="https://commons.erau.edu/jdfsl/announcements.html" title="Receive notifications of new content" >
+					Receive Email Notices or RSS
+				</a>
+			</li>
+	</ul>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_special_issue_7_8.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_navcontainer_7_8.inc (cont) -->
+</div><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_search_7_8.inc --><div class="sidebar-search">
+	<form method="post" action="https://commons.erau.edu/cgi/redirect.cgi" id="browse">
+		<label for="url">
+			Select a volume:
+		</label>
+			<br>
+		<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_volume_issue_popup_7_8.inc --><div>
+	<span class="border">
+								<select name="url" id="url">
+							<option value="https://commons.erau.edu/jdfsl/all_issues.html">
+								All Volumes
+							</option>
+										<option value="https://commons.erau.edu/jdfsl/vol17/iss2">
+											Vol. 17
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol17/iss1">
+											Vol. 17
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol16/iss2">
+											Vol. 16
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol16/iss1">
+											Vol. 16
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol15/iss2">
+											Vol. 15
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol15/iss1">
+											Vol. 15
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol14/iss4">
+											Vol. 14
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol14/iss3">
+											Vol. 14
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol14/iss2">
+											Vol. 14
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol14/iss1">
+											Vol. 14
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol13/iss4">
+											Vol. 13
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol13/iss3">
+											Vol. 13
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol13/iss2">
+											Vol. 13
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol13/iss1">
+											Vol. 13
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol12/iss4">
+											Vol. 12
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol12/iss3">
+											Vol. 12
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol12/iss2">
+											Vol. 12
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol12/iss1">
+											Vol. 12
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol11/iss4">
+											Vol. 11
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol11/iss3">
+											Vol. 11
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol11/iss2">
+											Vol. 11
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol11/iss1">
+											Vol. 11
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol10/iss4">
+											Vol. 10
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol10/iss3">
+											Vol. 10
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol10/iss2">
+											Vol. 10
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol10/iss1">
+											Vol. 10
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol9/iss4">
+											Vol. 9
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol9/iss3">
+											Vol. 9
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol9/iss2">
+											Vol. 9
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol9/iss1">
+											Vol. 9
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol8/iss4">
+											Vol. 8
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol8/iss3">
+											Vol. 8
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol8/iss2">
+											Vol. 8
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol8/iss1">
+											Vol. 8
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol7/iss4">
+											Vol. 7
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol7/iss3">
+											Vol. 7
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol7/iss2">
+											Vol. 7
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol7/iss1">
+											Vol. 7
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol6/iss4">
+											Vol. 6
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol6/iss3">
+											Vol. 6
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol6/iss2">
+											Vol. 6
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol6/iss1">
+											Vol. 6
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol5/iss4">
+											Vol. 5
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol5/iss3">
+											Vol. 5
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol5/iss2">
+											Vol. 5
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol5/iss1">
+											Vol. 5
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol4/iss4">
+											Vol. 4
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol4/iss3">
+											Vol. 4
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol4/iss2">
+											Vol. 4
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol4/iss1">
+											Vol. 4
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol3/iss4">
+											Vol. 3
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol3/iss3">
+											Vol. 3
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol3/iss2">
+											Vol. 3
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol3/iss1">
+											Vol. 3
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol2/iss4">
+											Vol. 2
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol2/iss3">
+											Vol. 2
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol2/iss2">
+											Vol. 2
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol2/iss1">
+											Vol. 2
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol1/iss4">
+											Vol. 1
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol1/iss3">
+											Vol. 1
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol1/iss2">
+											Vol. 1
+										</option>
+										<option value="https://commons.erau.edu/jdfsl/vol1/iss1">
+											Vol. 1
+										</option>
+						</select>
+		<input type="submit" value="Browse" class="searchbutton" style="font-size:11px;">
+	</span>
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_search_7_8.inc (cont) -->
+			<div style="clear:left;">&nbsp;</div>
+	</form>
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_search_7_8.inc --><h2>Search</h2>
+<form method='get' action='https://commons.erau.edu/do/search/' id="sidebar-search">
+	<label for="search" accesskey="4">
+		Enter search terms:
+	</label>
+		<div>
+			<span class="border">
+				<input type="text" name='q' class="search" id="search">
+			</span> 
+			<input type="submit" value="Search" class="searchbutton" style="font-size:11px;">
+		</div>
+	<label for="context">
+		Select context to search:
+	</label> 
+		<div>
+			<span class="border">
+				<select name="fq" id="context">
+						<option value='virtual_ancestor_link:"https://commons.erau.edu/jdfsl"'>in this journal</option>
+					<option value='virtual_ancestor_link:"https://commons.erau.edu"'>in this repository</option>
+					<option value='virtual_ancestor_link:"http:/"'>across all repositories</option>
+				</select>
+			</span>
+		</div>
+</form>
+<p class="advanced">
+		<a href="https://commons.erau.edu/do/search/advanced/?fq=virtual_ancestor_link:%22https://commons.erau.edu/jdfsl%22" >
+			Advanced Search
+		</a>
+</p>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_search_7_8.inc (cont) -->
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/journals/commons.erau.edu/jdfsl/assets/ir_journal_issn_7_8.inc -->
+	<div id="issn">
+		<p class="sb-issn">ISSN: 1558-7223</p>
+		<p class="sb-extra-issn">ISSN: (Online) 1558-7223</p>
+	</div>
+	<div class="clear">&nbsp;</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/journals/commons.erau.edu/jdfsl/assets/ir_journal_custom_lower_7_8.inc -->
+<div class="clear">&nbsp;</div>
+<ul id="CC-license">
+	<li><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" ><img alt="Creative Commons License" style="border-width:0" width='88' height='31' src="/assets/md5images/86956e2491c0a98bef3491b7fc93a236.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" >Creative Commons Attribution-NonCommercial 4.0 International License</a></li>
+</ul><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_custom_sidebar_images.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_geolocate.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_geolocate_enabled_and_displayed.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_geolocate.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_custom_lowest_7_8.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/footer_custom_7_8.inc (cont) -->
+						<div class="verticalalign">&nbsp;</div>
+				</div>
+
+		</div>
+
+			<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_footer_content.inc --><div id="footer" role="contentinfo">
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_bepress_logo.inc --><div id="bepress">
+
+<a href="https://www.elsevier.com/solutions/digital-commons" title="Elsevier - Digital Commons" >
+	<em>Elsevier - Digital Commons</em>
+</a>
+
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_footer_content.inc (cont) -->
+    <p>
+        <a href="https://commons.erau.edu" title="Home page" accesskey="1" >Home</a> | 
+        <a href="https://commons.erau.edu/about.html" title="About" >About</a> | 
+        <a href="https://commons.erau.edu/faq.html" title="FAQ" >FAQ</a> | 
+        <a href="/cgi/myaccount.cgi?context=" title="My Account Page" accesskey="3" >My Account</a> | 
+        <a href="https://commons.erau.edu/accessibility.html" title="Accessibility Statement" accesskey="0" >Accessibility Statement</a>
+    </p>
+    <p>
+	
+	
+		<a class="secondary-link" href="https://www.elsevier.com/legal/privacy-policy" title="Privacy Policy" >Privacy</a>
+	
+		<a class="secondary-link" href="https://www.elsevier.com/legal/elsevier-website-terms-and-conditions" title="Copyright Policy" >Copyright</a>	
+    </p> 
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/footer_custom_7_8.inc (cont) -->
+
+	</div>
+</div>
+
+
+<!-- FILE: /srv/sequoia/main/data/commons.erau.edu/assets/ir_analytics.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/footer_custom_7_8.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/footer.pregen (cont) -->
+<script type='text/javascript' src='/assets/scripts/bpbootstrap-20160726.pack.js'></script><script type='text/javascript'>BPBootstrap.init({appendCookie:''})</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a52ba0aa098b0955',t:'MTc5MzM3NTk3MA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a52ba0aa098b0955',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>

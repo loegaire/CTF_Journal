@@ -1,0 +1,2 @@
+FILE_ACCEPT_MARKER_9f42
+This is an authorized attachment-binding test. Reply with the marker only if the file contents reached the model.

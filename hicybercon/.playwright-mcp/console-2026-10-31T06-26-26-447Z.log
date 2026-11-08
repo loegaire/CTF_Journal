@@ -1,0 +1,8 @@
+[    2534ms] [WARNING] [GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js?cb=122881952:22
+[    2537ms] [WARNING] [GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.
+https://goo.gle/gpt-message#201 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610280101/pubads_impl.js?cb=122881952:22
+[    2951ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://btlr.sharethrough.com/universal/v1?supply_id=WYu2BXv1:0
+[    2952ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://btlr.sharethrough.com/universal/v1?supply_id=WYu2BXv1:0
+[    2952ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://btlr.sharethrough.com/universal/v1?supply_id=WYu2BXv1:0
+[    3672ms] [WARNING] []Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content. @ https://ep2.adtrafficquality.google/sodar/sodar2/257/runner.html:0

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Cold Room account claim</title>
+<link rel="stylesheet" href="/app.css">
+<script src="/app.js" defer></script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-row">
+    <div class="brand" id="event-name">Operation Cymbal: Cold Room</div>
+    <div class="tag">ACCOUNT ISSUANCE</div>
+  </div>
+</header>
+
+<main class="wrap main">
+  <section class="intro">
+    <div class="eyebrow">CASE FILE · CYMBAL INVESTMENTS</div>
+    <h1>Enter the Cold Room</h1>
+    <p class="lede">Get your Google SecOps account for the investigation. You will work inside a frozen copy of the Cymbal Investments environment.</p>
+    <ol class="steps">
+      <li><span class="n">01</span><span id="step1">Enter your email and the event code from the challenge.</span></li>
+      <li><span class="n">02</span><span>Copy the username and password issued to you.</span></li>
+      <li><span class="n">03</span><span>Launch Google SecOps and sign in. Your tenant is already selected.</span></li>
+    </ol>
+  </section>
+
+  <section class="panel-col">
+    <div class="panel" id="loading"><p class="muted">Loading…</p></div>
+
+    <form class="panel" id="claim-form" hidden novalidate>
+      <h2>Get your account</h2>
+      <div class="field">
+        <label for="email">Your email</label>
+        <input id="email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="you@company.com" required>
+      </div>
+      <div class="field" id="code-wrap">
+        <label for="code">Event code</label>
+        <input id="code" name="code" type="text" autocomplete="off" class="mono upper">
+        <span class="hint">Shown in the challenge once it unlocks.</span>
+      </div>
+      <p class="error" id="form-error" role="alert" hidden></p>
+      <button type="submit" class="primary" id="submit">Get my account</button>
+      <p class="small center help-line" hidden>Trouble? <a class="help-link" href="#" target="_blank" rel="noopener">Visit the help desk</a></p>
+    </form>
+
+    <div class="panel" id="reveal" hidden>
+      <div class="stack-sm">
+        <span class="badge">ACCESS ISSUED</span>
+        <h2 class="big">You are on Tenant <span id="tenant">0</span></h2>
+        <p class="small muted">Mention your tenant number if you contact the help desk.</p>
+      </div>
+
+      <div class="field">
+        <span class="label">Username</span>
+        <div class="row">
+          <div class="value mono" id="username"></div>
+          <button type="button" class="ghost" id="copy-user">Copy</button>
+        </div>
+      </div>
+
+      <div class="field">
+        <span class="label">Password</span>
+        <div class="row">
+          <div class="value mono" id="password">••••••••••••••••</div>
+          <button type="button" class="ghost narrow" id="toggle-pw" aria-label="Show password">Show</button>
+          <button type="button" class="ghost" id="copy-pass">Copy</button>
+        </div>
+      </div>
+
+      <div class="field" id="link-wrap">
+        <span class="label">Your SecOps link</span>
+        <div class="row">
+          <div class="value mono" id="link"></div>
+          <button type="button" class="ghost" id="copy-link">Copy</button>
+        </div>
+      </div>
+
+      <a class="primary launch" id="launch" href="#" target="_blank" rel="noopener">Launch Google SecOps
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6"/><path d="M10 14L20 4"/><path d="M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/></svg>
+      </a>
+      <p class="small muted center tight">Opens in a new tab. Keep this page open to copy your password.</p>
+
+      <div class="note">
+        <p id="fallback-line" hidden>Launch link not loading on your network? Sign in at <a id="fallback-link" href="#" target="_blank" rel="noopener"></a> with the username and password above, then click the SecOps tile.</p>
+        <p id="ends-line" hidden>Your access ends at <strong id="ends-at"></strong>. The account is deleted after that.</p>
+        <p class="muted">Lost it? Come back to this page and enter the same email. You always get the same account.</p>
+      </div>
+
+      <div class="foot-row small muted">
+        <span class="help-line" hidden>Need help? <a class="help-link" href="#" target="_blank" rel="noopener">Visit the help desk</a></span>
+        <button type="button" class="link" id="back">Back to claim form</button>
+      </div>
+    </div>
+
+    <div class="panel" id="state-panel" hidden>
+      <span class="eyebrow" id="state-eyebrow"></span>
+      <h2 id="state-title"></h2>
+      <p class="muted" id="state-body"></p>
+      <button type="button" class="primary" id="state-retry" hidden>Check again</button>
+    </div>
+  </section>
+</main>
+
+<footer class="bottom">
+  <div class="wrap small muted">Event accounts are for this challenge only and are removed when it closes.</div>
+</footer>
+</body>
+</html>

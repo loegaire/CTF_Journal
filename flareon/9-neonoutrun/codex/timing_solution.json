@@ -1,0 +1,198 @@
+[
+  {
+    "lap": 1,
+    "index": 255,
+    "offset": 168236812,
+    "negative": 1,
+    "byte": 82
+  },
+  {
+    "lap": 2,
+    "index": 231,
+    "offset": -352168521,
+    "negative": 0,
+    "byte": 51
+  },
+  {
+    "lap": 3,
+    "index": 22,
+    "offset": 105161035,
+    "negative": 0,
+    "byte": 95
+  },
+  {
+    "lap": 4,
+    "index": 236,
+    "offset": -339661807,
+    "negative": 0,
+    "byte": 97
+  },
+  {
+    "lap": 5,
+    "index": 37,
+    "offset": 325269707,
+    "negative": 0,
+    "byte": 103
+  },
+  {
+    "lap": 6,
+    "index": 226,
+    "offset": 44245479,
+    "negative": 0,
+    "byte": 51
+  },
+  {
+    "lap": 7,
+    "index": 93,
+    "offset": -115497520,
+    "negative": 1,
+    "byte": 110
+  },
+  {
+    "lap": 8,
+    "index": 214,
+    "offset": -14004874,
+    "negative": 1,
+    "byte": 116
+  },
+  {
+    "lap": 9,
+    "index": 151,
+    "offset": 142547035,
+    "negative": 0,
+    "byte": 95
+  },
+  {
+    "lap": 10,
+    "index": 195,
+    "offset": 187501462,
+    "negative": 1,
+    "byte": 52
+  },
+  {
+    "lap": 11,
+    "index": 224,
+    "offset": -330601852,
+    "negative": 1,
+    "byte": 98
+  },
+  {
+    "lap": 12,
+    "index": 167,
+    "offset": 236980938,
+    "negative": 1,
+    "byte": 48
+  },
+  {
+    "lap": 13,
+    "index": 81,
+    "offset": -204813027,
+    "negative": 0,
+    "byte": 117
+  },
+  {
+    "lap": 14,
+    "index": 239,
+    "offset": 278825606,
+    "negative": 1,
+    "byte": 116
+  },
+  {
+    "lap": 15,
+    "index": 179,
+    "offset": 101465275,
+    "negative": 0,
+    "byte": 95
+  },
+  {
+    "lap": 16,
+    "index": 68,
+    "offset": -260863714,
+    "negative": 1,
+    "byte": 116
+  },
+  {
+    "lap": 17,
+    "index": 166,
+    "offset": 269043978,
+    "negative": 1,
+    "byte": 48
+  },
+  {
+    "lap": 18,
+    "index": 25,
+    "offset": 280216795,
+    "negative": 0,
+    "byte": 95
+  },
+  {
+    "lap": 19,
+    "index": 3,
+    "offset": -300065568,
+    "negative": 1,
+    "byte": 102
+  },
+  {
+    "lap": 20,
+    "index": 102,
+    "offset": 25169079,
+    "negative": 0,
+    "byte": 51
+  },
+  {
+    "lap": 21,
+    "index": 40,
+    "offset": -28832361,
+    "negative": 0,
+    "byte": 51
+  },
+  {
+    "lap": 22,
+    "index": 8,
+    "offset": -195638562,
+    "negative": 1,
+    "byte": 108
+  },
+  {
+    "lap": 23,
+    "index": 131,
+    "offset": 89275315,
+    "negative": 0,
+    "byte": 95
+  },
+  {
+    "lap": 24,
+    "index": 74,
+    "offset": 309872710,
+    "negative": 1,
+    "byte": 100
+  },
+  {
+    "lap": 25,
+    "index": 120,
+    "offset": 79102841,
+    "negative": 0,
+    "byte": 49
+  },
+  {
+    "lap": 26,
+    "index": 61,
+    "offset": -62925628,
+    "negative": 1,
+    "byte": 122
+  },
+  {
+    "lap": 27,
+    "index": 187,
+    "offset": 352786172,
+    "negative": 1,
+    "byte": 122
+  },
+  {
+    "lap": 28,
+    "index": 178,
+    "offset": -355333351,
+    "negative": 0,
+    "byte": 121
+  }
+]

@@ -1,0 +1,47 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e3]:
+    - generic [ref=f1e6]:
+      - heading [level=1] [ref=f1e7]:
+        - text: Connecting to
+        - img "Google SecOps ctf-us-15" [ref=f1e9]
+      - paragraph [ref=f1e10]: Sign in with your account to access Google SecOps ctf-us-15
+    - main [ref=f1e18]:
+      - heading [level=1] [ref=f1e20]:
+        - img "Google Cloud Security - Okta logo logo" [ref=f1e21]
+      - generic [ref=f1e24]:
+        - generic [ref=f1e26]:
+          - generic [ref=f1e27]:
+            - heading "Sign In" [level=2] [ref=f1e28]
+            - alert
+            - generic [ref=f1e29]:
+              - generic [ref=f1e30]:
+                - generic [ref=f1e31]: Username
+                - generic [ref=f1e32]:
+                  - generic:
+                    - textbox "Username":
+                      - /placeholder: ""
+                      - text: ctf-us-15-009@htb.com
+              - generic [ref=f1e35]:
+                - generic [ref=f1e36]: Password
+                - generic [ref=f1e37]:
+                  - generic:
+                    - textbox "Password" [active]:
+                      - /placeholder: ""
+                      - text: T27ShDgbxQCT
+                    - generic:
+                      - generic: 
+                      - text: 
+          - button "Sign in" [disabled] [ref=f1e42]
+        - generic [ref=f1e44]:
+          - link:
+            - /url: "#"
+          - link:
+            - /url: https://chronicle.okta.com/help/login
+  - generic [ref=f1e12]:
+    - paragraph [ref=f1e13]:
+      - text: Powered by
+      - link "Okta" [ref=f1e14] [cursor=pointer]:
+        - /url: https://www.okta.com/?internal_link=wic_login
+    - paragraph [ref=f1e15]:
+      - link "Privacy Policy" [ref=f1e16] [cursor=pointer]:
+        - /url: /privacy

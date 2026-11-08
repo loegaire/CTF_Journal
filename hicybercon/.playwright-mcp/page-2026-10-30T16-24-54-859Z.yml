@@ -1,0 +1,52 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "HI Cyber Con 2026 CTF" [ref=e9]
+        - navigation "Main" [ref=e10]:
+          - link "Home" [ref=e11] [cursor=pointer]:
+            - /url: /
+          - link "Rules" [ref=e14] [cursor=pointer]:
+            - /url: /rules
+          - link "Community" [ref=e17] [cursor=pointer]:
+            - /url: /community
+          - link "Challenges" [ref=e20] [cursor=pointer]:
+            - /url: /challenges
+          - link "Scoreboard" [ref=e23] [cursor=pointer]:
+            - /url: /scores
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: 1d 21:35:05
+          - generic [ref=e29]: to CTF end
+        - link "Login" [ref=e30] [cursor=pointer]:
+          - /url: /login
+        - link "Join HI Cyber Con Discord" [ref=e33] [cursor=pointer]:
+          - /url: https://discord.gg/rD2gHUWJhf
+        - link "Support Ticket" [ref=e34] [cursor=pointer]:
+          - /url: https://discord.com/channels/1095055386110857236/1555930020386578473
+        - button "Toggle theme" [ref=e37] [cursor=pointer]
+    - main [ref=e41]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e46]: Login
+          - generic [ref=e47]: Log in to HI Cyber Con 2026 CTF
+        - generic [ref=e48]:
+          - status [ref=e49]: This link contains a team token. Click Login to confirm that you want to sign in.
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - generic [ref=e52]: Team token
+              - textbox "Team token" [ref=e53]:
+                - /placeholder: Enter your team token
+                - text: boU_ozUsIjtSjpNw7tWVZeo-g97diq2vLf-lrhfOtiobnwJQmytBqp-IS_C6Jm1ahyiK6PRJF-eN8zzrRRJiU7VJA4nQkdVCCtJMqxpgIedNgLhEcKqpRXmQ_u9o
+            - button "Login" [ref=e54] [cursor=pointer]
+          - generic [ref=e55]:
+            - text: Don't have an account?
+            - link "Register here" [ref=e56] [cursor=pointer]:
+              - /url: /register
+            - text: .
+  - generic:
+    - region "Notifications, bottom-end (alt+T)"

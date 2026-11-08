@@ -1,0 +1,14 @@
+HTTP/2 302 
+server: nginx/1.26.0
+date: Fri, 23 Oct 2026 17:42:32 GMT
+content-type: text/html; charset=utf-8
+content-length: 209
+location: /challenges
+cross-origin-opener-policy: same-origin-allow-popups
+set-cookie: session=b2245b0e-42f7-4fe1-bce3-fc1471ccd6f9._Pdflgt6egZdzWNa_9sw_ivMUqk; Expires=Fri, 30 Oct 2026 17:42:32 GMT; HttpOnly; Path=/; SameSite=Lax
+
+<!doctype html>
+<html lang=en>
+<title>Redirecting...</title>
+<h1>Redirecting...</h1>
+<p>You should be redirected automatically to the target URL: <a href="/challenges">/challenges</a>. If not, click the link.

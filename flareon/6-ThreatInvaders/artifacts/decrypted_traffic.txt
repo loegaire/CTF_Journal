@@ -1,0 +1,21 @@
+Key: 614d587848636e4980454964586c756c
+command (18 bytes):
+cmd:cmd.exe;/c dir
+response (530 bytes):
+ Volume in drive Z is Shared Folders
+ Volume Serial Number is 0000-0064
+
+ Directory of Z:\CTFs\FlareOn\SpaceInvaders\space-invaders\src\SpaceInvaders\bin\Release\net10.0-windows\publish\win-x64
+
+15/09/2026  19:22    <DIR>          .
+23/08/2026  10:30    <DIR>          ..
+15/09/2026  19:34               324 config.json
+30/08/2026  23:23                46 flag.txt
+15/09/2026  17:29       116.238.508 ThreatInvaders.exe
+               3 File(s)    116.238.878 bytes
+               2 Dir(s)  216.322.199.552 bytes free
+
+command (28 bytes):
+cmd:cmd.exe;/c type flag.txt
+response (46 bytes):
+wh4t_4_l0ng_str4ng3_tr1p_1ts_b33n@flare-on.com

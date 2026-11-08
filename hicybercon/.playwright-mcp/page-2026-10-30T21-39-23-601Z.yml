@@ -1,0 +1,284 @@
+- generic [ref=f87e2]:
+  - generic [ref=f87e4]:
+    - link [ref=f87e6] [cursor=pointer]:
+      - /url: https://www.dcode.fr/en
+      - img "dCode" [ref=f87e7]
+    - generic [ref=f87e8]: Search for a tool
+    - generic [ref=f87e9]:
+      - text: 🔎︎ Search a tool on dCode
+      - searchbox "🔎︎ Search a tool on dCode" [ref=f87e10]
+      - button "⏎" [ref=f87e11] [cursor=pointer]
+      - generic [ref=f87e12]:
+        - text: Browse the
+        - link "full dCode tools' list" [ref=f87e13] [cursor=pointer]:
+          - /url: tools-list
+    - generic [ref=f87e14]: Keyboard Coordinates
+    - paragraph [ref=f87e15]: "Tool to translate keyboard keys into column-line and vice versa. The keyboard has keys that can be identified with their coordinates: number of row and column"
+    - generic [ref=f87e18]:
+      - generic [ref=f87e21]:
+        - paragraph [ref=f87e22]:
+          - text: Keyboard Coordinates -
+          - link "dCode" [ref=f87e24] [cursor=pointer]:
+            - /url: https://www.dcode.fr/
+        - paragraph [ref=f87e25]: "Tag(s) : Substitution Cipher"
+      - generic [ref=f87e26]: Share
+      - img "Share" [ref=f87e28] [cursor=pointer]
+      - generic [ref=f87e29]: dCode and more
+      - paragraph [ref=f87e30] [cursor=pointer]:
+        - text: dCode is free and its tools are a valuable help in games, maths, geocaching, puzzles and problems to solve every day!A suggestion ? a feedback ? a bug ? an idea ?
+        - emphasis [ref=f87e31]: Write to dCode
+        - text: "!"
+  - generic [ref=f87e32]:
+    - heading [level=3] [ref=f87e33]:
+      - text: dCode is preparing a new interface. Come test and give your feedback on the
+      - 'link "new page: Keyboard Coordinates" [ref=f87e34] [cursor=pointer]':
+        - /url: keyboard-coordinates&v5
+      - text: "!"
+    - heading "Keyboard Coordinates" [level=1] [ref=f87e35]
+    - list [ref=f87e37]:
+      - listitem [ref=f87e38]:
+        - link "Cryptography" [ref=f87e39] [cursor=pointer]:
+          - /url: https://www.dcode.fr/tools-list#cryptography
+      - listitem [ref=f87e40]:
+        - text: ›
+        - link "Substitution Cipher" [ref=f87e41] [cursor=pointer]:
+          - /url: https://www.dcode.fr/tools-list#substitution_cipher
+      - listitem [ref=f87e42]:
+        - text: ›
+        - link "Keyboard Coordinates" [ref=f87e43] [cursor=pointer]:
+          - /url: https://www.dcode.fr/keyboard-coordinates
+    - generic [ref=f87e45]:
+      - heading "Keyboard Coordinates Decoder" [level=2] [ref=f87e46]
+      - generic [ref=f87e47]:
+        - text: Keyboard Coordinates ciphertext ?
+        - textbox "Keyboard Coordinates ciphertext" [ref=f87e48]: 44 55 310 44 34
+        - table [ref=f87e49]:
+          - rowgroup [ref=f87e50]:
+            - row [ref=f87e51]:
+              - cell "Configuration" [ref=f87e52]
+              - radiogroup "Configuration" [ref=f87e53]:
+                - generic [ref=f87e54]:
+                  - radio "AZERTY (French)" [checked] [ref=f87e55]
+                  - text: AZERTY (French)
+                - generic [ref=f87e56]:
+                  - radio "QWERTY (US)" [ref=f87e57]
+                  - text: QWERTY (US)
+                - generic [ref=f87e58]:
+                  - radio "QWERTZ (German)" [ref=f87e59]
+                  - text: QWERTZ (German)
+        - button "▶ Decrypt" [ref=f87e60] [cursor=pointer]
+        - generic [ref=f87e61]:
+          - text: "See also:"
+          - link "ALT-Codes" [ref=f87e62] [cursor=pointer]:
+            - /url: /alt-codes-converter
+          - text: —
+          - link "ASCII Code" [ref=f87e63] [cursor=pointer]:
+            - /url: /ascii-code
+          - text: —
+          - link "Keyboard Shift Cipher" [ref=f87e64] [cursor=pointer]:
+            - /url: /keyboard-shift-cipher
+      - heading "Keyboard Coordinates Encoder" [level=2] [ref=f87e65]
+      - generic [ref=f87e66]:
+        - text: Keyboard Coordinates plain text ?
+        - textbox "Keyboard Coordinates plain text" [ref=f87e67]: dCode
+        - table [ref=f87e68]:
+          - rowgroup [ref=f87e69]:
+            - row [ref=f87e70]:
+              - cell "Configuration" [ref=f87e71]
+              - radiogroup "Configuration" [ref=f87e72]:
+                - generic [ref=f87e73]:
+                  - radio "AZERTY (French)" [checked] [ref=f87e74]
+                  - text: AZERTY (French)
+                - generic [ref=f87e75]:
+                  - radio "QWERTY (US)" [ref=f87e76]
+                  - text: QWERTY (US)
+                - generic [ref=f87e77]:
+                  - radio "QWERTZ (German)" [ref=f87e78]
+                  - text: QWERTZ (German)
+        - table [ref=f87e79]:
+          - rowgroup [ref=f87e80]:
+            - row [ref=f87e81]:
+              - cell "Coordinates of the first letter" [ref=f87e82]
+              - radiogroup "Coordinates of the first letter" [ref=f87e83]:
+                - generic [ref=f87e84]:
+                  - radio "Row 3 Column 2" [checked] [ref=f87e85]
+                  - text: Row 3 Column 2
+                - generic [ref=f87e86]:
+                  - radio "Row 2 Column 1" [ref=f87e87]
+                  - text: Row 2 Column 1
+                - generic [ref=f87e88]:
+                  - radio "Row 1 Column 1" [ref=f87e89]
+                  - text: Row 1 Column 1
+                - generic [ref=f87e90]:
+                  - radio "Row 0 Column 0" [ref=f87e91]
+                  - text: Row 0 Column 0
+        - button "▶ Encrypt" [ref=f87e92] [cursor=pointer]
+        - generic [ref=f87e93]:
+          - text: "See also:"
+          - link "ALT-Codes" [ref=f87e94] [cursor=pointer]:
+            - /url: /alt-codes-converter
+          - text: —
+          - link "ASCII Code" [ref=f87e95] [cursor=pointer]:
+            - /url: /ascii-code
+          - text: —
+          - link "Keyboard Shift Cipher" [ref=f87e96] [cursor=pointer]:
+            - /url: /keyboard-shift-cipher
+    - heading "Answers to Questions (FAQ)" [level=2] [ref=f87e98]
+    - generic [ref=f87e99]:
+      - generic [ref=f87e100]:
+        - heading "How to encrypt using Keyboard Coordinates cipher?" [level=3] [ref=f87e101]
+        - generic [ref=f87e103]:
+          - paragraph [ref=f87e104]:
+            - text: Encryption uses a computer keyboard and each key is encoded with its
+            - term [ref=f87e105]: position on the keyboard
+            - text: (line, column)
+          - paragraph [ref=f87e107]: "Example: A becomes 32 because it is located on the 3rd row and it is the 2nd key"
+          - paragraph [ref=f87e109]:
+            - text: Do not confuse with
+            - link "ASCII" [ref=f87e110] [cursor=pointer]:
+              - /url: https://www.dcode.fr/ascii-code
+            - text: values where 32 is space
+      - generic [ref=f87e111]:
+        - heading "How to decrypt Keyboard Coordinates cipher?" [level=3] [ref=f87e112]
+        - generic [ref=f87e114]:
+          - paragraph [ref=f87e115]: Decryption requires a keyboard (or dCode) to find the corresponding key to the coordinates (line, column)
+          - paragraph [ref=f87e117]: "Example: 32 is A (row 3, key 2)."
+      - generic [ref=f87e118]:
+        - heading "How to recognize Keyboard Coordinates ciphertext?" [level=3] [ref=f87e119]
+        - paragraph [ref=f87e122]: The ciphered message is made of couples of numbers, sometimes concatenated, one for the lines (between 1 and 6) and one for the columns (between 1 and 21).
+      - generic [ref=f87e123]:
+        - heading "What are the variants of the Keyboard Coordinates cipher?" [level=3] [ref=f87e124]
+        - generic [ref=f87e126]:
+          - paragraph [ref=f87e127]: — Inverting Lines and Columns
+          - paragraph [ref=f87e128]: — Ignore some lines (such as top one with functions, or last one)
+          - paragraph [ref=f87e129]: "— Change Keyboard configuration: AZERTY, QWERTY or DWORAK"
+          - paragraph [ref=f87e130]: The coordinates change accordingly.
+      - button "❓ Ask a new question" [ref=f87e131] [cursor=pointer]
+    - insertion:
+      - generic:
+        - iframe
+    - heading "Source code" [level=2] [ref=f87e132]
+    - paragraph [ref=f87e133]: "dCode retains ownership of the \"Keyboard Coordinates\" source code. Any algorithm for the \"Keyboard Coordinates\" algorithm, applet or snippet or script (converter, solver, encryption / decryption, encoding / decoding, ciphering / deciphering, breaker, translator), or any \"Keyboard Coordinates\" functions (calculate, convert, solve, decrypt / encrypt, decipher / cipher, decode / encode, translate) written in any informatic language (Python, Java, PHP, C#, Javascript, Matlab, etc.) or any database download or API access for \"Keyboard Coordinates\" or any other element are not public (except explicit open source licence). Same with the download for offline use on PC, mobile, tablet, iPhone or Android app. Reminder: dCode is an educational and teaching resource, accessible online for free and for everyone."
+    - heading "Cite dCode" [level=2] [ref=f87e134]
+    - generic [ref=f87e135]:
+      - paragraph [ref=f87e136]: The content of the page "Keyboard Coordinates" and its results may be freely copied and reused, including for commercial purposes, provided that dCode.fr is cited as the source (Creative Commons CC-BY free distribution license).
+      - paragraph [ref=f87e137]: Exporting the results is free and can be done simply by clicking on the export icons ⤓ (.csv or .txt format) or ⧉ (copy and paste).
+      - paragraph [ref=f87e138]: "To cite dCode.fr on another website, use the link: https://www.dcode.fr/keyboard-coordinates"
+      - paragraph [ref=f87e139]:
+        - text: "In a scientific article or book, the recommended bibliographic citation is: Keyboard Coordinates on dCode.fr [online website], retrieved on 2026-10-30,"
+        - generic [ref=f87e140]: https://www.dcode.fr/keyboard-coordinates
+    - generic [ref=f87e142]:
+      - heading "Need Help ?" [level=2] [ref=f87e143]
+      - paragraph [ref=f87e144]:
+        - text: Please, check our
+        - link "dCode Discord" [ref=f87e145] [cursor=pointer]:
+          - /url: https://discord.gg/bKdbZeP
+        - text: "community for help requests!NB: for encrypted messages, test our automatic"
+        - link "cipher identifier" [ref=f87e146] [cursor=pointer]:
+          - /url: /cipher-identifier
+        - text: "!"
+      - heading "Questions / Comments" [level=2] [ref=f87e147]
+      - button "Write a message" [ref=f87e148] [cursor=pointer]
+      - paragraph [ref=f87e149]: Feedback and suggestions are welcome so that dCode offers the best 'Keyboard Coordinates' tool for free! Thank you!
+  - generic [ref=f87e150]:
+    - link [ref=f87e152] [cursor=pointer]:
+      - /url: https://www.dcode.fr/coordonnees-clavier
+      - img "French (Français)" [ref=f87e153]
+    - button "hide_right_part" [ref=f87e154] [cursor=pointer]
+    - generic [ref=f87e156]: Summary
+    - generic [ref=f87e157]:
+      - list [ref=f87e159]:
+        - listitem [ref=f87e160]:
+          - link "Keyboard Coordinates Decoder" [ref=f87e161] [cursor=pointer]:
+            - /url: "#f0"
+        - listitem [ref=f87e162]:
+          - link "Keyboard Coordinates Encoder" [ref=f87e163] [cursor=pointer]:
+            - /url: "#f1"
+        - listitem [ref=f87e164]:
+          - link "How to encrypt using Keyboard Coordinates cipher?" [ref=f87e165] [cursor=pointer]:
+            - /url: "#q1"
+        - listitem [ref=f87e166]:
+          - link "How to decrypt Keyboard Coordinates cipher?" [ref=f87e167] [cursor=pointer]:
+            - /url: "#q2"
+        - listitem [ref=f87e168]:
+          - link "How to recognize Keyboard Coordinates ciphertext?" [ref=f87e169] [cursor=pointer]:
+            - /url: "#q3"
+        - listitem [ref=f87e170]:
+          - link "What are the variants of the Keyboard Coordinates cipher?" [ref=f87e171] [cursor=pointer]:
+            - /url: "#q4"
+      - generic [ref=f87e172]: Similar pages
+      - list [ref=f87e174]:
+        - listitem [ref=f87e175]:
+          - link "Keyboard Shift Cipher" [ref=f87e176] [cursor=pointer]:
+            - /url: keyboard-shift-cipher
+        - listitem [ref=f87e177]:
+          - link "ALT-Codes" [ref=f87e178] [cursor=pointer]:
+            - /url: alt-codes-converter
+        - listitem [ref=f87e179]:
+          - link "ASCII Code" [ref=f87e180] [cursor=pointer]:
+            - /url: ascii-code
+        - listitem [ref=f87e181]:
+          - link "Keyboard Change Cipher" [ref=f87e182] [cursor=pointer]:
+            - /url: keyboard-change-cipher
+        - listitem [ref=f87e183]:
+          - link "Grid Coordinates" [ref=f87e184] [cursor=pointer]:
+            - /url: grid-coordinates
+        - listitem [ref=f87e185]:
+          - link "T9 (Text Message)" [ref=f87e186] [cursor=pointer]:
+            - /url: t9-cipher
+        - listitem [ref=f87e187]:
+          - link "Numeric Keypad Draw" [ref=f87e188] [cursor=pointer]:
+            - /url: numeric-keypad-draw
+        - listitem [ref=f87e189]:
+          - link "DCODE'S TOOLS LIST" [ref=f87e190] [cursor=pointer]:
+            - /url: tools-list
+      - generic [ref=f87e191]: Support dCode
+      - generic [ref=f87e192] [cursor=pointer]:
+        - text: "Participate in the Discord forum:"
+        - list [ref=f87e193]:
+          - listitem [ref=f87e194]:
+            - link "Discord" [ref=f87e195]:
+              - /url: https://discord.gg/bKdbZeP
+      - generic [ref=f87e196]: Forum/Help
+      - link [ref=f87e198] [cursor=pointer]:
+        - /url: https://discord.gg/bKdbZeP
+        - img "Discuss" [ref=f87e199]
+      - generic [ref=f87e200]: Keywords
+      - generic [ref=f87e201]:
+        - link "keyboard" [ref=f87e202] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "coordinate" [ref=f87e203] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "azerty" [ref=f87e204] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "qwerty" [ref=f87e205] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "line" [ref=f87e206] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "column" [ref=f87e207] [cursor=pointer]:
+          - /url: "#search"
+        - text: ","
+        - link "key" [ref=f87e208] [cursor=pointer]:
+          - /url: "#search"
+      - generic [ref=f87e209]: Links
+      - list [ref=f87e211]:
+        - listitem [ref=f87e212]:
+          - link "Contact" [ref=f87e213] [cursor=pointer]:
+            - /url: about
+        - listitem [ref=f87e214]:
+          - link "About dCode" [ref=f87e215] [cursor=pointer]:
+            - /url: about
+        - listitem [ref=f87e216]:
+          - link "dCode App" [ref=f87e217] [cursor=pointer]:
+            - /url: mobile-app
+        - listitem [ref=f87e218]:
+          - link "Wikipedia" [ref=f87e219] [cursor=pointer]:
+            - /url: https://en.wikipedia.org/
+  - generic [ref=f87e220]:
+    - generic [ref=f87e221]: https://www.dcode.fr/keyboard-coordinates
+    - generic [ref=f87e222]: © 2026 dCode — The ultimate collection of tools for games, math, and puzzles.

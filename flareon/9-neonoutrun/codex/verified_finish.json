@@ -1,0 +1,23 @@
+{
+  "frames": 8358,
+  "state": {
+    "x": 0,
+    "y": -100008,
+    "speed": 0,
+    "angle": 0,
+    "score": 0,
+    "neon": "decode_this_system_to_win_it@f1are-on.com",
+    "crashed": false,
+    "blocked": false,
+    "finished": true,
+    "initialized": true,
+    "currentLap": 28,
+    "totalLaps": 28,
+    "currentLapTime": "0.1s",
+    "previousLapTime": "0.1s",
+    "bestLapTime": "0.0s",
+    "bestLapSeconds": 0.022,
+    "lapStartTime": 1790415474858,
+    "carRatio": 0.05
+  }
+}
