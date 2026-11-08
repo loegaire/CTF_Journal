@@ -1,0 +1,65 @@
+name: Publish writeups to Personal_Site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish-to-site
+  cancel-in-progress: false
+
+env:
+  SITE_DIR: ${{ runner.temp }}/site
+  GIT_SSH_COMMAND: ssh -i ~/.ssh/site_deploy_key -o IdentitiesOnly=yes
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out CTF_Journal (full history for stable dates)
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Clone Personal_Site over SSH deploy key
+        env:
+          SITE_DEPLOY_KEY: ${{ secrets.SITE_DEPLOY_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SITE_DEPLOY_KEY" > ~/.ssh/site_deploy_key
+          chmod 600 ~/.ssh/site_deploy_key
+          ssh-keyscan -t ed25519 github.com >> ~/.ssh/known_hosts 2>/dev/null
+          git clone git@github.com:loegaire/Personal_Site.git "$SITE_DIR"
+
+      - name: Import journal writeups into site content
+        working-directory: ${{ env.SITE_DIR }}
+        env:
+          CTF_ROOT: ${{ github.workspace }}
+          IMPORT_GENERATED_AT: ${{ github.event.head_commit.timestamp }}
+        run: node scripts/import-content.mjs
+
+      - name: Commit and push regenerated content
+        working-directory: ${{ env.SITE_DIR }}
+        run: |
+          git config user.name 'ctf-journal-bot'
+          git config user.email 'ctf-journal-bot@users.noreply.github.com'
+          git add -A src/content public/media src/data
+          if git diff --cached --quiet; then
+            echo 'No content changes to publish.'
+            exit 0
+          fi
+          git commit -m "content: sync from CTF_Journal@${GITHUB_SHA:0:7}"
+          if ! git push; then
+            echo 'Push rejected, rebasing on latest main and retrying...'
+            git pull --rebase --autostash origin main
+            git push
+          fi
