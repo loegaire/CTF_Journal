@@ -12,13 +12,12 @@ concurrency:
   group: publish-to-site
   cancel-in-progress: false
 
-env:
-  SITE_DIR: ${{ runner.temp }}/site
-  GIT_SSH_COMMAND: ssh -i ~/.ssh/site_deploy_key -o IdentitiesOnly=yes
-
 jobs:
   publish:
     runs-on: ubuntu-latest
+    env:
+      SITE_DIR: ${{ runner.temp }}/site
+      GIT_SSH_COMMAND: ssh -i ~/.ssh/site_deploy_key -o IdentitiesOnly=yes
     steps:
       - name: Check out CTF_Journal (full history for stable dates)
         uses: actions/checkout@v7
